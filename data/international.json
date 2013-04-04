@@ -531,8 +531,8 @@
                     "src": "/img/international/graph_3-4.png",
                     "alt": "1288 Lycéens par an en 2013 avec un budget de 1,2 millions d’euros."
                 },
-                "top": "77.6666%",
-                "left": "4.5744%",
+                "top": "77.5%",
+                "left": "4.2553%",
                 "entrance": "right",
                 "entrance-duration": 1000,
                 "queue": 900,
@@ -549,8 +549,8 @@
                 "picture": {
                     "src": "/img/international/graph_3-15.png"
                 },
-                "top": "16%",
-                "left": "71.0638%",
+                "top": "19.1666%",
+                "left": "70.7446%",
                 "entrance": "stepLeft fadeIn",
                 "queue": 2100,
                 "class": "ie-opacity",
