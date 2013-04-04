@@ -350,9 +350,9 @@
       requestField = "d"
       
       # Is there a background and an animation on it
-      if data["background"] and data["backgroundDirection"] isnt `undefined`        
+      if data["background"] and data["backgroundDirection"] isnt `undefined`          
         # Reset background position
-        $(spot).css "background-position", "0 0"        
+        $(spot).find(".js-animation-wrapper").css "background-position", "0 0"        
         # Clear existing request animation frame
         window.cancelAnimationFrame spot[requestField]  if spot[requestField]
         requestParams = closureAnimation(spot, requestField, renderSpotAnimation)        
@@ -364,8 +364,9 @@
    * @param  {Object} spot Spot html element
    * @return {Array}       Directions array
   ###
-  renderSpotAnimation = (spot) ->
+  renderSpotAnimation = (spot) ->    
     $spot = $(spot)
+    $wrapper = $spot.find ".js-animation-wrapper"  
     data = $spot.data()
     directions = ("" + data.backgroundDirection).split(" ")
     speed = data.backgroundSpeed or 3
@@ -381,24 +382,24 @@
     $(directions).each (i, direction) ->
       switch direction
         when "left"
-          $spot.css "backgroundPositionX", "-=" + speed
+          $wrapper.css "backgroundPositionX", "-=" + speed
         when "right"
-          $spot.css "backgroundPositionX", "+=" + speed
+          $wrapper.css "backgroundPositionX", "+=" + speed
         when "top"
-          $spot.css "backgroundPositionY", "-=" + speed
+          $wrapper.css "backgroundPositionY", "-=" + speed
         when "bottom"
-          $spot.css "backgroundPositionY", "+=" + speed
+          $wrapper.css "backgroundPositionY", "+=" + speed
         else          
           # We receive a number,
           # we interpret it as a direction degree
           unless isNaN(direction)
             radian = direction * Math.PI / 180.0
-            x0 = $spot.css("backgroundPositionX")
-            y0 = $spot.css("backgroundPositionY")
+            x0 = $wrapper.css("backgroundPositionX")
+            y0 = $wrapper.css("backgroundPositionY")
             x = speed * Math.cos(radian)
             y = speed * Math.sin(radian)
-            $spot.css "backgroundPositionX", "+=" + x
-            $spot.css "backgroundPositionY", "+=" + y
+            $wrapper.css "backgroundPositionX", "+=" + x
+            $wrapper.css "backgroundPositionY", "+=" + y
 
   ###*
    * Closure function to execute the given function within the receive element
