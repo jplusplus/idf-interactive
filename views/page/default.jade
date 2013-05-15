@@ -13,7 +13,7 @@ block content
             if step.picture
                 img(src=step.picture).step-background
             if step["hidden-content"]
-                .hide-text!=step["hidden-content"]             
+                .hide-text.hidden-content!=step["hidden-content"]             
             if step.spots
                 each spot, spotKey in step.spots
                     a.spot(

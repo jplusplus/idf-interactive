@@ -202,6 +202,9 @@ body {
     background-position: 0 bottom  !important;
     background:#e2e6e7;
     
+    visibility:visible;
+    .js-loading & { visibility:hidden; }
+    
     
     .step {
         position:absolute;
@@ -209,10 +212,14 @@ body {
         left:0;
         width:@containerWidth;
         height:@containerHeight;
-        overflow:hidden;
+        overflow:hidden;        
         
         &.js-current {
             overflow:visible;
+        }
+
+        .hidden-content {
+            display:none;
         }
         
         h2 {
