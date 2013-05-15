@@ -1,5 +1,5 @@
 #/bin/bash
-HOST=http://localhost:3000
+HOST=http://idf-interactive.herokuapp.com
 INSTANCE=$1
 TMP=$INSTANCE
 BUILD=build
@@ -11,6 +11,6 @@ zip -r $ZIP $TMP
 # Remove the temporary dir
 rm -R $TMP
 # Create the extraction directory
-mkdir $BUILD
+mkdir -p $BUILD
 # Move the zip to build dir
 mv $ZIP $BUILD
