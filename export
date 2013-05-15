@@ -1,5 +1,5 @@
 #/bin/bash
-HOST=http://pirhoo.dev:3000
+HOST=http://localhost:3000
 INSTANCE=$1
 TMP=$INSTANCE
 BUILD=build

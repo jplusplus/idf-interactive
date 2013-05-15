@@ -128,7 +128,8 @@
                     "src": "/img/logement/graphe1_1.png"
                 },
                 "top": "13.5%",
-                "left": "2.8723%",
+                "left": "2.8723%",                
+                "class": "ie-opacity",
                 "entrance": "fadeIn"
             },
             {
@@ -136,7 +137,8 @@
                     "src": "/img/logement/graphe1_2.png"
                 },
                 "top": "15.5%",
-                "left": "39.3617%",
+                "left": "39.3617%",                
+                "class": "ie-opacity",
                 "entrance": "fadeIn stepDown",
                 "queue": true
             },
@@ -145,7 +147,8 @@
                     "src": "/img/logement/graphe1_3.png"
                 },
                 "top": "58.5%",
-                "left": "39.7872%",
+                "left": "39.7872%",                
+                "class": "ie-opacity",
                 "entrance": "fadeIn stepUp"
             },
             {
@@ -167,7 +170,8 @@
                     "src": "/img/logement/graphe2_1.png"
                 },
                 "top": "15.8333%",
-                "left": "6.2765%",
+                "left": "6.2765%",                
+                "class": "ie-opacity",
                 "entrance": "fadeIn stepLeft"
             },
             {
@@ -175,7 +179,8 @@
                     "src": "/img/logement/graphe2_2.png"
                 },
                 "top": "16.1666%",
-                "left": "38.8297%",
+                "left": "38.8297%",                
+                "class": "ie-opacity",
                 "entrance": "fadeIn",
                 "queue": true
             },
@@ -184,7 +189,8 @@
                     "src": "/img/logement/graphe2_3.png"
                 },
                 "top": "57%",
-                "left": "38.9361%",
+                "left": "38.9361%",                
+                "class": "ie-opacity",
                 "entrance": "fadeIn",
                 "queue": true
             },
@@ -193,7 +199,8 @@
                     "src": "/img/logement/graphe2_4.png"
                 },
                 "top": "54%",
-                "left": "70.5319%",
+                "left": "70.5319%",                
+                "class": "ie-opacity",
                 "entrance": "fadeIn",
                 "queue": true
             },
@@ -223,7 +230,8 @@
                     "src": "/img/logement/graphe3_1.png"
                 },
                 "top": "20.6666%",
-                "left": "9.468%",
+                "left": "9.468%",                
+                "class": "ie-opacity",
                 "entrance": "fadeIn stepLeft"
             },
             {
@@ -231,7 +239,8 @@
                     "src": "/img/logement/graphe3_2.png"
                 },
                 "top": "37.3333%",
-                "left": "10.4255%",
+                "left": "10.4255%",                
+                "class": "ie-opacity",
                 "entrance": "fadeIn stepLeft"
             },
             {
@@ -239,7 +248,8 @@
                     "src": "/img/logement/graphe3_3.png"
                 },
                 "top": "54.1666%",
-                "left": "8.8297%",
+                "left": "8.8297%",                
+                "class": "ie-opacity",
                 "entrance": "fadeIn stepLeft",
                 "queue": true
             },
@@ -248,7 +258,8 @@
                     "src": "/img/logement/graphe3_4.png"
                 },
                 "top": "21%",
-                "left": "46.0638%",
+                "left": "46.0638%",                
+                "class": "ie-opacity",
                 "entrance": "fadeIn stepLeft",
                 "queue": true
             },
@@ -278,7 +289,8 @@
                     "src": "/img/logement/graphe4_1.png"
                 },
                 "top": "18.3333%",
-                "left": "8.2978%",
+                "left": "8.2978%",                
+                "class": "ie-opacity",
                 "entrance": "fadeIn stepUp"
             },
             {
@@ -286,7 +298,8 @@
                     "src": "/img/logement/graphe4_2.png"
                 },
                 "top": "14.1666%",
-                "left": "30.2127%",
+                "left": "30.2127%",                
+                "class": "ie-opacity",
                 "entrance": "fadeIn stepUp"
             },
             {
@@ -294,7 +307,8 @@
                     "src": "/img/logement/graphe4_3.png"
                 },
                 "top": "54.3333%",
-                "left": "6.1702%",
+                "left": "6.1702%",                
+                "class": "ie-opacity",
                 "entrance": "fadeIn stepUp",
                 "queue": true
             },
@@ -303,7 +317,8 @@
                     "src": "/img/logement/graphe4_4.png"
                 },
                 "top": "62.8333%",
-                "left": "6.1702%",
+                "left": "6.1702%",                
+                "class": "ie-opacity",
                 "entrance": "fadeIn stepUp",
                 "queue": true
             },
@@ -333,7 +348,8 @@
                     "src": "/img/logement/graphe5_1.png"
                 },
                 "top": "14.5%",
-                "left": "7.6595%",
+                "left": "7.6595%",                
+                "class": "ie-opacity",
                 "entrance": "fadeIn"
             },
             {
@@ -341,7 +357,8 @@
                     "src": "/img/logement/graphe5_2.png"
                 },
                 "top": "69.3333%",
-                "left": "7.5531%",
+                "left": "7.5531%",                
+                "class": "ie-opacity",
                 "entrance": "fadeIn",
                 "queue": true
             },
@@ -350,7 +367,8 @@
                     "src": "/img/logement/graphe5_3.png"
                 },
                 "top": "14.6666%",
-                "left": "47.5531%",
+                "left": "47.5531%",                
+                "class": "ie-opacity",
                 "entrance": "fadeIn stepLeft",
                 "queue": true
             },
@@ -359,7 +377,8 @@
                     "src": "/img/logement/graphe5_4.png"
                 },
                 "top": "62.5%",
-                "left": "47.6595%",
+                "left": "47.6595%",                
+                "class": "ie-opacity",
                 "entrance": "fadeIn stepLeft",
                 "queue": true
             },
