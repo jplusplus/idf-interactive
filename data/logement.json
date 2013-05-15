@@ -126,7 +126,7 @@
                     "src": "/img/logement/graphe1_1.png"
                 },
                 "top": "13.5%",
-                "left": "2.8723%",                
+                "left": "2.8723%",
                 "class": "ie-opacity",
                 "entrance": "fadeIn"
             },
@@ -135,7 +135,7 @@
                     "src": "/img/logement/graphe1_2.png"
                 },
                 "top": "15.5%",
-                "left": "39.3617%",                
+                "left": "39.3617%",
                 "class": "ie-opacity",
                 "entrance": "fadeIn stepDown",
                 "queue": true
@@ -145,7 +145,7 @@
                     "src": "/img/logement/graphe1_3.png"
                 },
                 "top": "58.5%",
-                "left": "39.7872%",                
+                "left": "39.7872%",
                 "class": "ie-opacity",
                 "entrance": "fadeIn stepUp"
             },
@@ -168,7 +168,7 @@
                     "src": "/img/logement/graphe2_1.png"
                 },
                 "top": "15.8333%",
-                "left": "6.2765%",                
+                "left": "6.2765%",
                 "class": "ie-opacity",
                 "entrance": "fadeIn stepLeft"
             },
@@ -177,7 +177,7 @@
                     "src": "/img/logement/graphe2_2.png"
                 },
                 "top": "16.1666%",
-                "left": "38.8297%",                
+                "left": "38.8297%",
                 "class": "ie-opacity",
                 "entrance": "fadeIn",
                 "queue": true
@@ -187,7 +187,7 @@
                     "src": "/img/logement/graphe2_3.png"
                 },
                 "top": "57%",
-                "left": "38.9361%",                
+                "left": "38.9361%",
                 "class": "ie-opacity",
                 "entrance": "fadeIn",
                 "queue": true
@@ -197,7 +197,7 @@
                     "src": "/img/logement/graphe2_4.png"
                 },
                 "top": "54%",
-                "left": "70.5319%",                
+                "left": "70.5319%",
                 "class": "ie-opacity",
                 "entrance": "fadeIn",
                 "queue": true
@@ -228,7 +228,7 @@
                     "src": "/img/logement/graphe3_1.png"
                 },
                 "top": "20.6666%",
-                "left": "9.468%",                
+                "left": "9.468%",
                 "class": "ie-opacity",
                 "entrance": "fadeIn stepLeft"
             },
@@ -237,7 +237,7 @@
                     "src": "/img/logement/graphe3_2.png"
                 },
                 "top": "37.3333%",
-                "left": "10.4255%",                
+                "left": "10.4255%",
                 "class": "ie-opacity",
                 "entrance": "fadeIn stepLeft"
             },
@@ -246,7 +246,7 @@
                     "src": "/img/logement/graphe3_3.png"
                 },
                 "top": "54.1666%",
-                "left": "8.8297%",                
+                "left": "8.8297%",
                 "class": "ie-opacity",
                 "entrance": "fadeIn stepLeft",
                 "queue": true
@@ -256,7 +256,7 @@
                     "src": "/img/logement/graphe3_4.png"
                 },
                 "top": "21%",
-                "left": "46.0638%",                
+                "left": "46.0638%",
                 "class": "ie-opacity",
                 "entrance": "fadeIn stepLeft",
                 "queue": true
@@ -271,7 +271,7 @@
             {
                 "width": 70,
                 "height": 20,
-                "href": "http://www.iledefrance.fr/aides-regionales-2/dossier-importation/logement-ville/solizen/",                
+                "href": "http://www.iledefrance.fr/aides-regionales-2/dossier-importation/logement-ville/solizen/",
                 "top": "24.5%",
                 "left": "46.4893%"
             }
@@ -287,7 +287,7 @@
                     "src": "/img/logement/graphe4_1.png"
                 },
                 "top": "18.3333%",
-                "left": "8.2978%",                
+                "left": "8.2978%",
                 "class": "ie-opacity",
                 "entrance": "fadeIn stepUp"
             },
@@ -296,7 +296,7 @@
                     "src": "/img/logement/graphe4_2.png"
                 },
                 "top": "14.1666%",
-                "left": "30.2127%",                
+                "left": "30.2127%",
                 "class": "ie-opacity",
                 "entrance": "fadeIn stepUp"
             },
@@ -305,7 +305,7 @@
                     "src": "/img/logement/graphe4_3.png"
                 },
                 "top": "54.3333%",
-                "left": "6.1702%",                
+                "left": "6.1702%",
                 "class": "ie-opacity",
                 "entrance": "fadeIn stepUp",
                 "queue": true
@@ -315,7 +315,7 @@
                     "src": "/img/logement/graphe4_4.png"
                 },
                 "top": "62.8333%",
-                "left": "6.1702%",                
+                "left": "6.1702%",
                 "class": "ie-opacity",
                 "entrance": "fadeIn stepUp",
                 "queue": true
@@ -330,7 +330,7 @@
             {
                 "width": 70,
                 "height": 20,
-                "href": "http://www.iau-idf.fr/detail/etude/le-logement-des-jeunes-en-ile-de-france.html",                
+                "href": "http://www.iau-idf.fr/detail/etude/le-logement-des-jeunes-en-ile-de-france.html",
                 "top": "49%",
                 "left": "21.1702%"
             }
@@ -339,14 +339,14 @@
     {
         "name": "Écoquartiers et <strong>rénovation énergétique</strong>",
         "menu-name": "Ecoquartiers et rénovation énergétique",
-        "hidden-content": "<p>Les écoquartiers sont en plein boom dans la région, notamment en Seine-saint-Denis et Seine-et-Marne. Différents dispositifs permettent leur développement comme les Eco-quartiers du Grand projet (contrat Etat-région), les Eco-quartiers et éco-cités (ministère du développement durable) et les Nouveaux quartiers urbains (région).</p><p>La Région a créé, début 2013, un dispositif pionnier : la SEM Energies Posit'if. Face au constat d'un parc de logements très mal isolé, car construit à 68% avant la première réglementation thermique, de ménages souffrant de plus en plus de précarité énergétique (7%) et dépendants à 98% d'énergies non renouvelables, la région propose une aide unique pour rénover son logement en basse consommation d'énergie. Mille rénovations sont prévues annuellement, ainsi que le soutien à 6 à 8 projets d'énergie renouvelable. Bilan attendu : 3200 tonnes de CO2 émises en moins.</p>",
+        "hidden-content": "<p>Les écoquartiers sont en plein boom dans la région, notamment en Seine-saint-Denis et Seine-et-Marne. Différents dispositifs permettent leur développement comme les Eco-quartiers du Grand projet (contrat Etat-région), les Eco-quartiers et éco-cités (ministère du développement durable) et les Nouveaux quartiers urbains (région).</p><p>La Région a créé, début 2013, un dispositif pionnier : la SEM Energies Posit'if. Face au constat d'un parc de logements très mal isolé, car construit à 68% avant la première réglementation thermique, la région propose une aide pour rénover son logement en basse consommation d'énergie. Il s'agit d'un guichet unique pour assembler les financements (prêts bonifiés, aides fiscales, subventions directes publiques, tiers financement) et superviser les travaux avec les acteurs de la rénovation thermique (architectes, thermiciens, auditeurs qualité…).</p>",
         "spots": [
             {
                 "picture": {
                     "src": "/img/logement/graphe5_1.png"
                 },
                 "top": "14.5%",
-                "left": "7.6595%",                
+                "left": "7.6595%",
                 "class": "ie-opacity",
                 "entrance": "fadeIn"
             },
@@ -355,7 +355,7 @@
                     "src": "/img/logement/graphe5_2.png"
                 },
                 "top": "69.3333%",
-                "left": "7.5531%",                
+                "left": "7.5531%",
                 "class": "ie-opacity",
                 "entrance": "fadeIn",
                 "queue": true
@@ -364,8 +364,8 @@
                 "picture": {
                     "src": "/img/logement/graphe5_3.png"
                 },
-                "top": "14.6666%",
-                "left": "47.5531%",                
+                "top": "15%",
+                "left": "47.3404%",
                 "class": "ie-opacity",
                 "entrance": "fadeIn stepLeft",
                 "queue": true
@@ -374,8 +374,8 @@
                 "picture": {
                     "src": "/img/logement/graphe5_4.png"
                 },
-                "top": "62.5%",
-                "left": "47.6595%",                
+                "top": "27.3333%",
+                "left": "66.1702%",
                 "class": "ie-opacity",
                 "entrance": "fadeIn stepLeft",
                 "queue": true
@@ -383,7 +383,7 @@
             {
                 "width": 70,
                 "height": 20,
-                "href": "http://www.driea.ile-de-france.developpement-durable.gouv.fr/les-nouveaux-quartiers-urbains-nqu-a3640.html",                
+                "href": "http://www.driea.ile-de-france.developpement-durable.gouv.fr/les-nouveaux-quartiers-urbains-nqu-a3640.html",
                 "top": "18.1666%",
                 "left": "7.6595%"
             }
