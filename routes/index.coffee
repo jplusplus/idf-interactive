@@ -26,8 +26,12 @@ routePage = (req, res) ->
   # Do the data file exist ?
   return res.send(404, "Data file not found.")  unless fs.existsSync(data)
   
-  # Render the page template
-  
+  if req.query.debug?    
+    # Refresh the require if we are in debug mode cache
+    name = require.resolve(data)
+    delete require.cache[name];
+
+  # Render the page template  
   # Use the default template if needed 
   res.render path.join(tplDir, (if fs.existsSync(tpl) then req.params.page else "default")),
     data: require(data)
