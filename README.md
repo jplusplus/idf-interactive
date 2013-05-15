@@ -4,6 +4,7 @@
 To make this project up and running, you need:
 
 * **Node** 0.8.7
+* **CoffeeScript** 1.6.2
 * **NPM** 1.1.32
 
 
@@ -22,7 +23,7 @@ The following environment variables can be use with the highest priority :
 To launch the server (once the installation is complete), just run from the root of the project:
 
 ```
-$ node app.js
+$ coffee app.coffee
 ```
 
 ## Create a page
