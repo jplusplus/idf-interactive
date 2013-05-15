@@ -91,21 +91,19 @@
             },
             {
                 "picture": {
-                    "src": "/img/logement/intro_8.png"
-                },
-                "top": "60.3333%",
-                "left": "25.7446%",
-                "entrance": "left",
-                "queue": 300
-            },
-            {
-                "picture": {
                     "src": "/img/logement/intro_1.png"
                 },
                 "top": "48.3333%",
                 "left": "5.3191%",
                 "entrance": "left",
                 "queue": 100
+            },
+            {
+                "picture": {
+                    "src": "/img/logement/intro_8.png"
+                },
+                "top": "60.3333%",
+                "left": "25.7446%"
             },
             {
                 "width": 270,
