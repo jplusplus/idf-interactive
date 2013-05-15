@@ -7,7 +7,7 @@
         each step, stepKey in data           
             li(class=(step["no-index"] ? "hidden":""))
                 a.to-step(href="#step="+stepKey, data-step=stepKey)
-                    span.wrapper=strip_tags(step.name)
+                    span.wrapper=strip_tags(step["menu-name"] || step["name"])
                     i.left10=stepKey
 
     ul.arrows
