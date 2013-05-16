@@ -30,7 +30,7 @@
   $ui = $uis = null
   currentStep = 0
   scrollDuration = 300
-  defaultEntranceDuration = 600
+  defaultEntranceDuration = 800
 
   ###*
    * Initializrs the page 
