@@ -51,13 +51,12 @@ editSpotPosition = (req, res) ->
   dataName = req.params.page + ".json"
   dataPath = path.join(dataDir, dataName)
   data = require(dataPath)
-  
   # Does the spot exist ?
-  return res.send(404)  if not data or not data[step] or not data[step].spots[spot]
+  return res.send(404) if not data or not data.steps or not data.steps[step] or not data.steps[step].spots[spot]
   
   # Edit the data
-  data[step].spots[spot].top = req.query.top
-  data[step].spots[spot].left = req.query.left
+  data.steps[step].spots[spot].top = req.query.top
+  data.steps[step].spots[spot].left = req.query.left
   dataString = JSON.stringify(data, null, 4)
   
   # Mades it persistent

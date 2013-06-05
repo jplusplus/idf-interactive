@@ -19,7 +19,7 @@ body {
     padding:0;
     overflow:hidden;
     font: 14px arial, "Lucida Grande", Helvetica, sans-serif;
-    background:@white;
+    background:#fff;
     color:#404040;    
     
     .spot a, .spot {
@@ -57,7 +57,33 @@ body {
     margin-left:@containerWidth/-2px;
     margin-top:@containerHeight/-2px;  
     
-    
+    .size813 & {         
+        width:813px;
+        height:493px;
+        margin-top:493px/-2px;  
+        margin-left:813px/-2px;
+    }
+
+    .size713 & {         
+        width:713px;
+        height:459px;
+        margin-top:459px/-2px;  
+        margin-left:713px/-2px;
+    }
+
+    .size594 & { 
+        width:594px;
+        height:360px;
+        margin-top:360px/-2px;  
+        margin-left:594px/-2px;
+    }
+
+    .size590 & { 
+        width:590px;
+        height:380px;
+        margin-top:380px/-2px;  
+        margin-left:590px/-2px;
+    }
 
     .js-loading &:after {
         content:"";
@@ -186,6 +212,79 @@ body {
             }
 
         }
+
+        .tiny-scroll {  
+            z-index:@zIndexNav;            
+            position:absolute;
+            top:0;
+            bottom:0;
+            left:0;
+                      
+            .wrapper {
+                width:50px;
+                height:170px;
+                background:url("/img/common/bg_scroll.png");
+                position:relative;
+                
+                .tracker {
+                    position:relative;
+                    top:27px;
+                    left:12px;
+                    background:url("/img/common/tracker.png") 0 0 no-repeat;
+                    width:7px;
+                    height:100px;    
+                    .transition(background 0.6s);                
+                }
+            }
+
+            .previous, .next {
+                position:absolute;
+                left:8px;
+                width:15px;
+                height:15px;
+                text-indent:-999px;
+                overflow:hidden;
+                font-size:0;
+                cursor:pointer;
+                .transition(0.6s);       
+            }
+
+            .previous {
+                top:5px;
+                background:url("/img/common/up.png");                         
+                .js-first & {
+                    .opacity(20);
+                }
+            }
+
+            .next {
+                bottom:20px;
+                background:url("/img/common/down.png");                         
+                .js-last & {
+                    .opacity(20);
+                }
+            }
+
+            .triangle {
+                position:absolute;
+                left:0;
+                bottom:50px;
+                background:url("/img/common/triangle.png");
+                height:25px;
+                width:25px;
+                display:block;
+            }
+
+            .shadow {
+                position:absolute;
+                left:0;
+                top:0;
+                bottom:0;
+                width:10px;
+                background:url("/img/common/shadow.png") repeat-y;             
+                display:block;
+            }
+        }
     }
 }
 
@@ -204,7 +303,7 @@ body {
     
     visibility:visible;
     .js-loading & { visibility:hidden; }
-    
+    .rapport-annuel & { background:white !important; }
     
     .step {
         position:absolute;

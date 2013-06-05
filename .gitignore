@@ -15,3 +15,5 @@ node_modules
 
 builtAssets
 build
+
+public/img/refs

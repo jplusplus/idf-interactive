@@ -56,11 +56,14 @@
   buildUI = ->
     $ui = $("#container")
     $uis =
-      steps: $ui.find(".step")
-      spots: $ui.find(".spot")
-      navitem: $("#overflow .to-step")
-      previous: $("#overflow .nav .arrows .previous")
-      next: $("#overflow .nav .arrows .next")
+      steps             : $ui.find(".step")
+      spots             : $ui.find(".spot")
+      overflow          : $("#overflow")
+      navitem           : $("#overflow .to-step")
+      previous          : $("#overflow .nav .arrows .previous")
+      next              : $("#overflow .nav .arrows .next")
+      tinyScroll        : $("#overflow .nav .tiny-scroll")
+      tinyScrollTracker : $("#overflow .nav .tiny-scroll .tracker")
     return $ui
 
   ###*
@@ -149,7 +152,11 @@
       # Do not position the first step
       if i > 0
         $previousStep = $uis.steps.eq(i - 1)
-        $step.css "left", $previousStep.position().left + $previousStep.width()
+        switch $uis.overflow.data("navigation")
+          when "vertical"     
+            $step.css "top", $previousStep.position().top + $previousStep.height()
+          else
+            $step.css "left", $previousStep.position().left + $previousStep.width()        
 
   ###*
    * Resize every spots according its wrapper
@@ -256,7 +263,9 @@
       # Clear all spot animations
       clearSpotAnimations()      
       # Add the entrance animation after the scroll
-      setTimeout doEntranceAnimations, scrollDuration
+      setTimeout doEntranceAnimations, scrollDuration   
+      # Update the tiny scroll
+      updateTinyScroll()   
     return currentStep
 
   ###*
@@ -413,14 +422,32 @@
       # Add animation frame with a closure function
       elem[requestField] = window.requestAnimationFrame(closureAnimation(elem, requestField, func))  if elem[requestField]      
       # Apply the animation render
-      func elem
+      func 
+
+  ###*
+   * Update a tiny scroll in the to left corner   
+  ###
+  updateTinyScroll = ->  
+    # If the tiny scroll exists
+    if $uis.tinyScroll.length
+      # Fixed value
+      # (note: it's totaly the wrong way but we're are quiet un hurry)
+      trackerHeight = 37
+      trackerSpace  = 100
+      # Calculate the progression according the current step
+      progression   = currentStep/($uis.steps.length-1)
+      # Deduce the background position
+      backgroundPositionY = (trackerSpace - trackerHeight) * progression
+      # Update the tracker background
+      $uis.tinyScrollTracker.css backgroundPositionY: backgroundPositionY
+
 
   ###*
    * Bind the windows rezie event
   ###
   resize = -> 
-    # stepsPosition()
-    # spotsPosition()
+    stepsPosition()
+    spotsPosition()
 
   ###*
    * Read the parameters into the location hash using the following format:

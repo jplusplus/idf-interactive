@@ -1,225 +1,227 @@
-[
-    {
-        "name": "YOLO1",
-        "no-index": true,
-        "no-title": true,
-        "spots": [
-            {
-                "background": "http://placehold.it/470x600/fff/00f/",
-                "background-direction": "right",
-                "background-speed": 5,
-                "top": "50%",
-                "left": "25%",
-                "width": "50%",
-                "height": "100%",
-                "origin": "center"
-            },
-            {
-                "background": "http://placehold.it/470x600/fff/0f0/",
-                "background-direction": 180,
-                "background-speed": 5,
-                "top": "50%",
-                "left": "75%",
-                "width": "50%",
-                "height": "100%",
-                "origin": "center"
-            },
-            {
-                "class": "red",
-                "width": "50%",
-                "height": "50%",
-                "top": "0%",
-                "left": "0%",
-                "style": "opacity:0.25;",
-                "entrance": "down right",
-                "entrance-duration": 1000
-            },
-            {
-                "class": "green",
-                "width": "50%",
-                "height": "50%",
-                "top": "0%",
-                "left": "50%",
-                "style": "opacity:0.25;",
-                "entrance": "down left",
-                "entrance-duration": 1000
-            },
-            {
-                "class": "yellow",
-                "width": "50%",
-                "height": "50%",
-                "top": "50%",
-                "left": "0%",
-                "style": "opacity:0.25;",
-                "entrance": "up right",
-                "entrance-duration": 1000
-            },
-            {
-                "class": "pink",
-                "width": "50%",
-                "height": "50%",
-                "top": "50%",
-                "left": "50%",
-                "style": "opacity:0.25;",
-                "entrance": "up left",
-                "entrance-duration": 1000
-            },
-            {
-                "width": "104px",
-                "height": "150PX",
-                "top": "37.3333%",
-                "left": "44.3617%",
-                "href": "#step=1",
-                "background": "http://atomicrobotdesign.com/blog_media/sprite_movement/images/gb_walk.png",
-                "background-speed": 104,
-                "background-direction": "left",
-                "background-frequency": 200
-            }
-        ]
-    },
-    {
-        "picture": "http://placehold.it/940x600",
-        "name": "Chaque jour dans la région,<br /><strong>41 millions</strong> de déplacements",
-        "spots": [
-            {
-                "top": "40%",
-                "left": "78.3333%",
-                "width": "100px",
-                "html": "Lorem ipsum dolor si amet",
-                "class": "red",
-                "entrance": "fadeIn left",
-                "origin": "center"
-            },
-            {
-                "top": "35.8333%",
-                "left": "68.9361%",
-                "width": "50px",
-                "html": "Lorem ipsum dolor si amet",
-                "class": "red",
-                "entrance": "fadeIn right",
-                "queue": true,
-                "origin": "center"
-            },
-            {
-                "top": "27.5%",
-                "left": "74.0425%",
-                "width": "20px",
-                "html": "Lorem ipsum dolor si amet",
-                "class": "yellow",
-                "entrance": "fadeIn down",
-                "queue": true,
-                "origin": "center"
-            },
-            {
-                "top": "23.5%",
-                "left": "67.8723%",
-                "width": "70px",
-                "html": "Lorem ipsum dolor si amet",
-                "class": "yellow",
-                "entrance": "fadeIn zoomIn",
-                "queue": true,
-                "origin": "center"
-            }
-        ]
-    },
-    {
-        "picture": "http://placehold.it/940x600",
-        "name": "YOLO1",
-        "spots": [
-            {
-                "top": "48.8%",
-                "left": "24.5833%",
-                "width": "400px",
-                "html": "Lorem ipsum dolor si amet",
-                "class": "red",
-                "entrance": "fadeIn zoomOut",
-                "origin": "center"
-            },
-            {
-                "top": "48%",
-                "left": "44%",
-                "width": "300px",
-                "html": "Lorem ipsum dolor si amet",
-                "class": "pink",
-                "entrance": "fadeIn zoomOut",
-                "queue": true,
-                "origin": "center"
-            },
-            {
-                "top": "46.8%",
-                "left": "58.75%",
-                "width": "200px",
-                "html": "Lorem ipsum dolor si amet",
-                "class": "green",
-                "entrance": "fadeIn zoomOut",
-                "queue": true,
-                "origin": "center"
-            },
-            {
-                "top": "47.2%",
-                "left": "67.8333%",
-                "width": "100px",
-                "html": "Lorem ipsum dolor si amet",
-                "class": "yellow",
-                "entrance": "fadeIn zoomOut",
-                "queue": true,
-                "origin": "center"
-            }
-        ]
-    },
-    {
-        "picture": "http://placehold.it/940x600",
-        "name": "YOLO1",
-        "spots": [
-            {
-                "top": "33.5%",
-                "left": "51.8085%",
-                "width": "70px",
-                "html": "Lorem ipsum dolor si amet",
-                "class": "yellow",
-                "origin": "center",
-                "entrance": "down",
-                "queue": true
-            },
-            {
-                "top": "50.8%",
-                "left": "51.4166%",
-                "width": "100px",
-                "html": "Lorem ipsum dolor si amet",
-                "class": "red",
-                "origin": "center",
-                "entrance": "down",
-                "queue": true
-            },
-            {
-                "top": "66.3333%",
-                "left": "51.3829%",
-                "width": "60px",
-                "html": "Lorem ipsum dolor si amet",
-                "class": "yellow",
-                "origin": "center",
-                "entrance": "down",
-                "queue": true
-            },
-            {
-                "top": "70.2%",
-                "left": "63.8333%",
-                "width": "20px",
-                "html": "Lorem ipsum dolor si amet",
-                "origin": "center",
-                "entrance": "down",
-                "queue": true
-            },
-            {
-                "top": "77.8333%",
-                "left": "51.2765%",
-                "width": "50px",
-                "html": "Lorem ipsum dolor si amet",
-                "class": "red",
-                "origin": "center",
-                "entrance": "down",
-                "queue": true
-            }
-        ]
-    }
-]
+{
+    "steps": [
+        {
+            "name": "YOLO1",
+            "no-index": true,
+            "no-title": true,
+            "spots": [
+                {
+                    "background": "http://placehold.it/470x600/fff/00f/",
+                    "background-direction": "right",
+                    "background-speed": 5,
+                    "top": "50%",
+                    "left": "25%",
+                    "width": "50%",
+                    "height": "100%",
+                    "origin": "center"
+                },
+                {
+                    "background": "http://placehold.it/470x600/fff/0f0/",
+                    "background-direction": 180,
+                    "background-speed": 5,
+                    "top": "50%",
+                    "left": "75%",
+                    "width": "50%",
+                    "height": "100%",
+                    "origin": "center"
+                },
+                {
+                    "class": "red",
+                    "width": "50%",
+                    "height": "50%",
+                    "top": "0%",
+                    "left": "0%",
+                    "style": "opacity:0.25;",
+                    "entrance": "down right",
+                    "entrance-duration": 1000
+                },
+                {
+                    "class": "green",
+                    "width": "50%",
+                    "height": "50%",
+                    "top": "0%",
+                    "left": "50%",
+                    "style": "opacity:0.25;",
+                    "entrance": "down left",
+                    "entrance-duration": 1000
+                },
+                {
+                    "class": "yellow",
+                    "width": "50%",
+                    "height": "50%",
+                    "top": "50%",
+                    "left": "0%",
+                    "style": "opacity:0.25;",
+                    "entrance": "up right",
+                    "entrance-duration": 1000
+                },
+                {
+                    "class": "pink",
+                    "width": "50%",
+                    "height": "50%",
+                    "top": "50%",
+                    "left": "50%",
+                    "style": "opacity:0.25;",
+                    "entrance": "up left",
+                    "entrance-duration": 1000
+                },
+                {
+                    "width": "104px",
+                    "height": "150PX",
+                    "top": "37.3333%",
+                    "left": "44.3617%",
+                    "href": "#step=1",
+                    "background": "http://atomicrobotdesign.com/blog_media/sprite_movement/images/gb_walk.png",
+                    "background-speed": 104,
+                    "background-direction": "left",
+                    "background-frequency": 200
+                }
+            ]
+        },
+        {
+            "picture": "http://placehold.it/940x600",
+            "name": "Chaque jour dans la région,<br /><strong>41 millions</strong> de déplacements",
+            "spots": [
+                {
+                    "top": "40%",
+                    "left": "78.3333%",
+                    "width": "100px",
+                    "html": "Lorem ipsum dolor si amet",
+                    "class": "red",
+                    "entrance": "fadeIn left",
+                    "origin": "center"
+                },
+                {
+                    "top": "35.8333%",
+                    "left": "68.9361%",
+                    "width": "50px",
+                    "html": "Lorem ipsum dolor si amet",
+                    "class": "red",
+                    "entrance": "fadeIn right",
+                    "queue": true,
+                    "origin": "center"
+                },
+                {
+                    "top": "27.5%",
+                    "left": "74.0425%",
+                    "width": "20px",
+                    "html": "Lorem ipsum dolor si amet",
+                    "class": "yellow",
+                    "entrance": "fadeIn down",
+                    "queue": true,
+                    "origin": "center"
+                },
+                {
+                    "top": "23.5%",
+                    "left": "67.8723%",
+                    "width": "70px",
+                    "html": "Lorem ipsum dolor si amet",
+                    "class": "yellow",
+                    "entrance": "fadeIn zoomIn",
+                    "queue": true,
+                    "origin": "center"
+                }
+            ]
+        },
+        {
+            "picture": "http://placehold.it/940x600",
+            "name": "YOLO1",
+            "spots": [
+                {
+                    "top": "48.8%",
+                    "left": "24.5833%",
+                    "width": "400px",
+                    "html": "Lorem ipsum dolor si amet",
+                    "class": "red",
+                    "entrance": "fadeIn zoomOut",
+                    "origin": "center"
+                },
+                {
+                    "top": "48%",
+                    "left": "44%",
+                    "width": "300px",
+                    "html": "Lorem ipsum dolor si amet",
+                    "class": "pink",
+                    "entrance": "fadeIn zoomOut",
+                    "queue": true,
+                    "origin": "center"
+                },
+                {
+                    "top": "46.8%",
+                    "left": "58.75%",
+                    "width": "200px",
+                    "html": "Lorem ipsum dolor si amet",
+                    "class": "green",
+                    "entrance": "fadeIn zoomOut",
+                    "queue": true,
+                    "origin": "center"
+                },
+                {
+                    "top": "47.2%",
+                    "left": "67.8333%",
+                    "width": "100px",
+                    "html": "Lorem ipsum dolor si amet",
+                    "class": "yellow",
+                    "entrance": "fadeIn zoomOut",
+                    "queue": true,
+                    "origin": "center"
+                }
+            ]
+        },
+        {
+            "picture": "http://placehold.it/940x600",
+            "name": "YOLO1",
+            "spots": [
+                {
+                    "top": "33.5%",
+                    "left": "51.8085%",
+                    "width": "70px",
+                    "html": "Lorem ipsum dolor si amet",
+                    "class": "yellow",
+                    "origin": "center",
+                    "entrance": "down",
+                    "queue": true
+                },
+                {
+                    "top": "50.8%",
+                    "left": "51.4166%",
+                    "width": "100px",
+                    "html": "Lorem ipsum dolor si amet",
+                    "class": "red",
+                    "origin": "center",
+                    "entrance": "down",
+                    "queue": true
+                },
+                {
+                    "top": "66.3333%",
+                    "left": "51.3829%",
+                    "width": "60px",
+                    "html": "Lorem ipsum dolor si amet",
+                    "class": "yellow",
+                    "origin": "center",
+                    "entrance": "down",
+                    "queue": true
+                },
+                {
+                    "top": "70.2%",
+                    "left": "63.8333%",
+                    "width": "20px",
+                    "html": "Lorem ipsum dolor si amet",
+                    "origin": "center",
+                    "entrance": "down",
+                    "queue": true
+                },
+                {
+                    "top": "77.8333%",
+                    "left": "51.2765%",
+                    "width": "50px",
+                    "html": "Lorem ipsum dolor si amet",
+                    "class": "red",
+                    "origin": "center",
+                    "entrance": "down",
+                    "queue": true
+                }
+            ]
+        }
+    ]
+}

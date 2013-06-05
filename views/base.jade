@@ -20,15 +20,13 @@ html
     block stylesheets
     !=css("style")
 
-  body.js-loading(class=page)
-
-
+  body.js-loading(class=data.class)
     #old-browser
         h4 Votre navigateur <strong>est trop ancien</strong>
         p <a href="http://browsehappy.com/">Mettez à jour votre navigateur</a> ou <a href="http://www.google.com/chromeframe/?redirect=true">installez Google Chrome Frame</a> pour accéder à cette page.
 
     
-    #overflow
+    #overflow(data-navigation=data.navigation || "horizontal")
         include widget/menu.jade
         #container
             block content
