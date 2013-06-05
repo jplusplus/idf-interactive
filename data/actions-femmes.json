@@ -1,0 +1,193 @@
+{
+    "class": "rapport-annuel size713",
+    "no-menu": true,
+    "no-arrows": true,
+    "tiny-scroll": true,
+    "navigation": "vertical",
+    "steps": [
+        {
+            "name": "",
+            "no-title": true,            
+            "spots": [
+                {
+                    "picture": {
+                        "src": "/img/actions-femmes/713/Slide1-1.png"
+                    },
+                    "top": "4.1666%",
+                    "left": "25.5319%",
+                    "entrance": "fadeIn"
+                },
+                {
+                    "picture": {
+                        "src": "/img/actions-femmes/713/Slide1-2.png"
+                    },
+                    "top": "3.8333%",
+                    "left": "6.2765%",
+                    "entrance": "fadeIn stepRight",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "src": "/img/actions-femmes/713/Slide1-3.png"
+                    },
+                    "top": "16.3333%",
+                    "left": "6.1702%",
+                    "entrance": "fadeIn stepRight",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "src": "/img/actions-femmes/713/Slide1-4.png"
+                    },
+                    "top": "30.3333%",
+                    "left": "6.1702%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "src": "/img/actions-femmes/713/Slide1-5.png"
+                    },
+                    "top": "22%",
+                    "left": "48.5106%",
+                    "entrance": "fadeIn stepRight",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "src": "/img/actions-femmes/713/Slide1-6.png"
+                    },
+                    "top": "29.6666%",
+                    "left": "54.2553%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "src": "/img/actions-femmes/713/Slide1-7.png"
+                    },
+                    "top": "46.8333%",
+                    "left": "52.0212%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                }
+            ]
+        },
+        {
+            "name": "",
+            "no-title": true,            
+            "spots": [
+                {
+                    "picture": {
+                        "src": "/img/actions-femmes/713/Slide2-1.png"
+                    },
+                    "top": "5.3333%",
+                    "left": "6.7021%",
+                    "entrance": "fadeIn"
+                },
+                {
+                    "picture": {
+                        "src": "/img/actions-femmes/713/Slide2-2.png"
+                    },
+                    "top": "20.3333%",
+                    "left": "6.5957%",
+                    "entrance": "fadeIn stepUp",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "src": "/img/actions-femmes/713/Slide2-3.png"
+                    },
+                    "top": "51.6666%",
+                    "left": "6.7021%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "src": "/img/actions-femmes/713/Slide2-4.png"
+                    },
+                    "top": "59.5%",
+                    "left": "8.617%",
+                    "entrance": "fadeIn stepUp",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "src": "/img/actions-femmes/713/Slide2-5.png"
+                    },
+                    "top": "14%",
+                    "left": "50.4255%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "src": "/img/actions-femmes/713/Slide2-6.png"
+                    },
+                    "top": "20.3333%",
+                    "left": "47.3404%",
+                    "entrance": "fadeIn stepUp",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "src": "/img/actions-femmes/713/Slide2-7.png"
+                    },
+                    "top": "60.8333%",
+                    "left": "49.468%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                }
+            ]
+        },
+        {
+            "name": "",
+            "no-title": true,            
+            "spots": [
+                {
+                    "picture": {
+                        "src": "/img/actions-femmes/713/Slide3-1.png"
+                    },
+                    "top": "4.3333%",
+                    "left": "6.9148%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/actions-femmes/713/Slide3-2.png"
+                    },
+                    "top": "16.5%",
+                    "left": "6.9148%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/actions-femmes/713/Slide3-3.png"
+                    },
+                    "top": "16.6666%",
+                    "left": "33.0851%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/actions-femmes/713/Slide3-4.png"
+                    },
+                    "top": "49.8333%",
+                    "left": "6.8085%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/actions-femmes/713/Slide3-5.png"
+                    },
+                    "top": "55.6666%",
+                    "left": "13.0851%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/actions-femmes/713/Slide3-6.png"
+                    },
+                    "top": "55.6666%",
+                    "left": "50.9574%"
+                }
+            ]
+        }
+    ]
+}
