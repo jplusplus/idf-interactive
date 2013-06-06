@@ -489,8 +489,8 @@
                     "picture": {
                         "src": "/img/divertir/graph_4-2.png"
                     },
-                    "top": "28.3333%",
-                    "left": "0%"
+                    "top": "14%",
+                    "left": "0.5319%"
                 },
                 {
                     "entrance": "fadeIn stepLeft",
@@ -507,7 +507,7 @@
                     "picture": {
                         "src": "/img/divertir/graph_4-4.png"
                     },
-                    "top": "14.8333%",
+                    "top": "14.5%",
                     "left": "66.9148%"
                 },
                 {
