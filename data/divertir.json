@@ -213,7 +213,7 @@
                     "entrance": "fadeIn",
                     "queue": true,
                     "top": "46.3333%",
-                    "left": "27.3404%"
+                    "left": "27.234%"
                 },
                 {
                     "picture": {
@@ -222,13 +222,13 @@
                     "entrance": "fadeIn",
                     "queue": true,
                     "top": "46.3333%",
-                    "left": "52.0212%"
+                    "left": "51.9148%"
                 },
                 {
                     "picture": {
                         "src": "/img/divertir/graph_1-6.png"
                     },
-                    "entrance": "fadeIn",
+                    "entrance": "fadeIn stepLeft",
                     "queue": true,
                     "top": "38.3333%",
                     "left": "68.9361%"
