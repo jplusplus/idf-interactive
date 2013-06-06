@@ -147,6 +147,7 @@
             "hidden-content": "<p>La lutte contre les stéréotypes s'effectue au quotidien. Ainsi, le centre Hubertine Auclert a réalisé une étude originale sur la représentation des hommes et des femmes dans les manuels scolaires, en l'occurrence ceux de mathématiques de terminale. Dans ceux-ci, les personnages sont à 63% des hommes, 16% des femmes et 21% indéterminés. Lorsqu'on se concentre sur les activités de ces personnages, on remarque que les femmes sont cantonnées aux activités scolaires, domestiques et de soins et de loisirs. Même parmi les scientifiques célèbres, les femmes sont peu citées (20 contre 911 hommes).</p>",        
             "spots": [
                 {
+                    "entrance": "fadeIn",
                     "picture": {
                         "src": "/img/actions-femmes/713/Slide3-1.png"
                     },
@@ -154,6 +155,8 @@
                     "left": "6.9148%"
                 },
                 {
+                    "queue": true,
+                    "entrance": "fadeIn stepRight",
                     "picture": {
                         "src": "/img/actions-femmes/713/Slide3-2.png"
                     },
@@ -161,6 +164,8 @@
                     "left": "6.9148%"
                 },
                 {
+                    "queue": true,
+                    "entrance": "fadeIn stepRight",
                     "picture": {
                         "src": "/img/actions-femmes/713/Slide3-3.png"
                     },
@@ -168,6 +173,8 @@
                     "left": "33.0851%"
                 },
                 {
+                    "queue": true,
+                    "entrance": "fadeIn",
                     "picture": {
                         "src": "/img/actions-femmes/713/Slide3-4.png"
                     },
@@ -175,6 +182,8 @@
                     "left": "6.8085%"
                 },
                 {
+                    "queue": true,
+                    "entrance": "fadeIn stepUp",
                     "picture": {
                         "src": "/img/actions-femmes/713/Slide3-5.png"
                     },
@@ -182,6 +191,8 @@
                     "left": "13.0851%"
                 },
                 {
+                    "queue": true,
+                    "entrance": "fadeIn stepUp",
                     "picture": {
                         "src": "/img/actions-femmes/713/Slide3-6.png"
                     },
