@@ -19,7 +19,7 @@ body {
     padding:0;
     overflow:hidden;
     font: 14px arial, "Lucida Grande", Helvetica, sans-serif;
-    background:#fff;
+    background:#f7f7f7;
     color:#404040;    
     
     .spot a, .spot {
@@ -191,23 +191,37 @@ body {
                 .transition(~"left 0.7s, right 0.7s");          
                                
                 &:hover { background-position:center -160px; }
+
+                .rapport-annuel & {
+                    width:40px;
+                    background:center center no-repeat;
+                    &:hover { background-position:center center; }
+                }
             }
 
             .previous {
                 left:-1px;
                 background-image:url("/img/common/btn_prev.png");
-                // .js-first &, .js-first &:hover { background-position:0 0; }
+                
                 .js-first & {
                     left:-65px;
                 }
+
+                .rapport-annuel & {
+                    background-image:url("/img/common/btn_prev_alt.png");                    
+                }                
             }
 
             .next {
                 right:0;
                 background-image:url("/img/common/btn_next.png");
-                // .js-last &, .js-last &:hover { background-position:0 0; }
+               
                 .js-last & {
                     right:-65px;
+                }
+                
+                .rapport-annuel & {
+                    background-image:url("/img/common/btn_next_alt.png");                    
                 }
             }
 
