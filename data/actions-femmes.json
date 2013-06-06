@@ -7,6 +7,7 @@
     "steps": [
         {
             "name": "",
+            "hidden-content": "<p>Le budget régional de lutte contre les discriminations s'établit à plus de 2 millions d'euros.</p><p>En Île-de-France, elle agit pour l'égalité des salaires entre hommes et femmes. Actuellement, les écarts de salaire vont de 17% (Seine-saint-Denis) à plus de 30% (Yvelines et Hauts-de-Seine) sur le territoire régional. Ces écarts sont importants quelle que soit la profession : chez les ouvriers qualifiés, les hommes gagnent 1200 euros mensuels en moyenne et 900 euros pour les femmes. Chez les cadres, les hommes gagnent 4100 euros mensuels en moyenne et 3000 euros pour les femmes. Par ailleurs, le salaire moyen des femmes varie entre 1440 euros (Seine-saint-Denis) à 2030 euros (Paris).</p>",
             "no-title": true,            
             "spots": [
                 {
@@ -75,7 +76,8 @@
         },
         {
             "name": "",
-            "no-title": true,            
+            "no-title": true, 
+            "hidden-content": "<p>La Région s'engage aussi à valoriser les parcours des femmes. Celles-ci ont la particularité d'être très diplômées : en île-de-France, on compte 46% de diplômées supérieures contre 25% au niveau national. Mais elles restent cantonnées à des postes sous-qualifiées : 40% d'employées, 30% de professions intermédiaires, 25% seulement de cadres, 5% d'ouvrières.</p><p>Elles sont 3 fois plus à temps partiel que les hommes. Chez les créateurs d'entreprises, seuls 27% sont des femmes.</p>",           
             "spots": [
                 {
                     "picture": {
@@ -143,7 +145,8 @@
         },
         {
             "name": "",
-            "no-title": true,            
+            "no-title": true,    
+            "hidden-content": "<p>La lutte contre les stéréotypes s'effectue au quotidien. Ainsi, le centre Hubertine Auclert a réalisé une étude originale sur la représentation des hommes et des femmes dans les manuels scolaires, en l'occurrence ceux de mathématiques de terminale. Dans ceux-ci, les personnages sont à 63% des hommes, 16% des femmes et 21% indéterminés. Lorsqu'on se concentre sur les activités de ces personnages, on remarque que les femmes sont cantonnées aux activités scolaires, domestiques et de soins et de loisirs. Même parmi les scientifiques célèbres, les femmes sont peu citées (20 contre 911 hommes).</p>",        
             "spots": [
                 {
                     "picture": {

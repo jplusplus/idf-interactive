@@ -8,21 +8,22 @@
                 {
                     "picture": {
                         "src": "/img/divertir/graph_0-4.png"
-                    },
-                    "top": "36.3333%",
-                    "left": "0%"
+                    },              
+                    "top": "36.5%",
+                    "left": "0.7446%"
                 },
                 {
                     "picture": {
                         "src": "/img/divertir/graph_0-14.png"
                     },
-                    "top": "72.5%",
-                    "left": "-0.1063%"
+                    "top": "72.6666%",
+                    "left": "0%"
                 },
                 {
                     "picture": {
                         "src": "/img/divertir/graph_0-1.png"
                     },
+                    "entrance": "fadeIn left",
                     "top": "29.1666%",
                     "left": "5.3191%"
                 },
@@ -30,6 +31,8 @@
                     "picture": {
                         "src": "/img/divertir/graph_0-2.png"
                     },
+                    "entrance": "fadeIn left",
+                    "queue": 300,
                     "top": "3.3333%",
                     "left": "37.5531%"
                 },
@@ -37,6 +40,8 @@
                     "picture": {
                         "src": "/img/divertir/graph_0-3.png"
                     },
+                    "entrance": "fadeIn left",
+                    "queue": 800,
                     "top": "5.3333%",
                     "left": "89.0425%"
                 },
@@ -44,6 +49,8 @@
                     "picture": {
                         "src": "/img/divertir/graph_0-5.png"
                     },
+                    "entrance": "fadeIn left",
+                    "queue": 200,
                     "top": "46.3333%",
                     "left": "22.4468%"
                 },
@@ -51,6 +58,8 @@
                     "picture": {
                         "src": "/img/divertir/graph_0-6.png"
                     },
+                    "entrance": "fadeIn left",
+                    "queue": 700,
                     "top": "34.8333%",
                     "left": "75.5319%"
                 },
@@ -58,13 +67,17 @@
                     "picture": {
                         "src": "/img/divertir/graph_0-7.png"
                     },
-                    "top": "41%",
-                    "left": "59.8936%"
+                    "entrance": "fadeIn left",
+                    "queue": 500,
+                    "top": "40.8333%",
+                    "left": "59.7872%"
                 },
                 {
                     "picture": {
                         "src": "/img/divertir/graph_0-8.png"
                     },
+                    "entrance": "fadeIn left",
+                    "queue": 300,
                     "top": "68.6666%",
                     "left": "36.3829%"
                 },
@@ -72,6 +85,8 @@
                     "picture": {
                         "src": "/img/divertir/graph_0-9.png"
                     },
+                    "entrance": "fadeIn left",
+                    "queue": 500,
                     "top": "68.1666%",
                     "left": "56.3829%"
                 },
@@ -79,13 +94,17 @@
                     "picture": {
                         "src": "/img/divertir/graph_0-10.png"
                     },
-                    "top": "78.1666%",
-                    "left": "35.4255%"
+                    "entrance": "fadeIn left",
+                    "queue": 300,
+                    "top": "78.3333%",
+                    "left": "35.7446%"
                 },
                 {
                     "picture": {
                         "src": "/img/divertir/graph_0-11.png"
                     },
+                    "entrance": "fadeIn left",
+                    "queue": 600,
                     "top": "81.5%",
                     "left": "66.7021%"
                 },
@@ -93,15 +112,19 @@
                     "picture": {
                         "src": "/img/divertir/graph_0-12.png"
                     },
-                    "top": "84.5%",
-                    "left": "90.9574%"
+                    "entrance": "fadeIn left",
+                    "queue": 900,
+                    "top": "82.6666%",
+                    "left": "90.851%"
                 },
                 {
                     "picture": {
                         "src": "/img/divertir/graph_0-13.png"
                     },
-                    "top": "43.8333%",
-                    "left": "75.3191%"
+                    "entrance": "fadeIn left",
+                    "queue": 700,
+                    "top": "42%",
+                    "left": "75.9574%"
                 },
                 {
                     "class": "app-title",
@@ -115,7 +138,7 @@
                     "height": 275,
                     "class": "launcher",
                     "href": "#step=1",
-                    "top": "56.3333%",
+                    "top": "56.5%",
                     "left": "49.8936%",
                     "origin": "center"
                 },
@@ -152,6 +175,7 @@
                     "picture": {
                         "src": "/img/divertir/graph_1-1.png"
                     },
+                    "entrance": "fadeIn stepDown",                    
                     "top": "13.6666%",
                     "left": "9.2553%"
                 },
@@ -159,6 +183,8 @@
                     "picture": {
                         "src": "/img/divertir/graph_1-2.png"
                     },
+                    "entrance": "fadeIn",
+                    "queue": true,
                     "top": "38.3333%",
                     "left": "9.1489%"
                 },
@@ -166,6 +192,8 @@
                     "picture": {
                         "src": "/img/divertir/graph_1-3.png"
                     },
+                    "entrance": "fadeIn",
+                    "queue": true,
                     "top": "46.6666%",
                     "left": "8.617%"
                 },
@@ -173,6 +201,8 @@
                     "picture": {
                         "src": "/img/divertir/graph_1-4.png"
                     },
+                    "entrance": "fadeIn",
+                    "queue": true,
                     "top": "46.3333%",
                     "left": "27.3404%"
                 },
@@ -180,6 +210,8 @@
                     "picture": {
                         "src": "/img/divertir/graph_1-5.png"
                     },
+                    "entrance": "fadeIn",
+                    "queue": true,
                     "top": "46.3333%",
                     "left": "52.0212%"
                 },
@@ -187,6 +219,8 @@
                     "picture": {
                         "src": "/img/divertir/graph_1-6.png"
                     },
+                    "entrance": "fadeIn",
+                    "queue": true,
                     "top": "38.3333%",
                     "left": "68.9361%"
                 },
@@ -194,6 +228,8 @@
                     "picture": {
                         "src": "/img/divertir/graph_1-7.png"
                     },
+                    "entrance": "fadeIn",
+                    "queue": true,
                     "top": "95%",
                     "left": "9.0425%"
                 },
@@ -211,50 +247,63 @@
             "spots": [
                 {
                     "picture": {
-                        "src": "/img/divertir/graph_2-1.png"
+                        "src": "/img/divertir/graph_2-1.png"                        
                     },
+                    "entrance": "fadeIn",
                     "top": "14%",
                     "left": "2.6595%"
                 },
                 {
                     "picture": {
-                        "src": "/img/divertir/graph_2-2.png"
+                        "src": "/img/divertir/graph_2-2.png"                        
                     },
+                    "entrance": "fadeIn zoomIn",
+                    "queue": true,
                     "top": "20.6666%",
                     "left": "25.851%"
                 },
                 {
                     "picture": {
-                        "src": "/img/divertir/graph_2-3.png"
+                        "src": "/img/divertir/graph_2-3.png"                        
                     },
+                    "entrance": "fadeIn zoomIn",
+                    "queue": true,
                     "top": "23.6666%",
                     "left": "15%"
                 },
                 {
                     "picture": {
-                        "src": "/img/divertir/graph_2-4.png"
+                        "src": "/img/divertir/graph_2-4.png"                        
                     },
+                    "entrance": "fadeIn zoomIn",
+                    "queue": true,
                     "top": "38%",
                     "left": "9.7872%"
                 },
                 {
                     "picture": {
-                        "src": "/img/divertir/graph_2-5.png"
+                        "src": "/img/divertir/graph_2-5.png"                        
                     },
+                    "entrance": "fadeIn zoomIn",
+                    "queue": true,
                     "top": "57.1666%",
                     "left": "10%"
                 },
                 {
                     "picture": {
-                        "src": "/img/divertir/graph_2-6.png"
+                        "src": "/img/divertir/graph_2-6.png"                        
                     },
+                    "entrance": "fadeIn zoomIn",
+                    "queue": true,
                     "top": "66.5%",
                     "left": "31.2765%"
                 },
                 {
                     "picture": {
-                        "src": "/img/divertir/graph_2-7.png"
+                        "src": "/img/divertir/graph_2-7.png"                        
                     },
+                    "entrance": "fadeIn zoomIn",
+                    "queue": true,
                     "top": "24.1666%",
                     "left": "38.8297%"
                 },
@@ -262,6 +311,8 @@
                     "picture": {
                         "src": "/img/divertir/graph_2-8.png"
                     },
+                    "entrance": "fadeIn stepUp",
+                    "queue": true,
                     "top": "80.3333%",
                     "left": "6.3829%"
                 },
@@ -269,6 +320,8 @@
                     "picture": {
                         "src": "/img/divertir/graph_2-9.png"
                     },
+                    "entrance": "fadeIn stepLeft",
+                    "queue": true,
                     "top": "14.6666%",
                     "left": "57.234%"
                 },
@@ -276,6 +329,8 @@
                     "picture": {
                         "src": "/img/divertir/graph_2-10.png"
                     },
+                    "entrance": "fadeIn stepLeft",
+                    "queue": true,
                     "top": "52.8333%",
                     "left": "57.4468%"
                 },
@@ -283,6 +338,8 @@
                     "picture": {
                         "src": "/img/divertir/graph_2-11.png"
                     },
+                    "entrance": "fadeIn stepLeft",
+                    "queue": true,
                     "top": "84%",
                     "left": "58.4042%"
                 }

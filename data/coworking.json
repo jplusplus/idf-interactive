@@ -7,6 +7,7 @@
     "steps": [
         {
             "name": "",
+            "hidden-content": "<p>La région Île-de-France compte 27 espaces actifs de coworking (au 1er septembre 2012), dont 24 à Paris. Demain, un rééquilibrage régional sera à l'oeuvre puisque sur les 64 lieux projetés en 2014, 31 seront à Paris, mais 16 en Seine-et-Marne, 6 dans les Hauts-de-Seine, 3 en Seine-saint-Denis, 3 dans les Yvelines, 2 dans le Val-d'Oise, 2 dans le Val-de-Marne et 1 dans l'Essonne. Ces espaces se répartiront ainsi : 62% de coworking, 24% de coworking-télécentres et 14% de télécentres. </p>",
             "no-title": true,
             "spots": [
                 {
@@ -162,6 +163,7 @@
         },
         {
             "name": "",
+            "hidden-content": "<p>Lors de son premier appel à projets \"Télécentres et espaces de coworking\", la région a investi 830000 euros qui se sont répartis à 31% à Paris, 25% la Seine-et-Marne, 16% les Hauts-de-Seine, 12% le Val-d'Oise, 10% le Val-de-Marne, 4% les Yvelines et 2% la Seine-Saint-Denis. </p>",
             "no-title": true,
             "spots": [
                 {
@@ -327,6 +329,7 @@
         },
         {
             "name": "",
+            "hidden-content": "<p>Dans le monde, on date l'apparition du premier lieu de coworking en 2005 dans la Silicon valley. Aujourd'hui, on en recense 1779 à travers le monde dont 749 en Amérique du Nord et 756 en Europe, dont 27 en Île-de-France.</p>",
             "no-title": true,
             "spots": [
                 {
