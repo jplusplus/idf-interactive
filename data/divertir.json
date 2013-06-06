@@ -172,6 +172,14 @@
             "name": "<strong>Cinéma</strong> et <strong>audiovisuel</strong>",
             "spots": [
                 {
+                    "class": "fg",
+                    "width": 70,
+                    "height": 20,
+                    "href": "http://www.idf-film.com",
+                    "top": "43%",
+                    "left": "12.4468%"
+                },
+                {
                     "picture": {
                         "src": "/img/divertir/graph_1-1.png"
                     },
@@ -349,6 +357,14 @@
             "name": "<strong>Livre</strong> : une exception francilienne",
             "spots": [
                 {
+                    "class": "fg",
+                    "width": 70,
+                    "height": 20,
+                    "href": "http://www.lemotif.fr/fr",
+                    "top": "14%",
+                    "left": "24.5744%"
+                },
+                {
                     "entrance": "fadeIn stepDown",
                     "picture": {
                         "src": "/img/divertir/graph_3-1.png"
@@ -441,6 +457,22 @@
             "name": "<strong>Tourisme</strong> et patrimoine",
             "spots": [
                 {
+                    "class": "fg",
+                    "width": 70,
+                    "height": 20,
+                    "href": "http://www.nouveau-paris-ile-de-france.fr",
+                    "top": "22.3333%",
+                    "left": "20.2127%"
+                },
+                {
+                    "class": "fg",
+                    "width": 70,
+                    "height": 20,
+                    "href": "http://www.iledefrance.fr/patrimoines-et-inventaire",
+                    "top": "22.1666%",
+                    "left": "74.0425%"
+                },
+                {
                     "picture": {
                         "src": "/img/divertir/graph_4-1.png"
                     },
@@ -487,6 +519,22 @@
             "name": "<strong>Bases de loisir</strong> et <strong>parcs naturels</strong>",
             "spots": [
                 {
+                    "class": "fg",
+                    "width": 70,
+                    "height": 20,
+                    "href": "http://www.bases-loisirs-iledefrance.fr",
+                    "top": "31.3333%",
+                    "left": "15.5319%"
+                },
+                {
+                    "class": "fg",
+                    "width": 70,
+                    "height": 20,
+                    "href": "http://idf.ffrandonnee.fr/749/html/parcs-naturels-regionaux-d-ile-de-france.aspx",
+                    "top": "33.5%",
+                    "left": "75.7446%"
+                },
+                {
                     "entrance": "fadeIn",
                     "queue": true,
                     "picture": {
@@ -528,7 +576,6 @@
             "name": "Activités <strong>sportives</strong>",
             "spots": [
                 {
-                    
                     "entrance": "fadeIn",
                     "queue": true,
                     "picture": {
@@ -538,7 +585,6 @@
                     "left": "7.3404%"
                 },
                 {
-                    
                     "entrance": "fadeIn",
                     "queue": true,
                     "picture": {
@@ -548,7 +594,6 @@
                     "left": "8.8297%"
                 },
                 {
-                    
                     "entrance": "fadeIn stepLeft",
                     "queue": true,
                     "picture": {
@@ -558,7 +603,6 @@
                     "left": "50.3191%"
                 },
                 {
-                    
                     "entrance": "fadeIn stepLeft",
                     "queue": true,
                     "picture": {
