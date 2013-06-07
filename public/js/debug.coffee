@@ -25,8 +25,6 @@ window.recordSpotPosition = (spot) ->
 $(window).load ->
     console.log "Debug mode unable."
 
-
-
     $(".spot").draggable stop: (event, ui) ->
         recordSpotPosition(this)
 
@@ -38,16 +36,19 @@ $(window).load ->
     # Disable other key events
     $(window).off("keyup keydown").on "keyup", (e)->        
         $div = $ '.js-current .spot.focus'
+        $overflow = $("#overflow")
         if $div.length
+            left = $div.offset().left - $overflow.offset().left
+            top  = $div.offset().top - $overflow.offset().top
             switch e.which
                 # left arrow key
-                when 37 then $div.css "left", '-=1%'                                
+                when 37 then $div.css( "left", left - 1)
                 # up arrow key                
-                when 38 then $div.css "top", '-=1%'                                
+                when 38 then $div.css( "top", top - 1)
                 # right arrow key                
-                when 39 then $div.css "left", '+=1%'                                
+                when 39 then $div.css( "left", left + 1)
                 # bottom arrow key                
-                when 40 then $div.css "top", '+=1%'
+                when 40 then $div.css( "top", top + 1)
                 # Or stop here
                 else return
 
