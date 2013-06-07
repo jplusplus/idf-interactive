@@ -12,16 +12,16 @@
                     "picture": {
                         "src": "/img/aides-entreprises/713/Slide1-1.png"
                     },
-                    "top": "5.1666%",
-                    "left": "25.851%",
+                    "top": "6.7538%",
+                    "left": "34.2215%",
                     "entrance": "fadeIn"
                 },
                 {
                     "picture": {
                         "src": "/img/aides-entreprises/713/Slide1-2.png"
                     },
-                    "top": "4.3333%",
-                    "left": "6.4893%",
+                    "top": "5.6644%",
+                    "left": "8.5553%",
                     "entrance": "fadeIn stepRight",
                     "queue": true
                 },
@@ -29,8 +29,8 @@
                     "picture": {
                         "src": "/img/aides-entreprises/713/Slide1-3.png"
                     },
-                    "top": "18.5%",
-                    "left": "6.4893%",
+                    "top": "24.183%",
+                    "left": "8.5553%",
                     "entrance": "fadeIn",
                     "queue": true
                 },
@@ -38,8 +38,8 @@
                     "picture": {
                         "src": "/img/aides-entreprises/713/Slide1-4.png"
                     },
-                    "top": "31.6666%",
-                    "left": "4.0425%",
+                    "top": "41.1764%",
+                    "left": "5.3295%",
                     "entrance": "fadeIn stepDown",
                     "queue": true
                 },
@@ -47,8 +47,8 @@
                     "picture": {
                         "src": "/img/aides-entreprises/713/Slide1-5.png"
                     },
-                    "top": "31.3333%",
-                    "left": "31.9148%",
+                    "top": "40.7407%",
+                    "left": "42.0757%",
                     "entrance": "fadeIn stepDown",
                     "queue": true
                 }
@@ -63,16 +63,16 @@
                     "picture": {
                         "src": "/img/aides-entreprises/713/Slide2-1.png"
                     },
-                    "top": "6.1666%",
-                    "left": "5.4255%",
+                    "top": "8.061%",
+                    "left": "7.0126%",
                     "entrance": "fadeIn"
                 },
                 {
                     "picture": {
                         "src": "/img/aides-entreprises/713/Slide2-2.png"
                     },
-                    "top": "51%",
-                    "left": "3.9361%",
+                    "top": "66.8845%",
+                    "left": "5.1893%",
                     "entrance": "fadeIn",
                     "queue": true
                 },
@@ -80,8 +80,8 @@
                     "picture": {
                         "src": "/img/aides-entreprises/713/Slide2-3.png"
                     },
-                    "top": "14.1666%",
-                    "left": "33.1914%",
+                    "top": "18.5185%",
+                    "left": "43.7587%",
                     "entrance": "fadeIn stepRight",
                     "queue": true
                 },
@@ -89,8 +89,8 @@
                     "picture": {
                         "src": "/img/aides-entreprises/713/Slide2-4.png"
                     },
-                    "top": "23.3333%",
-                    "left": "33.1914%",
+                    "top": "30.501%",
+                    "left": "43.7587%",
                     "entrance": "fadeIn stepRight",
                     "queue": true
                 },
@@ -98,8 +98,8 @@
                     "picture": {
                         "src": "/img/aides-entreprises/713/Slide2-5.png"
                     },
-                    "top": "42.8333%",
-                    "left": "33.4042%",
+                    "top": "55.5555%",
+                    "left": "44.0392%",
                     "entrance": "fadeIn stepRight",
                     "queue": true
                 }
@@ -114,16 +114,16 @@
                     "picture": {
                         "src": "/img/aides-entreprises/713/Slide3-1.png"
                     },
-                    "top": "4.6666%",
-                    "left": "6.5957%",
+                    "top": "5.8823%",
+                    "left": "8.6956%",
                     "entrance": "fadeIn stepDown"
                 },
                 {
                     "picture": {
                         "src": "/img/aides-entreprises/713/Slide3-2.png"
                     },
-                    "top": "32.8333%",
-                    "left": "4.1489%",
+                    "top": "42.9193%",
+                    "left": "5.61%",
                     "entrance": "fadeIn",
                     "queue": true
                 },
@@ -131,8 +131,8 @@
                     "picture": {
                         "src": "/img/aides-entreprises/713/Slide3-3.png"
                     },
-                    "top": "37.8333%",
-                    "left": "40%",
+                    "top": "49.4553%",
+                    "left": "52.7349%",
                     "entrance": "fadeIn",
                     "queue": true
                 }
@@ -148,8 +148,8 @@
                         "src": "/img/aides-entreprises/713/Slide4-1.png"
                     },
                     "entrance": "fadeIn",
-                    "top": "4.8333%",
-                    "left": "6.3829%"
+                    "top": "6.1002%",
+                    "left": "8.2748%"
                 },
                 {
                     "picture": {
@@ -157,8 +157,8 @@
                     },
                     "entrance": "fadeIn",
                     "queue": false,
-                    "top": "37%",
-                    "left": "3.2978%"
+                    "top": "48.1481%",
+                    "left": "4.488%"
                 },
                 {
                     "picture": {
@@ -166,8 +166,8 @@
                     },
                     "entrance": "fadeIn",
                     "queue": false,
-                    "top": "4.1666%",
-                    "left": "37.8723%"
+                    "top": "5.6644%",
+                    "left": "49.9298%"
                 },
                 {
                     "picture": {
@@ -175,8 +175,8 @@
                     },
                     "entrance": "fadeIn stepUp",
                     "queue": false,
-                    "top": "39.6666%",
-                    "left": "37.7659%"
+                    "top": "51.8518%",
+                    "left": "49.7896%"
                 },
                 {
                     "picture": {
@@ -184,8 +184,8 @@
                     },
                     "entrance": "fadeIn",
                     "queue": false,
-                    "top": "10.3333%",
-                    "left": "55.4255%"
+                    "top": "13.5076%",
+                    "left": "73.0715%"
                 },
                 {
                     "picture": {
@@ -193,8 +193,8 @@
                     },
                     "entrance": "fadeIn stepUp",
                     "queue": false,
-                    "top": "35.6666%",
-                    "left": "55.851%"
+                    "top": "46.4052%",
+                    "left": "10.2384%"
                 }
             ]
         }
