@@ -253,6 +253,7 @@
         },
         {
             "name": "<strong>Arts de la scène</strong> : musique, danse, spectacle",
+            "menu-name": "Arts de la scène",
             "hidden-content": "<p>La Région a soutenu 64 manifestations culturelles en 2012 pour 1,6 million d'euros. Parmi celles-ci, 33% étaient pluridisciplinaires, 25% du théâtre, 6% de la musique, opéra, 13% de la danse, 8% des arts de rue, 5% du cirque. Parmi les grands soutiens régionaux, il faut noter le Festival d'île-de-France qui réunit plus de 20 000 spectateurs et l'Orchestre National d'Île-de-France. Un des spécificités de la région, ce sont les conventions de Permanence Artistique et Culturelle (PAC) qui soutiennent le développement artistique de projets sur trois ans sur 3 volets : emploi, création, appropriation par les publics. En 2012, 262 structures en ont bénéficié pour près de 13 millions d'euros.</p><p>Nouveauté : les Fabriques de culture visent à développer des lieux atypiques dédiés à la création et l'expérimentation dans des friches industrielles et des quartiers excentrés. 15 bénéficiaires en 2012.</p><p>Enfin, le soutien aux musiques actuelles recouvre 76 projets en 2012 pour près de 2 millions d'euros.</p>",
             "spots": [
                 {
@@ -357,13 +358,14 @@
         },
         {
             "name": "<strong>Livre</strong> : une exception francilienne",
+            "menu-name": "Livres",
             "hidden-content": "<p>La Région Île-de-France occupe une place à part dans l'industrie du livre français : elle concentre 37% du chiffre d'affaires de ce secteur, 1re industrie culturelle en France, 58% des écrivains et 19% des maisons d'édition.</p><p>La Région soutient la chaîne du livre à hauteur de 4,2 millions d'euros en 2012. Aucun maillon n'est oublié. Les écrivains peuvent bénéficier de résidences : 188 projets de création littéraire ont été soutenus depuis 2007. Ils reçoivent alors une bourse mensuelle de 2000 euros et le lieu qui les accueille une subvention de 10 000 euros maximum.</p><p>L'édition indépendante bénéficie d'une vingtaine de soutiens annuels pour des porjets éditoriaux exceptionnels et 15000 pour favoriser leur diffusion.</p><p>Les librairies indépendantes accèdent à deux types d'aides - constituer des fonds et accéder des garanties pour prêts à court terme -, un partenariat avec l'Association pour le développement de la librairie de création, une semaine de la librairie pour les lycéens.</p><p>Les manifestations littéraires - une trentaine en 2012 - se voient accompagner de 100 000 euros maximum si elles ont une envergure régionale. Le prix littéraire des lycéens a beaucoup de succès.</p><p>Enfin, la Région a aidé à construire 68 bibliothèques pour un montant cumulé de 45,2 millions d'euros depuis 2000. La mise en réseau des médiathèques et le développement de l'offre numérique sont en cours.</p>",
             "spots": [
                 {
                     "class": "fg",
                     "width": 70,
                     "height": 20,
-                    "href": "http://www.lemotif.fr/fr",
+                    "href": "http://www.lemotif.fr",
                     "top": "14%",
                     "left": "24.5744%"
                 },
@@ -578,7 +580,8 @@
             ]
         },
         {
-            "name": "Activités <strong>sportives</strong>",
+            "name": "<strong>Sports</strong>",
+            "menu-name": "Sports",
             "hidden-content": "<p>Avec 21000 clubs et plus de 2,5 millions de licenciés, l’Île-de-France est la première région sportive française.</p><p>La Région travaille à développer le sport pour tous grâce à un budget de près de 8 millions d'euros. Les  Chèques TranSport permettent de régler les frais de transport des équipes de jeunes de 13 à 18 ans (70 000 en 2012). Dans le handisport, la Région aide à l'achat des matériels spécifiques. Pour les encadrants, des formations spécifiques sont proposées et elle a promu 96 manifestations sportives en 2012 (40 disciplines).</p><p>La région développe les équipements sportifs (budget 2013 : 19,6 M€ en crédits de paiement et 35 M€ en autorisations de programmes), notamment les terrains stynthétiques offrant des amplitudes d’utilisation plus importantes, les piscines (depuis 2008, 43 M€ investis) et les équipements de haut niveau (centre de haut niveau de Vaires et projet olympique du vélodrome et piste de BMX).</p><p>Enfin, les Ambassadeurs de sport permettent de mobiliser les athlètes franciliens ayant participé aux Jeux Olympiques et Paralympiques pour promouvoir les valeurs du sport auprès des jeunes : 19 disciplines, 90 ambassadeurs.</p>",
             "spots": [
                 {
