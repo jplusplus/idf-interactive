@@ -198,12 +198,6 @@ body {
                 .transition(~"left 0.7s, right 0.7s");          
                                
                 &:hover { background-position:center -160px; }
-
-                .rapport-annuel & {
-                    width:30px;
-                    background:center center no-repeat;
-                    &:hover { background-position:center center; }
-                }
             }
 
             .previous {
@@ -212,11 +206,7 @@ body {
                 
                 .js-first & {
                     left:-65px;
-                }
-
-                .rapport-annuel & {
-                    background-image:url("/img/common/btn_prev_alt.png");                    
-                }                
+                }        
             }
 
             .next {
@@ -226,10 +216,47 @@ body {
                 .js-last & {
                     right:-65px;
                 }
+            }
+
+
+            /* Arrows menu within rapport annuel */
+            .rapport-annuel & {
+
+                position:absolute;
+                z-index:@zIndexNav;
+                top:-10px;
+                right:0px;
+                left:auto;
                 
-                .rapport-annuel & {
-                    background-image:url("/img/common/btn_next_alt.png");                    
+                background:url("/img/common/btn_nav.png") 0 -70px no-repeat;
+                height:60px;
+                width:60px;
+                display:block;
+
+                .previous, .next { 
+                    z-index:@zIndexNav+5;                
+                    width:30px;
+                    height:60px;
+                    background:none;                    
+                    top:20px;
+                    right:0;
+                    left:auto;                    
                 }
+
+                .previous {
+                    right:30px;        
+                }
+
+            }       
+            
+            .rapport-annuel.js-first & {
+                background-position:0 0; 
+                .previous { display:none; }
+            }
+
+            .rapport-annuel.js-last & { 
+                background-position:0 -140px; 
+                .next { display:none; }
             }
 
         }
