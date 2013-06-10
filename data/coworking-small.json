@@ -14,8 +14,8 @@
                     "picture": {
                         "src": "/img/coworking/594/Slide1-1.png"
                     },
-                    "top": "5.2777%",
-                    "left": "3.7037%"
+                    "top": "5%",
+                    "left": "6.0606%"
                 },
                 {
                     "entrance": "fadeIn stepDown",
@@ -24,8 +24,8 @@
                     "picture": {
                         "src": "/img/coworking/594/Slide1-2.png"
                     },
-                    "top": "23.3333%",
-                    "left": "3.367%"
+                    "top": "23.0555%",
+                    "left": "6.2289%"
                 },
                 {
                     "entrance": "fadeIn stepDown",
@@ -34,8 +34,8 @@
                     "picture": {
                         "src": "/img/coworking/594/Slide1-3.png"
                     },
-                    "top": "23.3333%",
-                    "left": "22.0538%"
+                    "top": "23.0555%",
+                    "left": "24.074%"
                 },
                 {
                     "entrance": "fadeIn stepDown",
@@ -44,8 +44,8 @@
                     "picture": {
                         "src": "/img/coworking/594/Slide1-4.png"
                     },
-                    "top": "22.7777%",
-                    "left": "33.67%"
+                    "top": "22.5%",
+                    "left": "34.3434%"
                 },
                 {
                     "entrance": "fadeIn stepDown",
@@ -54,8 +54,8 @@
                     "picture": {
                         "src": "/img/coworking/594/Slide1-5.png"
                     },
-                    "top": "22.7777%",
-                    "left": "47.3063%"
+                    "top": "22.5%",
+                    "left": "47.4747%"
                 },
                 {
                     "entrance": "fadeIn stepDown",
@@ -74,8 +74,8 @@
                     "picture": {
                         "src": "/img/coworking/594/Slide1-7.png"
                     },
-                    "top": "22.7777%",
-                    "left": "67.5084%"
+                    "top": "22.5%",
+                    "left": "68.1818%"
                 },
                 {
                     "entrance": "fadeIn stepDown",
@@ -84,8 +84,8 @@
                     "picture": {
                         "src": "/img/coworking/594/Slide1-8.png"
                     },
-                    "top": "22.7777%",
-                    "left": "77.7777%"
+                    "top": "22.5%",
+                    "left": "78.1144%"
                 },
                 {
                     "entrance": "fadeIn stepDown",
@@ -104,8 +104,8 @@
                     "picture": {
                         "src": "/img/coworking/594/Slide1-10.png"
                     },
-                    "top": "59.4444%",
-                    "left": "4.3771%"
+                    "top": "57.7777%",
+                    "left": "5.7239%"
                 },
                 {
                     "entrance": "fadeIn",
@@ -114,8 +114,8 @@
                     "picture": {
                         "src": "/img/coworking/594/Slide1-11.png"
                     },
-                    "top": "56.6666%",
-                    "left": "17.8451%"
+                    "top": "56.3888%",
+                    "left": "16.1616%"
                 },
                 {
                     "entrance": "fadeIn stepDown",
@@ -124,8 +124,8 @@
                     "picture": {
                         "src": "/img/coworking/594/Slide1-12.png"
                     },
-                    "top": "83.3333%",
-                    "left": "24.2424%"
+                    "top": "83.0555%",
+                    "left": "22.3905%"
                 },
                 {
                     "entrance": "fadeIn stepDown",
@@ -134,8 +134,8 @@
                     "picture": {
                         "src": "/img/coworking/594/Slide1-13.png"
                     },
-                    "top": "68.0555%",
-                    "left": "66.835%"
+                    "top": "67.7777%",
+                    "left": "65.1515%"
                 },
                 {
                     "entrance": "fadeIn stepDown",
@@ -144,8 +144,8 @@
                     "picture": {
                         "src": "/img/coworking/594/Slide1-14.png"
                     },
-                    "top": "53.8888%",
-                    "left": "77.1043%"
+                    "top": "53.6111%",
+                    "left": "75.2525%"
                 },
                 {
                     "entrance": "fadeIn stepDown",
@@ -155,7 +155,7 @@
                         "src": "/img/coworking/594/Slide1-15.png"
                     },
                     "top": "46.1111%",
-                    "left": "87.8787%"
+                    "left": "86.0269%"
                 }
             ]
         },
@@ -170,8 +170,8 @@
                     "picture": {
                         "src": "/img/coworking/594/Slide2-1.png"
                     },
-                    "top": "5.5555%",
-                    "left": "4.2087%"
+                    "top": "5.2777%",
+                    "left": "6.9023%"
                 },
                 {
                     "entrance": "fadeIn stepLeft",
@@ -180,8 +180,8 @@
                     "picture": {
                         "src": "/img/coworking/594/Slide2-2.png"
                     },
-                    "top": "21.1111%",
-                    "left": "4.0404%"
+                    "top": "20.8333%",
+                    "left": "6.3973%"
                 },
                 {
                     "entrance": "fadeIn",
@@ -190,8 +190,8 @@
                     "picture": {
                         "src": "/img/coworking/594/Slide2-3.png"
                     },
-                    "top": "24.4444%",
-                    "left": "29.4612%"
+                    "top": "24.1666%",
+                    "left": "32.8282%"
                 },
                 {
                     "entrance": "fadeIn stepLeft",
@@ -200,8 +200,8 @@
                     "picture": {
                         "src": "/img/coworking/594/Slide2-4.png"
                     },
-                    "top": "52.2222%",
-                    "left": "3.367%"
+                    "top": "51.9444%",
+                    "left": "5.7239%"
                 },
                 {
                     "entrance": "fadeIn",
@@ -210,8 +210,8 @@
                     "picture": {
                         "src": "/img/coworking/594/Slide2-5.png"
                     },
-                    "top": "52.7777%",
-                    "left": "30.303%"
+                    "top": "52.5%",
+                    "left": "33.5016%"
                 },
                 {
                     "entrance": "fadeIn stepLeft",
@@ -221,7 +221,7 @@
                         "src": "/img/coworking/594/Slide2-6.png"
                     },
                     "top": "80%",
-                    "left": "4.8821%"
+                    "left": "6.5656%"
                 },
                 {
                     "entrance": "fadeIn",
@@ -231,7 +231,7 @@
                         "src": "/img/coworking/594/Slide2-7.png"
                     },
                     "top": "77.5%",
-                    "left": "29.1245%"
+                    "left": "32.8282%"
                 },
                 {
                     "entrance": "fadeIn",
@@ -336,8 +336,8 @@
                     "picture": {
                         "src": "/img/coworking/594/Slide3-1.png"
                     },
-                    "top": "5.8333%",
-                    "left": "4.3771%"
+                    "top": "5.5555%",
+                    "left": "6.9023%"
                 },
                 {
                     "entrance": "fadeIn ",
@@ -347,7 +347,7 @@
                         "src": "/img/coworking/594/Slide3-2.png"
                     },
                     "top": "20%",
-                    "left": "4.2087%"
+                    "left": "6.5656%"
                 },
                 {
                     "entrance": "fadeIn ",
@@ -356,8 +356,8 @@
                     "picture": {
                         "src": "/img/coworking/594/Slide3-3.png"
                     },
-                    "top": "39.1666%",
-                    "left": "4.3771%"
+                    "top": "38.8888%",
+                    "left": "6.3973%"
                 },
                 {
                     "entrance": "fadeIn ",
@@ -366,8 +366,8 @@
                     "picture": {
                         "src": "/img/coworking/594/Slide3-4.png"
                     },
-                    "top": "54.7222%",
-                    "left": "4.2087%"
+                    "top": "54.4444%",
+                    "left": "6.2289%"
                 },
                 {
                     "entrance": "fadeIn ",
@@ -376,8 +376,8 @@
                     "picture": {
                         "src": "/img/coworking/594/Slide3-5.png"
                     },
-                    "top": "55%",
-                    "left": "16.1616%"
+                    "top": "54.7222%",
+                    "left": "18.0134%"
                 },
                 {
                     "entrance": "fadeIn ",
@@ -386,8 +386,8 @@
                     "picture": {
                         "src": "/img/coworking/594/Slide3-6.png"
                     },
-                    "top": "54.7222%",
-                    "left": "25.4208%"
+                    "top": "54.4444%",
+                    "left": "27.441%"
                 },
                 {
                     "entrance": "fadeIn ",
@@ -396,8 +396,8 @@
                     "picture": {
                         "src": "/img/coworking/594/Slide3-7.png"
                     },
-                    "top": "71.6666%",
-                    "left": "25.0841%"
+                    "top": "71.3888%",
+                    "left": "26.936%"
                 },
                 {
                     "entrance": "fadeIn ",
@@ -406,8 +406,8 @@
                     "picture": {
                         "src": "/img/coworking/594/Slide3-8.png"
                     },
-                    "top": "71.6666%",
-                    "left": "33.1649%"
+                    "top": "71.3888%",
+                    "left": "35.0168%"
                 },
                 {
                     "entrance": "fadeIn stepUp",
@@ -416,8 +416,8 @@
                     "picture": {
                         "src": "/img/coworking/594/Slide3-9.png"
                     },
-                    "top": "83.6111%",
-                    "left": "4.5454%"
+                    "top": "83.3333%",
+                    "left": "6.734%"
                 },
                 {
                     "entrance": "fadeIn ",
@@ -456,8 +456,8 @@
                     "picture": {
                         "src": "/img/coworking/594/Slide3-13.png"
                     },
-                    "top": "25.5555%",
-                    "left": "44.1077%"
+                    "top": "25.2777%",
+                    "left": "45.1178%"
                 },
                 {
                     "entrance": "fadeIn ",
