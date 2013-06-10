@@ -256,7 +256,7 @@
                 {
                     "entrance": "fadeIn",
                     "entrance-duration": 600,
-                    "queue": true,
+                    "queue": 5000,
                     "picture": {
                         "src": "/img/coworking/594/Slide2-10.png"
                     },
@@ -266,7 +266,7 @@
                 {
                     "entrance": "fadeIn",
                     "entrance-duration": 600,
-                    "queue": true,
+                    "queue": 5100,
                     "picture": {
                         "src": "/img/coworking/594/Slide2-11.png"
                     },
@@ -276,7 +276,7 @@
                 {
                     "entrance": "fadeIn",
                     "entrance-duration": 600,
-                    "queue": true,
+                    "queue": 5200,
                     "picture": {
                         "src": "/img/coworking/594/Slide2-12.png"
                     },
@@ -286,7 +286,7 @@
                 {
                     "entrance": "fadeIn",
                     "entrance-duration": 600,
-                    "queue": true,
+                    "queue": 5300,
                     "picture": {
                         "src": "/img/coworking/594/Slide2-13.png"
                     },
@@ -296,7 +296,7 @@
                 {
                     "entrance": "fadeIn",
                     "entrance-duration": 600,
-                    "queue": true,
+                    "queue": 5400,
                     "picture": {
                         "src": "/img/coworking/594/Slide2-14.png"
                     },
@@ -306,7 +306,7 @@
                 {
                     "entrance": "fadeIn",
                     "entrance-duration": 600,
-                    "queue": true,
+                    "queue": 5500,
                     "picture": {
                         "src": "/img/coworking/594/Slide2-15.png"
                     },
@@ -316,7 +316,7 @@
                 {
                     "entrance": "fadeIn",
                     "entrance-duration": 600,
-                    "queue": true,
+                    "queue": 5600,
                     "picture": {
                         "src": "/img/coworking/594/Slide2-16.png"
                     },
