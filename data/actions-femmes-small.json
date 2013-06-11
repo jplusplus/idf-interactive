@@ -1,7 +1,7 @@
 {
     "class": "rapport-annuel size590",
     "no-menu": true,
-    "tiny-scroll": true,
+    "tiny-scroll": false,
     "steps": [
         {
             "name": "",
