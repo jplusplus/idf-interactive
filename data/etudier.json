@@ -1,0 +1,431 @@
+{
+    "steps": [
+        {
+            "name": "launcher",
+            "no-index": true,
+            "no-title": true,
+            "no-menu": true,
+            "picture": "/img/IDF-etudier-encours_0.png",
+            "spots": [
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_0-1.png"
+                    },
+                    "top": "2.1666%",
+                    "left": "0.1063%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_0-2.png"
+                    },
+                    "top": "63.6666%",
+                    "left": "1.1702%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_0-3.png"
+                    },
+                    "entrance": "left",
+                    "top": "10.3333%",
+                    "left": "3.1914%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_0-4.png"
+                    },
+                    "entrance": "left",
+                    "top": "10.1666%",
+                    "left": "32.6595%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_0-5.png"
+                    },
+                    "entrance": "left",
+                    "queue": true,
+                    "top": "12.1666%",
+                    "left": "27.7659%"
+                },
+                {
+                    "class": "app-title",
+                    "title": "Île-de-France",
+                    "sub-title": "Étudier",
+                    "top": "83.5%",
+                    "left": "1.1702%"
+                },
+                {
+                    "width": 270,
+                    "height": 275,
+                    "class": "launcher",
+                    "href": "#step=1",
+                    "top": "57.1666%",
+                    "left": "50.4255%",
+                    "origin": "center"
+                },
+                {
+                    "class": "legend",
+                    "background": "/img/common/howto_pic_lancez.png",
+                    "height": 22,
+                    "left": "2.1276%",
+                    "top": "3.3333%",
+                    "sub-title": "Lancez l’infographie"
+                },
+                {
+                    "class": "legend",
+                    "background": "/img/common/howto_pic_suivant.png",
+                    "height": 20,
+                    "left": "2.0212%",
+                    "top": "7.8333%",
+                    "sub-title": "Passez d’une page à l’autre"
+                },
+                {
+                    "class": "legend",
+                    "background": "/img/common/howto-pic_chapitres.png",
+                    "height": 45,
+                    "left": "2.234%",
+                    "top": "12.5%",
+                    "sub-title": "Sélectionnez directement<br />un chapitre"
+                }
+            ]
+        },
+        {
+            "name": "Construire, rénover et entretenir <strong>469 lycées</strong>",
+            "hidden-content": "",
+            "spots": [
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_1-1.png"
+                    },
+                    "entrance": "fadeIn",
+                    "top": "13%",
+                    "left": "8.7234%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_1-2.png"
+                    },
+                    "entrance": "fadeIn",
+                    "queue": true,
+                    "top": "12.8333%",
+                    "left": "50.1063%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_1-3.png"
+                    },
+                    "entrance": "fadeIn right",
+                    "queue": true,
+                    "top": "49.5%",
+                    "left": "5%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_1-4.png"
+                    },
+                    "entrance": "fadeIn",
+                    "queue": true,
+                    "top": "67.3333%",
+                    "left": "8.7234%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_1-5.png"
+                    },
+                    "entrance": "fadeIn",
+                    "queue": true,
+                    "top": "71%",
+                    "left": "42.3404%"
+                }
+            ]
+        },
+        {
+            "name": "La vie <strong>lycéenne</strong>",
+            "hidden-content": "",
+            "spots": [
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_2-1.png"
+                    },
+                    "entrance": "fadeIn right",
+                    "top": "14%",
+                    "left": "8.7234%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_2-2.png"
+                    },
+                    "entrance": "fadeIn",
+                    "queue": true,
+                    "top": "14.1666%",
+                    "left": "39.3617%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_2-3.png"
+                    },
+                    "entrance": "fadeIn",
+                    "top": "23.1666%",
+                    "left": "40.3191%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_2-4.png"
+                    },
+                    "entrance": "fadeIn",
+                    "queue": true,
+                    "top": "22.3333%",
+                    "left": "53.8297%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_2-5.png"
+                    },
+                    "entrance": "fadeIn",
+                    "queue": true,
+                    "top": "21.6666%",
+                    "left": "67.8723%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_2-6.png"
+                    },
+                    "entrance": "fadeIn",
+                    "queue": true,
+                    "top": "20.8333%",
+                    "left": "81.8085%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_2-7.png"
+                    },
+                    "entrance": "fadeIn left",
+                    "queue": true,
+                    "top": "57%",
+                    "left": "36.8085%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_2-8.png"
+                    },
+                    "entrance": "fadeIn left",
+                    "queue": true,
+                    "top": "61.6666%",
+                    "left": "64.5744%"
+                }
+            ]
+        },
+        {
+            "name": "L'apprentissage, <strong>une voie d'avenir</strong>",
+            "menu-name": "L'apprentissage",
+            "hidden-content": "",
+            "spots": [
+                {
+                    "entrance": "fadeIn",
+                    "picture": {
+                        "src": "/img/etudier/graph_3-1.png"
+                    },
+                    "top": "16%",
+                    "left": "8.9361%"
+                },
+                {
+                    "queue": true,
+                    "entrance": "fadeIn right",
+                    "picture": {
+                        "src": "/img/etudier/graph_3-2.png"
+                    },
+                    "top": "15.5%",
+                    "left": "34.1489%"
+                },
+                {
+                    "queue": true,
+                    "picture": {
+                        "src": "/img/etudier/graph_3-3.png"
+                    },
+                    "entrance": "fadeIn right",
+                    "top": "47.5%",
+                    "left": "8.7234%"
+                },
+                {
+                    "queue": true,
+                    "entrance": "fadeIn right",
+                    "picture": {
+                        "src": "/img/etudier/graph_3-4.png"
+                    },
+                    "top": "47.1666%",
+                    "left": "56.5957%"
+                }
+            ]
+        },
+        {
+            "name": "La vie <strong>étudiante</strong>",
+            "hidden-content": "<p>Première destination touristique mondiale, la Région comptabilise 60 millions de séjours par an générant un chiffre d'affaires annuel de 17,7 milliards d'euros, ainsi 600 000 emplois.</p><p>Grâce au Fonds de développement touristique régional (5 millions d'euros d'autorisations de programmes et 3,5 millions de crédits de paiements), la région souhaite créer et améliorer de l’offre touristique culturelle, récréative, d’affaires, développer l'hébergements touristique, destiné aux jeunes, aux familles et aux groupes et créer des points d’accueil dans les gares.</p><p>Le service \"Patrimoines et Inventaire\" étudie systématiquement et selon une méthodologie nationale, tous les patrimoines, exceptionnels comme ordinaires, sur une période qui va du Ve siècle à l’époque contemporaine.</p><p>Il gère les aides à la restauration et à la conservation, il possède un centre de documentation (base de données, 140 000 photographies…), il publie \"Les parcours du patrimoine\", \"Les cahiers du patrimoine\" et un évènement particulier : la première semaine des patrimoines d'Île-de-France en septembre 2012.</p>",
+            "spots": [
+                {
+                    "entrance": "fadeIn down",
+                    "picture": {
+                        "src": "/img/etudier/graph_4-1.png"
+                    },
+                    "top": "16%",
+                    "left": "5.5319%"
+                },
+                {
+                    "entrance": "fadeIn",
+                    "queue": true,
+                    "picture": {
+                        "src": "/img/etudier/graph_4-2.png"
+                    },
+                    "top": "65.1666%",
+                    "left": "5.851%"
+                },
+                {
+                    "entrance": "fadeIn",
+                    "queue": true,
+                    "picture": {
+                        "src": "/img/etudier/graph_4-3.png"
+                    },
+                    "top": "65.3333%",
+                    "left": "29.1489%"
+                },
+                {
+                    "entrance": "fadeIn left",
+                    "queue": true,
+                    "picture": {
+                        "src": "/img/etudier/graph_4-4.png"
+                    },
+                    "top": "12%",
+                    "left": "57.1276%"
+                }
+            ]
+        },
+        {
+            "name": "<strong>Soutien matériel</strong> aux élèves",
+            "hidden-content": "",
+            "spots": [
+                {
+                    "entrance": "fadeIn down",
+                    "queue": true,
+                    "picture": {
+                        "src": "/img/etudier/graph_5-1.png"
+                    },
+                    "top": "16%",
+                    "left": "5.7446%"
+                },
+                {
+                    "entrance": "fadeIn down",
+                    "queue": true,
+                    "picture": {
+                        "src": "/img/etudier/graph_5-2.png"
+                    },
+                    "top": "15.8333%",
+                    "left": "36.2765%"
+                },
+                {
+                    "entrance": "fadeIn down",
+                    "queue": true,
+                    "picture": {
+                        "src": "/img/etudier/graph_5-3.png"
+                    },
+                    "top": "15.6666%",
+                    "left": "66.4893%"
+                },
+                {
+                    "entrance": "fadeIn",
+                    "queue": true,
+                    "picture": {
+                        "src": "/img/etudier/graph_5-4.png"
+                    },
+                    "top": "48%",
+                    "left": "5.9574%"
+                },
+                {
+                    "entrance": "fadeIn",
+                    "queue": true,
+                    "picture": {
+                        "src": "/img/etudier/graph_5-5.png"
+                    },
+                    "top": "44%",
+                    "left": "36.3829%"
+                },
+                {
+                    "entrance": "fadeIn",
+                    "queue": true,
+                    "picture": {
+                        "src": "/img/etudier/graph_5-6.png"
+                    },
+                    "top": "46.5%",
+                    "left": "70.851%"
+                }
+            ]
+        },
+        {
+            "name": "Lutte contre <strong>le décrochage</strong>",
+            "menu-name": "Le décrochage",
+            "hidden-content": "",
+            "spots": [
+                {
+                    "entrance": "fadeIn down",
+                    "queue": true,
+                    "picture": {
+                        "src": "/img/etudier/graph_6-1.png"
+                    },
+                    "top": "14.6666%",
+                    "left": "6.4893%"
+                },
+                {
+                    "entrance": "fadeIn down",
+                    "queue": true,
+                    "picture": {
+                        "src": "/img/etudier/graph_6-2.png"
+                    },
+                    "top": "42.5%",
+                    "left": "6.2765%"
+                },
+                {
+                    "entrance": "fadeIn down",
+                    "queue": true,
+                    "picture": {
+                        "src": "/img/etudier/graph_6-3.png"
+                    },
+                    "top": "70%",
+                    "left": "6.4893%"
+                },
+                {
+                    "entrance": "fadeIn",
+                    "queue": true,
+                    "picture": {
+                        "src": "/img/etudier/graph_6-4.png"
+                    },
+                    "top": "12.8333%",
+                    "left": "48.4042%"
+                },
+                {
+                    "entrance": "fadeIn",
+                    "queue": true,
+                    "picture": {
+                        "src": "/img/etudier/graph_6-5.png"
+                    },
+                    "top": "27.6666%",
+                    "left": "46.7021%"
+                },
+                {
+                    "entrance": "fadeIn right",
+                    "queue": true,
+                    "picture": {
+                        "src": "/img/etudier/graph_6-6.png"
+                    },
+                    "top": "43.5%",
+                    "left": "46.4893%"
+                },
+                {
+                    "entrance": "fadeIn right",
+                    "queue": true,
+                    "picture": {
+                        "src": "/img/etudier/graph_6-7.png"
+                    },
+                    "top": "43.1666%",
+                    "left": "69.6808%"
+                }
+            ]
+        }
+    ]
+}
