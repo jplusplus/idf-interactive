@@ -23,6 +23,7 @@
                     "picture": {
                         "src": "/img/etudier/graph_0-3.png"
                     },
+                    "queue":200,
                     "entrance": "left",
                     "top": "12.6666%",
                     "left": "7.8723%"
@@ -31,6 +32,7 @@
                     "picture": {
                         "src": "/img/etudier/graph_0-4.png"
                     },
+                    "queue":300,
                     "entrance": "left",
                     "top": "12.8333%",
                     "left": "37.6595%"
@@ -39,6 +41,7 @@
                     "picture": {
                         "src": "/img/etudier/graph_0-5.png"
                     },
+                    "queue":400,
                     "entrance": "left",
                     "top": "13.8333%",
                     "left": "27.7659%"
@@ -47,8 +50,8 @@
                     "picture": {
                         "src": "/img/etudier/graph_0-6.png"
                     },
+                    "queue":500,
                     "entrance": "left",
-                    "queue": true,
                     "top": "25.8333%",
                     "left": "1.8085%"
                 },
@@ -57,7 +60,7 @@
                         "src": "/img/etudier/graph_0-7.png"
                     },
                     "entrance": "left",
-                    "queue": true,
+                    "queue": 600,
                     "top": "8.8333%",
                     "left": "58.0851%"
                 },
@@ -66,7 +69,7 @@
                         "src": "/img/etudier/graph_0-8.png"
                     },
                     "entrance": "left",
-                    "queue": true,
+                    "queue": 700,
                     "top": "14.8333%",
                     "left": "76.9148%"
                 },
@@ -75,7 +78,7 @@
                         "src": "/img/etudier/graph_0-9.png"
                     },
                     "entrance": "left",
-                    "queue": true,
+                    "queue": 800,
                     "top": "29.5%",
                     "left": "65.6382%"
                 },
@@ -84,7 +87,7 @@
                         "src": "/img/etudier/graph_0-10.png"
                     },
                     "entrance": "left",
-                    "queue": true,
+                    "queue": 900,
                     "top": "28.6666%",
                     "left": "73.7234%"
                 },
@@ -93,7 +96,7 @@
                         "src": "/img/etudier/graph_0-11.png"
                     },
                     "entrance": "left",
-                    "queue": true,
+                    "queue": 1000,
                     "top": "49.8333%",
                     "left": "11.8085%"
                 },
@@ -102,7 +105,7 @@
                         "src": "/img/etudier/graph_0-12.png"
                     },
                     "entrance": "left",
-                    "queue": true,
+                    "queue": 1100,
                     "top": "54.5%",
                     "left": "21.1702%"
                 },
@@ -111,7 +114,7 @@
                         "src": "/img/etudier/graph_0-13.png"
                     },
                     "entrance": "left",
-                    "queue": true,
+                    "queue": 1200,
                     "top": "56.5%",
                     "left": "30.3191%"
                 },
@@ -120,7 +123,7 @@
                         "src": "/img/etudier/graph_0-14.png"
                     },
                     "entrance": "left",
-                    "queue": true,
+                    "queue": 1300,
                     "top": "49.8333%",
                     "left": "34.468%"
                 },
@@ -129,7 +132,7 @@
                         "src": "/img/etudier/graph_0-15.png"
                     },
                     "entrance": "left",
-                    "queue": true,
+                    "queue": 1400,
                     "top": "81.1666%",
                     "left": "25.3191%"
                 },
@@ -138,7 +141,7 @@
                         "src": "/img/etudier/graph_0-16.png"
                     },
                     "entrance": "left",
-                    "queue": true,
+                    "queue": 1500,
                     "top": "61.3333%",
                     "left": "46.1702%"
                 },
@@ -147,7 +150,7 @@
                         "src": "/img/etudier/graph_0-17.png"
                     },
                     "entrance": "left",
-                    "queue": true,
+                    "queue": 1600,
                     "top": "68.5%",
                     "left": "58.2978%"
                 },
