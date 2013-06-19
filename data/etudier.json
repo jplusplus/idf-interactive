@@ -4,21 +4,19 @@
             "name": "launcher",
             "no-index": true,
             "no-title": true,
-            "no-menu": true,
-            "picture": "/img/IDF-etudier-encours_0.png",
             "spots": [
                 {
                     "picture": {
                         "src": "/img/etudier/graph_0-1.png"
                     },
-                    "top": "2.1666%",
-                    "left": "0.1063%"
+                    "top": "0.6666%",
+                    "left": "1.0638%"
                 },
                 {
                     "picture": {
                         "src": "/img/etudier/graph_0-2.png"
                     },
-                    "top": "63.6666%",
+                    "top": "64%",
                     "left": "1.1702%"
                 },
                 {
@@ -26,40 +24,147 @@
                         "src": "/img/etudier/graph_0-3.png"
                     },
                     "entrance": "left",
-                    "top": "10.3333%",
-                    "left": "3.1914%"
+                    "top": "12.6666%",
+                    "left": "7.8723%"
                 },
                 {
                     "picture": {
                         "src": "/img/etudier/graph_0-4.png"
                     },
                     "entrance": "left",
-                    "top": "10.1666%",
-                    "left": "32.6595%"
+                    "top": "12.8333%",
+                    "left": "37.6595%"
                 },
                 {
                     "picture": {
                         "src": "/img/etudier/graph_0-5.png"
                     },
                     "entrance": "left",
-                    "queue": true,
-                    "top": "12.1666%",
+                    "top": "13.8333%",
                     "left": "27.7659%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_0-6.png"
+                    },
+                    "entrance": "left",
+                    "queue": true,
+                    "top": "25.8333%",
+                    "left": "1.8085%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_0-7.png"
+                    },
+                    "entrance": "left",
+                    "queue": true,
+                    "top": "8.8333%",
+                    "left": "58.0851%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_0-8.png"
+                    },
+                    "entrance": "left",
+                    "queue": true,
+                    "top": "14.8333%",
+                    "left": "76.9148%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_0-9.png"
+                    },
+                    "entrance": "left",
+                    "queue": true,
+                    "top": "29.5%",
+                    "left": "65.6382%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_0-10.png"
+                    },
+                    "entrance": "left",
+                    "queue": true,
+                    "top": "28.6666%",
+                    "left": "73.7234%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_0-11.png"
+                    },
+                    "entrance": "left",
+                    "queue": true,
+                    "top": "49.8333%",
+                    "left": "11.8085%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_0-12.png"
+                    },
+                    "entrance": "left",
+                    "queue": true,
+                    "top": "54.5%",
+                    "left": "21.1702%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_0-13.png"
+                    },
+                    "entrance": "left",
+                    "queue": true,
+                    "top": "56.5%",
+                    "left": "30.3191%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_0-14.png"
+                    },
+                    "entrance": "left",
+                    "queue": true,
+                    "top": "49.8333%",
+                    "left": "34.468%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_0-15.png"
+                    },
+                    "entrance": "left",
+                    "queue": true,
+                    "top": "81.1666%",
+                    "left": "25.3191%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_0-16.png"
+                    },
+                    "entrance": "left",
+                    "queue": true,
+                    "top": "61.3333%",
+                    "left": "46.1702%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_0-17.png"
+                    },
+                    "entrance": "left",
+                    "queue": true,
+                    "top": "68.5%",
+                    "left": "58.2978%"
                 },
                 {
                     "class": "app-title",
                     "title": "Île-de-France",
                     "sub-title": "Étudier",
-                    "top": "83.5%",
-                    "left": "1.1702%"
+                    "top": "83%",
+                    "left": "1.9148%"
                 },
                 {
                     "width": 270,
                     "height": 275,
                     "class": "launcher",
                     "href": "#step=1",
-                    "top": "57.1666%",
-                    "left": "50.4255%",
+                    "top": "51%",
+                    "left": "48.9361%",
                     "origin": "center"
                 },
                 {
@@ -75,7 +180,7 @@
                     "background": "/img/common/howto_pic_suivant.png",
                     "height": 20,
                     "left": "2.0212%",
-                    "top": "7.8333%",
+                    "top": "7.6666%",
                     "sub-title": "Passez d’une page à l’autre"
                 },
                 {
@@ -224,12 +329,12 @@
                     "picture": {
                         "src": "/img/etudier/graph_3-1.png"
                     },
-                    "top": "16%",
-                    "left": "8.9361%"
+                    "top": "16.5%",
+                    "left": "6.5957%"
                 },
                 {
                     "queue": true,
-                    "entrance": "fadeIn right",
+                    "entrance": "fadeIn stepRight",
                     "picture": {
                         "src": "/img/etudier/graph_3-2.png"
                     },
@@ -241,18 +346,18 @@
                     "picture": {
                         "src": "/img/etudier/graph_3-3.png"
                     },
-                    "entrance": "fadeIn right",
-                    "top": "47.5%",
-                    "left": "8.7234%"
+                    "entrance": "fadeIn stepRight",
+                    "top": "47.1666%",
+                    "left": "6.4893%"
                 },
                 {
                     "queue": true,
-                    "entrance": "fadeIn right",
+                    "entrance": "fadeIn stepRight",
                     "picture": {
                         "src": "/img/etudier/graph_3-4.png"
                     },
-                    "top": "47.1666%",
-                    "left": "56.5957%"
+                    "top": "7.8333%",
+                    "left": "54.1489%"
                 }
             ]
         },
@@ -363,7 +468,7 @@
             "hidden-content": "",
             "spots": [
                 {
-                    "entrance": "fadeIn down",
+                    "entrance": "fadeIn stepDown",
                     "queue": true,
                     "picture": {
                         "src": "/img/etudier/graph_6-1.png"
@@ -372,7 +477,7 @@
                     "left": "6.4893%"
                 },
                 {
-                    "entrance": "fadeIn down",
+                    "entrance": "fadeIn stepDown",
                     "queue": true,
                     "picture": {
                         "src": "/img/etudier/graph_6-2.png"
@@ -381,7 +486,7 @@
                     "left": "6.2765%"
                 },
                 {
-                    "entrance": "fadeIn down",
+                    "entrance": "fadeIn stepDown",
                     "queue": true,
                     "picture": {
                         "src": "/img/etudier/graph_6-3.png"
@@ -408,7 +513,7 @@
                     "left": "46.7021%"
                 },
                 {
-                    "entrance": "fadeIn right",
+                    "entrance": "fadeIn stepRight",
                     "queue": true,
                     "picture": {
                         "src": "/img/etudier/graph_6-6.png"
@@ -417,7 +522,7 @@
                     "left": "46.4893%"
                 },
                 {
-                    "entrance": "fadeIn right",
+                    "entrance": "fadeIn stepRight",
                     "queue": true,
                     "picture": {
                         "src": "/img/etudier/graph_6-7.png"
