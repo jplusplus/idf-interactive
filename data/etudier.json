@@ -4,63 +4,145 @@
             "name": "launcher",
             "no-index": true,
             "no-title": true,
+            "picture_": "/img/IDF-etudier-encours_0.jpg",
             "spots": [
                 {
                     "picture": {
                         "src": "/img/etudier/graph_0-1.png"
                     },
-                    "top": "0.6666%",
-                    "left": "1.0638%"
+                    "top": "4.6666%",
+                    "left": "1.2765%"
                 },
                 {
                     "picture": {
                         "src": "/img/etudier/graph_0-2.png"
                     },
-                    "top": "64%",
-                    "left": "1.1702%"
+                    "top": "64.5%",
+                    "left": "1.2765%"
                 },
                 {
                     "picture": {
-                        "src": "/img/etudier/graph_0-3.png"
+                        "src": "/img/etudier/graph_0-12.png"
                     },
-                    "queue":200,
                     "entrance": "left",
-                    "top": "12.6666%",
-                    "left": "7.8723%"
+                    "queue": 100,
+                    "top": "54.5%",
+                    "left": "21.1702%"
                 },
                 {
                     "picture": {
-                        "src": "/img/etudier/graph_0-4.png"
+                        "src": "/img/etudier/graph_0-13.png"
                     },
-                    "queue":300,
                     "entrance": "left",
-                    "top": "12.8333%",
-                    "left": "37.6595%"
+                    "queue": 200,
+                    "top": "56.6666%",
+                    "left": "30.3191%"
                 },
                 {
                     "picture": {
-                        "src": "/img/etudier/graph_0-5.png"
+                        "src": "/img/etudier/graph_0-11.png"
                     },
-                    "queue":400,
                     "entrance": "left",
-                    "top": "13.8333%",
-                    "left": "27.7659%"
+                    "queue": 300,
+                    "top": "49.8333%",
+                    "left": "11.8085%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_0-14.png"
+                    },
+                    "entrance": "left",
+                    "queue": 250,
+                    "top": "49.8333%",
+                    "left": "34.468%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_0-15.png"
+                    },
+                    "entrance": "left",
+                    "queue": 350,
+                    "top": "81.1666%",
+                    "left": "25.3191%"
                 },
                 {
                     "picture": {
                         "src": "/img/etudier/graph_0-6.png"
                     },
-                    "queue":500,
+                    "queue": 500,
                     "entrance": "left",
-                    "top": "25.8333%",
-                    "left": "1.8085%"
+                    "top": "56.1666%",
+                    "left": "80.851%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_0-16.png"
+                    },
+                    "entrance": "left",
+                    "queue": 600,
+                    "top": "62.5%",
+                    "left": "47.3404%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_0-17.png"
+                    },
+                    "entrance": "left",
+                    "queue": 700,
+                    "top": "68.5%",
+                    "left": "58.2978%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_0-3.png"
+                    },
+                    "queue": 1100,
+                    "entrance": "left",
+                    "top": "13.3333%",
+                    "left": "7.7659%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_0-4.png"
+                    },
+                    "queue": 1200,
+                    "entrance": "left",
+                    "top": "13.3333%",
+                    "left": "37.5531%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_0-5.png"
+                    },
+                    "queue": 1000,
+                    "entrance": "left",
+                    "top": "14.1666%",
+                    "left": "27.8723%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_0-6.png"
+                    },
+                    "queue": 1100,
+                    "entrance": "left",
+                    "top": "26.6666%",
+                    "left": "66.9148%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/etudier/graph_0-6.png"
+                    },
+                    "queue": 1200,
+                    "entrance": "left",
+                    "top": "26.1666%",
+                    "left": "17.234%"
                 },
                 {
                     "picture": {
                         "src": "/img/etudier/graph_0-7.png"
                     },
                     "entrance": "left",
-                    "queue": 600,
+                    "queue": 1300,
                     "top": "8.8333%",
                     "left": "58.0851%"
                 },
@@ -90,69 +172,6 @@
                     "queue": 900,
                     "top": "28.6666%",
                     "left": "73.7234%"
-                },
-                {
-                    "picture": {
-                        "src": "/img/etudier/graph_0-11.png"
-                    },
-                    "entrance": "left",
-                    "queue": 1000,
-                    "top": "49.8333%",
-                    "left": "11.8085%"
-                },
-                {
-                    "picture": {
-                        "src": "/img/etudier/graph_0-12.png"
-                    },
-                    "entrance": "left",
-                    "queue": 1100,
-                    "top": "54.5%",
-                    "left": "21.1702%"
-                },
-                {
-                    "picture": {
-                        "src": "/img/etudier/graph_0-13.png"
-                    },
-                    "entrance": "left",
-                    "queue": 1200,
-                    "top": "56.5%",
-                    "left": "30.3191%"
-                },
-                {
-                    "picture": {
-                        "src": "/img/etudier/graph_0-14.png"
-                    },
-                    "entrance": "left",
-                    "queue": 1300,
-                    "top": "49.8333%",
-                    "left": "34.468%"
-                },
-                {
-                    "picture": {
-                        "src": "/img/etudier/graph_0-15.png"
-                    },
-                    "entrance": "left",
-                    "queue": 1400,
-                    "top": "81.1666%",
-                    "left": "25.3191%"
-                },
-                {
-                    "picture": {
-                        "src": "/img/etudier/graph_0-16.png"
-                    },
-                    "entrance": "left",
-                    "queue": 1500,
-                    "top": "61.3333%",
-                    "left": "46.1702%"
-                },
-                {
-                    "picture": {
-                        "src": "/img/etudier/graph_0-17.png"
-                    },
-                    "entrance": "left",
-                    "queue": 1600,
-                    "top": "68.5%",
-                    "left": "58.2978%"
                 },
                 {
                     "class": "app-title",
