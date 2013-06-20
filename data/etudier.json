@@ -4,21 +4,20 @@
             "name": "launcher",
             "no-index": true,
             "no-title": true,
-            "picture_": "/img/IDF-etudier-encours_0.jpg",
             "spots": [
                 {
                     "picture": {
                         "src": "/img/etudier/graph_0-1.png"
                     },
-                    "top": "4.6666%",
-                    "left": "0.9574%"
+                    "top": "4.5%",
+                    "left": "0%"
                 },
                 {
                     "picture": {
                         "src": "/img/etudier/graph_0-2.png"
                     },
                     "top": "64.5%",
-                    "left": "1.2765%"
+                    "left": "0.1063%"
                 },
                 {
                     "picture": {
@@ -81,7 +80,7 @@
                     "entrance": "left",
                     "queue": 600,
                     "top": "62.5%",
-                    "left": "47.3404%"
+                    "left": "48.4042%"
                 },
                 {
                     "picture": {
@@ -89,8 +88,8 @@
                     },
                     "entrance": "left",
                     "queue": 700,
-                    "top": "68.5%",
-                    "left": "58.2978%"
+                    "top": "67.5%",
+                    "left": "58.7234%"
                 },
                 {
                     "picture": {
@@ -234,7 +233,7 @@
                     "entrance": "fadeIn",
                     "queue": true,
                     "top": "12.8333%",
-                    "left": "50.1063%"
+                    "left": "50%"
                 },
                 {
                     "picture": {
@@ -262,6 +261,13 @@
                     "queue": true,
                     "top": "71%",
                     "left": "42.3404%"
+                },
+                {
+                    "href":"http://www.iledefrance.fr/fileadmin/contrib_folder/Colonne_droite/Documents/BROCHURE_LYCEES_2012_2013.pdf",
+                    "width": 70,
+                    "height": 15,
+                    "top": "14.6666%",
+                    "left": "86.7021%"
                 }
             ]
         },
@@ -338,12 +344,19 @@
                     "queue": true,
                     "top": "61.6666%",
                     "left": "64.5744%"
+                },
+                {
+                    "href":"http://lilie.iledefrance.fr",
+                    "width": 70,
+                    "height": 15,
+                    "top": "21.5%",
+                    "left": "26.3829%"
                 }
             ]
         },
         {
             "name": "L'apprentissage, <strong>une voie d'avenir</strong>",
-            "menu-name": "L'apprentissage",
+            "old-menu-name": "L'apprentissage",
             "hidden-content": "",
             "spots": [
                 {
@@ -380,6 +393,13 @@
                     },
                     "top": "46.8333%",
                     "left": "53.2978%"
+                },
+                {
+                    "href":"http://www.oref-idf.org/docs/etudes/ipa2011.pdf",
+                    "width": 70,
+                    "height": 15,
+                    "top": "73.8333%",
+                    "left": "85.5319%"
                 }
             ]
         },
@@ -447,6 +467,14 @@
                     "left": "36.2765%"
                 },
                 {
+                    "entrance": "fadeIn stepUp",
+                    "picture": {
+                        "src": "/img/etudier/graph_5-7.png"
+                    },
+                    "top": "94%",
+                    "left": "5.7446%"
+                },
+                {
                     "entrance": "fadeIn down",
                     "queue": true,
                     "picture": {
@@ -486,7 +514,7 @@
         },
         {
             "name": "Lutte contre <strong>le décrochage</strong>",
-            "menu-name": "Le décrochage",
+            "old-menu-name": "Le décrochage",
             "hidden-content": "",
             "spots": [
                 {
@@ -551,6 +579,13 @@
                     },
                     "top": "43.1666%",
                     "left": "69.6808%"
+                },
+                {
+                    "href":"http://www.iau-idf.fr/detail/etude/democratisation-de-lenseignement-superieur.html",
+                    "width": 70,
+                    "height": 15,
+                    "top": "91%",
+                    "left": "69.5744%"
                 }
             ]
         }
