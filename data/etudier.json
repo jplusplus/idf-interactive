@@ -280,8 +280,8 @@
                         "src": "/img/etudier/graph_2-1.png"
                     },
                     "entrance": "fadeIn right",
-                    "top": "14%",
-                    "left": "8.7234%"
+                    "top": "14.1666%",
+                    "left": "5.3191%"
                 },
                 {
                     "picture": {
@@ -289,8 +289,8 @@
                     },
                     "entrance": "fadeIn",
                     "queue": true,
-                    "top": "14.1666%",
-                    "left": "39.3617%"
+                    "top": "14%",
+                    "left": "36.5957%"
                 },
                 {
                     "picture": {
@@ -298,7 +298,7 @@
                     },
                     "entrance": "fadeIn",
                     "top": "23.1666%",
-                    "left": "40.3191%"
+                    "left": "37.0212%"
                 },
                 {
                     "picture": {
@@ -306,8 +306,8 @@
                     },
                     "entrance": "fadeIn",
                     "queue": true,
-                    "top": "22.3333%",
-                    "left": "53.8297%"
+                    "top": "22%",
+                    "left": "50.851%"
                 },
                 {
                     "picture": {
@@ -315,8 +315,8 @@
                     },
                     "entrance": "fadeIn",
                     "queue": true,
-                    "top": "21.6666%",
-                    "left": "67.8723%"
+                    "top": "21.5%",
+                    "left": "65.3191%"
                 },
                 {
                     "picture": {
@@ -324,8 +324,8 @@
                     },
                     "entrance": "fadeIn",
                     "queue": true,
-                    "top": "20.8333%",
-                    "left": "81.8085%"
+                    "top": "20.6666%",
+                    "left": "79.2553%"
                 },
                 {
                     "picture": {
@@ -334,7 +334,7 @@
                     "entrance": "fadeIn left",
                     "queue": true,
                     "top": "57%",
-                    "left": "36.8085%"
+                    "left": "33.617%"
                 },
                 {
                     "picture": {
@@ -342,8 +342,8 @@
                     },
                     "entrance": "fadeIn left",
                     "queue": true,
-                    "top": "61.6666%",
-                    "left": "64.5744%"
+                    "top": "61.1666%",
+                    "left": "61.7021%"
                 },
                 {
                     "href": "http://lilie.iledefrance.fr",
@@ -467,7 +467,6 @@
                     "left": "36.2765%"
                 },
                 {
-                    "entrance": "fadeIn stepUp",
                     "picture": {
                         "src": "/img/etudier/graph_5-7.png"
                     },
