@@ -147,8 +147,8 @@
                         "src": "/img/environnement/graph_1-1.png"
                     },
                     "entrance": "fadeIn",
-                    "top": "16.6666%",
-                    "left": "10.5319%"
+                    "top": "16.5%",
+                    "left": "10.6382%"
                 },
                 {
                     "picture": {
@@ -156,8 +156,8 @@
                     },
                     "entrance": "fadeIn stepDown",
                     "queue": true,
-                    "top": "15%",
-                    "left": "25.7446%"
+                    "top": "15.1666%",
+                    "left": "25.851%"
                 },
                 {
                     "picture": {
@@ -170,87 +170,47 @@
                     "picture": {
                         "src": "/img/environnement/graph_1-4.png"
                     },
-                    "top": "47.8333%",
-                    "left": "38.7234%"
+                    "top": "47.6666%",
+                    "left": "39.0425%"
                 },
                 {
                     "picture": {
                         "src": "/img/environnement/graph_1-5.png"
                     },
-                    "top": "48.1666%",
-                    "left": "69.5744%"
+                    "top": "48%",
+                    "left": "70%"
                 },
                 {
                     "href": "",
                     "style": "background:black",
                     "width": 70,
                     "height": 15,
-                    "top": "39.5%",
-                    "left": "33.1914%"
+                    "top": "40%",
+                    "left": "33.9361%"
                 },
                 {
                     "href": "",
                     "style": "background:black",
                     "width": 70,
                     "height": 15,
-                    "top": "39.6666%",
-                    "left": "55.7446%"
+                    "top": "39.8333%",
+                    "left": "56.3829%"
                 },
                 {
                     "href": "",
                     "style": "background:black",
                     "width": 70,
                     "height": 15,
-                    "top": "39%",
-                    "left": "78.7234%"
+                    "top": "39.1666%",
+                    "left": "78.8297%"
                 },
                 {
                     "href": "",
                     "style": "background:black",
                     "width": 70,
                     "height": 15,
-                    "top": "92.1666%",
-                    "left": "12.4468%"
-                },
-                {
-                    "href": "",
-                    "style": "background:black",
-                    "width": 70,
-                    "height": 15,
-                    "top": "91.6666%",
-                    "left": "42.8723%"
-                },
-                {
-                    "href": "",
-                    "style": "background:black",
-                    "width": 70,
-                    "height": 15,
-                    "top": "60.5%",
-                    "left": "73.4042%"
-                },
-                {
-                    "href": "",
-                    "style": "background:black",
-                    "width": 70,
-                    "height": 15,
-                    "top": "73.5%",
-                    "left": "73.2978%"
-                },
-                {
-                    "href": "",
-                    "style": "background:black",
-                    "width": 70,
-                    "height": 15,
-                    "top": "80.6666%",
-                    "left": "73.4042%"
-                },
-                {
-                    "href": "",
-                    "style": "background:black",
-                    "width": 70,
-                    "height": 15,
-                    "top": "88.5%",
-                    "left": "73.4042%"
+                    "top": "92%",
+                    "left": "12.8723%"
                 }
             ]
         },
@@ -273,8 +233,8 @@
                     },
                     "entrance": "fadeIn right",
                     "queue": true,
-                    "top": "49.1666%",
-                    "left": "9.1489%"
+                    "top": "49%",
+                    "left": "8.9361%"
                 },
                 {
                     "picture": {
@@ -289,7 +249,7 @@
                     },
                     "entrance": "fadeIn",
                     "queue": true,
-                    "top": "20%",
+                    "top": "20.1666%",
                     "left": "29.0425%"
                 },
                 {
@@ -299,7 +259,7 @@
                     "entrance": "fadeIn",
                     "queue": true,
                     "top": "20.1666%",
-                    "left": "49.7872%"
+                    "left": "49.8936%"
                 },
                 {
                     "picture": {
@@ -307,8 +267,8 @@
                     },
                     "entrance": "fadeIn",
                     "queue": true,
-                    "top": "20.6666%",
-                    "left": "71.9148%"
+                    "top": "20.3333%",
+                    "left": "72.0212%"
                 },
                 {
                     "picture": {
@@ -338,6 +298,7 @@
             ]
         },
         {
+            "/picture": "/img/environnement/ref/3.png",
             "name": "Biodiversité et <strong>écosystèmes</strong>",
             "hidden-content": "",
             "spots": [
@@ -346,8 +307,8 @@
                     "picture": {
                         "src": "/img/environnement/graph_3-1.png"
                     },
-                    "top": "15.8333%",
-                    "left": "9.8936%"
+                    "top": "15.6666%",
+                    "left": "10.1063%"
                 },
                 {
                     "queue": true,
@@ -355,8 +316,8 @@
                     "picture": {
                         "src": "/img/environnement/graph_3-2.png"
                     },
-                    "top": "36.3333%",
-                    "left": "8.1914%"
+                    "top": "36.1666%",
+                    "left": "8.4042%"
                 },
                 {
                     "queue": true,
@@ -365,7 +326,7 @@
                     },
                     "entrance": "fadeIn",
                     "top": "36.5%",
-                    "left": "35.4255%"
+                    "left": "35.5319%"
                 },
                 {
                     "queue": true,
@@ -374,15 +335,15 @@
                         "src": "/img/environnement/graph_3-4.png"
                     },
                     "top": "36.5%",
-                    "left": "64.1489%"
+                    "left": "64.468%"
                 },
                 {
                     "href": "",
                     "width": 70,
                     "style": "background:black",
                     "height": 15,
-                    "top": "79.1666%",
-                    "left": "80.4255%"
+                    "top": "78.8333%",
+                    "left": "81.0638%"
                 },
                 {
                     "href": "",
@@ -615,8 +576,8 @@
                     "style": "background:black",
                     "width": 70,
                     "height": 15,
-                    "top": "83.1666%",
-                    "left": "74.468%"
+                    "top": "83%",
+                    "left": "74.3617%"
                 }
             ]
         }
