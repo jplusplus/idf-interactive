@@ -181,32 +181,28 @@
                     "left": "70%"
                 },
                 {
-                    "href": "",
-                    "style": "background:black",
+                    "href": "http://www.ordif.com/repository/328/3282515264/16083495.pdf",
                     "width": 70,
                     "height": 15,
                     "top": "40%",
                     "left": "33.9361%"
                 },
                 {
-                    "href": "",
-                    "style": "background:black",
+                    "href": "http://www.ordif.com/repository/379/3799094989/16083495.pdf",
                     "width": 70,
                     "height": 15,
                     "top": "39.8333%",
                     "left": "56.3829%"
                 },
                 {
-                    "href": "",
-                    "style": "background:black",
+                    "href": "http://www.ordif.com/public/article_archiver/?id=16001",
                     "width": 70,
                     "height": 15,
                     "top": "39.1666%",
                     "left": "78.8297%"
                 },
                 {
-                    "href": "",
-                    "style": "background:black",
+                    "href": "http://www.ordif.com/public/ordif/",
                     "width": 70,
                     "height": 15,
                     "top": "92%",
@@ -280,20 +276,18 @@
                     "left": "30.1063%"
                 },
                 {
-                    "href": "",
-                    "style": "background:black",
-                    "width": 70,
-                    "height": 15,
-                    "top": "65.5%",
-                    "left": "33.5106%"
-                },
-                {
-                    "href": "",
-                    "style": "background:black",
+                    "href": "http://www.driee.ile-de-france.developpement-durable.gouv.fr/IMG/pdf/SRCAE_-_20130121_-_Synthese_SRCAE_IDF_cle28db44.pdf",
                     "width": 70,
                     "height": 15,
                     "top": "15.5%",
                     "left": "87.9787%"
+                },
+                {
+                    "href": "http://webissimo.developpement-durable.gouv.fr/IMG/pdf/SRE_IDF_final_cle09f42c.pdf",
+                    "width": 70,
+                    "height": 15,
+                    "top": "65.5%",
+                    "left": "33.5106%"
                 }
             ]
         },
@@ -338,28 +332,32 @@
                     "left": "64.468%"
                 },
                 {
-                    "href": "",
+                    "href": "http://www.driee.ile-de-france.developpement-durable.gouv.fr/le-schema-regional-de-coherence-r390.html",
                     "width": 70,
-                    "style": "background:black",
                     "height": 15,
-                    "top": "78.8333%",
-                    "left": "81.0638%"
+                    "top": "68%",
+                    "left": "8.9361%"
                 },
                 {
-                    "href": "",
-                    "style": "background:black",
+                    "href": "http://www.driee.ile-de-france.developpement-durable.gouv.fr/IMG/pdf/Carte-reservoirs-biodiversite_cle0d6762.pdf",
                     "width": 70,
                     "height": 15,
                     "top": "88.8333%",
                     "left": "9.0425%"
                 },
                 {
-                    "href": "",
-                    "style": "background:black",
                     "width": 70,
+                    "href": "http://www.natureparif.fr/",
                     "height": 15,
-                    "top": "68%",
-                    "left": "8.9361%"
+                    "top": "72.1666%",
+                    "left": "47.9787%"
+                },
+                {
+                    "width": 70,
+                    "href": "http://www.aev-iledefrance.fr/",
+                    "height": 15,
+                    "top": "78.8333%",
+                    "left": "81.0638%"
                 }
             ]
         },
@@ -412,20 +410,18 @@
                     "left": "57.6595%"
                 },
                 {
-                    "href": "",
-                    "style": "background:black",
-                    "width": 70,
-                    "height": 15,
-                    "top": "92.6666%",
-                    "left": "36.8085%"
-                },
-                {
-                    "href": "",
-                    "style": "background:black",
+                    "href": "http://www.iau-idf.fr/fileadmin/Etudes/etude_971/Schema_environnemental_des_berges_des_voies_navigables_d_Ile-de-France.pdf",
                     "width": 70,
                     "height": 15,
                     "top": "92.6666%",
                     "left": "9.468%"
+                },
+                {
+                    "href": "http://www.iledefrance.fr/missions-et-competences/environnement/contre-les-pollutions/leau-cest-la-vie/",
+                    "width": 70,
+                    "height": 15,
+                    "top": "92.6666%",
+                    "left": "36.8085%"
                 }
             ]
         },
@@ -480,16 +476,14 @@
                     "left": "70.4255%"
                 },
                 {
-                    "href": "",
-                    "style": "background:black",
+                    "href": "http://www.saveursparisidf.com/",
                     "width": 70,
                     "height": 15,
                     "top": "89.8333%",
                     "left": "42.4468%"
                 },
                 {
-                    "href": "",
-                    "style": "background:black",
+                    "href": "http://www.reseaurural.fr/files/contenus/5731/carte_des_territoires_agriurbains_2013.pdf",
                     "width": 70,
                     "height": 15,
                     "top": "67%",
@@ -568,8 +562,8 @@
                     "style": "background:black",
                     "width": 70,
                     "height": 15,
-                    "top": "51.1666%",
-                    "left": "73.1914%"
+                    "top": "51.5%",
+                    "left": "72.7659%"
                 },
                 {
                     "href": "",
