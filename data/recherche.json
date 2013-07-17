@@ -1,0 +1,505 @@
+{
+    "steps": [
+        {
+            "name": "launcher",
+            "/picture": "/img/recherche/ref/0.png",
+            "no-index": true,
+            "no-title": true,
+            "spots": [
+                {
+                    "picture": {
+                        "src": "/img/recherche/graph_0-1.png"
+                    },
+                    "top": "23.5%",
+                    "left": "0%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/recherche/graph_0-2.png"
+                    },
+                    "top": "37.6666%",
+                    "left": "0.2127%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/recherche/graph_0-3.png"
+                    },
+                    "top": "68.6666%",
+                    "left": "0%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/recherche/graph_0-4.png"
+                    },
+                    "queue": 750,
+                    "entrance": "right",
+                    "top": "41%",
+                    "left": "2.1276%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/recherche/graph_0-5.png"
+                    },
+                    "queue": 400,
+                    "entrance": "right",
+                    "top": "25%",
+                    "left": "18.9361%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/recherche/graph_0-7.png"
+                    },
+                    "entrance": "right",
+                    "queue": 650,
+                    "top": "11.8333%",
+                    "left": "45%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/recherche/graph_0-8.png"
+                    },
+                    "entrance": "left",
+                    "queue": 500,
+                    "top": "23.5%",
+                    "left": "64.7872%"
+                },  
+                {
+                    "picture": {
+                        "src": "/img/recherche/graph_0-12.png"
+                    },
+                    "entrance": "left",
+                    "queue": 200,
+                    "top": "66.3333%",
+                    "left": "62.9787%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/recherche/graph_0-9.png"
+                    },
+                    "entrance": "right",
+                    "queue": 350,
+                    "top": "66.6666%",
+                    "left": "37.7659%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/recherche/graph_0-10.png"
+                    },
+                    "entrance": "right",
+                    "queue": 300,
+                    "top": "69.3333%",
+                    "left": "47.6595%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/recherche/graph_0-11.png"
+                    },
+                    "entrance": "right",
+                    "queue": 100,
+                    "top": "65.6666%",
+                    "left": "53.0851%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/recherche/graph_0-6.png"
+                    },
+                    "queue": 350,
+                    "entrance": "right",
+                    "top": "32.5%",
+                    "left": "27.3404%"
+                },
+                {
+                    "class": "app-title",
+                    "title": "Île-de-France",
+                    "sub-title": "Encourager</br>la recherche",
+                    "top": "75.6666%",
+                    "left": "2.234%"
+                },
+                {
+                    "width": 270,
+                    "height": 275,
+                    "class": "launcher",
+                    "href": "#step=1",
+                    "top": "57.1666%",
+                    "left": "50.3191%",
+                    "origin": "center"
+                },
+                {
+                    "class": "legend",
+                    "background": "/img/common/howto_pic_lancez.png",
+                    "height": 22,
+                    "left": "1.1702%",
+                    "top": "3%",
+                    "sub-title": "Lancez l’infographie"
+                },
+                {
+                    "class": "legend",
+                    "background": "/img/common/howto_pic_suivant.png",
+                    "height": 20,
+                    "left": "1.1702%",
+                    "top": "7.5%",
+                    "sub-title": "Passez d’une page à l’autre"
+                },
+                {
+                    "class": "legend",
+                    "background": "/img/common/howto-pic_chapitres.png",
+                    "height": 45,
+                    "left": "1.2765%",
+                    "top": "12.5%",
+                    "sub-title": "Sélectionnez directement<br />un chapitre"
+                }
+            ]
+        },
+        {
+            "/picture": "/img/recherche/ref/1.png",
+            "name": "Les Domaines <strong>d'intérêt majeur</strong>",
+            "hidden-content": "",
+            "spots": [
+                {
+                    "picture": {
+                        "src": "/img/recherche/graph_1-1.png"
+                    },
+                    "entrance": "fadeIn stepDown",
+                    "top": "14.6666%",
+                    "left": "4.3617%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/recherche/graph_1-2.png"
+                    },
+                    "entrance": "fadeIn",
+                    "queue": true,
+                    "top": "40.6666%",
+                    "left": "19.0425%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/recherche/graph_1-3.png"
+                    },
+                    "entrance": "fadeIn",
+                    "queue": true,
+                    "top": "49.3333%",
+                    "left": "4.7872%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/recherche/graph_1-4.png"
+                    },
+                    "entrance": "fadeIn",
+                    "queue": true,
+                    "top": "28.8333%",
+                    "left": "25.4255%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/recherche/graph_1-5.png"
+                    },
+                    "entrance": "fadeIn",
+                    "queue": true,
+                    "top": "49.3333%",
+                    "left": "39.7872%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/recherche/graph_1-6.png"
+                    },
+                    "entrance": "fadeIn",
+                    "queue": true,
+                    "top": "71%",
+                    "left": "25.1063%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/recherche/graph_1-7.png"
+                    },
+                    "entrance": "fadeIn stepLeft",
+                    "top": "15%",
+                    "left": "70%"
+                },
+                {
+                    "href": "http://www.ordif.com/repository/328/3282515264/16083495.pdf",
+                    "width": 70,
+                    "height": 15,
+                    "top": "40%",
+                    "left": "33.9361%"
+                },
+                {
+                    "href": "http://www.ordif.com/repository/379/3799094989/16083495.pdf",
+                    "width": 70,
+                    "height": 15,
+                    "top": "39.8333%",
+                    "left": "56.3829%"
+                },
+                {
+                    "href": "http://www.ordif.com/public/article_archiver/?id=16001",
+                    "width": 70,
+                    "height": 15,
+                    "top": "39.1666%",
+                    "left": "78.8297%"
+                },
+                {
+                    "href": "http://www.ordif.com/public/ordif/",
+                    "width": 70,
+                    "height": 15,
+                    "top": "92%",
+                    "left": "12.8723%"
+                }
+            ]
+        },
+        {
+            "/picture": "/img/recherche/ref/2.png",
+            "name": "<strong>Focus</strong> sur deux DIM : alimentation et inégalités",
+            "hidden-content": "",
+            "spots": [
+                {
+                    "picture": {
+                        "src": "/img/recherche/graph_2-1.png"
+                    },
+                    "entrance": "fadeIn",
+                    "top": "15.1666%",
+                    "left": "5.6382%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/recherche/graph_2-2.png"
+                    },
+                    "entrance": "fadeIn stepUp",
+                    "queue": true,
+                    "top": "29%",
+                    "left": "5.851%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/recherche/graph_2-3.png"
+                    },
+                    "entrance": "fadeIn",
+                    "queue": true,
+                    "top": "15%",
+                    "left": "50.7446%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/recherche/graph_2-4.png"
+                    },
+                    "entrance": "fadeIn stepUp",
+                    "queue": true,
+                    "top": "28.6666%",
+                    "left": "51.9148%"
+                },
+                {
+                    "href": "http://www.driee.ile-de-france.developpement-durable.gouv.fr/IMG/pdf/SRCAE_-_20130121_-_Synthese_SRCAE_IDF_cle28db44.pdf",
+                    "width": 70,
+                    "height": 15,
+                    "top": "15.5%",
+                    "left": "87.9787%"
+                },
+                {
+                    "href": "http://webissimo.developpement-durable.gouv.fr/IMG/pdf/SRE_IDF_final_cle09f42c.pdf",
+                    "width": 70,
+                    "height": 15,
+                    "top": "65.5%",
+                    "left": "33.5106%"
+                }
+            ]
+        },
+        {
+            "/picture": "/img/recherche/ref/3.png",
+            "name": "Soutien aux <strong>chercheurs</strong>",
+            "hidden-content": "",
+            "spots": [
+                {
+                    "entrance": "fadeIn stepDown",
+                    "picture": {
+                        "src": "/img/recherche/graph_3-1.png"
+                    },
+                    "top": "12%",
+                    "left": "7.7659%"
+                },
+                {
+                    "queue": true,
+                    "entrance": "fadeIn",
+                    "picture": {
+                        "src": "/img/recherche/graph_3-2.png"
+                    },
+                    "top": "32.3333%",
+                    "left": "7.1276%"
+                },
+                {
+                    "queue": true,
+                    "picture": {
+                        "src": "/img/recherche/graph_3-3.png"
+                    },
+                    "entrance": "fadeIn stepUp",
+                    "top": "71.8333%",
+                    "left": "7.0212%"
+                },
+                {
+                    "href": "http://www.driee.ile-de-france.developpement-durable.gouv.fr/le-schema-regional-de-coherence-r390.html",
+                    "width": 70,
+                    "height": 15,
+                    "top": "68%",
+                    "left": "8.9361%"
+                },
+                {
+                    "href": "http://www.driee.ile-de-france.developpement-durable.gouv.fr/IMG/pdf/Carte-reservoirs-biodiversite_cle0d6762.pdf",
+                    "width": 70,
+                    "height": 15,
+                    "top": "88.8333%",
+                    "left": "9.0425%"
+                },
+                {
+                    "width": 70,
+                    "href": "http://www.natureparif.fr/",
+                    "height": 15,
+                    "top": "72.1666%",
+                    "left": "47.9787%"
+                },
+                {
+                    "width": 70,
+                    "href": "http://www.aev-iledefrance.fr/",
+                    "height": 15,
+                    "top": "78.8333%",
+                    "left": "81.0638%"
+                }
+            ]
+        },
+        {
+            "/picture": "/img/recherche/ref/4.png",
+            "name": "Soutien aux <strong>équipements scientifiques</strong>",
+            "hidden-content": "",
+            "spots": [
+                {
+                    "entrance": "fadeIn",
+                    "picture": {
+                        "src": "/img/recherche/graph_4-1.png"
+                    },
+                    "top": "16.8333%",
+                    "left": "9.0425%"
+                },
+                {
+                    "entrance": "fadeIn",
+                    "queue": true,
+                    "picture": {
+                        "src": "/img/recherche/graph_4-2.png"
+                    },
+                    "top": "17.1666%",
+                    "left": "65.851%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/recherche/graph_4-3.png"
+                    },
+                    "top": "38.8333%",
+                    "left": "6.8085%"
+                },
+                {
+                    "entrance": "fadeIn stepUp",
+                    "queue": true,
+                    "picture": {
+                        "src": "/img/recherche/graph_4-4.png"
+                    },
+                    "top": "46.8333%",
+                    "left": "6.1702%"
+                },
+                {
+                    "entrance": "fadeIn stepUp",
+                    "queue": true,
+                    "picture": {
+                        "src": "/img/recherche/graph_4-5.png"
+                    },
+                    "top": "46.3333%",
+                    "left": "27.6595%"
+                },
+                {
+                    "entrance": "fadeIn stepUp",
+                    "queue": true,
+                    "picture": {
+                        "src": "/img/recherche/graph_4-6.png"
+                    },
+                    "top": "46.6666%",
+                    "left": "50.1063%"
+                },
+                {
+                    "entrance": "fadeIn stepUp",
+                    "queue": true,
+                    "picture": {
+                        "src": "/img/recherche/graph_4-7.png"
+                    },
+                    "top": "46.6666%",
+                    "left": "73.5106%"
+                },
+                {
+                    "href": "http://www.iau-idf.fr/fileadmin/Etudes/etude_971/Schema_environnemental_des_berges_des_voies_navigables_d_Ile-de-France.pdf",
+                    "width": 70,
+                    "height": 15,
+                    "top": "92.6666%",
+                    "left": "9.468%"
+                },
+                {
+                    "href": "http://www.iledefrance.fr/missions-et-competences/recherche/contre-les-pollutions/leau-cest-la-vie/",
+                    "width": 70,
+                    "height": 15,
+                    "top": "92.6666%",
+                    "left": "36.8085%"
+                }
+            ]
+        },
+        {
+            "/picture": "/img/recherche/ref/5.png",
+            "name": "Encourager le dialogue <strong>entre sciences et citoyens</strong>",
+            "hidden-content": "",
+            "spots": [
+                {
+                    "entrance": "fadeIn stepDown",
+                    "queue": true,
+                    "picture": {
+                        "src": "/img/recherche/graph_5-1.png"
+                    },
+                    "top": "15.1666%",
+                    "left": "10.7446%"
+                },
+                {
+                    "entrance": "fadeIn",
+                    "queue": true,
+                    "picture": {
+                        "src": "/img/recherche/graph_5-2.png"
+                    },
+                    "top": "14.1666%",
+                    "left": "49.468%"
+                },
+                {
+                    "entrance": "fadeIn",
+                    "queue": true,
+                    "picture": {
+                        "src": "/img/recherche/graph_5-3.png"
+                    },
+                    "top": "41%",
+                    "left": "7.234%"
+                },
+                {
+                    "entrance": "fadeIn",
+                    "queue": true,
+                    "picture": {
+                        "src": "/img/recherche/graph_5-4.png"
+                    },
+                    "top": "41%",
+                    "left": "49.468%"
+                },
+                {
+                    "href": "http://www.saveursparisidf.com/",
+                    "width": 70,
+                    "height": 15,
+                    "top": "89.8333%",
+                    "left": "42.4468%"
+                },
+                {
+                    "href": "http://www.reseaurural.fr/files/contenus/5731/carte_des_territoires_agriurbains_2013.pdf",
+                    "width": 70,
+                    "height": 15,
+                    "top": "67%",
+                    "left": "56.4893%"
+                }
+            ]
+        }
+    ]
+}
