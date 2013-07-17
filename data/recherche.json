@@ -109,7 +109,7 @@
                     "left": "27.3404%"
                 },
                 {
-                    "class": "app-title",
+                    "class": "app-title no-shadow",
                     "title": "Île-de-France",
                     "sub-title": "Encourager</br>la recherche",
                     "top": "75.6666%",
