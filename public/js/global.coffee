@@ -1,5 +1,5 @@
 # Dependencies
-# Well, it's jQuery! 
+# Well, it's jQuery!
 #= require vendor/jquery-1.7.1.min.js
 
 # The great Modernizr to monitor feature support
@@ -31,21 +31,27 @@
   currentStep = 0
   scrollDuration = 300
   defaultEntranceDuration = 800
+  maxWidth  = maxHeight = null
 
   ###*
-   * Initializrs the page 
+   * Initializrs the page
   ###
   init = ->
     buildUI()
     buildAnimations()
+    # Get container sizes
+    maxWidth  = $ui.width()
+    maxHeight = $ui.height()
+    # Resize container and its spots
+    scaleContainer()
     stepsPosition()
     spotsSize()
     spotsPosition()
-    bindUI()    
+    bindUI()
     # Remove loading overlay
-    $("body").removeClass "js-loading"    
+    $uis.body.removeClass "js-loading"
     # Read the step from the hash
-    readStepFromHash()    
+    readStepFromHash()
     # Activate fast click to avoid tap delay on touch screen
     new FastClick(document.body)
 
@@ -56,6 +62,8 @@
   buildUI = ->
     $ui = $("#container")
     $uis =
+      wdw               : $(window)
+      body              : $("body")
       steps             : $ui.find(".step")
       spots             : $ui.find(".spot")
       overflow          : $("#overflow")
@@ -83,7 +91,7 @@
 
 
   ###*
-   * Builds the animations array dynamicly to allow relative computation 
+   * Builds the animations array dynamicly to allow relative computation
    * @return {Array} List of animations
   ###
   buildAnimations = ->
@@ -141,6 +149,16 @@
         from: { transform: "rotate(0deg)" }
         to:   { transform: "rotate(-360deg)" }
 
+
+  ###*
+   * Scale the size of the container
+   * @return {Number} Scale applied to the container
+  ###
+  scaleContainer = ->
+    scale = Math.min 1, $uis.wdw.width() / maxWidth
+    $uis.overflow.css "transform", "scale(#{scale})"
+    scale
+
   ###*
    * Position every steps in the container
    * @return {Array} Steps list
@@ -148,25 +166,21 @@
   stepsPosition = ->
     $uis.steps.each (i, step) ->
       $step = $(step)
-      
-      # Do not position the first step
-      if i > 0
-        $previousStep = $uis.steps.eq(i - 1)
-        switch $uis.overflow.data("navigation")
-          when "vertical"     
-            $step.css "top", $previousStep.position().top + $previousStep.height()
-          else
-            $step.css "left", $previousStep.position().left + $previousStep.width()        
+      switch $uis.overflow.data("navigation")
+        when "vertical"
+          $step.css "top",  i * maxHeight
+        else
+          $step.css "left", i * maxWidth
 
   ###*
    * Resize every spots according its wrapper
    * @return {Array} Spots list
   ###
-  spotsSize = ->    
+  spotsSize = ->
     $uis.spots.each (i, spot) ->
       $spot = $(this)
-      $spot.css "width",  $spot.find("js-animation-wrapper").outerWidth()
-      $spot.css "height", $spot.find("js-animation-wrapper").outerHeight()
+      $spot.css "width",  $spot.find(".js-animation-wrapper").outerWidth()
+      $spot.css "height", $spot.find(".js-animation-wrapper").outerHeight()
 
 
   ###*
@@ -174,12 +188,12 @@
    * @return {Array} Spots list
   ###
   spotsPosition = ->
-    
+
     # Add a negative margin on each spot
     # (position the spot from its center)
     $uis.spots.each (i, spot) ->
       $spot = $(spot)
-      if $spot.data("origin") == "center" 
+      if $spot.data("origin") == "center"
         $spot.css "margin-left", $spot.outerWidth() / -2
         $spot.css "margin-top", $spot.outerHeight() / -2
 
@@ -198,11 +212,11 @@
    * @return {Object}       Keydown event
   ###
   keyboardNav = (event) ->
-    switch event.keyCode      
+    switch event.keyCode
       # Left and up
-      when 37, 38 then previousStep()      
+      when 37, 38 then previousStep()
       # Right and down
-      when 39, 40 then nextStep()      
+      when 39, 40 then nextStep()
       # Stop here for the other keys
       else return event
     event.preventDefault()
@@ -241,92 +255,97 @@
    * @return {Number}      New current step number
   ###
   goToStep = (step=0) ->
-    if step >= 0 and step < $uis.steps.length      
+    if step >= 0 and step < $uis.steps.length
       # Update the current step id
-      currentStep = 1 * step      
+      currentStep = 1 * step
       # Prevent scroll queing
-      jQuery.scrollTo.window().queue([]).stop()      
-      # And scroll to the current step
-      $ui.scrollTo $uis.steps.eq(currentStep), scrollDuration      
+      jQuery.scrollTo.window().queue([]).stop()
+      # Change the way to scroll according the navigation
+      switch $uis.overflow.data("navigation")
+        when "vertical"
+          params = 'top': maxHeight*currentStep, 'left': 0
+        else
+          params = 'left': maxWidth*currentStep, 'top': 0
+      # Then scroll
+      $ui.scrollTo params, scrollDuration
       # Remove current class
-      $uis.steps.removeClass("js-current").eq(currentStep).addClass "js-current"      
+      $uis.steps.removeClass("js-current").eq(currentStep).addClass "js-current"
       # Add a class to the body
-      $body = $("body")      
       # Is this the first step ?
-      $body.toggleClass "js-first", currentStep is 0   
+      $uis.body.toggleClass "js-first", currentStep is 0
       # Is this the last step ?
-      $body.toggleClass "js-last", currentStep is $uis.steps.length - 1
+      $uis.body.toggleClass "js-last", currentStep is $uis.steps.length - 1
       # Update the menu
       $uis.navitem.removeClass("active").filter("[data-step=#{currentStep}]").addClass("active")
       # Hides element with entrance
-      $uis.steps.eq(currentStep).find(".spot[data-entrance] .js-animation-wrapper").addClass "hidden"      
+      $uis.steps.eq(currentStep).find(".spot[data-entrance] .js-animation-wrapper").addClass "hidden"
       # Clear all spot animations
-      clearSpotAnimations()      
+      clearSpotAnimations()
       # Add the entrance animation after the scroll
-      setTimeout doEntranceAnimations, scrollDuration   
+      setTimeout doEntranceAnimations, scrollDuration
       # Update the tiny scroll
-      updateTinyScroll()   
+      updateTinyScroll()
     return currentStep
 
   ###*
    * Set step animations
   ###
-  doEntranceAnimations = ->    
+  doEntranceAnimations = ->
     # Launch hotspot background animations
-    doSpotAnimations()    
+    doSpotAnimations()
     # Find the current step
-    $step = $uis.steps.filter(".js-current")    
+    $step = $uis.steps.filter(".js-current")
     # Number of element behind before animate the entrance
-    queue = 0    
+    queue = 0
     # Find spots with animated entrance
     $step.find(".spot[data-entrance]").each (i, elem) ->
-      $elem = $(elem)      
+      $elem = $(elem)
       # Get tge data from the element
       data = $elem.data()
       # Works on an animation wrapper
-      $wrapper = $elem.find(".js-animation-wrapper")      
+      $wrapper = $elem.find(".js-animation-wrapper")
       # Get the animation keys of the given element
       animationKeys = data.entrance.split(" ")
       # Clear existing timeout
-      clearTimeout $wrapper.t  if $wrapper.t  
+      clearTimeout $wrapper.t  if $wrapper.t
       # Initial layout
       from = to = {}
       # For each animation key
-      $.each animationKeys, (i, animationKey)->        
+      $.each animationKeys, (i, animationKey)->
         # Get the animation (and create a clone object)
-        animation = $.extend true, {}, entrance[animationKey]      
+        animation = $.extend true, {}, entrance[animationKey]
         # If the animation exist
         if animation?
           # Merge the layout object recursively
           from = $.extend true, animation.from, from
           to   = $.extend true, animation.to, to
-          
+
       # Stop every current animations and show the element
       # Also, set the original style if needed
-      $wrapper.stop().css(from).removeClass "hidden" 
+      $wrapper.stop().css(from).removeClass "hidden"
       # Only if a "to" layout exists
-      if to?     
+      if to?
         # If there is a queue
         queue++  if $elem.data("queue")?
-        # Take the element entrance duration 
+        # Take the element entrance duration
         # or default duration
-        duration = data.entranceDuration or defaultEntranceDuration  
+        duration = data.entranceDuration or defaultEntranceDuration
 
         # explicite duration
         if $elem.data("queue") > 1
           entranceDelay = $elem.data("queue")
         else
-          # calculate the entrance duration according the number of element before   
+          # calculate the entrance duration according the number of element before
           entranceDelay = duration * queue
 
         # Wait a duration...
-        $wrapper.t = setTimeout( 
+        $wrapper.t = setTimeout(
           # Closure function to transmit "to"
           (
             (to)->
-              ->          
+              ->
                 # ...before animate the wrapper
-                $wrapper.animate to, duration       
+                $wrapper.animate to, duration
           )(to)
         # ...and increase the queue
         , entranceDelay)
@@ -347,24 +366,24 @@
    * Trigger spots background animations in the current step
    * @return {Array} List of the spots
   ###
-  doSpotAnimations = ->    
+  doSpotAnimations = ->
     # Find the current step
-    $step = $uis.steps.filter(".js-current")    
+    $step = $uis.steps.filter(".js-current")
     # Find its spots
     $spots = $step.find(".spot")
-    
+
     # On each spot, create an animation
     $spots.each (i, spot) ->
       data = $(spot).data()
       requestField = "d"
-      
+
       # Is there a background and an animation on it
-      if data["background"] and data["backgroundDirection"] isnt `undefined`          
+      if data["background"] and data["backgroundDirection"] isnt `undefined`
         # Reset background position
-        $(spot).find(".js-animation-wrapper").css "background-position", "0 0"        
+        $(spot).find(".js-animation-wrapper").css "background-position", "0 0"
         # Clear existing request animation frame
         window.cancelAnimationFrame spot[requestField]  if spot[requestField]
-        requestParams = closureAnimation(spot, requestField, renderSpotAnimation)        
+        requestParams = closureAnimation(spot, requestField, renderSpotAnimation)
         # Add animation frame with a closure function
         spot[requestField] = window.requestAnimationFrame(requestParams)
 
@@ -373,14 +392,14 @@
    * @param  {Object} spot Spot html element
    * @return {Array}       Directions array
   ###
-  renderSpotAnimation = (spot) ->    
+  renderSpotAnimation = (spot) ->
     $spot = $(spot)
-    $wrapper = $spot.find ".js-animation-wrapper"  
+    $wrapper = $spot.find ".js-animation-wrapper"
     data = $spot.data()
     directions = ("" + data.backgroundDirection).split(" ")
     speed = data.backgroundSpeed or 3
     lastRAF = spot.lastRAF or 0
-    
+
     # Skip this render if its too early
     return false if new Date().getTime() - lastRAF < (data.backgroundFrequency or 0)
 
@@ -398,7 +417,7 @@
           $wrapper.css "backgroundPositionY", "-=" + speed
         when "bottom"
           $wrapper.css "backgroundPositionY", "+=" + speed
-        else          
+        else
           # We receive a number,
           # we interpret it as a direction degree
           unless isNaN(direction)
@@ -413,21 +432,21 @@
   ###*
    * Closure function to execute the given function within the receive element
    * @param  {Object}   elem         HTML element
-   * @param  {String}   requestField Name of the field into elem where record the animation frame 
+   * @param  {String}   requestField Name of the field into elem where record the animation frame
    * @param  {Function} func         Callback function of the animation
   ###
   closureAnimation = (elem, requestField, func) ->
     ->
-      # Continue to the next frame                  
+      # Continue to the next frame
       # Add animation frame with a closure function
-      elem[requestField] = window.requestAnimationFrame(closureAnimation(elem, requestField, func))  if elem[requestField]      
+      elem[requestField] = window.requestAnimationFrame(closureAnimation(elem, requestField, func))  if elem[requestField]
       # Apply the animation render
-      func 
+      func
 
   ###*
-   * Update a tiny scroll in the to left corner   
+   * Update a tiny scroll in the to left corner
   ###
-  updateTinyScroll = ->  
+  updateTinyScroll = ->
     # If the tiny scroll exists
     if $uis.tinyScroll.length
       # Fixed value
@@ -445,9 +464,7 @@
   ###*
    * Bind the windows rezie event
   ###
-  resize = -> 
-    stepsPosition()
-    spotsPosition()
+  resize = -> scaleContainer()
 
   ###*
    * Read the parameters into the location hash using the following format:
