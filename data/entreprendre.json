@@ -1,0 +1,506 @@
+{
+    "steps": [
+        {
+            "no-index": true,
+            "no-title": true,
+            "spots": [
+                {
+                    "left": "0%",
+                    "top": "12.5%",
+                    "entrance": "left",
+                    "queue": 200,
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img1-11.png"
+                    }
+                },
+                {
+                    "left": "0%",
+                    "entrance": "left",
+                    "queue": 200,
+                    "top": "30%",
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img1-10.png"
+                    }
+                },
+                {
+                    "left": "4.468%",
+                    "entrance": "left",
+                    "queue": 300,
+                    "top": "24.5%",
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img1-5.png"
+                    }
+                },
+                {
+                    "left": "28.617%",
+                    "queue": 250,
+                    "entrance": "left",
+                    "top": "31.8333%",
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img1-6.png"
+                    }
+                },
+                {
+                    "left": "60.7446%",
+                    "queue": 350,
+                    "entrance": "left",
+                    "top": "33%",
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img1-7.png"
+                    }
+                },
+                {
+                    "left": "70.1063%",
+                    "entrance": "left",
+                    "queue": 450,
+                    "top": "23.3333%",
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img1-8.png"
+                    }
+                },
+                {
+                    "entrance": "left",
+                    "left": "81.5957%",
+                    "queue": 450,
+                    "top": "30.1666%",
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img1-9.png"
+                    }
+                },
+                {
+                    "queue": 650,
+                    "left": "55.2127%",
+                    "entrance": "left",
+                    "top": "47%",
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img1-13.png"
+                    }
+                },
+                {
+                    "queue": 650,
+                    "left": "24.8936%",
+                    "entrance": "left",
+                    "top": "49.8333%",
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img1-3.png"
+                    }
+                },
+                {
+                    "left": "44.5744%",
+                    "top": "59.1666%",
+                    "queue": 800,
+                    "entrance": "left",
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img1-12.png"
+                    }
+                },
+                {
+                    "left": "52.7659%",
+                    "queue": 720,
+                    "top": "55%",
+                    "entrance": "left",
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img1-2.png"
+                    }
+                },
+                {
+                    "left": "2.1276%",
+                    "top": "41%",
+                    "queue": 450,
+                    "entrance": "left",
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img1-4.png"
+                    }
+                },
+                {
+                    "left": "76.7021%",
+                    "top": "59.1666%",
+                    "entrance": "left",
+                    "queue": 700,
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img1-1.png"
+                    }
+                },
+                {
+                    "class": "app-title",
+                    "title": "Île-de-France",
+                    "sub-title": "Entreprendre",
+                    "top": "81.6666%",
+                    "left": "2.234%"
+                },
+                {
+                    "width": 270,
+                    "height": 275,
+                    "class": "launcher",
+                    "href": "#step=1",
+                    "top": "56.1666%",
+                    "left": "49.8936%",
+                    "origin": "center"
+                },
+                {
+                    "class": "legend",
+                    "background": "/img/common/howto_pic_lancez.png",
+                    "height": 22,
+                    "left": "2.1276%",
+                    "top": "2.6666%",
+                    "sub-title": "Lancez l’application"
+                },
+                {
+                    "class": "legend",
+                    "background": "/img/common/howto_pic_suivant.png",
+                    "height": 20,
+                    "left": "2.0212%",
+                    "top": "7.5%",
+                    "sub-title": "Passez d’une page à l’autre"
+                },
+                {
+                    "class": "legend",
+                    "background": "/img/common/howto-pic_chapitres.png",
+                    "height": 45,
+                    "left": "2.1276%",
+                    "top": "12%",
+                    "sub-title": "Sélectionnez directement<br />un chapitre"
+                }
+            ]
+        },
+        {
+            "name": "De <strong>multiples leviers</strong> de soutien",
+            "spots": [
+                {
+                    "left": "39.468%",
+                    "top": "46.5%",
+                    "entrance":"fadeIn",
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img2-9.png"
+                    },
+                    "class": "fg"
+                },
+                {
+                    "left": "1.1702%",
+                    "top": "11.8333%",
+                    "entrance":"fadeIn",
+                    "queue": true,
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img2-1.png"
+                    }
+                },
+                {
+                    "left": "41.9148%",
+                    "top": "35%",
+                    "entrance":"fadeIn",
+                    "queue": true,
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img2-4.png"
+                    }
+                },
+                {
+                    "left": "14.2553%",
+                    "top": "65.5%",
+                    "entrance":"fadeIn",
+                    "queue": true,
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img2-3.png"
+                    }
+                },
+                {
+                    "left": "5.6382%",
+                    "top": "37.3333%",
+                    "entrance":"fadeIn",
+                    "queue": true,
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img2-2.png"
+                    }
+                },
+                {
+                    "left": "47.3404%",
+                    "top": "38.5%",
+                    "entrance":"fadeIn",
+                    "queue": true,
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img2-5.png"
+                    }
+                },
+                {
+                    "left": "63.5106%",
+                    "top": "48%",
+                    "entrance":"fadeIn",
+                    "queue": true,
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img2-8.png"
+                    }
+                },
+                {
+                    "left": "47.5531%",
+                    "top": "57.1666%",
+                    "entrance":"fadeIn",
+                    "queue": true,
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img2-7.png"
+                    }
+                },
+                {
+                    "left": "30.6382%",
+                    "top": "48.6666%",
+                    "entrance":"fadeIn",
+                    "queue": true,
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img2-6.png"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Aider à <strong>à créer ou reprendre</strong> une entreprise",
+            "spots": [
+                {
+                    "left": "8.7234%",
+                    "top": "18.3333%",
+                    "entrance":"fadeIn stepDown",
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img3-1.png"
+                    }
+                },
+                {
+                    "left": "8.7234%",
+                    "top": "61.6666%",
+                    "entrance":"fadeIn stepUp",
+                    "queue": true,
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img3-2.png"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Aider à <strong>développer</strong> une entreprise",
+            "spots": [
+                {
+                    "left": "8.8297%",
+                    "top": "18%",
+                    "entrance":"fadeIn",
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img4-1.png"
+                    }
+                },
+                {
+                    "left": "8.8297%",
+                    "top": "63.1666%",
+                    "entrance":"fadeIn",
+                    "queue": true,
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img4-2.png"
+                    }
+                },
+                {
+                    "left": "50.3191%",
+                    "top": "63.5%",
+                    "entrance":"fadeIn",
+                    "queue": true,
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img4-3.png"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Zoom sur <strong>PM'up</strong>",
+            "spots": [
+                {
+                    "left": "7.9787%",
+                    "top": "14.8333%",
+                    "entrance":"fadeIn",
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img5-1.png"
+                    }
+                },
+                {
+                    "left": "7.9787%",
+                    "top": "32.6666%",
+                    "entrance":"fadeIn",
+                    "queue": true,
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img5-2.png"
+                    }
+                },
+                {
+                    "left": "8.0851%",
+                    "top": "67.5%",
+                    "entrance":"fadeIn",
+                    "queue": true,
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img5-3.png"
+                    }
+                },
+                {
+                    "left": "50.4255%",
+                    "top": "15.5%",
+                    "entrance": "fadeIn stepLeft",
+                    "queue": true,
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img5-4.png"
+                    }
+                },
+                {
+                    "left": "50.7446%",
+                    "top": "66.1666%",
+                    "entrance": "fadeIn stepLeft",
+                    "queue": true,
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img5-5.png"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Valoriser la capacité d'<strong>innovation</strong>",
+            "spots": [
+                {
+                    "left": "8.0851%",
+                    "top": "15.3333%",
+                    "entrance":"fadeIn",
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img6-1.png"
+                    }
+                },
+                {
+                    "left": "8.5106%",
+                    "top": "31.6666%",
+                    "entrance":"fadeIn",
+                    "queue": true,
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img6-2.png"
+                    }
+                },
+                {
+                    "left": "34.6808%",
+                    "top": "16%",
+                    "entrance":"fadeIn",
+                    "queue": true,
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img6-3.png"
+                    }
+                },
+                {
+                    "left": "35.6382%",
+                    "top": "42.3333%",
+                    "entrance":"fadeIn",
+                    "queue": true,
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img6-4.png"
+                    }
+                },
+                {
+                    "left": "7.6595%",
+                    "top": "64.5%",
+                    "entrance":"fadeIn stepUp",
+                    "queue": true,
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img6-5.png"
+                    }
+                },
+                {
+                    "left": "69.1489%",
+                    "top": "48.6666%",
+                    "entrance":"fadeIn",
+                    "queue": true,
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img6-6.png"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Des aides <strong>sectorisées</strong>",
+            "spots": [
+                {
+                    "left": "5.6382%",
+                    "top": "15.1666%",
+                    "entrance":"fadeIn stepDown",
+                    "queue": true,
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img7-1.png"
+                    }
+                },
+                {
+                    "left": "26.3829%",
+                    "top": "13.8333%",
+                    "entrance":"fadeIn stepDown",
+                    "queue": true,
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img7-2.png"
+                    }
+                },
+                {
+                    "left": "67.234%",
+                    "top": "16.1666%",
+                    "entrance":"fadeIn stepDown",
+                    "queue": true,
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img7-3.png"
+                    }
+                },
+                {
+                    "left": "5.851%",
+                    "top": "61.1666%",
+                    "entrance":"fadeIn",
+                    "queue": true,
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img7-4.png"
+                    }
+                },
+                {
+                    "left": "50.9574%",
+                    "top": "62.3333%",
+                    "entrance":"fadeIn",
+                    "queue": true,
+                    "picture": {
+                        "alt": "",
+                        "src": "/img/entreprendre/img7-5.png"
+                    }
+                }
+            ]
+        }
+    ]
+}
