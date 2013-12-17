@@ -77,7 +77,8 @@ module.exports.locals =
    * @return {String}         Input string as plain text
   ###
   strip_tags: (input, allowed) ->
-    
+    # short fail
+    return unless input?    
     # http://kevin.vanzonneveld.net
     allowed = (((allowed or "") + "").toLowerCase().match(/<[a-z][a-z0-9]*>/g) or []).join("") # making sure the allowed arg is a string containing only tags in lowercase (<a><b><c>)
     tags = /<\/?([a-z][a-z0-9]*)\b[^>]*>/g
