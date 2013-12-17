@@ -12,6 +12,7 @@ _       = require('underscore')
 program
     .version('0.0.1')
     .option('-d, --dir [path]', 'Path to input images folder')
+    .option('-o, --out [path]', 'Path to output images folder')
     .parse(process.argv)
 
 class ConfigurationBuilder
@@ -24,20 +25,19 @@ class ConfigurationBuilder
 
     build: =>
         for file in @listDir()
-            matches = file.match(/(\d+)/)
-            if matches? and matches.length is 2
+            matches = file.match(/(\d+)/g)
+            if matches? and matches.length > 0
                 [step_nb, image_nb] = matches
                 step_nb = parseInt step_nb
-                @steps[step_nb]  = @steps[step_nb]
                 @steps[step_nb] ?=
                     spots: []
                     name: ""
 
                 @steps[step_nb].spots.push 
-                    left: "#{image_nb}%"
-                    top:  "#{image_nb}%"
+                    left: "#{image_nb or 0}%"
+                    top:  "#{image_nb or 0}%"
                     picture:
-                        src: file
+                        src: "#{@out}/#{file}"
                         alt: ""
         conf = steps: _.map @steps, (v,k)-> v
         console.log JSON.stringify conf
