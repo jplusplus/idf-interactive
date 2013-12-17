@@ -46,6 +46,5 @@ dir = program.dir
 unless dir
     throw new Error('Input folder option is require (-d, --dir)')
 
-
 builder = new ConfigurationBuilder(dir, program.out)
 builder.build()
