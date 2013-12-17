@@ -14,7 +14,6 @@ program
     .option('-d, --dir [path]', 'Path to input images folder')
     .parse(process.argv)
 
-
 class ConfigurationBuilder
 
     constructor: (@inputDir, @out)->
