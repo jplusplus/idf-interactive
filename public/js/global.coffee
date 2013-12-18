@@ -26,6 +26,9 @@
 # Patch the requestAnimationFrame function for better compatibility
 #= require vendor/rAF.js
 
+# Allow responsive iframe
+#= require vendor/jquery.responsiveiframe.js
+
 (($, window) ->
   $ui = $uis = null
   currentStep = 0
@@ -48,6 +51,9 @@
     spotsSize()
     spotsPosition()
     bindUI()
+    # Allow resizable iframe
+    window.ri = responsiveIframe()
+    ri.allowResponsiveEmbedding()
     # Remove loading overlay
     $uis.body.removeClass "js-loading"
     # Read the step from the hash
@@ -156,6 +162,8 @@
   ###
   scaleContainer = ->
     scale = Math.min 1, $uis.wdw.width() / maxWidth
+    # Allow the parent iframe to fits with the container
+    $uis.body.css "min-height", $uis.overflow.height() * scale
     $uis.overflow.css "transform", "scale(#{scale})"
     scale
 
