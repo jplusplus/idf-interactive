@@ -25,15 +25,15 @@ html
         h4 Votre navigateur <strong>est trop ancien</strong>
         p <a href="http://browsehappy.com/">Mettez à jour votre navigateur</a> ou <a href="http://www.google.com/chromeframe/?redirect=true">installez Google Chrome Frame</a> pour accéder à cette page.
 
-    
+
     #overflow(data-navigation=data.navigation || "horizontal")
         include widget/menu.jade
         #container
             block content
-                                                
+
     != js('global')
     if debugMode
-        script(src="/js/vendor/jquery-ui.min.js", type="text/javascript")          
+        script(src="/js/vendor/jquery-ui.min.js", type="text/javascript")
         != js('debug')
 
     block scripts
