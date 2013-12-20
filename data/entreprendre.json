@@ -231,7 +231,7 @@
                     }
                 },
                 {
-                    "left": "47.3404%",
+                    "left": "47.5531%",
                     "top": "38.5%",
                     "entrance": "fadeIn",
                     "queue": true,
@@ -244,17 +244,15 @@
                     "left": "63.5106%",
                     "top": "48%",
                     "entrance": "fadeIn",
-                    "queue": true,
                     "picture": {
                         "alt": "",
                         "src": "/img/entreprendre/img2-8.png"
                     }
                 },
                 {
-                    "left": "47.5531%",
-                    "top": "57.1666%",
+                    "left": "47.6595%",
+                    "top": "57%",
                     "entrance": "fadeIn",
-                    "queue": true,
                     "picture": {
                         "alt": "",
                         "src": "/img/entreprendre/img2-7.png"
@@ -264,7 +262,6 @@
                     "left": "30.6382%",
                     "top": "48.6666%",
                     "entrance": "fadeIn",
-                    "queue": true,
                     "picture": {
                         "alt": "",
                         "src": "/img/entreprendre/img2-6.png"
@@ -294,7 +291,7 @@
             ]
         },
         {
-            "name": "Aider à <strong>à créer ou reprendre</strong> une entreprise",
+            "name": "Aider à <strong>créer ou reprendre</strong> une entreprise",
             "hidden-content": "<p>Pour aider à la création ou la reprise d’une entreprise, la Région île-de-France a mis en place des financements et des lieux spécifiques. </p><p>Il existe trois dispositifs de financements :</p><ul><li>Le micro-crédit Adie qui soutient annuellement plus de 1000 microcrédits. </li><li>Les Prêts d’honneur via le Réseau Entreprendre. Près de 1120 entreprises ont été financées par ce biais en 2012. </li><li>La Garantie Bancaire par le biais d’institutions telles que France Active et Initiative France pour les personnes en marge de l’emploi. D’autres institutions aident les commerçants et artisans comme Siagi-Région Île-de-France ou encore la Bpifrance pour les créateurs/ repreneurs de Petites et Moyennes entreprises et entreprises innovantes. </li></ul><p>La Région finance également 31 couveuses d’entreprises, 13 coopératives d’activité et d’emploi, soit près de 718 porteurs de projets accompagnés dans ce cadre. Les 16 incubateurs et 2 grands lieux de l’innovation hébergent plus de 300 nouveaux projets d’entreprises innovantes.</p>",
             "spots": [
                 {
@@ -441,6 +438,13 @@
                     "height": 20,
                     "top": "56.8333%",
                     "left": "49.0425%"
+                },
+                {
+                    "href": "#step=4",
+                    "width": 90,
+                    "height": 35,
+                    "top": "35.3333%",
+                    "left": "80.0638%"
                 }
             ]
         },
