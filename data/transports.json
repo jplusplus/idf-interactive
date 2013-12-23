@@ -1,0 +1,343 @@
+{
+    "steps": [
+        {
+            "no-index": true,
+            "no-title": true,
+            "spots": [
+                {
+                    "left": "0%",
+                    "top": "0%",
+                    "style": "opacity:0.6;",
+                    "picture": {
+                        "src": "/img/transports/img_0-0.png",
+                        "alt": ""
+                    }
+                },
+                {
+                    "left": "-9.5744%",
+                    "top": "-16%",
+                    "picture": {
+                        "src": "/img/transports/img_0-1.png",
+                        "alt": ""
+                    }
+                },
+                {
+                    "left": "-33.5106%",
+                    "top": "21.5%",
+                    "picture": {
+                        "src": "/img/transports/img_0-2.png",
+                        "alt": ""
+                    }
+                },
+                {
+                    "left": "27.8723%",
+                    "top": "40.5%",
+                    "picture": {
+                        "src": "/img/transports/img_0-3.png",
+                        "alt": ""
+                    }
+                },
+                {
+                    "class": "app-title",
+                    "title": "Île-de-France",
+                    "sub-title": "Transports",
+                    "top": "81.6666%",
+                    "left": "2.234%"
+                },
+                {
+                    "width": 270,
+                    "height": 275,
+                    "class": "launcher",
+                    "href": "#step=1",
+                    "top": "56.1666%",
+                    "left": "49.8936%",
+                    "origin": "center"
+                },
+                {
+                    "class": "legend",
+                    "background": "/img/common/howto_pic_lancez.png",
+                    "height": 22,
+                    "left": "2.1276%",
+                    "top": "3.3333%",
+                    "sub-title": "Lancez l’application"
+                },
+                {
+                    "class": "legend",
+                    "background": "/img/common/howto_pic_suivant.png",
+                    "height": 20,
+                    "left": "2.0212%",
+                    "top": "7.8333%",
+                    "sub-title": "Passez d’une page à l’autre"
+                },
+                {
+                    "class": "legend",
+                    "background": "/img/common/howto-pic_chapitres.png",
+                    "height": 45,
+                    "left": "2.1276%",
+                    "top": "12.3333%",
+                    "sub-title": "Sélectionnez directement<br />un chapitre"
+                }
+            ]
+        },
+        {
+            "spots": [
+                {
+                    "left": "0%",
+                    "top": "0%",
+                    "_picture": {
+                        "src": "/img/transports/1.png"
+                    }
+                },
+                {
+                    "left": "5.851%",
+                    "top": "20.1666%",
+                    "picture": {
+                        "src": "/img/transports/img_1-1.png",
+                        "alt": ""
+                    }
+                },
+                {
+                    "left": "29.1489%",
+                    "top": "20.5%",
+                    "picture": {
+                        "src": "/img/transports/img_1-2.png",
+                        "alt": ""
+                    }
+                },
+                {
+                    "left": "5.5319%",
+                    "top": "65.1666%",
+                    "picture": {
+                        "src": "/img/transports/img_1-3.png",
+                        "alt": ""
+                    }
+                },
+                {
+                    "left": "57.5531%",
+                    "top": "65.6666%",
+                    "picture": {
+                        "src": "/img/transports/img_1-4.png",
+                        "alt": ""
+                    }
+                }
+            ],
+            "name": "Les <strong>déplacements</strong> en Île-de-France</br>aujourd'hui et demain"
+        },
+        {
+            "spots": [
+                {
+                    "left": "0%",
+                    "top": "0%",
+                    "_picture": {
+                        "src": "/img/transports/2.png"
+                    }
+                },
+                {
+                    "left": "6.2765%",
+                    "top": "19.8333%",
+                    "picture": {
+                        "src": "/img/transports/img_2-1.png",
+                        "alt": ""
+                    }
+                },
+                {
+                    "left": "6.5957%",
+                    "top": "35.8333%",
+                    "picture": {
+                        "src": "/img/transports/img_2-2.png",
+                        "alt": ""
+                    }
+                },
+                {
+                    "left": "6.1702%",
+                    "top": "49%",
+                    "picture": {
+                        "src": "/img/transports/img_2-3.png",
+                        "alt": ""
+                    }
+                },
+                {
+                    "left": "24.2553%",
+                    "top": "48.8333%",
+                    "picture": {
+                        "src": "/img/transports/img_2-4.png",
+                        "alt": ""
+                    }
+                },
+                {
+                    "left": "41.5957%",
+                    "top": "49%",
+                    "picture": {
+                        "src": "/img/transports/img_2-5.png",
+                        "alt": ""
+                    }
+                },
+                {
+                    "left": "59.7872%",
+                    "top": "48.8333%",
+                    "picture": {
+                        "src": "/img/transports/img_2-6.png",
+                        "alt": ""
+                    }
+                },
+                {
+                    "left": "77.3404%",
+                    "top": "49%",
+                    "picture": {
+                        "src": "/img/transports/img_2-7.png",
+                        "alt": ""
+                    }
+                },
+                {
+                    "left": "96.5957%",
+                    "top": "68.5%",
+                    "picture": {
+                        "src": "/img/transports/img_2-8.png",
+                        "alt": ""
+                    }
+                }
+            ],
+            "name": "Le <strong>réseau actuel</strong> de transports franciliens</br> et les <strong>grands projets</strong>"
+        },
+        {
+            "spots": [
+                {
+                    "left": "0%",
+                    "top": "0%",
+                    "_picture": {
+                        "src": "/img/transports/3.png"
+                    }
+                },
+                {
+                    "left": "8.7234%",
+                    "top": "18.5%",
+                    "picture": {
+                        "src": "/img/transports/img_3-1.png",
+                        "alt": ""
+                    }
+                },
+                {
+                    "left": "29.8936%",
+                    "top": "17%",
+                    "picture": {
+                        "src": "/img/transports/img_3-2.png",
+                        "alt": ""
+                    }
+                },
+                {
+                    "left": "8.8297%",
+                    "top": "61.5%",
+                    "picture": {
+                        "src": "/img/transports/img_3-3.png",
+                        "alt": ""
+                    }
+                },
+                {
+                    "left": "40.6382%",
+                    "top": "59.3333%",
+                    "picture": {
+                        "src": "/img/transports/img_3-4.png",
+                        "alt": ""
+                    }
+                },
+                {
+                    "left": "66.8085%",
+                    "top": "61.6666%",
+                    "picture": {
+                        "src": "/img/transports/img_3-5.png",
+                        "alt": ""
+                    }
+                }
+            ],
+            "name": "Les modes de <strong>transport alternatifs</strong>"
+        },
+        {
+            "spots": [
+                {
+                    "left": "0%",
+                    "top": "0%",
+                    "_picture": {
+                        "src": "/img/transports/4.png"
+                    }
+                },
+                {
+                    "left": "9.6808%",
+                    "top": "16.3333%",
+                    "picture": {
+                        "src": "/img/transports/img_4-1.png",
+                        "alt": ""
+                    }
+                },
+                {
+                    "left": "42.5531%",
+                    "top": "16.5%",
+                    "picture": {
+                        "src": "/img/transports/img_4-2.png",
+                        "alt": ""
+                    }
+                },
+                {
+                    "left": "41.3829%",
+                    "top": "78.3333%",
+                    "picture": {
+                        "src": "/img/transports/img_4-3.png",
+                        "alt": ""
+                    }
+                }
+            ],
+            "name": "Des <strong>aides financières</strong> aux déplacements"
+        },
+        {
+            "spots": [
+                {
+                    "left": "0%",
+                    "top": "0%",
+                    "_picture": {
+                        "src": "/img/transports/5.png"
+                    }
+                },
+                {
+                    "left": "8.9361%",
+                    "top": "16%",
+                    "picture": {
+                        "src": "/img/transports/img_5-1.png",
+                        "alt": ""
+                    }
+                },
+                {
+                    "left": "9.0425%",
+                    "top": "44.5%",
+                    "picture": {
+                        "src": "/img/transports/img_5-2.png",
+                        "alt": ""
+                    }
+                },
+                {
+                    "left": "53.0851%",
+                    "top": "16.3333%",
+                    "picture": {
+                        "src": "/img/transports/img_5-3.png",
+                        "alt": ""
+                    }
+                },
+                {
+                    "left": "53.1914%",
+                    "top": "44.5%",
+                    "picture": {
+                        "src": "/img/transports/img_5-4.png",
+                        "alt": ""
+                    }
+                },
+                {
+                    "left": "51.7021%",
+                    "top": "71.1666%",
+                    "picture": {
+                        "src": "/img/transports/img_5-5.png",
+                        "alt": ""
+                    }
+                }
+            ],
+            "name": "Développer un <strong>fret écologique</strong>"
+        }
+    ]
+}
