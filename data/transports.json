@@ -128,7 +128,8 @@
                     "left": "71.8085%"
                 }
             ],
-            "name": "Les <strong>déplacements</strong> en Île-de-France</br>aujourd'hui et demain"
+            "name": "Les <strong>déplacements</strong> en Île-de-France</br>aujourd'hui et demain",
+            "hidden-content":"<p>Chaque jour, en moyenne, un Francilien effectue 4,2 déplacements, dans un rayon de 25 km. Le temps journalier moyen des déplacements est de 113 minutes.</p><p>Entre 2001 et 2010, les habitudes de déplacement des Franciliens ont évolué :</p><ul><li>La voiture qui représentait le mode le plus courant en 2001 avec 43,9% des déplacements passe au deuxième rang en 2010 avec 37,8% des déplacements. </li><li>La marche à pied passe elle de la seconde place en 2001 avec 34,1% des déplacements, à la première place en 2010 avec 38,7%. </li><li>Les transports collectifs voient leur part progresser, passant de 19,4% à 20,1%. Ils restent à la troisième place. </li><li>Malgré une augmentation de 0,2% les deux roues motorisés perdent une place, ils sont dépassés par le vélo qui passe de 0,9% à 1,6%. </li><li>Les autres transports restent stables à 0,4% en 2010. </li></ul><p>Aujourd’hui, 57% des déplacements se font en cœur d’agglomération, 22% au sein de l’agglomération centrale, 8% au sein des autres territoires.</br>Les déplacements entre le cœur d’agglomération et l’agglomération centrale représentent 8% des trajets contre 2% entre le cœur de l’agglomération et les autres territoires. Les déplacements entre l’agglomération centrale et les autres territoires représentent 3% des déplacements.</p><p>A l’horizon 2020, le plan de déplacements urbains de l’Île-de-France prévoit une augmentation générale des déplacements de l’ordre de 7%. Les transports collectifs (+20%), la marche et le vélo (+10%) sont les modes de déplacements qui devraient le plus évoluer. La part de la voiture et des deux roues motorisés devrait baisser de 2%.</p> "
         },
         {
             "spots": [
@@ -204,7 +205,8 @@
                     }
                 }
             ],
-            "name": "Le <strong>réseau actuel</strong> de transports franciliens</br> et les <strong>grands projets</strong>"
+            "name": "Le <strong>réseau actuel</strong> de transports franciliens</br> et les <strong>grands projets</strong>",
+            "hidden-content":"<p>Aujourd’hui, l’Île-de-France compte 1500 lignes de bus, 16 lignes de métro, 8 lignes de Transilien, 7 lignes de tramway, 5 lignes de RER et 1 ligne de T-Zen, soit environ 25 000 km de desserte.</p><p>La Région va investir 7 milliards d’euros entre 2013 et 2017, ce qui permettra de créer 57400 emplois sur 5 ans.</br>En 2013, les travaux de modernisation de la ligne B du RER et le prolongement des lignes 4 du métro et 7 du tramway concerneront 1012800 Franciliens, soit l'équivalent de la population du Var.</p><p>En 2014, les modernisations des lignes B et D du RER, ainsi que des lignes 6 et 8 du tramway et la modernisation de la ligne de bus Gonesse concerneront 1227000 Franciliens, soit l'équivalent de la population de Nice et Marseille cumulées.</br>En 2015, les travaux toucheront 176000 Franciliens, soit l’équivalent de la population du Havre. Ils toucheront la ligne 6 du tramway, la gare de Nanterre-université et le bus du plateau de Saclay.</br>En 2016, la rénovation de la gare de Versailles touchera 1021000 Franciliens, soit l’équivalent de la population de la Moselle.</br>En 2017 enfin, les travaux porteront sur le T-Zen, le RER C et le prolongement des lignes 12 et 14 du métro et des lignes 1, 3 et 4 du tramway. Ces travaux concerneront 1028600 Franciliens, soit autant que les populations de Nice, Toulouse et Bordeaux.</p> "
         },
         {
             "spots": [
@@ -277,7 +279,8 @@
                     "left": "56.1702%"
                 }
             ],
-            "name": "Les modes de <strong>transport alternatifs</strong>"
+            "name": "Les modes de <strong>transport alternatifs</strong>",
+            "hidden-content":"<p>Le Plan régional de mobilité durable d’Île-de-France prévoit l’investissement de 3 milliards d’euros à l’horizon 202, dont la moitié pour des projets de Transports en commun en site propre, le T-Zen et des voies réservées.</br>Ainsi, côté vélo, 180 km d’itinéraires cyclables supplémentaires sont prévus chaque année, 20 sites vont être aménagés pour apaiser la circulation, et 6 véloroutes relieront Paris à d’autres villes de France ou d’Europe.</br>Côté bus, 15 lignes T-Zen sont programmées pour compléter le réseau actuel.</br>Enfin, 12 plans triennaux de déplacements scolaires ont été signés depuis 2006 en écoles primaires et collèges. Depuis 2012, ils sont étendus aux lycées et universités.</p><p>D’autre part, on compte aujourd’hui 273 entreprises impliquées dans une démarche de Plan de déplacements, ce chiffre à triplé depuis 2009. Ces plans représentent plus de 300000 salariés soit près de 6% du total des emplois franciliens. Depuis 2012, la Région a financé 6 agences locales de mobilités et 12 chargés de mission mobilité.</p> "
         },
         {
             "spots": [
@@ -327,7 +330,8 @@
                     "left": "57.3404%"
                 }
             ],
-            "name": "Des <strong>aides financières</strong> aux déplacements"
+            "name": "Des <strong>aides financières</strong> aux déplacements",
+            "hidden-content":"<p>La région Île-de-France consacre annuellement 80 millions d’euros pour les déplacements des personnes les plus modestes. Les bénéficiaires de la gratuité ou d’une réduction de 75%  sont passés de 590821 en 2011 à 622067 en 2012. Parmi eux, 70% sont dans le dispositif depuis plus d’un an. Ils génèrent 10% du trafic dans les transports publics.</p><p>Près de 800000 lycéens, étudiants et apprentis de moins de 26 ans bénéficient de tarifs réduits grâce à la carte Imagine R.</p><p>Pour les Franciliens de 16 à 25 ans, sans emploi, sortis du système scolaire ou stagiaires de la formation professionnels, les transports publics sont gratuits. Cela concerne aujourd'hui 17300 jeunes et représente un budget de 6 millions d’euros par an.</br>Les missions locales ou Permanences d’accueil d’information et d’orientation délivrent à 42000 jeunes des chèques mobilités qui leur font économiser 80% du coût d’un trajet.</p> "
         },
         {
             "spots": [
@@ -386,7 +390,8 @@
                     "left": "35.1063%"
                 }
             ],
-            "name": "Développer un <strong>fret écologique</strong>"
+            "name": "Développer un <strong>fret écologique</strong>",
+            "hidden-content":"<p>Le budget régional consacré au fret est en constante évolution depuis 2000, date à laquelle il était de 6 millions d’euros. Il est passé à 15 millions en 2004 et près de 40 million en 2010.</p><p>Aujourd’hui, 88% des tonnages de marchandises de l’Île-de-France sont transportés par camion, 7% par voie d’eau et 5% par voie ferrée.</br>Ce dernier mode reste le maillon faible : 12 millions de tonnes de marchandises ont été transportées par train en 2008 contre 10 millions en 2009.</br>Le mode fluvial est quant à lui dans un contexte favorable puisqu’il représente 20 millions de tonnes de marchandises transportées en 2010 et que la région compte pas moins de 70 ports publics et 50 privés. Le Bassin Seine-Oise est ainsi le premier bassin de France au regard du trafic de conteneurs.</p><p>Aujourd’hui, dans la région Île-de-France, 39% des produits transportés sont des matériaux de construction, 31% des produits manufacturés et de la messagerie, 10% des aliments, 8% des produits agricoles, 3% chimiques, 3% pétroliers.</p>"
         }
     ]
 }
