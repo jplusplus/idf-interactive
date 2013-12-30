@@ -113,12 +113,19 @@
                     }
                 },
                 {
-                    "left": "57.5531%",
-                    "top": "65.6666%",
+                    "left": "56.3829%",
+                    "top": "65.3333%",
                     "picture": {
                         "src": "/img/transports/img_1-4.png",
                         "alt": ""
                     }
+                },
+                {
+                    "width": 70,
+                    "height": 20,
+                    "href": "http://www.iau-idf.fr/detail/etude/peak-car-la-baisse-de-la-mobilite-automobile-est-elle-durable.html",
+                    "top": "20.6666%",
+                    "left": "71.8085%"
                 }
             ],
             "name": "Les <strong>déplacements</strong> en Île-de-France</br>aujourd'hui et demain"
@@ -133,8 +140,8 @@
                     }
                 },
                 {
-                    "left": "6.2765%",
-                    "top": "19.8333%",
+                    "left": "6.1702%",
+                    "top": "19.3333%",
                     "picture": {
                         "src": "/img/transports/img_2-1.png",
                         "alt": ""
@@ -209,15 +216,15 @@
                     }
                 },
                 {
-                    "left": "8.7234%",
-                    "top": "18.5%",
+                    "left": "8.617%",
+                    "top": "17.6666%",
                     "picture": {
                         "src": "/img/transports/img_3-1.png",
                         "alt": ""
                     }
                 },
                 {
-                    "left": "29.8936%",
+                    "left": "29.7872%",
                     "top": "17%",
                     "picture": {
                         "src": "/img/transports/img_3-2.png",
@@ -233,8 +240,8 @@
                     }
                 },
                 {
-                    "left": "40.6382%",
-                    "top": "59.3333%",
+                    "left": "40.5319%",
+                    "top": "59.1666%",
                     "picture": {
                         "src": "/img/transports/img_3-4.png",
                         "alt": ""
@@ -247,6 +254,27 @@
                         "src": "/img/transports/img_3-5.png",
                         "alt": ""
                     }
+                },
+                {
+                    "width": 70,
+                    "height": 20,
+                    "href": "http://pdu.stif.info",
+                    "top": "39%",
+                    "left": "8.617%"
+                },
+                {
+                    "width": 70,
+                    "height": 20,
+                    "href": "http://www.promobilite.fr",
+                    "top": "16.8333%",
+                    "left": "74.3617%"
+                },
+                {
+                    "width": 70,
+                    "height": 20,
+                    "href": "http://www.tzen.com",
+                    "top": "61.8333%",
+                    "left": "56.1702%"
                 }
             ],
             "name": "Les modes de <strong>transport alternatifs</strong>"
@@ -283,6 +311,20 @@
                         "src": "/img/transports/img_4-3.png",
                         "alt": ""
                     }
+                },
+                {
+                    "width": 70,
+                    "height": 20,
+                    "href": "http://www.solidaritetransport.fr",
+                    "top": "16.5%",
+                    "left": "27.234%"
+                },
+                {
+                    "width": 70,
+                    "height": 20,
+                    "href": "http://www.imagine-r.com",
+                    "top": "78.1666%",
+                    "left": "57.3404%"
                 }
             ],
             "name": "Des <strong>aides financières</strong> aux déplacements"
@@ -335,6 +377,13 @@
                         "src": "/img/transports/img_5-5.png",
                         "alt": ""
                     }
+                },
+                {
+                    "href": "http://www.driea.ile-de-france.developpement-durable.gouv.fr/IMG/pdf/DOS_Fret_IdF_-_horizon_2025_cle2d3e18-1.pdf",
+                    "width": 70,
+                    "height": 20,
+                    "top": "16%",
+                    "left": "35.1063%"
                 }
             ],
             "name": "Développer un <strong>fret écologique</strong>"
