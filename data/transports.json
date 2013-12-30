@@ -91,6 +91,7 @@
                 {
                     "left": "5.851%",
                     "top": "20.1666%",
+                    "entrance": "fadeIn stepDown",
                     "picture": {
                         "src": "/img/transports/img_1-1.png",
                         "alt": ""
@@ -99,6 +100,8 @@
                 {
                     "left": "29.1489%",
                     "top": "20.5%",
+                    "queue": true,
+                    "entrance": "fadeIn stepDown",
                     "picture": {
                         "src": "/img/transports/img_1-2.png",
                         "alt": ""
@@ -106,6 +109,8 @@
                 },
                 {
                     "left": "5.5319%",
+                    "queue": true,
+                    "entrance": "fadeIn",
                     "top": "65.1666%",
                     "picture": {
                         "src": "/img/transports/img_1-3.png",
@@ -114,6 +119,8 @@
                 },
                 {
                     "left": "56.3829%",
+                    "queue": true,
+                    "entrance": "fadeIn",
                     "top": "65.3333%",
                     "picture": {
                         "src": "/img/transports/img_1-4.png",
@@ -143,6 +150,7 @@
                 {
                     "left": "6.1702%",
                     "top": "19.3333%",
+                    "entrance": "fadeIn stepDown",
                     "picture": {
                         "src": "/img/transports/img_2-1.png",
                         "alt": ""
@@ -151,6 +159,8 @@
                 {
                     "left": "6.5957%",
                     "top": "35.8333%",
+                    "queue": true,
+                    "entrance": "fadeIn",
                     "picture": {
                         "src": "/img/transports/img_2-2.png",
                         "alt": ""
@@ -159,6 +169,8 @@
                 {
                     "left": "6.1702%",
                     "top": "49%",
+                    "queue": true,
+                    "entrance": "fadeIn stepDown",
                     "picture": {
                         "src": "/img/transports/img_2-3.png",
                         "alt": ""
@@ -167,6 +179,8 @@
                 {
                     "left": "24.2553%",
                     "top": "48.8333%",
+                    "queue": true,
+                    "entrance": "fadeIn stepDown",
                     "picture": {
                         "src": "/img/transports/img_2-4.png",
                         "alt": ""
@@ -175,6 +189,8 @@
                 {
                     "left": "41.5957%",
                     "top": "49%",
+                    "queue": true,
+                    "entrance": "fadeIn stepDown",
                     "picture": {
                         "src": "/img/transports/img_2-5.png",
                         "alt": ""
@@ -183,6 +199,8 @@
                 {
                     "left": "59.7872%",
                     "top": "48.8333%",
+                    "queue": true,
+                    "entrance": "fadeIn stepDown",
                     "picture": {
                         "src": "/img/transports/img_2-6.png",
                         "alt": ""
@@ -191,6 +209,8 @@
                 {
                     "left": "77.3404%",
                     "top": "49%",
+                    "queue": true,
+                    "entrance": "fadeIn stepDown",
                     "picture": {
                         "src": "/img/transports/img_2-7.png",
                         "alt": ""
@@ -220,6 +240,7 @@
                 {
                     "left": "8.617%",
                     "top": "17.6666%",
+                    "entrance": "fadeIn stepDown",
                     "picture": {
                         "src": "/img/transports/img_3-1.png",
                         "alt": ""
@@ -228,6 +249,8 @@
                 {
                     "left": "29.7872%",
                     "top": "17%",
+                    "queue": true,
+                    "entrance": "fadeIn stepDown",
                     "picture": {
                         "src": "/img/transports/img_3-2.png",
                         "alt": ""
@@ -236,6 +259,8 @@
                 {
                     "left": "8.8297%",
                     "top": "61.5%",
+                    "queue": true,
+                    "entrance": "fadeIn",
                     "picture": {
                         "src": "/img/transports/img_3-3.png",
                         "alt": ""
@@ -244,6 +269,8 @@
                 {
                     "left": "40.5319%",
                     "top": "59.1666%",
+                    "queue": true,
+                    "entrance": "fadeIn",
                     "picture": {
                         "src": "/img/transports/img_3-4.png",
                         "alt": ""
@@ -252,6 +279,8 @@
                 {
                     "left": "66.8085%",
                     "top": "61.6666%",
+                    "queue": true,
+                    "entrance": "fadeIn",
                     "picture": {
                         "src": "/img/transports/img_3-5.png",
                         "alt": ""
@@ -294,6 +323,7 @@
                 {
                     "left": "9.6808%",
                     "top": "16.3333%",
+                    "entrance": "fadeIn",
                     "picture": {
                         "src": "/img/transports/img_4-1.png",
                         "alt": ""
@@ -302,6 +332,8 @@
                 {
                     "left": "42.5531%",
                     "top": "16.5%",
+                    "queue": true,
+                    "entrance": "fadeIn",
                     "picture": {
                         "src": "/img/transports/img_4-2.png",
                         "alt": ""
@@ -310,6 +342,8 @@
                 {
                     "left": "41.3829%",
                     "top": "78.3333%",
+                    "queue": true,
+                    "entrance": "fadeIn stepUp",
                     "picture": {
                         "src": "/img/transports/img_4-3.png",
                         "alt": ""
@@ -345,6 +379,7 @@
                 {
                     "left": "8.9361%",
                     "top": "16%",
+                    "entrance": "fadeIn stepDown",
                     "picture": {
                         "src": "/img/transports/img_5-1.png",
                         "alt": ""
@@ -353,6 +388,8 @@
                 {
                     "left": "9.0425%",
                     "top": "44.5%",
+                    "queue": true,
+                    "entrance": "fadeIn",
                     "picture": {
                         "src": "/img/transports/img_5-2.png",
                         "alt": ""
@@ -361,6 +398,8 @@
                 {
                     "left": "53.0851%",
                     "top": "16.3333%",
+                    "queue": true,
+                    "entrance": "fadeIn stepDown",
                     "picture": {
                         "src": "/img/transports/img_5-3.png",
                         "alt": ""
@@ -369,6 +408,8 @@
                 {
                     "left": "53.1914%",
                     "top": "44.5%",
+                    "queue": true,
+                    "entrance": "fadeIn stepDown",
                     "picture": {
                         "src": "/img/transports/img_5-4.png",
                         "alt": ""
@@ -377,6 +418,8 @@
                 {
                     "left": "51.7021%",
                     "top": "71.1666%",
+                    "queue": true,
+                    "entrance": "fadeIn stepDown",
                     "picture": {
                         "src": "/img/transports/img_5-5.png",
                         "alt": ""
