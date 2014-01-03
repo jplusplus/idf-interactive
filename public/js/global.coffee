@@ -156,6 +156,30 @@
         from: { transform: "rotate(0deg)" }
         to:   { transform: "rotate(-360deg)" }
 
+      topRightCorner:
+        from: ($spot)->
+          left: $spot.outerWidth(), top: -$spot.outerHeight()
+        to:
+          left: 0, top: 0
+
+      topLeftCorner:
+        from: ($spot)->
+          left: -$spot.outerWidth(), top: -$spot.outerHeight()
+        to:
+          left: 0, top: 0
+
+      bottomRightCorner:
+        from: ($spot)->
+          left: $spot.outerWidth(), top: $spot.outerHeight()
+        to:
+          left: 0, top: 0
+
+      bottomLeftCorner:
+        from: ($spot)->
+          left: -$spot.outerWidth(), top: $spot.outerHeight()
+        to:
+          left: 0, top: 0
+
 
   ###*
    * Scale the size of the container
@@ -326,8 +350,14 @@
         # If the animation exist
         if animation?
           # Merge the layout object recursively
-          from = $.extend true, animation.from, from
-          to   = $.extend true, animation.to, to
+          if typeof(animation.from) is 'function'
+            from = $.extend true, animation.from($elem), from
+          else
+            from = $.extend true, animation.from, from
+          if typeof(animation.to) is 'function'
+            to   = $.extend true, animation.to($elem), to
+          else
+            to   = $.extend true, animation.to, to
 
       # Stop every current animations and show the element
       # Also, set the original style if needed

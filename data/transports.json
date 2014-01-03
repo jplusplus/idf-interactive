@@ -14,28 +14,31 @@
                     }
                 },
                 {
-                    "left": "-9.5744%",
-                    "top": "-16%",
+                    "left": "-16.8085%",
+                    "top": "-18.1666%",
                     "picture": {
                         "src": "/img/transports/img_0-1.png",
                         "alt": ""
-                    }
+                    },
+                    "entrance": "topRightCorner"
                 },
                 {
-                    "left": "-33.5106%",
-                    "top": "21.5%",
+                    "left": "-33.8297%",
+                    "top": "18.8333%",
                     "picture": {
                         "src": "/img/transports/img_0-2.png",
                         "alt": ""
-                    }
+                    },
+                    "entrance": "bottomLeftCorner"
                 },
                 {
-                    "left": "27.8723%",
-                    "top": "40.5%",
+                    "left": "26.9148%",
+                    "top": "39.8333%",
                     "picture": {
                         "src": "/img/transports/img_0-3.png",
                         "alt": ""
-                    }
+                    },
+                    "entrance": "topRightCorner"
                 },
                 {
                     "class": "app-title no-shadow",
@@ -136,7 +139,7 @@
                     "left": "71.8085%"
                 }
             ],
-            "menu-name":"Les déplacements en Ile-de-France",
+            "menu-name": "Les déplacements en Ile-de-France",
             "name": "Les <strong>déplacements</strong> en Île-de-France </br>aujourd'hui et demain",
             "hidden-content": "<p>Chaque jour, en moyenne, un Francilien effectue 4,2 déplacements, dans un rayon de 25 km. Le temps journalier moyen des déplacements est de 113 minutes.</p><p>Entre 2001 et 2010, les habitudes de déplacement des Franciliens ont évolué :</p><ul><li>La voiture qui représentait le mode le plus courant en 2001 avec 43,9% des déplacements passe au deuxième rang en 2010 avec 37,8% des déplacements. </li><li>La marche à pied passe elle de la seconde place en 2001 avec 34,1% des déplacements, à la première place en 2010 avec 38,7%. </li><li>Les transports collectifs voient leur part progresser, passant de 19,4% à 20,1%. Ils restent à la troisième place. </li><li>Malgré une augmentation de 0,2% les deux roues motorisés perdent une place, ils sont dépassés par le vélo qui passe de 0,9% à 1,6%. </li><li>Les autres transports restent stables à 0,4% en 2010. </li></ul><p>Aujourd’hui, 57% des déplacements se font en cœur d’agglomération, 22% au sein de l’agglomération centrale, 8% au sein des autres territoires.</br>Les déplacements entre le cœur d’agglomération et l’agglomération centrale représentent 8% des trajets contre 2% entre le cœur de l’agglomération et les autres territoires. Les déplacements entre l’agglomération centrale et les autres territoires représentent 3% des déplacements.</p><p>A l’horizon 2020, le plan de déplacements urbains de l’Île-de-France prévoit une augmentation générale des déplacements de l’ordre de 7%. Les transports collectifs (+20%), la marche et le vélo (+10%) sont les modes de déplacements qui devraient le plus évoluer. La part de la voiture et des deux roues motorisés devrait baisser de 2%.</p> "
         },

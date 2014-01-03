@@ -5,29 +5,30 @@ block content
     each step, stepKey in data.steps
         .step(,
             style=stepStyle(step),
-            class=step.class, 
-            data-step=stepKey, 
+            class=step.class,
+            data-step=stepKey,
             data-page=page)
-            unless step["no-title"] 
+            unless step["no-title"]
                 h2!=step.name
             if step.picture
                 img(src=step.picture).step-background
             if step["hidden-content"]
-                .hide-text.hidden-content!=step["hidden-content"]             
+                .hide-text.hidden-content!=step["hidden-content"]
             if step.spots
                 each spot, spotKey in step.spots
                     a.spot(
-                        style=spotStyle(spot), 
-                        class=spotClass(spot), 
-                        href=spot.href, 
-                        data-html=spot.html, 
-                        data-spot=spotKey, 
-                        data-step=stepKey, 
-                        data-origin=spot.origin, 
-                        data-entrance=spot.entrance, 
-                        data-entrance-duration=spot["entrance-duration"], 
-                        data-background=spot.background, 
-                        data-background-direction=spot["background-direction"], 
+                        style=spotStyle(spot),
+                        class=spotClass(spot),
+                        href=spot.href,
+                        data-html=spot.html,
+                        data-spot=spotKey,
+                        data-step=stepKey,
+                        data-origin=spot.origin,
+                        data-entrance-point=spot["entrance-point"],
+                        data-entrance=spot.entrance,
+                        data-entrance-duration=spot["entrance-duration"],
+                        data-background=spot.background,
+                        data-background-direction=spot["background-direction"],
                         data-background-speed=spot["background-speed"],
                         data-background-frequency=spot["background-frequency"],
                         data-queue=1*spot.queue)
@@ -37,9 +38,8 @@ block content
                             if spot["title"]
                                 h3!=spot["title"]
                             if spot["sub-title"]
-                                h4!=spot["sub-title"]    
+                                h4!=spot["sub-title"]
                             if spot["content"]
-                                p!=spot["content"]                   
+                                p!=spot["content"]
                             if spot["picture"]
                                 img(src=spot["picture"]["src"], alt=spot["picture"]["alt"]).spot-background
-                    
