@@ -82,13 +82,6 @@
         {
             "spots": [
                 {
-                    "left": "0%",
-                    "top": "0%",
-                    "picture": {
-                        "src": "/img/transports/1.png"
-                    }
-                },
-                {
                     "left": "5.851%",
                     "top": "20.1666%",
                     "entrance": "fadeIn stepDown",
@@ -149,13 +142,6 @@
         },
         {
             "spots": [
-                {
-                    "left": "0%",
-                    "top": "0%",
-                    "_picture": {
-                        "src": "/img/transports/2.png"
-                    }
-                },
                 {
                     "left": "6.1702%",
                     "top": "19.3333%",
@@ -325,13 +311,6 @@
         {
             "spots": [
                 {
-                    "left": "0%",
-                    "top": "0%",
-                    "_picture": {
-                        "src": "/img/transports/4.png"
-                    }
-                },
-                {
                     "left": "9.6808%",
                     "top": "16.3333%",
                     "entrance": "fadeIn",
@@ -380,13 +359,6 @@
         },
         {
             "spots": [
-                {
-                    "left": "0%",
-                    "top": "0%",
-                    "_picture": {
-                        "src": "/img/transports/5.png"
-                    }
-                },
                 {
                     "left": "8.9361%",
                     "top": "16%",
