@@ -58,7 +58,8 @@ Every step object can follow this options:
 
 Name | Type | Description | Exemple |
 ---- | ---- | ---- | ---- |
-name | String | Name of the step, displaying on the main menu. | "Soft kitty, warm kitty"
+name | String | Name of the step, displaying on the main menu and as the step's title | "Soft kitty, warm kitty"
+menu-name | String | Alternative menu name (only displayed on the menu) | "Soft kitty" | 
 no-index | Boolean | Set to true exit the step from the main menu. |
 picture | String | URL to an image file to display as "background", take the whole width. | 
 style | String | Inline CSS to apply to the current step. | "font-size:17px; color: red"
