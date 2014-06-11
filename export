@@ -5,7 +5,10 @@ TMP=$INSTANCE
 BUILD=build
 ZIP=$INSTANCE.zip
 # Extract the website
-wget -rkp $HOST/$INSTANCE -P $TMP --no-host-directories
+wget -rkp $HOST/$INSTANCE.html -P $TMP --no-host-directories
+# Use index.html as filename
+mv  $TMP/$INSTANCE.html $TMP/index.html
+sed -i s/$INSTANCE\.html/index\.html/g $TMP/index.html
 # Zip it to a new archive
 zip -r $ZIP $TMP
 # Remove the temporary dir
