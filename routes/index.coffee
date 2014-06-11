@@ -6,7 +6,7 @@ fs = require("fs")
 app = undefined
 module.exports = (a) ->
   app = a
-  app.get "/:page", routePage
+  app.get "/:page/index.html", routePage
   app.get "/:page.html", routePage
   app.get "/:page/:step/:spot", editSpotPosition
 
