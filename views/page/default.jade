@@ -5,7 +5,7 @@ block content
     each step, stepKey in data.steps
         .step(,
             style=stepStyle(step),
-            class=step.class,
+            class=stepClass(step),
             data-step=stepKey,
             data-page=page)
             unless step["no-title"]

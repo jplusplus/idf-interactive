@@ -58,6 +58,18 @@ module.exports.locals =
     style.join ";"
 
   ###*
+   * Step context classes
+   * @param  {Object} data Step descriptor
+   * @return {String}      Classes
+  ###
+  stepClass: (step) ->
+    klass = []
+
+    # Step classes
+    klass.push step.class  if step.class?
+    klass.join " "
+
+  ###*
    * Spot context classes
    * @param  {Object} data Spot descriptor
    * @return {String}      Classes
@@ -66,7 +78,7 @@ module.exports.locals =
     klass = []
     
     # Spot classes
-    klass.push spot.class  if spot.class
+    klass.push spot.class  if spot.class?
     klass.join " "
 
   ###*
