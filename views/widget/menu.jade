@@ -3,7 +3,7 @@
         ul.steps
             li
                 a.to-step.to-home(href="#step=0", data-step=0)
-                    img(src=(data["picto_home"]) ? data["picto_home"] : "/img/common/bt-home.png", alt="home")
+                    img(src=(data["picto-home"]) ? data["picto-home"] : "/img/common/bt-home.png", alt="home")
 
             each step, stepKey in data.steps         
                 li(class=(step["no-index"] ? "hidden":""))

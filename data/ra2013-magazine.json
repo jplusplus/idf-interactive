@@ -1,6 +1,6 @@
 {
     "class": "ra2013 size1380",
-    "picto_home": "/img/ra2013-common/picto-home.png",
+    "picto-home": "/img/ra2013-common/picto-home.png",
     "steps": [
         {
             "name": "launcher",
