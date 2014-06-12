@@ -13,7 +13,8 @@
                     },
                     "top": "0%",
                     "left": "50%",
-                    "entrance": "left"
+                    "entrance": "left",
+                    "entrance-duration" : 500
                 },
                 {
                     "picture": {
@@ -22,7 +23,8 @@
                     "top": "17.3027%",
                     "left": "9.855%",
                     "queue": 1250,
-                    "entrance": "zoomIn"
+                    "entrance": "zoomIn",
+                    "entrance-duration" : 500
                 }
             ]
         },
@@ -37,6 +39,7 @@
                     "top": "0%",
                     "left": "50.0724%",
                     "entrance": "left",
+                    "entrance-duration" : 500,
                     "queue": 850
                 },
                 {
@@ -46,6 +49,7 @@
                     "top": "94.9109%",
                     "left": "52.826%",
                     "entrance": "left",
+                    "entrance-duration" : 500,
                     "queue": 850
                 },
                 {
@@ -55,6 +59,7 @@
                     "top": "17.5572%",
                     "left": "55.2173%",
                     "entrance": "down",
+                    "entrance-duration" : 500,
                     "queue": 950
                 },
                 {
@@ -64,6 +69,7 @@
                     "top": "17.5572%",
                     "left": "78.6956%",
                     "entrance": "down",
+                    "entrance-duration" : 500,
                     "queue": 1050
                 },
                 {
@@ -73,6 +79,7 @@
                     "top": "58.0152%",
                     "left": "56.9565%",
                     "entrance": "down",
+                    "entrance-duration" : 500,
                     "queue": 1150
                 },
                 {
@@ -82,6 +89,7 @@
                     "top": "58.0152%",
                     "left": "78.0434%",
                     "entrance": "down",
+                    "entrance-duration" : 500,
                     "queue": 1250
                 },
                 {
@@ -91,6 +99,7 @@
                     "top": "18.575%",
                     "left": "6.5217%",
                     "entrance": "down",
+                    "entrance-duration" : 500,
                     "queue": 250
                 },
                 {
@@ -100,6 +109,7 @@
                     "top": "18.3206%",
                     "left": "19.1304%",
                     "entrance": "down",
+                    "entrance-duration" : 500,
                     "queue": 350
                 },
                 {
@@ -109,6 +119,7 @@
                     "top": "18.4478%",
                     "left": "31.8115%",
                     "entrance": "down",
+                    "entrance-duration" : 500,
                     "queue": 450
                 },
                 {
@@ -118,6 +129,7 @@
                     "top": "50.6361%",
                     "left": "6.5217%",
                     "entrance": "down",
+                    "entrance-duration" : 500,
                     "queue": 550
                 },
                 {
@@ -127,6 +139,7 @@
                     "top": "50.6361%",
                     "left": "19.2028%",
                     "entrance": "down",
+                    "entrance-duration" : 500,
                     "queue": 650
                 },
                 {
@@ -136,6 +149,7 @@
                     "top": "50.6361%",
                     "left": "31.8115%",
                     "entrance": "down",
+                    "entrance-duration" : 500,
                     "queue": 750
                 },
                 {
@@ -159,6 +173,7 @@
                     "top": "16.1577%",
                     "left": "3.6231%",
                     "entrance": "fadeIn right",
+                    "entrance-duration" : 500,
                     "queue": 250
                 },
                 {
@@ -168,6 +183,7 @@
                     "top": "21.6284%",
                     "left": "2.8985%",
                     "entrance": "fadeIn right",
+                    "entrance-duration" : 500,
                     "queue": 350
                 },
                 {
@@ -177,6 +193,7 @@
                     "top": "42.748%",
                     "left": "3.4782%",
                     "entrance": "up",
+                    "entrance-duration" : 500,
                     "queue": 850
                 },
                 {
@@ -186,6 +203,7 @@
                     "top": "22.9007%",
                     "left": "57.0289%",
                     "entrance": "down",
+                    "entrance-duration" : 500,
                     "queue": 1050
                 },
                 {
@@ -216,6 +234,7 @@
                     "top": "17.0483%",
                     "left": "4.5652%",
                     "entrance": "fadeIn right",
+                    "entrance-duration" : 500,
                     "queue": 250
                 },
                 {
@@ -225,6 +244,7 @@
                     "top": "21.6284%",
                     "left": "2.8985%",
                     "entrance": "fadeIn right",
+                    "entrance-duration" : 500,
                     "queue": 350
                 },
                 {
@@ -234,6 +254,7 @@
                     "top": "41.3486%",
                     "left": "3.8405%",
                     "entrance": "up",
+                    "entrance-duration" : 500,
                     "queue": 850
                 },
                 {
@@ -243,6 +264,7 @@
                     "top": "14.631%",
                     "left": "55.1449%",
                     "entrance": "down",
+                    "entrance-duration" : 500,
                     "queue": 1200
                 },
                 {
@@ -252,6 +274,7 @@
                     "top": "52.1628%",
                     "left": "52.6811%",
                     "entrance": "down",
+                    "entrance-duration" : 500,
                     "queue": 1600
                 },
                 {
