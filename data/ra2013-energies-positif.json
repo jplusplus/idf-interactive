@@ -79,7 +79,7 @@
                     },
                     "entrance": "left",
                     "entrance-duration": 500,
-                    "queue": true,
+                    "queue": 800,
                     "top": "39.1857%",
                     "left": "70.0724%"
                 },
@@ -89,7 +89,7 @@
                     },
                     "entrance": "right",
                     "entrance-duration": 500,
-                    "queue": true,
+                    "queue": 1300,
                     "top": "15.0127%",
                     "left": "31.6666%"
                 },
@@ -99,7 +99,7 @@
                     },
                     "entrance": "right",
                     "entrance-duration": 500,
-                    "queue": true,
+                    "queue": 1300,
                     "top": "39.8218%",
                     "left": "21.6666%"
                 },
@@ -109,7 +109,7 @@
                     },
                     "entrance": "left",
                     "entrance-duration": 500,
-                    "queue": true,
+                    "queue": 1800,
                     "top": "64.5038%",
                     "left": "17.971%"
                 },
@@ -119,7 +119,7 @@
                     },
                     "entrance": "down",
                     "entrance-duration": 500,
-                    "queue": true,
+                    "queue": 2300,
                     "top": "10.3053%",
                     "left": "61.3043%"
                 },
@@ -382,7 +382,7 @@
                     },
                     "entrance": "left",
                     "entrance-duration": 500,
-                    "queue": 2500,
+                    "queue": 2700,
                     "top": "19.2111%",
                     "left": "64.855%"
                 },
@@ -392,7 +392,7 @@
                     },
                     "entrance": "left",
                     "entrance-duration": 500,
-                    "queue": 2500,
+                    "queue": 2900,
                     "top": "34.7328%",
                     "left": "64.9275%"
                 },
@@ -402,7 +402,7 @@
                     },
                     "entrance": "left",
                     "entrance-duration": 500,
-                    "queue": 2500,
+                    "queue": 3100,
                     "top": "50.5089%",
                     "left": "64.9275%"
                 },
@@ -412,7 +412,7 @@
                     },
                     "entrance": "left",
                     "entrance-duration": 500,
-                    "queue": 2500,
+                    "queue": 3300,
                     "top": "64.7582%",
                     "left": "64.4927%"
                 },
