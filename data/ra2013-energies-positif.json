@@ -19,13 +19,13 @@
                 },
                 {
                     "picture": {
-                        "src": "/img/ra2013-energies-positif/img_1-3.png"
+                        "src": "/img/ra2013-energies-positif/img_1-4.png"
                     },
                     "entrance": "right",
                     "entrance-duration": 500,
                     "queue": 1000,
-                    "top": "33.4605%",
-                    "left": "8.2608%"
+                    "top": "28.2442%",
+                    "left": "5.3623%"
                 },
                 {
                     "picture": {
@@ -39,13 +39,13 @@
                 },
                 {
                     "picture": {
-                        "src": "/img/ra2013-energies-positif/img_1-4.png"
+                        "src": "/img/ra2013-energies-positif/img_1-3.png"
                     },
                     "entrance": "right",
                     "entrance-duration": 500,
                     "queue": 1400,
-                    "top": "30.6615%",
-                    "left": "28.4057%"
+                    "top": "31.0432%",
+                    "left": "28.5507%"
                 }
             ]
         },
