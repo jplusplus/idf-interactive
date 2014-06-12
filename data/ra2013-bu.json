@@ -6,7 +6,6 @@
             "name": "launcher",
             "no-index": true,
             "no-title": true,
-            "/picture": "/img/ra2013-bu/01.jpg",
             "spots": [
                 {
                     "picture": {
@@ -32,7 +31,6 @@
         {
             "name": "Localisation et superficie",
             "hidden-content": "",
-            "/picture": "/img/ra2013-bu/02.jpg",
             "class": "highlight-title",
             "spots": [
                 {
@@ -94,7 +92,6 @@
         {
             "name": "Budget des bibliothèques universitaires",
             "hidden-content": "",
-            "/picture": "/img/ra2013-bu/03.jpg",
             "class": "highlight-title",
             "spots": [
                 {
@@ -139,7 +136,6 @@
         {
             "name": "Les emplois étudiants",
             "hidden-content": "",
-            "/picture": "/img/ra2013-bu/04.jpg",
             "class": "highlight-title",
             "spots": [
                 {
