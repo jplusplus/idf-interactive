@@ -23,7 +23,7 @@
                     },
                     "entrance": "up",
                     "entrance-duration": 500,
-                    "queue" : 600,
+                    "queue": 1200,
                     "top": "55.2162%",
                     "left": "15.5072%"
                 },
@@ -33,7 +33,7 @@
                     },
                     "entrance": "down",
                     "entrance-duration": 500,
-                    "queue" : 800,
+                    "queue": 1400,
                     "top": "38.6768%",
                     "left": "20.942%"
                 },
@@ -43,7 +43,7 @@
                     },
                     "entrance": "down",
                     "entrance-duration": 500,
-                    "queue" : 900,
+                    "queue": 1600,
                     "top": "32.1882%",
                     "left": "28.6231%"
                 },
@@ -53,7 +53,7 @@
                     },
                     "entrance": "down",
                     "entrance-duration": 500,
-                    "queue" : 1000,
+                    "queue": 1800,
                     "top": "30.916%",
                     "left": "26.3043%"
                 },
@@ -63,7 +63,7 @@
                     },
                     "entrance": "down",
                     "entrance-duration": 500,
-                    "queue" : 1100,
+                    "queue": 2000,
                     "top": "21.1195%",
                     "left": "20.2173%"
                 },
@@ -73,7 +73,7 @@
                     },
                     "entrance": "down",
                     "entrance-duration": 500,
-                    "queue" : 1200,
+                    "queue": 2200,
                     "top": "15.2671%",
                     "left": "22.8985%"
                 },
@@ -81,8 +81,8 @@
                     "picture": {
                         "src": "/img/ra2013-opendata/img_1-8.png"
                     },
-                    "top": "42.2391%",
-                    "left": "15.7246%"
+                    "top": "37.9134%",
+                    "left": "17.971%"
                 }
             ]
         },
