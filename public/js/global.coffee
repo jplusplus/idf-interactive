@@ -186,6 +186,7 @@
    * @return {Number} Scale applied to the container
   ###
   scaleContainer = ->
+    return unless Modernizr.csstransforms
     scale = Math.min 1, $uis.wdw.width() / maxWidth
     # Allow the parent iframe to fits with the container
     $uis.body.css "min-height", $uis.overflow.height() * scale
