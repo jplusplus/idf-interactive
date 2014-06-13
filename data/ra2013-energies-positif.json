@@ -33,7 +33,7 @@
                     },
                     "entrance": "left",
                     "entrance-duration": 500,
-                    "queue": 1200,
+                    "queue": 1400,
                     "top": "67.0483%",
                     "left": "15.3623%"
                 },
@@ -43,7 +43,7 @@
                     },
                     "entrance": "right",
                     "entrance-duration": 500,
-                    "queue": 1400,
+                    "queue": 1800,
                     "top": "31.0432%",
                     "left": "28.5507%"
                 }
@@ -372,7 +372,7 @@
                     },
                     "entrance": "right",
                     "entrance-duration": 500,
-                    "queue": 2500,
+                    "queue": 2600,
                     "top": "24.6819%",
                     "left": "38.913%"
                 },
@@ -382,7 +382,7 @@
                     },
                     "entrance": "left",
                     "entrance-duration": 500,
-                    "queue": 2700,
+                    "queue": 3200,
                     "top": "19.2111%",
                     "left": "64.855%"
                 },
@@ -392,7 +392,7 @@
                     },
                     "entrance": "left",
                     "entrance-duration": 500,
-                    "queue": 2900,
+                    "queue": 3800,
                     "top": "34.7328%",
                     "left": "64.9275%"
                 },
@@ -402,7 +402,7 @@
                     },
                     "entrance": "left",
                     "entrance-duration": 500,
-                    "queue": 3100,
+                    "queue": 4400,
                     "top": "50.5089%",
                     "left": "64.9275%"
                 },
@@ -412,7 +412,7 @@
                     },
                     "entrance": "left",
                     "entrance-duration": 500,
-                    "queue": 3300,
+                    "queue": 5000,
                     "top": "64.7582%",
                     "left": "64.4927%"
                 },

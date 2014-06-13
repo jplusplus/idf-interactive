@@ -51,7 +51,7 @@
                     "left": "19.1304%",
                     "entrance": "down",
                     "entrance-duration" : 500,
-                    "queue": 800
+                    "queue": 1200
                 },
                 {
                     "picture": {
@@ -61,7 +61,7 @@
                     "left": "31.8115%",
                     "entrance": "down",
                     "entrance-duration" : 500,
-                    "queue": 1000
+                    "queue": 1800
                 },
                 {
                     "picture": {
@@ -71,7 +71,7 @@
                     "left": "6.5217%",
                     "entrance": "down",
                     "entrance-duration" : 500,
-                    "queue": 1200
+                    "queue": 2400
                 },
                 {
                     "picture": {
@@ -81,7 +81,7 @@
                     "left": "19.2028%",
                     "entrance": "down",
                     "entrance-duration" : 500,
-                    "queue": 1400
+                    "queue": 3000
                 },
                 {
                     "picture": {
@@ -91,7 +91,7 @@
                     "left": "31.8115%",
                     "entrance": "down",
                     "entrance-duration" : 500,
-                    "queue": 1600
+                    "queue": 3600
                 },
                 {
                     "picture": {
@@ -99,7 +99,7 @@
                     },
                     "top": "0%",
                     "left": "50.0724%",
-                    "queue" : 2600,
+                    "queue" : 4600,
                     "entrance": "left",
                     "entrance-duration" : 500
                 },
@@ -109,7 +109,7 @@
                     },
                     "top": "94.9109%",
                     "left": "52.826%",
-                    "queue" : 2600,
+                    "queue" : 4600,
                     "entrance": "left",
                     "entrance-duration" : 500
                 },
@@ -121,7 +121,7 @@
                     "left": "55.2173%",
                     "entrance": "down",
                     "entrance-duration" : 500,
-                    "queue": 3200
+                    "queue": 5200
                 },
                 {
                     "picture": {
@@ -131,7 +131,7 @@
                     "left": "78.6956%",
                     "entrance": "down",
                     "entrance-duration" : 500,
-                    "queue": 3600
+                    "queue": 5800
                 },
                 {
                     "picture": {
@@ -141,7 +141,7 @@
                     "left": "56.9565%",
                     "entrance": "down",
                     "entrance-duration" : 500,
-                    "queue": 4000
+                    "queue": 6400
                 },
                 {
                     "picture": {
@@ -151,7 +151,7 @@
                     "left": "78.0434%",
                     "entrance": "down",
                     "entrance-duration" : 500,
-                    "queue": 4400
+                    "queue": 7000
                 },
                 {
                     "picture": {

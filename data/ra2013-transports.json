@@ -80,7 +80,7 @@
                     },
                     "entrance": "up",
                     "entrance-duration": 500,
-                    "queue": 1600,
+                    "queue": 1800,
                     "top": "42.8753%",
                     "left": "32.6086%"
                 },
@@ -100,7 +100,7 @@
                     },
                     "entrance": "down",
                     "entrance-duration": 500,
-                    "queue": 3200,
+                    "queue": 3400,
                     "top": "34.86%",
                     "left": "56.9565%"
                 },
@@ -110,7 +110,7 @@
                     },
                     "entrance": "down",
                     "entrance-duration": 500,
-                    "queue": 3600,
+                    "queue": 4000,
                     "top": "36.6412%",
                     "left": "73.2608%"
                 },
@@ -120,7 +120,7 @@
                     },
                     "entrance": "down",
                     "entrance-duration": 500,
-                    "queue": 4000,
+                    "queue": 4600,
                     "top": "34.6055%",
                     "left": "78.9855%"
                 },
