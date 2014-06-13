@@ -224,7 +224,9 @@ $.fx.step.transform = function( fx ) {
 		end = end.split("+=").join(start);
 
 		// parse both transform to generate interpolation list of same length
-		return $.extend( fx, interpolationList( start, end ) );
+		$.extend( fx, interpolationList( start, end ) );
+		start = fx.start;
+		end = fx.end;
 	}
 
 	i = start.length;
@@ -240,7 +242,7 @@ $.fx.step.transform = function( fx ) {
 			case _translate:
 				unit = "px";
 			case _scale:
-				unit || ( unit = " ");
+				unit || ( unit = "");
 
 				transform = startVal[0] + "(" +
 					Math.round( (startVal[1][0] + (endVal[1][0] - startVal[1][0]) * pos) * precision ) / precision + unit +","+
