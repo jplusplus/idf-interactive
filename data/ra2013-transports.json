@@ -35,8 +35,8 @@
                     "entrance": "right",
                     "entrance-duration": 1500,
                     "queue": 1200,
-                    "top": "40.7124%",
-                    "left": "0%"
+                    "top": "42.3664%",
+                    "left": "-9.7101%"
                 }
             ]
         },
@@ -46,6 +46,24 @@
             "/picture": "/img/ra2013-transports/02.jpg",
             "class": "highlight-title",
             "spots": [
+                {
+                    "picture": {
+                        "src": "/img/ra2013-transports/img_2-9.png"
+                    },
+                    "entrance": "right",
+                    "entrance-duration": 500,
+                    "top": "0%",
+                    "left": "0%"
+                },
+                {
+                    "picture": {
+                        "src": "/img/ra2013-transports/img_2-8.png"
+                    },
+                    "top": "95.1653%",
+                    "left": "2.8985%",
+                    "entrance": "right",
+                    "entrance-duration": 500
+                },
                 {
                     "picture": {
                         "src": "/img/ra2013-transports/img_2-1.png"
@@ -112,13 +130,6 @@
                     },
                     "top": "94.5292%",
                     "left": "56.3043%"
-                },
-                {
-                    "picture": {
-                        "src": "/img/ra2013-transports/img_2-8.png"
-                    },
-                    "top": "95.1653%",
-                    "left": "2.8985%"
                 },
                 {
                     "picture": {
