@@ -350,6 +350,8 @@
         animation = $.extend true, {}, entrance[animationKey]
         # If the animation exist
         if animation?
+          if animation.from.transform?
+            return unless Modernizr.csstransforms
           # Merge the layout object recursively
           if typeof(animation.from) is 'function'
             from = $.extend true, animation.from($elem), from
