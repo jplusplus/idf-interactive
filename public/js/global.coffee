@@ -53,7 +53,7 @@
     bindUI()
     # Allow resizable iframe
     window.ri = responsiveIframe()
-    ri.allowResponsiveEmbedding()
+    ri.allowResponsiveEmbedding() ; ri.messageParent(false)
     # Remove loading overlay
     $uis.body.removeClass "js-loading"
     # Read the step from the hash
