@@ -187,9 +187,7 @@
   ###
   scaleContainer = ->
     return unless Modernizr.csstransforms
-    scale_w = Math.min 1, $uis.wdw.width() / maxWidth
-    scale_h = Math.min 1, $uis.wdw.height() / maxHeight
-    scale = Math.min(scale_h, scale_w)
+    scale = Math.min 1, $uis.wdw.width() / maxWidth
     # Allow the parent iframe to fits with the container
     $uis.body.css "min-height", $uis.overflow.height() * scale
     $uis.overflow.css "transform", "scale(#{scale})"
