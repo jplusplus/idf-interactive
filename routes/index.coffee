@@ -48,7 +48,7 @@ editSpotPosition = (req, res) ->
 
   # Do we received the position ?
   return res.send(500)  if not req.query.top or not req.query.left
-  dataDir = app.get("data")
+  dataDir  = app.get("data")
   dataName = req.params.page + ".json"
   dataPath = path.join(dataDir, dataName)
   data = require(dataPath)

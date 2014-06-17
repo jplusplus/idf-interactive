@@ -15,7 +15,7 @@
                     "entrance": "left",
                     "entrance-duration": 500,
                     "queue": true,
-                    "top": "0%",
+                    "top": "-6.6473%",
                     "left": "50%"
                 },
                 {
@@ -150,8 +150,8 @@
                     "picture": {
                         "src": "/img/ra2013-transports/_voyageurs-jour.png"
                     },
-                    "top": "11.0687%",
-                    "left": "3.913%"
+                    "top": "11.9942%",
+                    "left": "3.8405%"
                 },
                 {
                     "picture": {
@@ -180,8 +180,8 @@
                     "entrance": "left",
                     "entrance-duration": 500,
                     "queue": true,
-                    "top": "26.972%",
-                    "left": "35.3623%"
+                    "top": "25.867%",
+                    "left": "35.2898%"
                 },
                 {
                     "picture": {
@@ -209,8 +209,8 @@
                     "picture": {
                         "src": "/img/ra2013-transports/_voyageurs-jour.png"
                     },
-                    "top": "11.0687%",
-                    "left": "3.913%"
+                    "top": "12.1387%",
+                    "left": "3.8405%"
                 },
                 {
                     "picture": {
@@ -239,8 +239,8 @@
                     "entrance": "left",
                     "entrance-duration": 500,
                     "queue": true,
-                    "top": "32.8244%",
-                    "left": "35.4347%"
+                    "top": "31.9364%",
+                    "left": "35.3623%"
                 },
                 {
                     "picture": {
@@ -268,8 +268,8 @@
                     "picture": {
                         "src": "/img/ra2013-transports/_voyageurs-jour.png"
                     },
-                    "top": "11.0687%",
-                    "left": "3.913%"
+                    "top": "12.2832%",
+                    "left": "3.8405%"
                 },
                 {
                     "picture": {
@@ -298,8 +298,8 @@
                     "entrance": "left",
                     "entrance-duration": 500,
                     "queue": true,
-                    "top": "34.86%",
-                    "left": "35.3623%"
+                    "top": "33.9595%",
+                    "left": "35.2898%"
                 },
                 {
                     "picture": {
@@ -327,8 +327,8 @@
                     "picture": {
                         "src": "/img/ra2013-transports/_voyageurs-jour.png"
                     },
-                    "top": "11.0687%",
-                    "left": "3.913%"
+                    "top": "12.1387%",
+                    "left": "3.8405%"
                 },
                 {
                     "picture": {
@@ -357,8 +357,8 @@
                     "entrance": "left",
                     "entrance-duration": 500,
                     "queue": true,
-                    "top": "24.8091%",
-                    "left": "35.3623%"
+                    "top": "23.5549%",
+                    "left": "35.2898%"
                 },
                 {
                     "picture": {
@@ -386,8 +386,8 @@
                     "picture": {
                         "src": "/img/ra2013-transports/_voyageurs-jour.png"
                     },
-                    "top": "11.0687%",
-                    "left": "3.913%"
+                    "top": "12.1387%",
+                    "left": "3.8405%"
                 },
                 {
                     "picture": {
@@ -416,8 +416,8 @@
                     "entrance": "left",
                     "entrance-duration": 500,
                     "queue": true,
-                    "top": "22.519%",
-                    "left": "35.3623%"
+                    "top": "21.8208%",
+                    "left": "35.2898%"
                 },
                 {
                     "picture": {

@@ -14,8 +14,8 @@
                     },
                     "entrance": "left",
                     "entrance-duration": 500,
-                    "top": "0%",
-                    "left": "50.0724%"
+                    "top": "-4.6242%",
+                    "left": "50%"
                 },
                 {
                     "picture": {
@@ -261,8 +261,8 @@
                     "entrance": "right",
                     "entrance-duration": 500,
                     "queue": true,
-                    "top": "25.5725%",
-                    "left": "0.0724%"
+                    "top": "19.9421%",
+                    "left": "0%"
                 },
                 {
                     "picture": {
@@ -271,8 +271,8 @@
                     "entrance": "left",
                     "entrance-duration": 500,
                     "queue": true,
-                    "top": "75.1908%",
-                    "left": "6.5942%"
+                    "top": "76.8786%",
+                    "left": "6.5217%"
                 },
                 {
                     "picture": {
@@ -281,8 +281,8 @@
                     "entrance": "down",
                     "entrance-duration": 500,
                     "queue": true,
-                    "top": "21.374%",
-                    "left": "5.0724%"
+                    "top": "15.3179%",
+                    "left": "5%"
                 },
                 {
                     "picture": {
@@ -327,8 +327,8 @@
                     "entrance": "right",
                     "entrance-duration": 500,
                     "queue": true,
-                    "top": "27.6081%",
-                    "left": "8.5507%"
+                    "top": "24.7109%",
+                    "left": "8.4782%"
                 },
                 {
                     "picture": {
@@ -347,8 +347,8 @@
                     "entrance": "right",
                     "entrance-duration": 500,
                     "queue": true,
-                    "top": "26.8447%",
-                    "left": "26.884%"
+                    "top": "23.6994%",
+                    "left": "26.8115%"
                 },
                 {
                     "picture": {
@@ -367,8 +367,8 @@
                     "entrance": "right",
                     "entrance-duration": 500,
                     "queue": true,
-                    "top": "26.8447%",
-                    "left": "53.7681%"
+                    "top": "23.5549%",
+                    "left": "53.6956%"
                 },
                 {
                     "picture": {
@@ -387,8 +387,8 @@
                     "entrance": "right",
                     "entrance-duration": 500,
                     "queue": true,
-                    "top": "27.7353%",
-                    "left": "65.5072%"
+                    "top": "24.4219%",
+                    "left": "65.3623%"
                 },
                 {
                     "picture": {
@@ -407,8 +407,8 @@
                     "entrance": "right",
                     "entrance-duration": 500,
                     "queue": true,
-                    "top": "27.6081%",
-                    "left": "81.4492%"
+                    "top": "24.7109%",
+                    "left": "81.3768%"
                 },
                 {
                     "picture": {
