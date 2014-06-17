@@ -16,7 +16,7 @@ app.configure ->
   app.set "view engine", "jade"
   app.set "page", "page/"
   app.set "data", __dirname + "/data"
-  
+
   app.use express.logger("dev")
   app.use express.bodyParser()
   app.use express.methodOverride()
@@ -24,13 +24,13 @@ app.configure ->
   ### Public assets managers ###
   app.use require("connect-assets")(src: __dirname + "/public")
   app.use express.static(path.join(__dirname, "public"))
-  
-  ### Views helpers ###  
+
+  ### Views helpers ###
   # Register helpers for use in view's
-  app.locals require("./utils").locals  
+  app.locals require("./utils").locals
   # Add context helpers
   app.use require("./utils").context
- 
+
   ### Configure router ###
   # @warning Needs to be after helpers
   app.use app.router

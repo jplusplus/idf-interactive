@@ -1,4 +1,4 @@
-module.exports.context = (req, res, next) ->    
+module.exports.context = (req, res, next) ->
   res.locals.path = req.path
   # Unable debug mode
   res.locals.debugMode = req.query.hasOwnProperty("debug")
@@ -14,7 +14,7 @@ module.exports.locals =
   ###
   stepStyle: (step) ->
     style = []
-    
+
     # Add style
     style.push step.style  if step.style
     style.join ";"
@@ -29,15 +29,15 @@ module.exports.locals =
       (if isNaN(val) then val else val + "px")
 
     style = []
-    
+
     # Add position
     style.push "top:" + toPx(spot.top or 0)
     style.push "left:" + toPx(spot.left or 0)
-    
+
     # Add size
     style.push "width:" + toPx(spot.width)
     style.push "height:" + toPx(spot.height or spot.width) # Square by default
-    
+
     # Add style
     style.push spot.style  if spot.style
     style.join ";"
@@ -49,10 +49,10 @@ module.exports.locals =
   ###
   spotWrapperStyle: (spot) ->
     style = []
-    
+
     # Add background
     style.push "background-image: url(" + spot.background + ")"  if spot.background
-    
+
     # Add style
     style.push spot.wrapperStyle  if spot.wrapperStyle
     style.join ";"
@@ -76,7 +76,7 @@ module.exports.locals =
   ###
   spotClass: (spot) ->
     klass = []
-    
+
     # Spot classes
     klass.push spot.class  if spot.class?
     klass.join " "
@@ -90,7 +90,7 @@ module.exports.locals =
   ###
   strip_tags: (input, allowed) ->
     # short fail
-    return unless input?    
+    return unless input?
     # http://kevin.vanzonneveld.net
     allowed = (((allowed or "") + "").toLowerCase().match(/<[a-z][a-z0-9]*>/g) or []).join("") # making sure the allowed arg is a string containing only tags in lowercase (<a><b><c>)
     tags = /<\/?([a-z][a-z0-9]*)\b[^>]*>/g

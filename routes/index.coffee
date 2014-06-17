@@ -44,7 +44,7 @@ editSpotPosition = (req, res) ->
   spot = req.params.spot
 
   # Forbidden in production!
-  return res.send(403)  if process.env.NODE_ENV is "production"
+  return res.send(403) if process.env.NODE_ENV is "production"
 
   # Do we received the position ?
   return res.send(500)  if not req.query.top or not req.query.left
