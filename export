@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 HOST=http://idf-interactive.herokuapp.com
 INSTANCE=$1
 TMP=$INSTANCE
@@ -10,7 +10,7 @@ wget -rkp $HOST/$INSTANCE.html -P $TMP --no-host-directories
 mv  $TMP/$INSTANCE.html $TMP/index.html
 sed -i s/$INSTANCE\.html/index\.html/g $TMP/index.html
 # Zip it to a new archive
-zip -r $ZIP $TMP
+(cd $TMP && zip -r ../$ZIP *)
 # Remove the temporary dir
 rm -R $TMP
 # Create the extraction directory
