@@ -11,20 +11,20 @@
                     "picture": {
                         "src": "/img/ra2013-magazine/img_1-1.png"
                     },
-                    "top": "0%",
-                    "left": "50%",
+                    "top": "-8.815%",
+                    "left": "50.1449%",
                     "entrance": "left",
-                    "entrance-duration" : 500
+                    "entrance-duration": 500
                 },
                 {
                     "picture": {
                         "src": "/img/ra2013-magazine/img_1-2.png"
                     },
-                    "top": "17.3027%",
-                    "left": "9.855%",
+                    "top": "16.763%",
+                    "left": "10.5072%",
                     "queue": true,
                     "entrance": "zoomIn",
-                    "entrance-duration" : 500
+                    "entrance-duration": 500
                 }
             ]
         },
@@ -32,35 +32,34 @@
             "name": "Qu′en pensez vous ?",
             "hidden-content": "",
             "spots": [
-                
                 {
                     "picture": {
                         "src": "/img/ra2013-magazine/img_2-5.png"
                     },
-                    "top": "18.575%",
-                    "left": "6.5217%",
+                    "top": "13.5838%",
+                    "left": "6.4492%",
                     "entrance": "down",
-                    "entrance-duration" : 500,
+                    "entrance-duration": 500,
                     "queue": 600
                 },
                 {
                     "picture": {
                         "src": "/img/ra2013-magazine/img_2-6.png"
                     },
-                    "top": "18.3206%",
+                    "top": "13.7283%",
                     "left": "19.1304%",
                     "entrance": "down",
-                    "entrance-duration" : 500,
+                    "entrance-duration": 500,
                     "queue": 1200
                 },
                 {
                     "picture": {
                         "src": "/img/ra2013-magazine/img_2-7.png"
                     },
-                    "top": "18.4478%",
+                    "top": "13.5838%",
                     "left": "31.8115%",
                     "entrance": "down",
-                    "entrance-duration" : 500,
+                    "entrance-duration": 500,
                     "queue": 1800
                 },
                 {
@@ -70,7 +69,7 @@
                     "top": "50.6361%",
                     "left": "6.5217%",
                     "entrance": "down",
-                    "entrance-duration" : 500,
+                    "entrance-duration": 500,
                     "queue": 2400
                 },
                 {
@@ -80,7 +79,7 @@
                     "top": "50.6361%",
                     "left": "19.2028%",
                     "entrance": "down",
-                    "entrance-duration" : 500,
+                    "entrance-duration": 500,
                     "queue": 3000
                 },
                 {
@@ -90,7 +89,7 @@
                     "top": "50.6361%",
                     "left": "31.8115%",
                     "entrance": "down",
-                    "entrance-duration" : 500,
+                    "entrance-duration": 500,
                     "queue": 3600
                 },
                 {
@@ -99,9 +98,9 @@
                     },
                     "top": "0%",
                     "left": "50.0724%",
-                    "queue" : 4600,
+                    "queue": 4600,
                     "entrance": "left",
-                    "entrance-duration" : 500
+                    "entrance-duration": 500
                 },
                 {
                     "picture": {
@@ -109,48 +108,48 @@
                     },
                     "top": "94.9109%",
                     "left": "52.826%",
-                    "queue" : 4600,
+                    "queue": 4600,
                     "entrance": "left",
-                    "entrance-duration" : 500
+                    "entrance-duration": 500
                 },
                 {
                     "picture": {
                         "src": "/img/ra2013-magazine/img_2-1.png"
                     },
-                    "top": "17.5572%",
-                    "left": "55.2173%",
+                    "top": "10.2601%",
+                    "left": "55.1449%",
                     "entrance": "down",
-                    "entrance-duration" : 500,
+                    "entrance-duration": 500,
                     "queue": 5200
                 },
                 {
                     "picture": {
                         "src": "/img/ra2013-magazine/img_2-2.png"
                     },
-                    "top": "17.5572%",
-                    "left": "78.6956%",
+                    "top": "9.971%",
+                    "left": "78.5507%",
                     "entrance": "down",
-                    "entrance-duration" : 500,
+                    "entrance-duration": 500,
                     "queue": 5800
                 },
                 {
                     "picture": {
                         "src": "/img/ra2013-magazine/img_2-3.png"
                     },
-                    "top": "58.0152%",
-                    "left": "56.9565%",
+                    "top": "53.4682%",
+                    "left": "56.6666%",
                     "entrance": "down",
-                    "entrance-duration" : 500,
+                    "entrance-duration": 500,
                     "queue": 6400
                 },
                 {
                     "picture": {
                         "src": "/img/ra2013-magazine/img_2-4.png"
                     },
-                    "top": "58.0152%",
-                    "left": "78.0434%",
+                    "top": "53.6127%",
+                    "left": "78.1159%",
                     "entrance": "down",
-                    "entrance-duration" : 500,
+                    "entrance-duration": 500,
                     "queue": 7000
                 },
                 {
@@ -174,7 +173,7 @@
                     "top": "16.1577%",
                     "left": "3.6231%",
                     "entrance": "fadeIn right",
-                    "entrance-duration" : 500,
+                    "entrance-duration": 500,
                     "queue": true
                 },
                 {
@@ -184,7 +183,7 @@
                     "top": "21.6284%",
                     "left": "2.8985%",
                     "entrance": "fadeIn right",
-                    "entrance-duration" : 500,
+                    "entrance-duration": 500,
                     "queue": true
                 },
                 {
@@ -194,17 +193,17 @@
                     "top": "42.748%",
                     "left": "3.4782%",
                     "entrance": "up",
-                    "entrance-duration" : 500,
+                    "entrance-duration": 500,
                     "queue": true
                 },
                 {
                     "picture": {
                         "src": "/img/ra2013-magazine/img_3-4.png"
                     },
-                    "top": "22.9007%",
-                    "left": "57.0289%",
+                    "top": "18.208%",
+                    "left": "56.9565%",
                     "entrance": "down",
-                    "entrance-duration" : 500,
+                    "entrance-duration": 500,
                     "queue": true
                 },
                 {
@@ -232,50 +231,50 @@
                     "picture": {
                         "src": "/img/ra2013-magazine/img_4-1.png"
                     },
-                    "top": "17.0483%",
-                    "left": "4.5652%",
+                    "top": "14.0173%",
+                    "left": "4.0579%",
                     "entrance": "fadeIn right",
-                    "entrance-duration" : 500,
+                    "entrance-duration": 500,
                     "queue": true
                 },
                 {
                     "picture": {
                         "src": "/img/ra2013-magazine/img_4-2.png"
                     },
-                    "top": "21.6284%",
-                    "left": "2.8985%",
+                    "top": "19.0751%",
+                    "left": "2.971%",
                     "entrance": "fadeIn right",
-                    "entrance-duration" : 500,
+                    "entrance-duration": 500,
                     "queue": true
                 },
                 {
                     "picture": {
                         "src": "/img/ra2013-magazine/img_4-3.png"
                     },
-                    "top": "41.3486%",
+                    "top": "37.2832%",
                     "left": "3.8405%",
                     "entrance": "up",
-                    "entrance-duration" : 500,
+                    "entrance-duration": 500,
                     "queue": true
                 },
                 {
                     "picture": {
                         "src": "/img/ra2013-magazine/img_4-4.png"
                     },
-                    "top": "14.631%",
-                    "left": "55.1449%",
+                    "top": "8.2369%",
+                    "left": "55.2173%",
                     "entrance": "down",
-                    "entrance-duration" : 500,
+                    "entrance-duration": 500,
                     "queue": true
                 },
                 {
                     "picture": {
                         "src": "/img/ra2013-magazine/img_4-5.png"
                     },
-                    "top": "52.1628%",
-                    "left": "52.6811%",
+                    "top": "49.2774%",
+                    "left": "52.5362%",
                     "entrance": "down",
-                    "entrance-duration" : 500,
+                    "entrance-duration": 500,
                     "queue": true
                 },
                 {
