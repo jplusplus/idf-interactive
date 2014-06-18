@@ -25,8 +25,8 @@
                     "entrance": "right",
                     "entrance-duration": 1500,
                     "queue": 1400,
-                    "top": "30.1526%",
-                    "left": "-1.5942%"
+                    "top": "27.1676%",
+                    "left": "-1.5217%"
                 },
                 {
                     "picture": {
@@ -35,8 +35,8 @@
                     "entrance": "right",
                     "entrance-duration": 1500,
                     "queue": 1200,
-                    "top": "42.3664%",
-                    "left": "-9.7101%"
+                    "top": "42.341%",
+                    "left": "-9.6376%"
                 }
             ]
         },
