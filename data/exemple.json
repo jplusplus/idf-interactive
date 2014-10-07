@@ -334,7 +334,7 @@
         },
         {
             "picture": "http://placehold.it/940x600",
-            "name": "Exemple de toggler successifs",
+            "name": "Exemple de series de points dans un spot",
             "spots": [
                 {
                     "width": 600,
