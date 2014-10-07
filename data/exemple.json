@@ -341,7 +341,7 @@
                     "height": 400,
                     "top": "18.3333%",
                     "left": "17.9787%",
-                    "class": "pink",
+                    "class": "pink tc",
                     "series": [
                         {"x": 29, "y": 800},
                         {"x": 39, "y": 400},
@@ -361,7 +361,8 @@
                         "class": "red",
                         "height": 10,
                         "width": 10
-                    }
+                    },
+                    "content": "<a href='https://github.com/jplusplus/idf-interactive/blob/master/data/exemple.json#L345:L359'>https://github.com/jplusplus/idf-interactive/blob/master/data/exemple.json#L345:L359</a>"
                 }
             ]
         }
