@@ -248,7 +248,8 @@
       activeClass = $this.data("active-class") or "active"
       # If the activable option is a string
       # we may disable other element of the same family
-      selector = if typeof(activable) is "string" then activable else "." + activeClass
+      selector = if activable isnt "data-activable" then activable else "." + activeClass
+      console.log selector
       $step.find(selector).each ->
         # Each element must have a custom active class
         relativeActiveClass = $(@).data("active-class") or activeClass
@@ -365,12 +366,12 @@
         name     = data["resolve"]
         $resolve = $spots.filter("[data-name=#{name}]")
         resolved = $resolve.hasClass($resolve.data("active-class") or 'active')
-        # Hide or show the element
+        # Hide every element
         $wrapper.addClass("hidden")
         # Continue to the next spot if $resolve is not activated
         return unless resolved
       # Stop here if this is not the first apperance of the element
-      return if not stepEntrance and not $wrapper.hasClass "hidden"
+      return $wrapper.removeClass "hidden" if not stepEntrance and $wrapper.hasClass "js-already-entered"
       # Get the animation keys of the given element
       animationKeys = (data.entrance or "").split(" ")
       # Clear existing timeout
@@ -396,7 +397,7 @@
             to   = $.extend true, animation.to, to
       # Stop every current animations and show the element
       # Also, set the original style if needed
-      $wrapper.stop().css(from).removeClass "hidden"
+      $wrapper.stop().css(from).addClass("js-already-entered").removeClass "hidden"
       # Only if a "to" layout exists
       if to?
         # If there is a queue

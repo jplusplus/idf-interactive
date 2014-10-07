@@ -271,6 +271,55 @@
                     "entrance": "fadeIn"
                 }
             ]
+        },
+        {
+            "picture": "http://placehold.it/940x600",
+            "name": "Exemple de toggler successifs",
+            "spots": [
+                {
+                    "top": "47.1666%",
+                    "left": "15.5319%",
+                    "width": "40px",
+                    "height": "40px",
+                    "class": "red",
+                    "activable": true,
+                    "name": "block-1",
+                    "entrance": "fadeIn"
+                },
+                {
+                    "top": "47.1666%",
+                    "left": "25.5319%",
+                    "width": "40px",
+                    "height": "40px",
+                    "class": "red",
+                    "activable": true,
+                    "name": "block-2",
+                    "resolve": "block-1",
+                    "entrance": "fadeIn"
+                },
+                {
+                    "top": "37.1666%",
+                    "left": "25.5319%",
+                    "width": "40px",
+                    "height": "40px",
+                    "class": "red",
+                    "activable": true,
+                    "name": "block-3",
+                    "resolve": "block-2",
+                    "entrance": "fadeIn"
+                },
+                {
+                    "top": "37.1666%",
+                    "left": "35.5319%",
+                    "width": "40px",
+                    "height": "40px",
+                    "class": "red",
+                    "activable": true,
+                    "name": "block-4",
+                    "resolve": "block-3",
+                    "entrance": "fadeIn"
+                }
+            ]
         }
     ]
 }
