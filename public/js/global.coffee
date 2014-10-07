@@ -48,7 +48,7 @@
     # Resize container and its spots
     scaleContainer()
     stepsPosition()
-    spotsSize()
+    spotsLayout()
     spotsPosition()
     bindUI()
     # Allow resizable iframe
@@ -92,8 +92,10 @@
     $(window).resize resize
     $(window).hashchange readStepFromHash
     # Open links begining by http in a new window
-    $("a[href^='http://']").attr "target", "_blank"
-    $("a[href^='https://']").attr "target", "_blank"
+    $("[href^='http://']").attr "target", "_blank"
+    $("[data-href^='http://']").attr "target", "_blank"
+    $("[href^='https://']").attr "target", "_blank"
+    $("[data-href^='https://']").attr "target", "_blank"
 
 
 
@@ -210,9 +212,10 @@
    * Resize every spots according its wrapper
    * @return {Array} Spots list
   ###
-  spotsSize = ->
+  spotsLayout = ->
     $uis.spots.each (i, spot) ->
       $spot = $(this)
+      $spot.toggleClass "clickable", $spot.data("href")?
       $spot.css "width",  $spot.find(".js-animation-wrapper").outerWidth()
       $spot.css "height", $spot.find(".js-animation-wrapper").outerHeight()
 
@@ -222,7 +225,6 @@
    * @return {Array} Spots list
   ###
   spotsPosition = ->
-
     # Add a negative margin on each spot
     # (position the spot from its center)
     $uis.spots.each (i, spot) ->
@@ -238,6 +240,12 @@
   ###
   clickSpot = (event) ->
     $this = $(this)
+    # Open a link if need
+    if $this.data("href")?
+      if $this.attr("target") is "_blank"
+        window.open $this.data("href"), '_blank'
+      else
+        window.location = $this.data("href")
     # Find the current step
     $step = $uis.steps.filter(".js-current")
     # Get the "activable" option for this spot
@@ -249,7 +257,6 @@
       # If the activable option is a string
       # we may disable other element of the same family
       selector = if activable isnt "data-activable" then activable else "." + activeClass
-      console.log selector
       $step.find(selector).each ->
         # Each element must have a custom active class
         relativeActiveClass = $(@).data("active-class") or activeClass

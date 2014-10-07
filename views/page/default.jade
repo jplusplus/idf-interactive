@@ -1,10 +1,10 @@
 extends ../base
 
 mixin spot(spot, spotKey)
-    span.spot(
+    .spot(
         style=spotStyle(spot),
         class=spotClass(spot),
-        href=spot.href,
+        data-href=spot.href,
         data-name=spot.name || '',
         data-resolve=spot.resolve || '',
         data-activable=spot.activable,

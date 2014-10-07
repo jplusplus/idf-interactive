@@ -328,7 +328,8 @@
                     "activable": true,
                     "name": "block-5",
                     "resolve": "block-4",
-                    "entrance": "fadeIn"
+                    "entrance": "fadeIn",
+                    "href": "http://pirhoo.com"
                 }
             ]
         },
