@@ -85,7 +85,7 @@
    * @return {Object} jQuest window ibject
   ###
   bindUI = ->
-    $uis.steps.on "click", ".spot", showSpot
+    $uis.steps.on "click", ".spot", clickSpot
     $uis.previous.on "click", previousStep
     $uis.next.on "click", nextStep
     $(window).keydown keyboardNav
@@ -232,13 +232,31 @@
         $spot.css "margin-top", $spot.outerHeight() / -2
 
   ###*
-   * TODO: open a contextual popin when clicking on a spot
+   * Click on a spot
    * @param  {Object} event Click event
    * @return {[type]}       [description]
   ###
-  showSpot = (event) ->
+  clickSpot = (event) ->
     $this = $(this)
-    alert $this.data("html")  if $this.data("html")
+    # Find the current step
+    $step = $uis.steps.filter(".js-current")
+    # Get the "activable" option for this spot
+    activable = $this.data("activable")
+    # This spot can be activated
+    if activable
+      # Class to apply to active element
+      activeClass = $this.data("active-class") or "active"
+      # If the activable option is a string
+      # we may disable other element of the same family
+      selector = if typeof(activable) is "string" then activable else "." + activeClass
+      $step.find(selector).each ->
+        # Each element must have a custom active class
+        relativeActiveClass = $(@).data("active-class") or activeClass
+        $(@).removeClass activeClass
+      # Add the right class to this spot
+      $this.addClass activeClass
+      # Play spots animations
+      doEntranceAnimations(no)
 
   ###*
    * Bind the keyboard keydown event to navigate through the page
@@ -312,7 +330,7 @@
       # Update the menu
       $uis.navitem.removeClass("active").filter("[data-step=#{currentStep}]").addClass("active")
       # Hides element with entrance
-      $uis.steps.eq(currentStep).find(".spot[data-entrance] .js-animation-wrapper").addClass "hidden"
+      $uis.steps.eq(currentStep).find(".spot .js-animation-wrapper").addClass "hidden"
       # Clear all spot animations
       clearSpotAnimations()
       # Add the entrance animation after the scroll
@@ -324,22 +342,37 @@
   ###*
    * Set step animations
   ###
-  doEntranceAnimations = ->
+  doEntranceAnimations = (stepEntrance=yes)->
     # Launch hotspot background animations
     doSpotAnimations()
     # Find the current step
     $step = $uis.steps.filter(".js-current")
+    # Those spots
+    $spots = $step.find(".spot")
     # Number of element behind before animate the entrance
     queue = 0
     # Find spots with animated entrance
-    $step.find(".spot[data-entrance]").each (i, elem) ->
+    $spots.each (i, elem) ->
       $elem = $(elem)
       # Get tge data from the element
       data = $elem.data()
       # Works on an animation wrapper
       $wrapper = $elem.find(".js-animation-wrapper")
+      # This spot might have a "resolve" option.
+      # This means that the element with the name inside the resolve
+      # option must be activated
+      if data["resolve"]
+        name     = data["resolve"]
+        $resolve = $spots.filter("[data-name=#{name}]")
+        resolved = $resolve.hasClass($resolve.data("active-class") or 'active')
+        # Hide or show the element
+        $wrapper.addClass("hidden")
+        # Continue to the next spot if $resolve is not activated
+        return unless resolved
+      # Stop here if this is not the first apperance of the element
+      return if not stepEntrance and not $wrapper.hasClass "hidden"
       # Get the animation keys of the given element
-      animationKeys = data.entrance.split(" ")
+      animationKeys = (data.entrance or "").split(" ")
       # Clear existing timeout
       clearTimeout $wrapper.t  if $wrapper.t
       # Initial layout
@@ -349,7 +382,7 @@
         # Get the animation (and create a clone object)
         animation = $.extend true, {}, entrance[animationKey]
         # If the animation exist
-        if animation?
+        if animationKey isnt "" and animation?
           if animation.from.transform?
             return unless Modernizr.csstransforms
           # Merge the layout object recursively
@@ -361,7 +394,6 @@
             to   = $.extend true, animation.to($elem), to
           else
             to   = $.extend true, animation.to, to
-
       # Stop every current animations and show the element
       # Also, set the original style if needed
       $wrapper.stop().css(from).removeClass "hidden"
@@ -381,16 +413,13 @@
           entranceDelay = duration * queue
 
         # Wait a duration...
-        $wrapper.t = setTimeout(
-          # Closure function to transmit "to"
-          (
-            (to)->
-              ->
-                # ...before animate the wrapper
-                $wrapper.animate to, duration
+        # Closure function to transmit "to"
+        $wrapper.t = setTimeout ((to)->->
+              # ...before animate the wrapper
+              $wrapper.animate to, duration
           )(to)
         # ...and increase the queue
-        , entranceDelay)
+        , entranceDelay
 
 
   ###*
@@ -414,15 +443,15 @@
     # Find its spots
     $spots = $step.find(".spot")
 
+    requestField = "d"
     # On each spot, create an animation
     $spots.each (i, spot) ->
-      data = $(spot).data()
-      requestField = "d"
-
+      $spot = $(spot)
+      data  = $spot.data()
       # Is there a background and an animation on it
       if data["background"] and data["backgroundDirection"] isnt `undefined`
         # Reset background position
-        $(spot).find(".js-animation-wrapper").css "background-position", "0 0"
+        $spot.find(".js-animation-wrapper").css "background-position", "0 0"
         # Clear existing request animation frame
         window.cancelAnimationFrame spot[requestField]  if spot[requestField]
         requestParams = closureAnimation(spot, requestField, renderSpotAnimation)

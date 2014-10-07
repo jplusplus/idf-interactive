@@ -176,7 +176,6 @@
                     "top": "33.5%",
                     "left": "51.8085%",
                     "width": "70px",
-                    "html": "Lorem ipsum dolor si amet",
                     "class": "yellow",
                     "origin": "center",
                     "entrance": "down",
@@ -186,17 +185,15 @@
                     "top": "50.8%",
                     "left": "51.4166%",
                     "width": "100px",
-                    "html": "Lorem ipsum dolor si amet",
                     "class": "red",
                     "origin": "center",
                     "entrance": "down",
                     "queue": true
                 },
                 {
-                    "top": "66.3333%",
+                    "top": "66.1666%",
                     "left": "51.3829%",
                     "width": "60px",
-                    "html": "Lorem ipsum dolor si amet",
                     "class": "yellow",
                     "origin": "center",
                     "entrance": "down",
@@ -206,7 +203,6 @@
                     "top": "70.2%",
                     "left": "63.8333%",
                     "width": "20px",
-                    "html": "Lorem ipsum dolor si amet",
                     "origin": "center",
                     "entrance": "down",
                     "queue": true
@@ -215,11 +211,64 @@
                     "top": "77.8333%",
                     "left": "51.2765%",
                     "width": "50px",
-                    "html": "Lorem ipsum dolor si amet",
                     "class": "red",
                     "origin": "center",
                     "entrance": "down",
                     "queue": true
+                }
+            ]
+        },
+        {
+            "picture": "http://placehold.it/940x600",
+            "name": "Exemple de toggler",
+            "spots": [
+                {
+                    "top": "0",
+                    "left": "0",
+                    "width": "940px",
+                    "height": "300px",
+                    "class": "family-name",
+                    "origin": "top",
+                    "activable": ".family-name",
+                    "active-class": "red",
+                    "name": "block-at-the-top",
+                    "entrance": "fadeIn left"
+                },
+                {
+                    "top": "50%",
+                    "left": "0",
+                    "width": "940px",
+                    "height": "300px",
+                    "class": "red family-name",
+                    "origin": "top",
+                    "activable": ".family-name",
+                    "active-class": "red",
+                    "name": "block-at-the-bottom",
+                    "entrance": "fadeIn right"
+                },
+                {
+                    "top": "77.8333%",
+                    "left": "51.2765%",
+                    "content": "Cliquez ici",
+                    "origin": "center",
+                    "resolve": "block-at-the-top",
+                    "entrance": "fadeIn right"
+                },
+                {
+                    "top": "23.15%",
+                    "left": "51.2765%",
+                    "content": "Cliquez ici",
+                    "origin": "center",
+                    "resolve": "block-at-the-bottom",
+                    "entrance": "fadeIn left"
+                },
+                {
+                    "top": "50%",
+                    "left": "50%",
+                    "width": "50px",
+                    "class": "yellow",
+                    "origin": "center",
+                    "entrance": "fadeIn"
                 }
             ]
         }
