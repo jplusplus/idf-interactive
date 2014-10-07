@@ -245,7 +245,7 @@
     # This spot can be activated
     if activable
       # Class to apply to active element
-      activeClass = $this.data("active-class") or "active"
+      activeClass = $this.data("active-class") or "js-active"
       # If the activable option is a string
       # we may disable other element of the same family
       selector = if activable isnt "data-activable" then activable else "." + activeClass
@@ -257,7 +257,7 @@
       # Add the right class to this spot
       $this.addClass activeClass
       # Play spots animations
-      doEntranceAnimations(no)
+      doEntranceAnimations()
 
   ###*
    * Bind the keyboard keydown event to navigate through the page
@@ -329,9 +329,10 @@
       # Is this the last step ?
       $uis.body.toggleClass "js-last", currentStep is $uis.steps.length - 1
       # Update the menu
-      $uis.navitem.removeClass("active").filter("[data-step=#{currentStep}]").addClass("active")
+      $uis.navitem.removeClass("js-active").filter("[data-step=#{currentStep}]").addClass("js-active")
       # Hides element with entrance
-      $uis.steps.eq(currentStep).find(".spot .js-animation-wrapper").addClass "hidden"
+      # Remove every previous animations
+      $uis.steps.eq(currentStep).find(".spot .js-animation-wrapper").addClass("hidden").removeClass(".js-already-entered")
       # Clear all spot animations
       clearSpotAnimations()
       # Add the entrance animation after the scroll
@@ -343,7 +344,7 @@
   ###*
    * Set step animations
   ###
-  doEntranceAnimations = (stepEntrance=yes)->
+  doEntranceAnimations = ()->
     # Launch hotspot background animations
     doSpotAnimations()
     # Find the current step
@@ -365,13 +366,13 @@
       if data["resolve"]
         name     = data["resolve"]
         $resolve = $spots.filter("[data-name=#{name}]")
-        resolved = $resolve.hasClass($resolve.data("active-class") or 'active')
+        resolved = $resolve.hasClass($resolve.data("active-class") or 'js-active')
         # Hide every element
         $wrapper.addClass("hidden")
         # Continue to the next spot if $resolve is not activated
         return unless resolved
       # Stop here if this is not the first apperance of the element
-      return $wrapper.removeClass "hidden" if not stepEntrance and $wrapper.hasClass "js-already-entered"
+      return $wrapper.removeClass "hidden" if $wrapper.hasClass "js-already-entered"
       # Get the animation keys of the given element
       animationKeys = (data.entrance or "").split(" ")
       # Clear existing timeout

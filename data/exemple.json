@@ -298,8 +298,8 @@
                     "entrance": "fadeIn"
                 },
                 {
-                    "top": "37.1666%",
-                    "left": "25.5319%",
+                    "top": "47.1666%",
+                    "left": "35.5319%",
                     "width": "40px",
                     "height": "40px",
                     "class": "red",
@@ -309,14 +309,25 @@
                     "entrance": "fadeIn"
                 },
                 {
-                    "top": "37.1666%",
-                    "left": "35.5319%",
+                    "top": "47.1666%",
+                    "left": "45.5319%",
                     "width": "40px",
                     "height": "40px",
                     "class": "red",
                     "activable": true,
                     "name": "block-4",
                     "resolve": "block-3",
+                    "entrance": "fadeIn"
+                },
+                {
+                    "top": "47.1666%",
+                    "left": "55.5319%",
+                    "width": "40px",
+                    "height": "40px",
+                    "class": "red",
+                    "activable": true,
+                    "name": "block-5",
+                    "resolve": "block-4",
                     "entrance": "fadeIn"
                 }
             ]
