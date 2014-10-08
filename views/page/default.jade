@@ -1,6 +1,6 @@
 extends ../base
 
-mixin spot(spot, spotKey)
+mixin spot(spot, stepKey, spotKey)
     .spot(
         style=spotStyle(spot),
         class=spotClass(spot),
@@ -32,7 +32,7 @@ mixin spot(spot, spotKey)
                 img(src=spot["picture"]["src"], alt=spot["picture"]["alt"], width=spot["picture"]["width"], height=spot["picture"]["height"]).spot-background
             if spot["series"]
                 each s, key in spot["series"]
-                    +spot(s, spotKey + "." + key)
+                    +spot(s, stepKey, spotKey + "." + key)
 
 block content
 
@@ -50,4 +50,4 @@ block content
                 .hide-text.hidden-content!=step["hidden-content"]
             if step["spots"]
                 each spot, spotKey in step["spots"]
-                    +spot(spot, spotKey)
+                    +spot(spot, stepKey, spotKey)

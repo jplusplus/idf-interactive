@@ -215,7 +215,7 @@
   spotsLayout = ->
     $uis.spots.each (i, spot) ->
       $spot = $(this)
-      $spot.toggleClass "clickable", $spot.data("href")?
+      $spot.toggleClass "clickable", $spot.data("href")? or $spot.data("activable")?
       $spot.css "width",  $spot.find(".js-animation-wrapper").outerWidth()
       $spot.css "height", $spot.find(".js-animation-wrapper").outerHeight()
 
@@ -371,8 +371,7 @@
       # This means that the element with the name inside the resolve
       # option must be activated
       if data["resolve"]
-        name     = data["resolve"]
-        $resolve = $spots.filter("[data-name=#{name}]")
+        $resolve = $spots.filter(data["resolve"])
         resolved = $resolve.hasClass($resolve.data("active-class") or 'js-active')
         # Hide every element
         $wrapper.addClass("hidden")

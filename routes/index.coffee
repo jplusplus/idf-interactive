@@ -23,11 +23,9 @@ routePage = (req, res) ->
   json = path.join(dataDir, dataName)
   # Do the data file exist ?
   return res.send(404, "Data file not found.")  unless fs.existsSync(json)
-
-  if req.query.debug?
-    # Refresh the require if we are in debug mode cache
-    name = require.resolve(json)
-    delete require.cache[name];
+  # Refresh the require if we are in debug mode cache
+  name = require.resolve(json)
+  delete require.cache[name];
   # Parse the json file
   data = require(json)
   # Inspect the daya to improve some elements

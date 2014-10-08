@@ -251,7 +251,7 @@
                     "left": "51.2765%",
                     "content": "Cliquez ici",
                     "origin": "center",
-                    "resolve": "block-at-the-top",
+                    "resolve": "[data-name=block-at-the-top]",
                     "entrance": "fadeIn right"
                 },
                 {
@@ -259,7 +259,7 @@
                     "left": "51.2765%",
                     "content": "Cliquez ici",
                     "origin": "center",
-                    "resolve": "block-at-the-bottom",
+                    "resolve": "[data-name=block-at-the-bottom]",
                     "entrance": "fadeIn left"
                 },
                 {
@@ -294,7 +294,7 @@
                     "class": "red",
                     "activable": true,
                     "name": "block-2",
-                    "resolve": "block-1",
+                    "resolve": "[data-name=block-1]",
                     "entrance": "fadeIn"
                 },
                 {
@@ -305,7 +305,7 @@
                     "class": "red",
                     "activable": true,
                     "name": "block-3",
-                    "resolve": "block-2",
+                    "resolve": "[data-name=block-2]",
                     "entrance": "fadeIn"
                 },
                 {
@@ -316,7 +316,7 @@
                     "class": "red",
                     "activable": true,
                     "name": "block-4",
-                    "resolve": "block-3",
+                    "resolve": "[data-name=block-3]",
                     "entrance": "fadeIn"
                 },
                 {
@@ -327,9 +327,8 @@
                     "class": "red",
                     "activable": true,
                     "name": "block-5",
-                    "resolve": "block-4",
-                    "entrance": "fadeIn",
-                    "href": "http://pirhoo.com"
+                    "resolve": "[data-name=block-4]",
+                    "entrance": "fadeIn"
                 }
             ]
         },
@@ -344,19 +343,136 @@
                     "left": "17.9787%",
                     "class": "pink tc",
                     "series": [
-                        {"x": 29, "y": 800},
-                        {"x": 39, "y": 400},
-                        {"x": 49, "y": 200},
-                        {"x": 59, "y": 100},
-                        {"x": 69, "y": 50},
-                        {"x": 79, "y": 25},
-                        {"x": 89, "y": 12.5},
-                        {"x": 99, "y": 25},
-                        {"x": 109, "y": 50},
-                        {"x": 119, "y": 100},
-                        {"x": 129, "y": 200},
-                        {"x": 139, "y": 400},
-                        {"x": 149, "y": 800}
+                        {
+                            "x": 29,
+                            "y": 800,
+                            "left": "0%",
+                            "top": "0%",
+                            "origin": "center",
+                            "class": "red",
+                            "height": 10,
+                            "width": 10
+                        },
+                        {
+                            "x": 39,
+                            "y": 400,
+                            "left": "8.333333333333334%",
+                            "top": "50.79365079365079%",
+                            "origin": "center",
+                            "class": "red",
+                            "height": 10,
+                            "width": 10
+                        },
+                        {
+                            "x": 49,
+                            "y": 200,
+                            "left": "16.666666666666668%",
+                            "top": "76.19047619047619%",
+                            "origin": "center",
+                            "class": "red",
+                            "height": 10,
+                            "width": 10
+                        },
+                        {
+                            "x": 59,
+                            "y": 100,
+                            "left": "25%",
+                            "top": "88.88888888888889%",
+                            "origin": "center",
+                            "class": "red",
+                            "height": 10,
+                            "width": 10
+                        },
+                        {
+                            "x": 69,
+                            "y": 50,
+                            "left": "33.333333333333336%",
+                            "top": "95.23809523809524%",
+                            "origin": "center",
+                            "class": "red",
+                            "height": 10,
+                            "width": 10
+                        },
+                        {
+                            "x": 79,
+                            "y": 25,
+                            "left": "41.666666666666664%",
+                            "top": "98.41269841269842%",
+                            "origin": "center",
+                            "class": "red",
+                            "height": 10,
+                            "width": 10
+                        },
+                        {
+                            "x": 89,
+                            "y": 12.5,
+                            "left": "50%",
+                            "top": "100%",
+                            "origin": "center",
+                            "class": "red",
+                            "height": 10,
+                            "width": 10
+                        },
+                        {
+                            "x": 99,
+                            "y": 25,
+                            "left": "58.333333333333336%",
+                            "top": "98.41269841269842%",
+                            "origin": "center",
+                            "class": "red",
+                            "height": 10,
+                            "width": 10
+                        },
+                        {
+                            "x": 109,
+                            "y": 50,
+                            "left": "66.66666666666667%",
+                            "top": "95.23809523809524%",
+                            "origin": "center",
+                            "class": "red",
+                            "height": 10,
+                            "width": 10
+                        },
+                        {
+                            "x": 119,
+                            "y": 100,
+                            "left": "75%",
+                            "top": "88.88888888888889%",
+                            "origin": "center",
+                            "class": "red",
+                            "height": 10,
+                            "width": 10
+                        },
+                        {
+                            "x": 129,
+                            "y": 200,
+                            "left": "83.33333333333333%",
+                            "top": "76.19047619047619%",
+                            "origin": "center",
+                            "class": "red",
+                            "height": 10,
+                            "width": 10
+                        },
+                        {
+                            "x": 139,
+                            "y": 400,
+                            "left": "91.66666666666667%",
+                            "top": "50.79365079365079%",
+                            "origin": "center",
+                            "class": "red",
+                            "height": 10,
+                            "width": 10
+                        },
+                        {
+                            "x": 149,
+                            "y": 800,
+                            "left": "100%",
+                            "top": "0%",
+                            "origin": "center",
+                            "class": "red",
+                            "height": 10,
+                            "width": 10
+                        }
                     ],
                     "series-options": {
                         "class": "red",
@@ -364,6 +480,62 @@
                         "width": 10
                     },
                     "content": "<a href='https://github.com/jplusplus/idf-interactive/blob/master/data/exemple.json#L345:L359'>https://github.com/jplusplus/idf-interactive/blob/master/data/exemple.json#L345:L359</a>"
+                }
+            ]
+        },
+        {
+            "picture": "http://placehold.it/940x600",
+            "spots": [
+                {
+                    "width": 200,
+                    "height": 30,
+                    "class": "green tc js-active",
+                    "activable": true,
+                    "top": "26.6666%",
+                    "left": "10.6382%",
+                    "content": "Show green"
+                },
+                {
+                    "width": 200,
+                    "height": 30,
+                    "class": "red tc",
+                    "activable": true,
+                    "top": "36.6666%",
+                    "left": "10.6382%",
+                    "content": "Show red"
+                },
+                {
+                    "width": 200,
+                    "height": 30,
+                    "class": "pink tc",
+                    "activable": true,
+                    "top": "46.6666%",
+                    "left": "10.6382%",
+                    "content": "Show pink"
+                },
+                {
+                    "width": 500,
+                    "height": 400,
+                    "class": "green",
+                    "top": "26.5%",
+                    "left": "34.7872%",
+                    "resolve": ".green"
+                },
+                {
+                    "width": 500,
+                    "height": 400,
+                    "class": "red",
+                    "top": "26.5%",
+                    "left": "34.7872%",
+                    "resolve": ".red"
+                },
+                {
+                    "width": 500,
+                    "height": 400,
+                    "class": "pink",
+                    "top": "26.5%",
+                    "left": "34.7872%",
+                    "resolve": ".pink"
                 }
             ]
         }

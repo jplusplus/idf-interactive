@@ -437,8 +437,10 @@ body {
             background:none;
 
             &.focus {
-                .box-shadow(red 0 0 20px);
-                .opacity(40);
+                &  > .js-animation-wrapper {
+                    .box-shadow(black 0 0 20px);
+                    .opacity(40);
+                }
             }
 
             &.pictos {
@@ -459,6 +461,16 @@ body {
 
             &.yellow > .js-animation-wrapper {
                 background:yellow;
+            }
+
+
+            &.red.js-active,
+            &.green.js-active,
+            &.pink.js-active,
+            &.yellow.js-active {
+                &  > .js-animation-wrapper {
+                    .box-shadow(white 0 0 20px);
+                }
             }
 
             &.fg {

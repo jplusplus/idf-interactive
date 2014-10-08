@@ -34,7 +34,7 @@ $(window).load ->
         $(this).toggleClass("focus")
 
     # Disable other key events
-    $(window).off("keyup keydown").on "keyup", (e)->        
+    $(window).off("keyup keydown").on "keyup", (e)->
         $div = $ '.js-current .spot.focus'
         $overflow = $("#overflow")
         if $div.length
@@ -43,11 +43,11 @@ $(window).load ->
             switch e.which
                 # left arrow key
                 when 37 then $div.css( "left", left - 1)
-                # up arrow key                
+                # up arrow key
                 when 38 then $div.css( "top", top - 1)
-                # right arrow key                
+                # right arrow key
                 when 39 then $div.css( "left", left + 1)
-                # bottom arrow key                
+                # bottom arrow key
                 when 40 then $div.css( "top", top + 1)
                 # Or stop here
                 else return
