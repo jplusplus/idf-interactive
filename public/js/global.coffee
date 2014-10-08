@@ -281,7 +281,6 @@
   ###
   enterSpot = (event)->
     clickSpot.call(@, event) if $(@).data("trigger") is "hover"
-
   ###*
    * Mouse leave a spot
    * @param  {Object} event Click event
@@ -371,7 +370,7 @@
       $uis.navitem.removeClass("js-active").filter("[data-step=#{currentStep}]").addClass("js-active")
       # Hides element with entrance
       # Remove every previous animations
-      $uis.steps.eq(currentStep).find(".spot .js-animation-wrapper").addClass("hidden").removeClass("js-already-entered")
+      $uis.steps.eq(currentStep).find(".spot .js-animation-wrapper").addClass("hidden")
       # Clear all spot animations
       clearSpotAnimations()
       # Add the entrance animation after the scroll
@@ -413,8 +412,6 @@
         $wrapper.addClass("hidden")
         # Continue to the next spot if $resolve is not activated
         return unless resolved
-      # Stop here if this is not the first apperance of the element
-      return $wrapper.removeClass "hidden" if $wrapper.hasClass "js-already-entered"
       # Get the animation keys of the given element
       animationKeys = (data.entrance or "").split(" ")
       # Clear existing timeout
@@ -440,7 +437,7 @@
             to   = $.extend true, animation.to, to
       # Stop every current animations and show the element
       # Also, set the original style if needed
-      $wrapper.stop().css(from).addClass("js-already-entered").removeClass "hidden"
+      $wrapper.stop().css(from).removeClass "hidden"
       # Only if a "to" layout exists
       if to?
         # If there is a queue

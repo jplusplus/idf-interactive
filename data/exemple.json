@@ -532,7 +532,8 @@
                     "class": "green",
                     "top": "26.5%",
                     "left": "34.7872%",
-                    "resolve": ".tab:eq(0), .category:eq(0)"
+                    "resolve": ".tab:eq(0), .category:eq(0)",
+                    "entrance": "stepUp fadeIn"
                 },
                 {
                     "width": 200,
@@ -540,7 +541,8 @@
                     "class": "green",
                     "top": "26.5%",
                     "left": "54.7872%",
-                    "resolve": ".tab:eq(0), .category:eq(1)"
+                    "resolve": ".tab:eq(0), .category:eq(1)",
+                    "entrance": "stepUp fadeIn"
                 },
                 {
                     "width": 200,
@@ -548,7 +550,8 @@
                     "class": "red",
                     "top": "26.5%",
                     "left": "34.7872%",
-                    "resolve": ".tab:eq(1), .category:eq(0)"
+                    "resolve": ".tab:eq(1), .category:eq(0)",
+                    "entrance": "stepUp fadeIn"
                 },
                 {
                     "width": 200,
@@ -556,7 +559,8 @@
                     "class": "red",
                     "top": "26.5%",
                     "left": "54.7872%",
-                    "resolve": ".tab:eq(1), .category:eq(1)"
+                    "resolve": ".tab:eq(1), .category:eq(1)",
+                    "entrance": "stepUp fadeIn"
                 },
                 {
                     "width": 200,
@@ -564,7 +568,8 @@
                     "class": "pink",
                     "top": "26.5%",
                     "left": "34.7872%",
-                    "resolve": ".tab:eq(2), .category:eq(0)"
+                    "resolve": ".tab:eq(2), .category:eq(0)",
+                    "entrance": "stepUp fadeIn"
                 },
                 {
                     "width": 200,
@@ -572,7 +577,8 @@
                     "class": "pink",
                     "top": "26.5%",
                     "left": "54.7872%",
-                    "resolve": ".tab:eq(2), .category:eq(1)"
+                    "resolve": ".tab:eq(2), .category:eq(1)",
+                    "entrance": "stepUp fadeIn"
                 },
                 {
                     "content": "A",
