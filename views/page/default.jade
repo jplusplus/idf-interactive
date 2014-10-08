@@ -4,6 +4,7 @@ mixin spot(spot, stepKey, spotKey)
     .spot(
         style=spotStyle(spot),
         class=spotClass(spot),
+        title=spot.tooltip,
         data-href=spot.href,
         data-name=spot.name || '',
         data-resolve=spot.resolve || '',

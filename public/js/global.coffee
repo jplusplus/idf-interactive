@@ -29,6 +29,9 @@
 # Allow responsive iframe
 #= require vendor/jquery.responsiveiframe.js
 
+# Spot's tooltips
+#= require vendor/jquery.tooltipster.min.js
+
 (($, window) ->
   $ui = $uis = null
   currentStep = 0
@@ -60,6 +63,8 @@
     readStepFromHash()
     # Activate fast click to avoid tap delay on touch screen
     new FastClick(document.body)
+    # Activate tooltips
+    $('.js-tooltip').tooltipster contentAsHTML: yes, theme: 'tooltipster-light'
 
   ###*
    * Gets every jquery shortcuts

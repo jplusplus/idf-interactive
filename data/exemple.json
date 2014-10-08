@@ -477,7 +477,8 @@
                     "series-options": {
                         "class": "red",
                         "height": 10,
-                        "width": 10
+                        "width": 10,
+                        "tooltip": "Each dot can have the same options as any other spot!"
                     },
                     "content": "<a href='https://github.com/jplusplus/idf-interactive/blob/master/data/exemple.json#L345:L359'>https://github.com/jplusplus/idf-interactive/blob/master/data/exemple.json#L345:L359</a>"
                 }

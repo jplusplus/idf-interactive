@@ -76,9 +76,10 @@ module.exports.locals =
   ###
   spotClass: (spot) ->
     klass = []
-
+    # Special class for element with a tooltip
+    klass.push "js-tooltip" if spot.tooltip?
     # Spot classes
-    klass.push spot.class  if spot.class?
+    klass.push spot.class if spot.class?
     klass.join " "
 
   ###*
