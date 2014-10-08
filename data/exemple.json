@@ -513,7 +513,7 @@
                     "height": 30,
                     "class": "red tc tab",
                     "activable": ".tab",
-                    "top": "36.6666%",
+                    "top": "36.5%",
                     "left": "10.6382%",
                     "content": "Show red"
                 },
@@ -579,16 +579,28 @@
                     "top": "14.8333%",
                     "left": "35.5319%",
                     "activable": ".category",
-                    "class": "category yellow tc js-active",
-                    "width": "18"
+                    "class": "category yellow tc",
+                    "width": "18",
+                    "trigger": "hover"
                 },
                 {
                     "content": "B",
                     "top": "14.8333%",
-                    "left": "54.6808%",
+                    "left": "38%",
                     "activable": ".category",
                     "class": "category yellow tc",
-                    "width": "18"
+                    "width": "18",
+                    "trigger": "hover"
+                },
+                {
+                    "content": "Hover a letter",
+                    "top": "11%",
+                    "left": "35.4255%"
+                },
+                {
+                    "content": "Pick a color",
+                    "top": "21.6666%",
+                    "left": "10.851%"
                 }
             ]
         }

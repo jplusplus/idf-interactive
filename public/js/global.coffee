@@ -90,7 +90,9 @@
    * @return {Object} jQuest window ibject
   ###
   bindUI = ->
-    $uis.steps.on "click", ".spot", clickSpot
+    $uis.steps.on "click",      ".spot", clickSpot
+    $uis.steps.on "mouseenter", ".spot", enterSpot
+    $uis.steps.on "mouseleave", ".spot", leaveSpot
     $uis.previous.on "click", previousStep
     $uis.next.on "click", nextStep
     $(window).keydown keyboardNav
@@ -219,7 +221,7 @@
   ###
   spotsLayout = ->
     $uis.spots.each (i, spot) ->
-      $spot = $(this)
+      $spot = $(@)
       $spot.toggleClass "clickable", $spot.data("href")? or $spot.data("activable")?
       $spot.css "width",  $spot.find(".js-animation-wrapper").outerWidth()
       $spot.css "height", $spot.find(".js-animation-wrapper").outerHeight()
@@ -238,25 +240,26 @@
         $spot.css "margin-left", $spot.outerWidth() / -2
         $spot.css "margin-top", $spot.outerHeight() / -2
 
+
   ###*
    * Click on a spot
    * @param  {Object} event Click event
    * @return {[type]}       [description]
   ###
   clickSpot = (event) ->
-    $this = $(this)
+    $this = $(@)
     # Open a link if need
     if $this.data("href")?
       if $this.attr("target") is "_blank"
         window.open $this.data("href"), '_blank'
       else
         window.location = $this.data("href")
-    # Find the current step
-    $step = $uis.steps.filter(".js-current")
     # Get the "activable" option for this spot
     activable = $this.data("activable")
     # This spot can be activated
     if activable
+      # Find the current step
+      $step = $uis.steps.filter(".js-current")
       # Class to apply to active element
       activeClass = $this.data("active-class") or "js-active"
       # If the activable option is a string
@@ -268,6 +271,30 @@
         $(@).removeClass activeClass
       # Add the right class to this spot
       $this.addClass activeClass
+      # Play spots animations
+      doEntranceAnimations()
+
+  ###*
+   * Mouse enter on a spot
+   * @param  {Object} event Click event
+   * @return {[type]}       [description]
+  ###
+  enterSpot = (event)->
+    clickSpot.call(@, event) if $(@).data("trigger") is "hover"
+
+  ###*
+   * Mouse leave a spot
+   * @param  {Object} event Click event
+   * @return {[type]}       [description]
+  ###
+  leaveSpot = (event) ->
+    $this = $(@)
+    # Should we deactivate this element
+    if $this.data("activable") and $this.data("trigger") is "hover"
+      # Class to remove from the active element
+      activeClass = $this.data("active-class") or "js-active"
+      # This spot can be activated
+      $this.removeClass activeClass
       # Play spots animations
       doEntranceAnimations()
 
