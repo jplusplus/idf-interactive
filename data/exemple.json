@@ -351,7 +351,8 @@
                             "origin": "center",
                             "class": "red",
                             "height": 10,
-                            "width": 10
+                            "width": 10,
+                            "tooltip": "Each dot can have the same options as any other spot!"
                         },
                         {
                             "x": 39,
@@ -361,7 +362,8 @@
                             "origin": "center",
                             "class": "red",
                             "height": 10,
-                            "width": 10
+                            "width": 10,
+                            "tooltip": "Each dot can have the same options as any other spot!"
                         },
                         {
                             "x": 49,
@@ -371,7 +373,8 @@
                             "origin": "center",
                             "class": "red",
                             "height": 10,
-                            "width": 10
+                            "width": 10,
+                            "tooltip": "Each dot can have the same options as any other spot!"
                         },
                         {
                             "x": 59,
@@ -381,7 +384,8 @@
                             "origin": "center",
                             "class": "red",
                             "height": 10,
-                            "width": 10
+                            "width": 10,
+                            "tooltip": "Each dot can have the same options as any other spot!"
                         },
                         {
                             "x": 69,
@@ -391,7 +395,8 @@
                             "origin": "center",
                             "class": "red",
                             "height": 10,
-                            "width": 10
+                            "width": 10,
+                            "tooltip": "Each dot can have the same options as any other spot!"
                         },
                         {
                             "x": 79,
@@ -401,7 +406,8 @@
                             "origin": "center",
                             "class": "red",
                             "height": 10,
-                            "width": 10
+                            "width": 10,
+                            "tooltip": "Each dot can have the same options as any other spot!"
                         },
                         {
                             "x": 89,
@@ -411,7 +417,8 @@
                             "origin": "center",
                             "class": "red",
                             "height": 10,
-                            "width": 10
+                            "width": 10,
+                            "tooltip": "Each dot can have the same options as any other spot!"
                         },
                         {
                             "x": 99,
@@ -421,7 +428,8 @@
                             "origin": "center",
                             "class": "red",
                             "height": 10,
-                            "width": 10
+                            "width": 10,
+                            "tooltip": "Each dot can have the same options as any other spot!"
                         },
                         {
                             "x": 109,
@@ -431,7 +439,8 @@
                             "origin": "center",
                             "class": "red",
                             "height": 10,
-                            "width": 10
+                            "width": 10,
+                            "tooltip": "Each dot can have the same options as any other spot!"
                         },
                         {
                             "x": 119,
@@ -441,7 +450,8 @@
                             "origin": "center",
                             "class": "red",
                             "height": 10,
-                            "width": 10
+                            "width": 10,
+                            "tooltip": "Each dot can have the same options as any other spot!"
                         },
                         {
                             "x": 129,
@@ -451,7 +461,8 @@
                             "origin": "center",
                             "class": "red",
                             "height": 10,
-                            "width": 10
+                            "width": 10,
+                            "tooltip": "Each dot can have the same options as any other spot!"
                         },
                         {
                             "x": 139,
@@ -461,7 +472,8 @@
                             "origin": "center",
                             "class": "red",
                             "height": 10,
-                            "width": 10
+                            "width": 10,
+                            "tooltip": "Each dot can have the same options as any other spot!"
                         },
                         {
                             "x": 149,
@@ -471,7 +483,8 @@
                             "origin": "center",
                             "class": "red",
                             "height": 10,
-                            "width": 10
+                            "width": 10,
+                            "tooltip": "Each dot can have the same options as any other spot!"
                         }
                     ],
                     "series-options": {
@@ -485,13 +498,12 @@
             ]
         },
         {
-            "picture": "http://placehold.it/940x600",
             "spots": [
                 {
                     "width": 200,
                     "height": 30,
-                    "class": "green tc js-active",
-                    "activable": true,
+                    "class": "green tc js-active tab",
+                    "activable": ".tab",
                     "top": "26.6666%",
                     "left": "10.6382%",
                     "content": "Show green"
@@ -499,8 +511,8 @@
                 {
                     "width": 200,
                     "height": 30,
-                    "class": "red tc",
-                    "activable": true,
+                    "class": "red tc tab",
+                    "activable": ".tab",
                     "top": "36.6666%",
                     "left": "10.6382%",
                     "content": "Show red"
@@ -508,35 +520,75 @@
                 {
                     "width": 200,
                     "height": 30,
-                    "class": "pink tc",
-                    "activable": true,
+                    "class": "pink tc tab",
+                    "activable": ".tab",
                     "top": "46.6666%",
                     "left": "10.6382%",
                     "content": "Show pink"
                 },
                 {
-                    "width": 500,
+                    "width": 200,
                     "height": 400,
                     "class": "green",
                     "top": "26.5%",
                     "left": "34.7872%",
-                    "resolve": ".green"
+                    "resolve": ".tab:eq(0), .category:eq(0)"
                 },
                 {
-                    "width": 500,
+                    "width": 200,
+                    "height": 400,
+                    "class": "green",
+                    "top": "26.5%",
+                    "left": "54.7872%",
+                    "resolve": ".tab:eq(0), .category:eq(1)"
+                },
+                {
+                    "width": 200,
                     "height": 400,
                     "class": "red",
                     "top": "26.5%",
                     "left": "34.7872%",
-                    "resolve": ".red"
+                    "resolve": ".tab:eq(1), .category:eq(0)"
                 },
                 {
-                    "width": 500,
+                    "width": 200,
+                    "height": 400,
+                    "class": "red",
+                    "top": "26.5%",
+                    "left": "54.7872%",
+                    "resolve": ".tab:eq(1), .category:eq(1)"
+                },
+                {
+                    "width": 200,
                     "height": 400,
                     "class": "pink",
                     "top": "26.5%",
                     "left": "34.7872%",
-                    "resolve": ".pink"
+                    "resolve": ".tab:eq(2), .category:eq(0)"
+                },
+                {
+                    "width": 200,
+                    "height": 400,
+                    "class": "pink",
+                    "top": "26.5%",
+                    "left": "54.7872%",
+                    "resolve": ".tab:eq(2), .category:eq(1)"
+                },
+                {
+                    "content": "A",
+                    "top": "14.8333%",
+                    "left": "35.5319%",
+                    "activable": ".category",
+                    "class": "category yellow tc js-active",
+                    "width": "18"
+                },
+                {
+                    "content": "B",
+                    "top": "14.8333%",
+                    "left": "54.6808%",
+                    "activable": ".category",
+                    "class": "category yellow tc",
+                    "width": "18"
                 }
             ]
         }

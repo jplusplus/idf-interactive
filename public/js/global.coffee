@@ -377,7 +377,11 @@
       # option must be activated
       if data["resolve"]
         $resolve = $spots.filter(data["resolve"])
-        resolved = $resolve.hasClass($resolve.data("active-class") or 'js-active')
+        resolved = yes
+        # Control every element selected in the resolve option
+        $resolve.each ->
+          # Every element to resolve must be activated
+          resolved &= $(@).hasClass($resolve.data("active-class") or 'js-active')
         # Hide every element
         $wrapper.addClass("hidden")
         # Continue to the next spot if $resolve is not activated
