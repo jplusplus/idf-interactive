@@ -391,6 +391,8 @@
     $spots = $step.find(".spot")
     # Number of element behind before animate the entrance
     queue = 0
+    # Delay added
+    queueDelay = 0
     # Find spots with animated entrance
     $spots.each (i, elem) ->
       $elem = $(elem)
@@ -451,8 +453,9 @@
           entranceDelay = $elem.data("queue")
         else
           # calculate the entrance duration according the number of element before
-          entranceDelay = duration * queue
-
+          entranceDelay = queueDelay
+        # Add the entrance delay for the next element
+        queueDelay += duration
         # Wait a duration...
         # Closure function to transmit "to"
         $wrapper.t = setTimeout ((to)->->
