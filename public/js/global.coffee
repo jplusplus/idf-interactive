@@ -389,31 +389,36 @@
     $step = $uis.steps.filter(".js-current")
     # Those spots
     $spots = $step.find(".spot")
-    # Number of element behind before animate the entrance
-    queue = 0
     # Delay added
     queueDelay = 0
-    # Find spots with animated entrance
-    $spots.each (i, elem) ->
-      $elem = $(elem)
-      # Get tge data from the element
-      data = $elem.data()
-      # Works on an animation wrapper
-      $wrapper = $elem.find(".js-animation-wrapper")
-      # This spot might have a "resolve" option.
-      # This means that the element with the name inside the resolve
-      # option must be activated
-      if data["resolve"]
-        $resolve = $spots.filter(data["resolve"])
-        resolved = yes
+    # Function to check if the given element is resolved
+    isResolved = ($spot)->
+      resolved = yes
+      if resolve = $spot.data("resolve")
+        $resolve = $(resolve)
+        # This spot might have a "resolve" option.
+        # This means that the element with the name inside the resolve
+        # option must be activated
         # Control every element selected in the resolve option
         $resolve.each ->
+          $r = $(@)
           # Every element to resolve must be activated
-          resolved &= $(@).hasClass($resolve.data("active-class") or 'js-active')
-        # Hide every element
-        $wrapper.addClass("hidden")
-        # Continue to the next spot if $resolve is not activated
-        return unless resolved
+          resolved &= $r.hasClass($r.data("active-class") or 'js-active')
+      # Also check parents
+      $spot.parents(".spot").each -> resolved &= isResolved $(@)
+      # Continue to the next spot if $resolve is not activated
+      resolved
+    # Find spots with animated entrance
+    $spots.each (i, spot) ->
+      $spot = $(spot)
+      # Get tge data from the element
+      data = $spot.data()
+      # Works on an animation wrapper
+      $wrapper = $spot.find(".js-animation-wrapper")
+      # Hide every element
+      $wrapper.addClass("hidden")
+      # Stop if the given element isnt resolved
+      return unless isResolved $spot
       # Get the animation keys of the given element
       animationKeys = (data.entrance or "").split(" ")
       # Clear existing timeout
@@ -430,11 +435,11 @@
             return unless Modernizr.csstransforms
           # Merge the layout object recursively
           if typeof(animation.from) is 'function'
-            from = $.extend true, animation.from($elem), from
+            from = $.extend true, animation.from($spot), from
           else
             from = $.extend true, animation.from, from
           if typeof(animation.to) is 'function'
-            to   = $.extend true, animation.to($elem), to
+            to   = $.extend true, animation.to($spot), to
           else
             to   = $.extend true, animation.to, to
       # Stop every current animations and show the element
@@ -442,20 +447,22 @@
       $wrapper.stop().css(from).removeClass "hidden"
       # Only if a "to" layout exists
       if to?
-        # If there is a queue
-        queue++  if $elem.data("queue")?
         # Take the element entrance duration
         # or default duration
         duration = data.entranceDuration or defaultEntranceDuration
-
-        # explicite duration
-        if $elem.data("queue") > 1
-          entranceDelay = $elem.data("queue")
+        # If there is a queue
+        if $spot.data("queue")?
+          # explicite duration
+          if $spot.data("queue") > 1
+            entranceDelay = $spot.data("queue")
+            queueDelay = entranceDelay + duration
+          else
+            # calculate the entrance duration according the number of element before
+            entranceDelay = queueDelay
+            queueDelay += duration
         else
-          # calculate the entrance duration according the number of element before
-          entranceDelay = queueDelay
-        # Add the entrance delay for the next element
-        queueDelay += duration
+          # Add the entrance delay for the next element
+          queueDelay = Math.max queueDelay, duration
         # Wait a duration...
         # Closure function to transmit "to"
         $wrapper.t = setTimeout ((to)->->
@@ -463,7 +470,7 @@
               $wrapper.animate to, duration
           )(to)
         # ...and increase the queue
-        , entranceDelay
+        , entranceDelay or 0
 
 
   ###*
