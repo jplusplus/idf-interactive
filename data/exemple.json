@@ -588,7 +588,7 @@
                     "top": "14.8333%",
                     "left": "35.5319%",
                     "activable": ".category",
-                    "class": "category yellow tc",
+                    "class": "category yellow tc fg",
                     "width": "18",
                     "trigger": "hover"
                 },
@@ -597,14 +597,15 @@
                     "top": "14.8333%",
                     "left": "38%",
                     "activable": ".category",
-                    "class": "category yellow tc",
+                    "class": "category yellow tc fg",
                     "width": "18",
                     "trigger": "hover"
                 },
                 {
                     "content": "Hover a letter",
                     "top": "11%",
-                    "left": "35.4255%"
+                    "left": "35.4255%",
+                    "width": 100
                 },
                 {
                     "content": "Pick a color",

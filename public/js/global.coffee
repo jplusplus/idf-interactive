@@ -272,7 +272,7 @@
       # Add the right class to this spot
       $this.addClass activeClass
       # Play spots animations
-      doEntranceAnimations()
+      doEntranceAnimations(no)
 
   ###*
    * Mouse enter on a spot
@@ -295,7 +295,7 @@
       # This spot can be activated
       $this.removeClass activeClass
       # Play spots animations
-      doEntranceAnimations()
+      doEntranceAnimations(no)
 
   ###*
    * Bind the keyboard keydown event to navigate through the page
@@ -382,7 +382,7 @@
   ###*
    * Set step animations
   ###
-  doEntranceAnimations = ()->
+  doEntranceAnimations = (stepEntrance=yes)->
     # Launch hotspot background animations
     doSpotAnimations()
     # Find the current step
@@ -399,7 +399,6 @@
         # This spot might have a "resolve" option.
         # This means that the element with the name inside the resolve
         # option must be activated
-        # Control every element selected in the resolve option
         $resolve.each ->
           $r = $(@)
           # Every element to resolve must be activated
@@ -411,67 +410,104 @@
     # Find spots with animated entrance
     $spots.each (i, spot) ->
       $spot = $(spot)
-      # Get tge data from the element
-      data = $spot.data()
-      # Works on an animation wrapper
       $wrapper = $spot.find(".js-animation-wrapper")
-      # Hide every element
-      $wrapper.addClass("hidden")
+      # Does this element was resolved before?
+      previouslyResolved = $spot.data("previously-resolved")? and $spot.data("previously-resolved")
       # Stop if the given element isnt resolved
-      return unless isResolved $spot
-      # Get the animation keys of the given element
-      animationKeys = (data.entrance or "").split(" ")
-      # Clear existing timeout
-      clearTimeout $wrapper.t  if $wrapper.t
-      # Initial layout
-      from = to = {}
-      # For each animation key
-      $.each animationKeys, (i, animationKey)->
-        # Get the animation (and create a clone object)
-        animation = $.extend true, {}, entrance[animationKey]
-        # If the animation exist
-        if animationKey isnt "" and animation?
-          if animation.from.transform?
-            return unless Modernizr.csstransforms
-          # Merge the layout object recursively
-          if typeof(animation.from) is 'function'
-            from = $.extend true, animation.from($spot), from
-          else
-            from = $.extend true, animation.from, from
-          if typeof(animation.to) is 'function'
-            to   = $.extend true, animation.to($spot), to
-          else
-            to   = $.extend true, animation.to, to
-      # Stop every current animations and show the element
-      # Also, set the original style if needed
-      $wrapper.stop().css(from).removeClass "hidden"
-      # Only if a "to" layout exists
-      if to?
-        # Take the element entrance duration
-        # or default duration
-        duration = data.entranceDuration or defaultEntranceDuration
-        # If there is a queue
-        if $spot.data("queue")?
-          # explicite duration
-          if $spot.data("queue") > 1
-            entranceDelay = $spot.data("queue")
-            queueDelay = entranceDelay + duration
-          else
-            # calculate the entrance duration according the number of element before
-            entranceDelay = queueDelay
-            queueDelay += duration
+      unless isResolved $spot
+        # First entrance doesn't animate hidden element
+        unless previouslyResolved
+          # Hide every unresolved elements
+          $wrapper.addClass("hidden")
         else
-          # Add the entrance delay for the next element
-          queueDelay = Math.max queueDelay, duration
-        # Wait a duration...
-        # Closure function to transmit "to"
-        $wrapper.t = setTimeout ((to)->->
-              # ...before animate the wrapper
-              $wrapper.animate to, duration
-          )(to)
-        # ...and increase the queue
-        , entranceDelay or 0
+          # Animate the spot without delay
+          # Note: the third option plays the animation in the other direction
+          animateSpot $spot, 0, no
+        # Can't be animated next time
+        $spot.data("previously-resolved", no)
+      else
+        if not previouslyResolved or stepEntrance
+          # Can't be animated next time
+          $spot.data("previously-resolved", yes)
+          # Animate the spot after the queued delay and update it
+          queueDelay = animateSpot $spot, queueDelay
+        else
+          # Prevent from element to not being display
+          $wrapper.removeClass("hidden")
 
+
+  animateSpot = ($spot, queueDelay, show=yes)->
+    # Get tge data from the element
+    data = $spot.data()
+    # Works on an animation wrapper
+    $wrapper = $spot.find(".js-animation-wrapper")
+    # Get the animation keys of the given element
+    animationKeys = (data.entrance or "").split(" ")
+    # Clear existing timeout
+    clearTimeout $wrapper.t if $wrapper.t
+    # Initial layout
+    [from, to] = getAnimationFrames animationKeys, show
+    # Stop every current animations and show the element
+    # Also, set the original style if needed
+    $wrapper.stop().css(from).removeClass "hidden"
+    # Hidden the element after the animation when not showing
+    callback = if show then (->) else (($wrapper)->-> $wrapper.addClass("hidden") )($wrapper)
+    # Only if a "to" layout exists
+    if to?
+      # Take the element entrance duration
+      # or default duration
+      duration = data.entranceDuration or defaultEntranceDuration
+      # If there is a queue
+      if $spot.data("queue")?
+        # explicite duration
+        if $spot.data("queue") > 1
+          entranceDelay = $spot.data("queue")
+          queueDelay = entranceDelay + duration
+        else
+          # calculate the entrance duration according the number of element before
+          entranceDelay = queueDelay
+          queueDelay += duration
+      else
+        # Add the entrance delay for the next element
+        queueDelay = Math.max queueDelay, duration
+      # Wait a duration...
+      # Closure function to transmit "to"
+      $wrapper.t = setTimeout ((to)->->
+          # ...before animate the wrapper
+          $wrapper.animate to, duration, callback
+        )(to)
+      # ...and increase the queue
+      , entranceDelay or 0
+    # No animation, just callb the callback
+    else do callback
+
+    return queueDelay
+
+  ###*
+   * Returns an array of the states of the given animations
+   * @return {Array} From state and To state
+  ###
+  getAnimationFrames = (animationKeys, show=yes)->
+    # Initial layout
+    from = to = {}
+    # For each animation key
+    $.each animationKeys, (i, animationKey)->
+      # Get the animation (and create a clone object)
+      animation = $.extend true, {}, entrance[animationKey]
+      # If the animation exist
+      if animationKey isnt "" and animation?
+        if animation.from.transform?
+          return unless Modernizr.csstransforms
+        # Merge the layout object recursively
+        if typeof(animation.from) is 'function'
+          from = $.extend true, animation.from($spot), from
+        else
+          from = $.extend true, animation.from, from
+        if typeof(animation.to) is 'function'
+          to   = $.extend true, animation.to($spot), to
+        else
+          to   = $.extend true, animation.to, to
+    return if show then [from, to] else [to, from]
 
   ###*
    * Clear every spots animations
