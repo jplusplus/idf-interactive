@@ -370,7 +370,7 @@
       $uis.navitem.removeClass("js-active").filter("[data-step=#{currentStep}]").addClass("js-active")
       # Hides element with entrance
       # Remove every previous animations
-      $uis.steps.eq(currentStep).find(".spot .js-animation-wrapper").addClass("hidden")
+      $uis.steps.eq(currentStep).find(".spot[data-entrance] .js-animation-wrapper").addClass("hidden")
       # Clear all spot animations
       clearSpotAnimations()
       # Add the entrance animation after the scroll
