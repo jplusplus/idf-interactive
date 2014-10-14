@@ -35,7 +35,7 @@
 (($, window) ->
   $ui = $uis = null
   currentStep = 0
-  scrollDuration = 300
+  scrollDuration = 600
   defaultEntranceDuration = 800
   maxWidth  = maxHeight = null
   entranceTimeout = animationTimeout = null
@@ -78,6 +78,7 @@
       body              : $("body")
       steps             : $ui.find(".step")
       spots             : $ui.find(".spot")
+      parallaxes        : $ui.find("[data-parallax]")
       overflow          : $("#overflow")
       navitem           : $("#overflow .to-step")
       previous          : $("#overflow .nav .arrows .previous")
@@ -104,6 +105,8 @@
     $("[data-href^='http://']").attr "target", "_blank"
     $("[href^='https://']").attr "target", "_blank"
     $("[data-href^='https://']").attr "target", "_blank"
+    # Update element with parallax
+    updateParallaxes() if Modernizr.csstransforms and $uis.parallaxes.length
 
 
 
@@ -631,6 +634,39 @@
       # Update the tracker background
       $uis.tinyScrollTracker.css backgroundPositionY: backgroundPositionY
 
+
+  ###*
+   * Update the parallaxes positions
+   * @return {[type]} [description]
+  ###
+  updateParallaxes = ()=>
+    window.requestAnimationFrame updateParallaxes
+    # According the navigation type...
+    switch $uis.overflow.data("navigation")
+
+      when "horizontal"
+        # ...extract the property to change
+        offset  = "left"
+        prop    = "translateX"
+
+      when "vertical"
+        # ...extract the property to change
+        offset  = "top"
+        prop    = "translateY"
+
+    # Distance from the top of the window
+    refDist = $ui.offset()[offset]
+    # Apply a function to each parallax element
+    $uis.parallaxes.each (i, parallax)=>
+      $parallax = $(parallax)
+      # The step containing the parallax
+      $step = $parallax.closest('.step')
+      # Distance of the parent step from the top of the container
+      delta = $step.offset()[offset] - refDist
+      # Speed of the movement
+      speed = 1 * ( $parallax.data("parallax") or 0.5 )
+      # Transform the position using the right property
+      $parallax.css "transform", "#{prop}(#{speed*delta}px)"
 
   ###*
    * Bind the windows rezie event

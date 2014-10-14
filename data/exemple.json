@@ -74,7 +74,8 @@
                     "background": "http://atomicrobotdesign.com/blog_media/sprite_movement/images/gb_walk.png",
                     "background-speed": 104,
                     "background-direction": "left",
-                    "background-frequency": 200
+                    "background-frequency": 200,
+                    "parallax": 0.5
                 }
             ]
         },
@@ -345,6 +346,7 @@
                     "top": "18.3333%",
                     "left": "17.9787%",
                     "class": "pink tc",
+                    "parallax": 0.5,
                     "series": [
                         {
                             "x": 29,
