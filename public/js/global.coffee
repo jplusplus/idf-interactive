@@ -38,6 +38,7 @@
   scrollDuration = 300
   defaultEntranceDuration = 800
   maxWidth  = maxHeight = null
+  entranceTimeout = animationTimeout = null
 
   ###*
    * Initializrs the page
