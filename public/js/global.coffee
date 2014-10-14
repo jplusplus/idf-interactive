@@ -377,6 +377,11 @@
       $uis.steps.eq(currentStep).find(".spot[data-entrance] .js-animation-wrapper").addClass("hidden")
       # Clear all spot animations
       clearSpotAnimations()
+      # Pre-hide unresolved spots
+      $uis.steps.eq(currentStep).find(".spot").each ->
+        $spot = $(@)
+        # Hide the wrapper
+        $spot.find(".js-animation-wrapper").addClass("hidden") unless isResolved($spot)
       # Clear existing timeout
       window.clearTimeout(entranceTimeout)
       window.clearTimeout(animationTimeout)
@@ -393,6 +398,25 @@
       # Update the tiny scroll
       updateTinyScroll()
     return currentStep
+
+  ###*
+   * Function to check if the given element is resolved
+  ###
+  isResolved = ($spot)->
+    resolved = yes
+    if resolve = $spot.data("resolve")
+      $resolve = $(resolve)
+      # This spot might have a "resolve" option.
+      # This means that the element with the name inside the resolve
+      # option must be activated
+      $resolve.each ->
+        $r = $(@)
+        # Every element to resolve must be activated
+        resolved &= $r.hasClass($r.data("active-class") or 'js-active')
+    # Also check parents
+    $spot.parents(".spot").each -> resolved &= isResolved $(@)
+    # Continue to the next spot if $resolve is not activated
+    resolved
 
   ###*
    * Set step animations

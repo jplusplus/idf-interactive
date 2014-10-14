@@ -592,7 +592,7 @@
                     "activable": ".category",
                     "class": "category yellow tc fg",
                     "width": "18",
-                    "trigger": "hover"
+                    "_trigger": "hover"
                 },
                 {
                     "content": "B",
@@ -601,7 +601,7 @@
                     "activable": ".category",
                     "class": "category yellow tc fg",
                     "width": "18",
-                    "trigger": "hover"
+                    "_trigger": "hover"
                 },
                 {
                     "content": "Hover a letter",
