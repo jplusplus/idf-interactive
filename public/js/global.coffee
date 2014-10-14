@@ -374,8 +374,8 @@
       # Clear all spot animations
       clearSpotAnimations()
       # Clear existing timeout
-      window.cancelTimeout(entranceTimeout)
-      window.cancelTimeout(animationTimeout)
+      window.clearTimeout(entranceTimeout)
+      window.clearTimeout(animationTimeout)
       # Add the entrance animation after the scroll
       entranceTimeout = setTimeout ->
         # Remove the body class 'js-animating' when animations are over
