@@ -4,6 +4,9 @@
             "name": "YOLO1",
             "no-index": true,
             "no-title": true,
+            "spots-options": {
+                "parallax": -0.8
+            },
             "spots": [
                 {
                     "background": "http://placehold.it/470x600/fff/00f/",
@@ -339,6 +342,9 @@
         {
             "picture": "http://placehold.it/940x600",
             "name": "Exemple de series de points dans un spot",
+            "spots-options": {
+                "parallax": -0.8
+            },
             "spots": [
                 {
                     "width": 600,
@@ -346,7 +352,6 @@
                     "top": "18.3333%",
                     "left": "17.9787%",
                     "class": "pink tc",
-                    "parallax": 0.5,
                     "series": [
                         {
                             "x": 29,

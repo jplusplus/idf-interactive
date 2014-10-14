@@ -32,6 +32,8 @@ routePage = (req, res) ->
   for step in data.steps
     # Inspect every spots
     for spot in step.spots
+      # Common option for every spot (can be overrided)
+      spot = _.extend spot, step["spots-options"] if step["spots-options"]?
       # This spot has a series of point
       if spot.series?
         # A spot with a series must avec sizes
