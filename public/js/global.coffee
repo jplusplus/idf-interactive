@@ -373,8 +373,19 @@
       $uis.steps.eq(currentStep).find(".spot[data-entrance] .js-animation-wrapper").addClass("hidden")
       # Clear all spot animations
       clearSpotAnimations()
+      # Clear existing timeout
+      cancelTimeout(entranceTimeout)
+      cancelTimeout(animationTimeout)
       # Add the entrance animation after the scroll
-      setTimeout doEntranceAnimations, scrollDuration
+      entranceTimeout = setTimeout ->
+        # Remove the body class 'js-animating' when animations are over
+        animationTimeout = setTimeout ->
+          # Notices that the application is running animation
+          $uis.body.removeClass "js-animating"
+        # The function to setup animation returns the duration
+        # of the animation
+        , doEntranceAnimations()
+      , scrollDuration
       # Update the tiny scroll
       updateTinyScroll()
     return currentStep
@@ -434,6 +445,7 @@
         else
           # Prevent from element to not being display
           $wrapper.removeClass("hidden")
+    return queueDelay
 
 
   animateSpot = ($spot, queueDelay, show=yes)->
