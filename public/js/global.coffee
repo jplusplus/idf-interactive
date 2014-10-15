@@ -366,7 +366,10 @@
       # Then scroll
       $ui.scrollTo params, scrollDuration
       # Remove current class
-      $uis.steps.removeClass("js-current").eq(currentStep).addClass "js-current"
+      $uis.steps.removeClass("js-current js-next js-previous").eq(currentStep).addClass "js-current"
+      # Previous and next slide have a special class
+      $uis.steps.eq(currentStep - 1).addClass "js-previous"
+      $uis.steps.eq(currentStep + 1).addClass "js-next"
       # Add a class to the body
       # Is this the first step ?
       $uis.body.toggleClass "js-first", currentStep is 0

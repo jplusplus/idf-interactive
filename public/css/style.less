@@ -382,9 +382,14 @@ body {
         width:@containerWidth;
         height:@containerHeight;
         overflow:hidden;
+        visibility: hidden;
 
         &.js-current {
             overflow:visible;
+        }
+
+        &.js-current, &.js-next, &.js-previous {
+            visibility: visible;
         }
 
         .hidden-content {
