@@ -386,11 +386,17 @@ body {
 
         &.js-current {
             overflow:visible;
-        }
-
-        &.js-current, &.js-next, &.js-previous {
             visibility: visible;
         }
+
+        // Disable next and previous on touch device
+        .no-touch {
+            &.js-current, &.js-next, &.js-previous {
+                visibility: visible;
+            }
+        }
+
+
 
         .hidden-content {
             display:none;
