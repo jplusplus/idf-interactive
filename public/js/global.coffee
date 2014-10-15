@@ -227,6 +227,8 @@
     $uis.spots.each (i, spot) ->
       $spot = $(@)
       $spot.toggleClass "clickable", $spot.data("href")? or $spot.data("activable")?
+      # Save intial class
+      $spot.data "initial-class", $spot.attr("class")
       $spot.css "width",  $spot.find(".js-animation-wrapper").outerWidth()
       $spot.css "height", $spot.find(".js-animation-wrapper").outerHeight()
 
@@ -382,6 +384,7 @@
       # Pre-hide unresolved spots
       $uis.steps.eq(currentStep).find(".spot").each ->
         $spot = $(@)
+        $spot.attr "class", $spot.data("initial-class")
         # Hide the wrapper
         $spot.find(".js-animation-wrapper").addClass("hidden") unless isResolved($spot)
       # Clear existing timeout
