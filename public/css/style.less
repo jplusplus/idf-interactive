@@ -16,6 +16,7 @@
 @containerHeight : 600px;
 
 // Themes
+@import "./themes/chefs-recette.less";
 @import "./themes/ra2013.less";
 @import "./themes/rapport-annuel.less";
 
@@ -412,6 +413,10 @@ body {
             position:absolute;
             z-index:@zIndexSpot;
             background:none;
+
+            &.js-behind {
+                z-index: @zIndexSpot - 10;
+            }
 
             &.focus {
                 &  > .js-animation-wrapper {
