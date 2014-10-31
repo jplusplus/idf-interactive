@@ -516,7 +516,7 @@
                     },
                     "top": "85.2727%",
                     "left": "48.5106%",
-                    "href": "#step=1"
+                    "href": "#step=4"
                 },
                 {
                     "picture": {
@@ -621,21 +621,12 @@
             "spots": [
                 {
                     "picture": {
-                        "src": "img/chefs-recette/_interface/01-btn-homepage@2x.png",
+                        "src": "img/chefs-recette/_interface/02-btn-ingredient@2x.png",
                         "retina": true
                     },
-                    "href": "#step=0",
-                    "top": "4.3636%",
-                    "left": "47.3404%"
-                },
-                {
-                    "picture": {
-                        "src": "img/chefs-recette/_interface/03-btn-recette@2x.png",
-                        "retina": true
-                    },
-                    "top": "85.2727%",
-                    "left": "48.5106%",
-                    "href": "#step=1"
+                    "top": "4.1818%",
+                    "left": "50%",
+                    "href": "#step=3"
                 },
                 {
                     "picture": {
@@ -722,7 +713,7 @@
                     },
                     "top": "85.2727%",
                     "left": "48.5106%",
-                    "href": "#step=4"
+                    "href": "#step=6"
                 },
                 {
                     "picture": {
@@ -835,21 +826,12 @@
             "spots": [
                 {
                     "picture": {
-                        "src": "img/chefs-recette/_interface/01-btn-homepage@2x.png",
+                        "src": "img/chefs-recette/_interface/02-btn-ingredient@2x.png",
                         "retina": true
                     },
-                    "href": "#step=0",
-                    "top": "4.3636%",
-                    "left": "47.3404%"
-                },
-                {
-                    "picture": {
-                        "src": "img/chefs-recette/_interface/03-btn-recette@2x.png",
-                        "retina": true
-                    },
-                    "top": "85.2727%",
-                    "left": "48.5106%",
-                    "href": "#step=4"
+                    "top": "4.1818%",
+                    "left": "50%",
+                    "href": "#step=5"
                 },
                 {
                     "picture": {
@@ -942,6 +924,7 @@
                         "src": "img/chefs-recette/_interface/03-btn-recette@2x.png",
                         "retina": true
                     },
+                    "href": "#step=8",
                     "top": "85.2727%",
                     "left": "48.5106%"
                 },
@@ -1045,7 +1028,7 @@
                     },
                     "top": "4.1818%",
                     "left": "50%",
-                    "href": "#step=1"
+                    "href": "#step=7"
                 },
                 {
                     "picture": {
@@ -1130,6 +1113,7 @@
                         "src": "img/chefs-recette/_interface/03-btn-recette@2x.png",
                         "retina": true
                     },
+                    "href": "#step=10",
                     "top": "85.2727%",
                     "left": "48.5106%"
                 },
@@ -1241,7 +1225,7 @@
                     },
                     "top": "4.1818%",
                     "left": "50%",
-                    "href": "#step=1"
+                    "href": "#step=9"
                 },
                 {
                     "picture": {
@@ -1334,6 +1318,7 @@
                         "src": "img/chefs-recette/_interface/03-btn-recette@2x.png",
                         "retina": true
                     },
+                    "href": "#step=12",
                     "top": "85.2727%",
                     "left": "48.5106%"
                 },
@@ -1461,7 +1446,7 @@
                     },
                     "top": "4.1818%",
                     "left": "50%",
-                    "href": "#step=1"
+                    "href": "#step=11"
                 },
                 {
                     "picture": {
@@ -1546,6 +1531,7 @@
                         "src": "img/chefs-recette/_interface/03-btn-recette@2x.png",
                         "retina": true
                     },
+                    "href": "#step=14",
                     "top": "85.2727%",
                     "left": "48.5106%"
                 },
@@ -1649,7 +1635,7 @@
                     },
                     "top": "4.1818%",
                     "left": "50%",
-                    "href": "#step=1"
+                    "href": "#step=13"
                 },
                 {
                     "picture": {
@@ -1734,6 +1720,7 @@
                         "src": "img/chefs-recette/_interface/03-btn-recette@2x.png",
                         "retina": true
                     },
+                    "href": "#step=15",
                     "top": "85.2727%",
                     "left": "48.5106%"
                 },
@@ -1845,7 +1832,7 @@
                     },
                     "top": "4.1818%",
                     "left": "50%",
-                    "href": "#step=1"
+                    "href": "#step=14"
                 },
                 {
                     "picture": {
@@ -1938,6 +1925,7 @@
                         "src": "img/chefs-recette/_interface/03-btn-recette@2x.png",
                         "retina": true
                     },
+                    "href": "#step=18",
                     "top": "85.2727%",
                     "left": "48.5106%"
                 },
@@ -2041,7 +2029,7 @@
                     },
                     "top": "4.1818%",
                     "left": "50%",
-                    "href": "#step=1"
+                    "href": "#step=17"
                 },
                 {
                     "picture": {
@@ -2126,6 +2114,7 @@
                         "src": "img/chefs-recette/_interface/03-btn-recette@2x.png",
                         "retina": true
                     },
+                    "href": "#step=20",
                     "top": "85.2727%",
                     "left": "48.5106%"
                 },
@@ -2213,7 +2202,7 @@
                     },
                     "top": "4.1818%",
                     "left": "50%",
-                    "href": "#step=1"
+                    "href": "#step=19"
                 },
                 {
                     "picture": {
