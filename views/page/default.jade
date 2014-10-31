@@ -32,7 +32,7 @@ mixin spot(spot, stepKey, spotKey)
             if spot["content"]
                 p!=spot["content"]
             if spot["picture"]
-                img(src=spot["picture"]["src"], alt=spot["picture"]["alt"], width=spot["picture"]["width"], height=spot["picture"]["height"]).spot-background
+                img(src=spot["picture"]["src"], alt=spot["picture"]["alt"], width=pictureSize(spot).width, height=pictureSize(spot).height).spot-background
             if spot["series"]
                 each s, key in spot["series"]
                     +spot(s, stepKey, spotKey + "." + key)

@@ -6,13 +6,14 @@
     "start": "coffee app"
   },
   "dependencies": {
+    "coffee-script": "1.6.1",
+    "commander": "2.1.0",
+    "connect-assets": "2.4.0",
     "express": "3.0.1",
+    "express-redirect": "~1.1.0",
+    "image-size": "^0.3.5",
     "jade": "1.7.0",
     "less": "1.7.0",
-    "coffee-script": "1.6.1",
-    "connect-assets": "2.4.0",
-    "express-redirect": "~1.1.0",
-    "underscore": "1.5.2",
-    "commander": "2.1.0"
+    "underscore": "1.5.2"
   }
 }

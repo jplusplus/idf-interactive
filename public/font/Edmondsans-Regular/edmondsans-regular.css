@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'EdmondsansRegular';
+    src: url('edmondsans-regular.eot');
+    src: url('edmondsans-regular.eot') format('embedded-opentype'),
+         url('edmondsans-regular.woff2') format('woff2'),
+         url('edmondsans-regular.woff') format('woff'),
+         url('edmondsans-regular.ttf') format('truetype'),
+         url('edmondsans-regular.svg#EdmondsansRegular') format('svg');
+}
