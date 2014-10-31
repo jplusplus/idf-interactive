@@ -1,0 +1,52 @@
+#overflow {
+
+    .nav {
+
+        ul.arrows {
+
+            /* Arrows menu within rapport annuel */
+            .rapport-annuel & {
+
+                position:absolute;
+                z-index:@zIndexNav;
+                top:-10px;
+                right:0px;
+                left:auto;
+
+                background:url("/img/common/btn_nav.png") 0 0px no-repeat;
+                height:60px;
+                width:60px;
+                display:block;
+
+                .previous, .next {
+                    z-index:@zIndexNav+5;
+                    width:30px;
+                    height:60px;
+                    background:none;
+                    top:20px;
+                    right:0;
+                    left:auto;
+                }
+
+                .previous {
+                    right:30px;
+                }
+
+            }
+
+            .rapport-annuel.js-first & {
+                background-position:0 -70px;
+                .previous { display:none; }
+            }
+
+            .rapport-annuel.js-last & {
+                background-position:0 -140px;
+                .next { display:none; }
+            }
+        }
+    }
+}
+
+#container {
+    .rapport-annuel & { background:white !important; }
+}

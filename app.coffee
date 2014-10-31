@@ -38,6 +38,7 @@ app.configure ->
   require("./routes") app
 
 app.configure "development", ->
+  app.locals.pretty = yes
   app.use express.errorHandler()
 
 http.createServer(app).listen app.get("port"), ->

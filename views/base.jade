@@ -5,37 +5,37 @@
 <!--[if IE 8 ]>    <html lang="fr" class="ie8">    <![endif]-->
 <!--[if IE 9 ]>    <html lang="fr" class="ie9">    <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--><html lang="fr"><!--<![endif]-->
-html
-  //<![endif]
-  head
-    meta(http-equiv="X-UA-Compatible",content="IE=edge,chrome=1")
-    meta(name="viewport",content="width=1200")
-    meta(charset="utf-8")
-    if typeof title !== "undefined"
-        title=title
-    else
-        title Région Île-de-France
+//<![endif]
+head
+  meta(http-equiv="X-UA-Compatible",content="IE=edge,chrome=1")
+  meta(name="viewport",content="width=1200")
+  meta(charset="utf-8")
+  if typeof title !== "undefined"
+      title=title
+  else
+      title Région Île-de-France
 
-    block stylesheets
-    | <style type='text/css'>
-    :less(minify=true)
-        @import url("public/css/style.less");
-    | </style>
+  block stylesheets
+  | <style type='text/css'>
+  :less(minify=true)
+      @import url("public/css/style.less");
+  | </style>
 
-  body.js-loading.js-first(class=data.class)
-    #old-browser
-        h4 Votre navigateur <strong>est trop ancien</strong>
-        p <a href="http://browsehappy.com/">Mettez à jour votre navigateur</a> ou <a href="http://www.google.com/chromeframe/?redirect=true">installez Google Chrome Frame</a> pour accéder à cette page.
+body.js-loading.js-first(class=data.class)
+  #old-browser
+      h4 Votre navigateur <strong>est trop ancien</strong>
+      p <a href="http://browsehappy.com/">Mettez à jour votre navigateur</a> ou <a href="http://www.google.com/chromeframe/?redirect=true">installez Google Chrome Frame</a> pour accéder à cette page.
 
 
-    #overflow(data-navigation=data.navigation || "horizontal")
-        include widget/menu.jade
-        #container
-            block content
+  #overflow(data-navigation=data.navigation || "horizontal")
+      include widget/menu.jade
+      #container
+          block content
 
-    != js('global')
-    if debugMode
-        script(src="/js/vendor/jquery-ui.min.js", type="text/javascript")
-        != js('debug')
+  != js('global')
+  if debugMode
+      script(src="/js/vendor/jquery-ui.min.js", type="text/javascript")
+      != js('debug')
 
-    block scripts
+  block scripts
+</html>
