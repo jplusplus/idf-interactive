@@ -260,6 +260,15 @@
         window.open $this.data("href"), '_blank'
       else
         window.location = $this.data("href")
+    enterSpot.call(@, event) if $(@).data("trigger") is "hover"
+
+  ###*
+   * Mouse enter on a spot
+   * @param  {Object} event Click event
+   * @return {[type]}       [description]
+  ###
+  enterSpot = (event)->
+    $this = $(@)
     # Get the "activable" option for this spot
     activable = $this.data("activable")
     # This spot can be activated
@@ -280,13 +289,6 @@
       # Play spots animations
       doEntranceAnimations(no)
 
-  ###*
-   * Mouse enter on a spot
-   * @param  {Object} event Click event
-   * @return {[type]}       [description]
-  ###
-  enterSpot = (event)->
-    clickSpot.call(@, event) if $(@).data("trigger") is "hover"
   ###*
    * Mouse leave a spot
    * @param  {Object} event Click event
@@ -466,7 +468,9 @@
         unless previouslyResolved
           # Hide every unresolved elements
           $wrapper.addClass("hidden")
+          $spot.addClass("js-behind")
         else
+          $spot.removeClass("js-behind")
           # Animate the spot without delay
           # Note: the third option plays the animation in the other direction
           animateSpot $spot, 0, no
@@ -498,8 +502,12 @@
     # Stop every current animations and show the element
     # Also, set the original style if needed
     $wrapper.stop().css(from).removeClass "hidden"
+    $spot.removeClass("js-behind")
     # Hidden the element after the animation when not showing
-    callback = if show then (->) else (($wrapper)->-> $wrapper.addClass("hidden") )($wrapper)
+    callback = if show then (->) else (($wrapper)->->
+      $wrapper.addClass("hidden")
+      $spot.addClass("js-behind")
+    )($wrapper)
     # Only if a "to" layout exists
     if to?
       # Take the element entrance duration
