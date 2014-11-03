@@ -361,16 +361,6 @@
     if step >= 0 and step < $uis.steps.length
       # Update the current step id
       currentStep = 1 * step
-      # Prevent scroll queing
-      jQuery.scrollTo.window().queue([]).stop()
-      # Change the way to scroll according the navigation
-      switch $uis.overflow.data("navigation")
-        when "vertical"
-          params = 'top': maxHeight*currentStep, 'left': 0
-        else
-          params = 'left': maxWidth*currentStep, 'top': 0
-      # Then scroll
-      $ui.scrollTo params, scrollDuration
       # Remove current class
       $uis.steps.removeClass("js-current js-next js-previous").eq(currentStep).addClass "js-current"
       # Previous and next slide have a special class
@@ -387,9 +377,19 @@
       $uis.navitem.removeClass("js-active").filter("[data-step=#{currentStep}]").addClass("js-active")
       # Hides element with entrance
       # Remove every previous animations
-      $uis.steps.eq(currentStep).find(".spot[data-entrance] .js-animation-wrapper").addClass("hidden")
+      $uis.steps.eq(currentStep).find(".spot[data-entrance] .js-animation-wrapper").addClass("hidden").data("previously-resolved", no)
       # Clear all spot animations
       clearSpotAnimations()
+      # Prevent scroll queuing
+      jQuery.scrollTo.window().queue([]).stop()
+      # Change the way to scroll according the navigation
+      switch $uis.overflow.data("navigation")
+        when "vertical"
+          params = 'top': maxHeight*currentStep, 'left': 0
+        else
+          params = 'left': maxWidth*currentStep, 'top': 0
+      # Then scroll
+      $ui.scrollTo params, scrollDuration
       # Pre-hide unresolved spots
       $uis.steps.eq(currentStep).find(".spot").each ->
         $spot = $(@)
