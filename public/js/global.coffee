@@ -66,6 +66,8 @@
     new FastClick(document.body)
     # Activate tooltips
     $('.js-tooltip').tooltipster contentAsHTML: yes, theme: 'tooltipster-light'
+    # Disable some CSS optimisations
+    $uis.body.addClass "no-painting-optimisation" if $uis.body.data("disable-painting-optimisation")
 
   ###*
    * Gets every jquery shortcuts
@@ -311,6 +313,8 @@
    * @return {Object}       Keydown event
   ###
   keyboardNav = (event) ->
+    # The keyboard navigation might be disabled
+    return if $uis.body.data("disable-keyboard")
     switch event.keyCode
       # Left and up
       when 37, 38 then previousStep()

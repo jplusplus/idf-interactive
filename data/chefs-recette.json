@@ -1,6 +1,8 @@
 {
     "class": "chefs-recette",
     "navigation": "vertical",
+    "disable-keyboard": true,
+    "disable-painting-optimisation": true,
     "steps": [
         {
             "spots": [
