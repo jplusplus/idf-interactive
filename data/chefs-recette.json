@@ -291,6 +291,7 @@
             "_picture": "img/chefs-recette/slide_01B.jpg",
             "spots": [
                 {
+                    "href": "#step=0",
                     "picture": {
                         "src": "img/chefs-recette/_interface/logo-black@2x.png",
                         "retina": true
@@ -465,6 +466,7 @@
             "_picture": "img/chefs-recette/slide_01C.jpg",
             "spots": [
                 {
+                    "href": "#step=0",
                     "picture": {
                         "src": "img/chefs-recette/_interface/logo-black@2x.png",
                         "retina": true
@@ -582,6 +584,7 @@
             "_picture": "img/chefs-recette/slide_02B.jpg",
             "spots": [
                 {
+                    "href": "#step=0",
                     "picture": {
                         "src": "img/chefs-recette/_interface/logo-black@2x.png",
                         "retina": true
@@ -744,6 +747,7 @@
                     "left": "87.7659%"
                 },
                 {
+                    "href": "#step=0",
                     "picture": {
                         "src": "img/chefs-recette/_interface/logo-black@2x.png",
                         "retina": true
@@ -834,6 +838,7 @@
             "_picture": "img/chefs-recette/slide_03B.jpg",
             "spots": [
                 {
+                    "href": "#step=0",
                     "picture": {
                         "src": "img/chefs-recette/_interface/logo-black@2x.png",
                         "retina": true
@@ -1016,6 +1021,7 @@
                     "left": "87.7659%"
                 },
                 {
+                    "href": "#step=0",
                     "picture": {
                         "src": "img/chefs-recette/_interface/logo-black@2x.png",
                         "retina": true
@@ -1124,6 +1130,7 @@
             "_picture": "img/chefs-recette/slide_04B.jpg",
             "spots": [
                 {
+                    "href": "#step=0",
                     "picture": {
                         "src": "img/chefs-recette/_interface/logo-black@2x.png",
                         "retina": true
@@ -1286,6 +1293,7 @@
                     "left": "87.7659%"
                 },
                 {
+                    "href": "#step=0",
                     "picture": {
                         "src": "img/chefs-recette/_interface/logo-black@2x.png",
                         "retina": true
@@ -1384,6 +1392,7 @@
             "_picture": "img/chefs-recette/slide_05B.jpg",
             "spots": [
                 {
+                    "href": "#step=0",
                     "picture": {
                         "src": "img/chefs-recette/_interface/logo-black@2x.png",
                         "retina": true
@@ -1546,6 +1555,7 @@
                     "left": "87.7659%"
                 },
                 {
+                    "href": "#step=0",
                     "picture": {
                         "src": "img/chefs-recette/_interface/logo-black@2x.png",
                         "retina": true
@@ -1646,6 +1656,7 @@
             "_picture": "img/chefs-recette/slide_06B.jpg",
             "spots": [
                 {
+                    "href": "#step=0",
                     "picture": {
                         "src": "img/chefs-recette/_interface/logo-black@2x.png",
                         "retina": true
@@ -1838,6 +1849,7 @@
                     "left": "87.7659%"
                 },
                 {
+                    "href": "#step=0",
                     "picture": {
                         "src": "img/chefs-recette/_interface/logo-black@2x.png",
                         "retina": true
@@ -1936,6 +1948,7 @@
             "_picture": "img/chefs-recette/slide_07B.jpg",
             "spots": [
                 {
+                    "href": "#step=0",
                     "picture": {
                         "src": "img/chefs-recette/_interface/logo-black@2x.png",
                         "retina": true
@@ -2098,6 +2111,7 @@
                     "left": "87.7659%"
                 },
                 {
+                    "href": "#step=0",
                     "picture": {
                         "src": "img/chefs-recette/_interface/logo-black@2x.png",
                         "retina": true
@@ -2196,6 +2210,7 @@
             "_picture": "img/chefs-recette/slide_08B.jpg",
             "spots": [
                 {
+                    "href": "#step=0",
                     "picture": {
                         "src": "img/chefs-recette/_interface/logo-black@2x.png",
                         "retina": true
@@ -2368,6 +2383,7 @@
                     "left": "87.7659%"
                 },
                 {
+                    "href": "#step=0",
                     "picture": {
                         "src": "img/chefs-recette/_interface/logo-black@2x.png",
                         "retina": true
@@ -2476,6 +2492,7 @@
             "_picture": "img/chefs-recette/slide_09B.jpg",
             "spots": [
                 {
+                    "href": "#step=0",
                     "picture": {
                         "src": "img/chefs-recette/_interface/logo-black@2x.png",
                         "retina": true
@@ -2638,6 +2655,7 @@
                     "left": "87.7659%"
                 },
                 {
+                    "href": "#step=0",
                     "picture": {
                         "src": "img/chefs-recette/_interface/logo-black@2x.png",
                         "retina": true
@@ -2736,6 +2754,7 @@
             "_picture": "img/chefs-recette/slide_10B.jpg",
             "spots": [
                 {
+                    "href": "#step=0",
                     "picture": {
                         "src": "img/chefs-recette/_interface/logo-black@2x.png",
                         "retina": true
@@ -2878,6 +2897,7 @@
                     "left": "87.7659%"
                 },
                 {
+                    "href": "#step=0",
                     "picture": {
                         "src": "img/chefs-recette/_interface/logo-black@2x.png",
                         "retina": true
