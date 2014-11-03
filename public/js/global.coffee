@@ -36,7 +36,7 @@
   $ui = $uis = null
   currentStep = 0
   scrollDuration = 600
-  defaultEntranceDuration = 800
+  defaultEntranceDuration = 600
   maxWidth  = maxHeight = null
   entranceTimeout = animationTimeout = null
 

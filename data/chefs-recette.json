@@ -291,37 +291,12 @@
             "spots": [
                 {
                     "picture": {
-                        "src": "img/chefs-recette/_interface/01-btn-homepage@2x.png",
-                        "retina": true
-                    },
-                    "href": "#step=0",
-                    "top": "4.3636%",
-                    "left": "47.3404%"
-                },
-                {
-                    "picture": {
-                        "src": "img/chefs-recette/_interface/03-btn-recette@2x.png",
-                        "retina": true
-                    },
-                    "top": "85.2727%",
-                    "left": "48.5106%",
-                    "href": "#step=2"
-                },
-                {
-                    "picture": {
-                        "src": "img/chefs-recette/_interface/04-btn-download@2x.png",
-                        "retina": true
-                    },
-                    "top": "4.3636%",
-                    "left": "87.7659%"
-                },
-                {
-                    "picture": {
                         "src": "img/chefs-recette/_interface/logo-black@2x.png",
                         "retina": true
                     },
                     "top": "3.6363%",
-                    "left": "1.7021%"
+                    "left": "1.7021%",
+                    "entrance": "stepRight fadeIn"
                 },
                 {
                     "picture": {
@@ -329,7 +304,8 @@
                         "retina": true
                     },
                     "top": "35.4545%",
-                    "left": "0.851%"
+                    "left": "0.851%",
+                    "entrance": "stepRight fadeIn"
                 },
                 {
                     "picture": {
@@ -337,87 +313,8 @@
                         "retina": true
                     },
                     "top": "18.909%",
-                    "left": "3.2978%"
-                },
-                {
-                    "picture": {
-                        "src": "/img/chefs-recette/_recette-all/_ingredient/title-ingredient-6P@2x.png",
-                        "retina": true
-                    },
-                    "top": "18.909%",
-                    "left": "42.7659%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette01/_ingredients/ingredient_R1_01@2x.png"
-                    },
-                    "top": "38.5454%",
-                    "left": "28.7234%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette01/_ingredients/ingredient_R1_02@2x.png"
-                    },
-                    "top": "34.1818%",
-                    "left": "45.5319%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette01/_ingredients/ingredient_R1_03@2x.png"
-                    },
-                    "top": "38%",
-                    "left": "63.2978%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette01/_ingredients/ingredient_R1_04@2x.png"
-                    },
-                    "top": "67.6363%",
-                    "left": "25.3191%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette01/_ingredients/ingredient_R1_05@2x.png"
-                    },
-                    "top": "61.8181%",
-                    "left": "38.7234%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette01/_ingredients/ingredient_R1_06@2x.png"
-                    },
-                    "top": "61.6363%",
-                    "left": "50.3191%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette01/_ingredients/ingredient_R1_07@2x.png"
-                    },
-                    "top": "58.7272%",
-                    "left": "64.2553%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette01/_ingredients/ingredient_R1_08@2x.png"
-                    },
-                    "top": "63.6363%",
-                    "left": "77.6595%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette01/_ingredients/ingredient_R1_09@2x.png"
-                    },
-                    "top": "26.909%",
-                    "left": "75%"
+                    "left": "3.2978%",
+                    "entrance": "stepRight fadeIn"
                 },
                 {
                     "picture": {
@@ -426,7 +323,140 @@
                     },
                     "href": "http://www.mangeonslocal-en-idf.com",
                     "top": "90.7272%",
-                    "left": "0.9574%"
+                    "left": "0.9574%",
+                    "entrance": "stepRight fadeIn"
+                },
+                {
+                    "picture": {
+                        "src": "/img/chefs-recette/_recette-all/_ingredient/title-ingredient-6P@2x.png",
+                        "retina": true
+                    },
+                    "top": "18.909%",
+                    "left": "42.7659%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette01/_ingredients/ingredient_R1_01@2x.png"
+                    },
+                    "top": "38.5454%",
+                    "left": "28.7234%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette01/_ingredients/ingredient_R1_02@2x.png"
+                    },
+                    "top": "34.1818%",
+                    "left": "45.5319%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette01/_ingredients/ingredient_R1_03@2x.png"
+                    },
+                    "top": "38%",
+                    "left": "63.2978%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette01/_ingredients/ingredient_R1_04@2x.png"
+                    },
+                    "top": "67.6363%",
+                    "left": "25.3191%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette01/_ingredients/ingredient_R1_05@2x.png"
+                    },
+                    "top": "61.8181%",
+                    "left": "38.7234%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette01/_ingredients/ingredient_R1_06@2x.png"
+                    },
+                    "top": "61.6363%",
+                    "left": "50.3191%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette01/_ingredients/ingredient_R1_07@2x.png"
+                    },
+                    "top": "58.7272%",
+                    "left": "64.2553%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette01/_ingredients/ingredient_R1_08@2x.png"
+                    },
+                    "top": "63.6363%",
+                    "left": "77.6595%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette01/_ingredients/ingredient_R1_09@2x.png"
+                    },
+                    "top": "26.909%",
+                    "left": "75%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_interface/01-btn-homepage@2x.png",
+                        "retina": true
+                    },
+                    "href": "#step=0",
+                    "top": "4.3636%",
+                    "left": "47.3404%",
+                    "entrance": "fadeIn",
+                    "queue": 6600
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_interface/03-btn-recette@2x.png",
+                        "retina": true
+                    },
+                    "top": "85.2727%",
+                    "left": "48.5106%",
+                    "href": "#step=2",
+                    "entrance": "fadeIn",
+                    "queue": 6600
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_interface/04-btn-download@2x.png",
+                        "retina": true
+                    },
+                    "top": "4.3636%",
+                    "left": "87.7659%",
+                    "entrance": "fadeIn",
+                    "queue": 6600
                 }
             ]
         },
@@ -435,31 +465,6 @@
             "spots": [
                 {
                     "picture": {
-                        "src": "img/chefs-recette/_interface/02-btn-ingredient@2x.png",
-                        "retina": true
-                    },
-                    "top": "4.1818%",
-                    "left": "50%",
-                    "href": "#step=1"
-                },
-                {
-                    "picture": {
-                        "src": "/img/chefs-recette/_recette-all/_recette/title-recette@2x.png",
-                        "retina": true
-                    },
-                    "top": "18.1818%",
-                    "left": "50.2127%"
-                },
-                {
-                    "picture": {
-                        "src": "img/chefs-recette/_interface/04-btn-download@2x.png",
-                        "retina": true
-                    },
-                    "top": "4.3636%",
-                    "left": "87.7659%"
-                },
-                {
-                    "picture": {
                         "src": "img/chefs-recette/_interface/logo-black@2x.png",
                         "retina": true
                     },
@@ -484,11 +489,23 @@
                 },
                 {
                     "picture": {
+                        "src": "/img/chefs-recette/_recette-all/_recette/title-recette@2x.png",
+                        "retina": true
+                    },
+                    "top": "18.1818%",
+                    "left": "50.2127%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
                         "src": "/img/chefs-recette/_recette01/_recette/recette-illustration01@2x.png",
                         "retina": true
                     },
                     "top": "26.7272%",
-                    "left": "41.3829%"
+                    "left": "41.3829%",
+                    "entrance": "fadeIn",
+                    "queue": true
                 },
                 {
                     "picture": {
@@ -496,7 +513,9 @@
                         "retina": true
                     },
                     "top": "20.7272%",
-                    "left": "25%"
+                    "left": "25%",
+                    "entrance": "fadeIn",
+                    "queue": true
                 },
                 {
                     "picture": {
@@ -504,7 +523,9 @@
                         "retina": true
                     },
                     "top": "62.5454%",
-                    "left": "25%"
+                    "left": "25%",
+                    "entrance": "fadeIn",
+                    "queue": true
                 },
                 {
                     "picture": {
@@ -512,7 +533,9 @@
                         "retina": true
                     },
                     "top": "53.4545%",
-                    "left": "71.0638%"
+                    "left": "71.0638%",
+                    "entrance": "fadeIn",
+                    "queue": true
                 },
                 {
                     "picture": {
@@ -520,7 +543,9 @@
                         "retina": true
                     },
                     "top": "20.909%",
-                    "left": "71.0638%"
+                    "left": "71.0638%",
+                    "entrance": "fadeIn",
+                    "queue": true
                 },
                 {
                     "picture": {
@@ -530,6 +555,25 @@
                     "href": "http://www.mangeonslocal-en-idf.com",
                     "top": "90.7272%",
                     "left": "0.9574%"
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_interface/02-btn-ingredient@2x.png",
+                        "retina": true
+                    },
+                    "top": "4.1818%",
+                    "left": "50%",
+                    "href": "#step=1",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_interface/04-btn-download@2x.png",
+                        "retina": true
+                    },
+                    "top": "4.3636%",
+                    "left": "87.7659%"
                 }
             ]
         },
@@ -538,12 +582,131 @@
             "spots": [
                 {
                     "picture": {
+                        "src": "img/chefs-recette/_interface/logo-black@2x.png",
+                        "retina": true
+                    },
+                    "top": "3.6363%",
+                    "left": "1.7021%",
+                    "entrance": "stepRight fadeIn"
+                },
+                {
+                    "picture": {
+                        "src": "/img/chefs-recette/_recette02/sidepanel-R02@2x.png",
+                        "retina": true
+                    },
+                    "top": "35.4545%",
+                    "left": "0.851%",
+                    "entrance": "stepRight fadeIn"
+                },
+                {
+                    "picture": {
+                        "src": "/img/chefs-recette/_recette02/title-R02@2x.png",
+                        "retina": true
+                    },
+                    "top": "18.909%",
+                    "left": "3.2978%",
+                    "entrance": "stepRight fadeIn"
+                },
+                {
+                    "picture": {
+                        "src": "/img/chefs-recette/_recette-all/_ingredient/title-ingredient@2x.png",
+                        "retina": true
+                    },
+                    "top": "18.909%",
+                    "left": "42.7659%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_recette02/_ingredients/ingredient_R2_01@2x.png",
+                        "retina": true
+                    },
+                    "top": "34.909%",
+                    "left": "29.468%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_recette02/_ingredients/ingredient_R2_02@2x.png",
+                        "retina": true
+                    },
+                    "top": "31.8181%",
+                    "left": "41.2765%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_recette02/_ingredients/ingredient_R2_03@2x.png",
+                        "retina": true
+                    },
+                    "top": "33.0909%",
+                    "left": "53.8297%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_recette02/_ingredients/ingredient_R2_04@2x.png",
+                        "retina": true
+                    },
+                    "top": "32%",
+                    "left": "68.1914%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_recette02/_ingredients/ingredient_R2_05@2x.png",
+                        "retina": true
+                    },
+                    "top": "26%",
+                    "left": "79.468%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_recette02/_ingredients/ingredient_R2_06@2x.png",
+                        "retina": true
+                    },
+                    "top": "59.6363%",
+                    "left": "30.2127%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_recette02/_ingredients/ingredient_R2_07@2x.png",
+                        "retina": true
+                    },
+                    "top": "58.7272%",
+                    "left": "42.6595%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_recette02/_ingredients/ingredient_R2_08@2x.png",
+                        "retina": true
+                    },
+                    "top": "53.0909%",
+                    "left": "53.9361%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
                         "src": "img/chefs-recette/_interface/01-btn-homepage@2x.png",
                         "retina": true
                     },
                     "href": "#step=0",
                     "top": "4.3636%",
-                    "left": "47.3404%"
+                    "left": "47.3404%",
+                    "queue": 6000,
+                    "entrance": "fadeIn"
                 },
                 {
                     "picture": {
@@ -552,15 +715,9 @@
                     },
                     "top": "85.2727%",
                     "left": "48.5106%",
-                    "href": "#step=4"
-                },
-                {
-                    "picture": {
-                        "src": "/img/chefs-recette/_recette-all/_ingredient/title-ingredient@2x.png",
-                        "retina": true
-                    },
-                    "top": "18.909%",
-                    "left": "42.7659%"
+                    "href": "#step=4",
+                    "queue": 6000,
+                    "entrance": "fadeIn"
                 },
                 {
                     "picture": {
@@ -568,95 +725,9 @@
                         "retina": true
                     },
                     "top": "4.3636%",
-                    "left": "87.7659%"
-                },
-                {
-                    "picture": {
-                        "src": "img/chefs-recette/_interface/logo-black@2x.png",
-                        "retina": true
-                    },
-                    "top": "3.6363%",
-                    "left": "1.7021%"
-                },
-                {
-                    "picture": {
-                        "src": "/img/chefs-recette/_recette02/sidepanel-R02@2x.png",
-                        "retina": true
-                    },
-                    "top": "35.4545%",
-                    "left": "0.851%"
-                },
-                {
-                    "picture": {
-                        "src": "/img/chefs-recette/_recette02/title-R02@2x.png",
-                        "retina": true
-                    },
-                    "top": "18.909%",
-                    "left": "3.2978%"
-                },
-                {
-                    "picture": {
-                        "src": "img/chefs-recette/_recette02/_ingredients/ingredient_R2_01@2x.png",
-                        "retina": true
-                    },
-                    "top": "34.909%",
-                    "left": "29.468%"
-                },
-                {
-                    "picture": {
-                        "src": "img/chefs-recette/_recette02/_ingredients/ingredient_R2_02@2x.png",
-                        "retina": true
-                    },
-                    "top": "31.8181%",
-                    "left": "41.2765%"
-                },
-                {
-                    "picture": {
-                        "src": "img/chefs-recette/_recette02/_ingredients/ingredient_R2_03@2x.png",
-                        "retina": true
-                    },
-                    "top": "33.0909%",
-                    "left": "53.8297%"
-                },
-                {
-                    "picture": {
-                        "src": "img/chefs-recette/_recette02/_ingredients/ingredient_R2_04@2x.png",
-                        "retina": true
-                    },
-                    "top": "32%",
-                    "left": "68.1914%"
-                },
-                {
-                    "picture": {
-                        "src": "img/chefs-recette/_recette02/_ingredients/ingredient_R2_05@2x.png",
-                        "retina": true
-                    },
-                    "top": "26%",
-                    "left": "79.468%"
-                },
-                {
-                    "picture": {
-                        "src": "img/chefs-recette/_recette02/_ingredients/ingredient_R2_06@2x.png",
-                        "retina": true
-                    },
-                    "top": "59.6363%",
-                    "left": "30.2127%"
-                },
-                {
-                    "picture": {
-                        "src": "img/chefs-recette/_recette02/_ingredients/ingredient_R2_07@2x.png",
-                        "retina": true
-                    },
-                    "top": "58.7272%",
-                    "left": "42.6595%"
-                },
-                {
-                    "picture": {
-                        "src": "img/chefs-recette/_recette02/_ingredients/ingredient_R2_08@2x.png",
-                        "retina": true
-                    },
-                    "top": "53.0909%",
-                    "left": "53.9361%"
+                    "left": "87.7659%",
+                    "queue": 6000,
+                    "entrance": "fadeIn"
                 }
             ]
         },
@@ -665,23 +736,6 @@
             "spots": [
                 {
                     "picture": {
-                        "src": "img/chefs-recette/_interface/02-btn-ingredient@2x.png",
-                        "retina": true
-                    },
-                    "top": "4.1818%",
-                    "left": "50%",
-                    "href": "#step=3"
-                },
-                {
-                    "picture": {
-                        "src": "/img/chefs-recette/_recette-all/_recette/title-recette@2x.png",
-                        "retina": true
-                    },
-                    "top": "18.1818%",
-                    "left": "50.2127%"
-                },
-                {
-                    "picture": {
                         "src": "img/chefs-recette/_interface/04-btn-download@2x.png",
                         "retina": true
                     },
@@ -714,11 +768,23 @@
                 },
                 {
                     "picture": {
+                        "src": "/img/chefs-recette/_recette-all/_recette/title-recette@2x.png",
+                        "retina": true
+                    },
+                    "top": "18.1818%",
+                    "left": "50.2127%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
                         "retina": true,
                         "src": "img/chefs-recette/_recette02/_recette/recette-illustration02@2x.png"
                     },
                     "top": "30.909%",
-                    "left": "46.8085%"
+                    "left": "46.8085%",
+                    "entrance": "fadeIn",
+                    "queue": true
                 },
                 {
                     "picture": {
@@ -726,7 +792,9 @@
                         "src": "img/chefs-recette/_recette02/_recette/text_R2_01@2x.png"
                     },
                     "top": "26.7272%",
-                    "left": "26.4893%"
+                    "left": "26.4893%",
+                    "entrance": "fadeIn",
+                    "queue": true
                 },
                 {
                     "picture": {
@@ -734,7 +802,9 @@
                         "src": "img/chefs-recette/_recette02/_recette/text_R2_02@2x.png"
                     },
                     "top": "26.909%",
-                    "left": "72.6595%"
+                    "left": "72.6595%",
+                    "entrance": "fadeIn",
+                    "queue": true
                 },
                 {
                     "picture": {
@@ -742,7 +812,20 @@
                         "src": "img/chefs-recette/_recette02/_recette/text_R2_03@2x.png"
                     },
                     "top": "52.7272%",
-                    "left": "72.6595%"
+                    "left": "72.6595%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_interface/02-btn-ingredient@2x.png",
+                        "retina": true
+                    },
+                    "top": "4.1818%",
+                    "left": "50%",
+                    "href": "#step=3",
+                    "entrance": "fadeIn",
+                    "queue": true
                 }
             ]
         },
@@ -751,12 +834,151 @@
             "spots": [
                 {
                     "picture": {
+                        "src": "img/chefs-recette/_interface/logo-black@2x.png",
+                        "retina": true
+                    },
+                    "top": "3.6363%",
+                    "left": "1.7021%",
+                    "entrance": "fadeIn stepRight"
+                },
+                {
+                    "picture": {
+                        "src": "/img/chefs-recette/_recette03/sidepanel-R03@2x.png",
+                        "retina": true
+                    },
+                    "top": "35.4545%",
+                    "left": "0.851%",
+                    "entrance": "fadeIn stepRight"
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette-all/_leftpanel/link-marmiton@2x.png"
+                    },
+                    "href": "http://www.marmiton.org/",
+                    "top": "90.7272%",
+                    "left": "0.9574%",
+                    "entrance": "fadeIn stepRight"
+                },
+                {
+                    "picture": {
+                        "src": "/img/chefs-recette/_recette03/title-R03@2x.png",
+                        "retina": true
+                    },
+                    "top": "18.909%",
+                    "left": "3.2978%",
+                    "entrance": "fadeIn stepRight"
+                },
+                {
+                    "picture": {
+                        "src": "/img/chefs-recette/_recette-all/_ingredient/title-ingredient-4P@2x.png",
+                        "retina": true
+                    },
+                    "top": "18.909%",
+                    "left": "42.7659%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette03/_ingredients/ingredient_R3_01@2x.png"
+                    },
+                    "top": "25.6363%",
+                    "left": "28.2978%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette03/_ingredients/ingredient_R3_02@2x.png"
+                    },
+                    "top": "36.7272%",
+                    "left": "45.7446%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette03/_ingredients/ingredient_R3_03@2x.png"
+                    },
+                    "top": "37.4545%",
+                    "left": "55.5319%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette03/_ingredients/ingredient_R3_04@2x.png"
+                    },
+                    "top": "33.8181%",
+                    "left": "78.1914%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette03/_ingredients/ingredient_R3_05@2x.png"
+                    },
+                    "top": "58.5454%",
+                    "left": "28.4042%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette03/_ingredients/ingredient_R3_06@2x.png"
+                    },
+                    "top": "56.7272%",
+                    "left": "36.8085%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette03/_ingredients/ingredient_R3_07@2x.png"
+                    },
+                    "top": "57.0909%",
+                    "left": "48.617%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette03/_ingredients/ingredient_R3_08@2x.png"
+                    },
+                    "top": "55.0909%",
+                    "left": "59.8936%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette03/_ingredients/ingredient_R3_09@2x.png"
+                    },
+                    "top": "48.1818%",
+                    "left": "71.9148%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
                         "src": "img/chefs-recette/_interface/01-btn-homepage@2x.png",
                         "retina": true
                     },
                     "href": "#step=0",
                     "top": "4.3636%",
-                    "left": "47.3404%"
+                    "left": "47.3404%",
+                    "entrance": "fadeIn",
+                    "queue": 6600
                 },
                 {
                     "picture": {
@@ -765,7 +987,9 @@
                     },
                     "top": "85.2727%",
                     "left": "48.5106%",
-                    "href": "#step=6"
+                    "href": "#step=6",
+                    "entrance": "fadeIn",
+                    "queue": 6600
                 },
                 {
                     "picture": {
@@ -773,120 +997,9 @@
                         "retina": true
                     },
                     "top": "4.3636%",
-                    "left": "87.7659%"
-                },
-                {
-                    "picture": {
-                        "src": "img/chefs-recette/_interface/logo-black@2x.png",
-                        "retina": true
-                    },
-                    "top": "3.6363%",
-                    "left": "1.7021%"
-                },
-                {
-                    "picture": {
-                        "src": "/img/chefs-recette/_recette-all/_ingredient/title-ingredient-4P@2x.png",
-                        "retina": true
-                    },
-                    "top": "18.909%",
-                    "left": "42.7659%"
-                },
-                {
-                    "picture": {
-                        "src": "/img/chefs-recette/_recette03/sidepanel-R03@2x.png",
-                        "retina": true
-                    },
-                    "top": "35.4545%",
-                    "left": "0.851%"
-                },
-                {
-                    "picture": {
-                        "src": "/img/chefs-recette/_recette03/title-R03@2x.png",
-                        "retina": true
-                    },
-                    "top": "18.909%",
-                    "left": "3.2978%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette03/_ingredients/ingredient_R3_01@2x.png"
-                    },
-                    "top": "25.6363%",
-                    "left": "28.2978%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette03/_ingredients/ingredient_R3_02@2x.png"
-                    },
-                    "top": "36.7272%",
-                    "left": "45.7446%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette03/_ingredients/ingredient_R3_03@2x.png"
-                    },
-                    "top": "37.4545%",
-                    "left": "55.5319%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette03/_ingredients/ingredient_R3_04@2x.png"
-                    },
-                    "top": "33.8181%",
-                    "left": "78.1914%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette03/_ingredients/ingredient_R3_05@2x.png"
-                    },
-                    "top": "58.5454%",
-                    "left": "28.4042%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette03/_ingredients/ingredient_R3_06@2x.png"
-                    },
-                    "top": "56.7272%",
-                    "left": "36.8085%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette03/_ingredients/ingredient_R3_07@2x.png"
-                    },
-                    "top": "57.0909%",
-                    "left": "48.617%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette03/_ingredients/ingredient_R3_08@2x.png"
-                    },
-                    "top": "55.0909%",
-                    "left": "59.8936%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette03/_ingredients/ingredient_R3_09@2x.png"
-                    },
-                    "top": "48.1818%",
-                    "left": "71.9148%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette-all/_leftpanel/link-marmiton@2x.png"
-                    },
-                    "href": "http://www.marmiton.org/",
-                    "top": "90.7272%",
-                    "left": "0.9574%"
+                    "left": "87.7659%",
+                    "entrance": "fadeIn",
+                    "queue": 6600
                 }
             ]
         },
@@ -895,23 +1008,6 @@
             "spots": [
                 {
                     "picture": {
-                        "src": "img/chefs-recette/_interface/02-btn-ingredient@2x.png",
-                        "retina": true
-                    },
-                    "top": "4.1818%",
-                    "left": "50%",
-                    "href": "#step=5"
-                },
-                {
-                    "picture": {
-                        "src": "/img/chefs-recette/_recette-all/_recette/title-recette@2x.png",
-                        "retina": true
-                    },
-                    "top": "18.1818%",
-                    "left": "50.2127%"
-                },
-                {
-                    "picture": {
                         "src": "img/chefs-recette/_interface/04-btn-download@2x.png",
                         "retina": true
                     },
@@ -944,11 +1040,22 @@
                 },
                 {
                     "picture": {
+                        "src": "/img/chefs-recette/_recette-all/_recette/title-recette@2x.png",
+                        "retina": true
+                    },
+                    "top": "18.1818%",
+                    "left": "50.2127%",
+                    "entrance": "fadeIn"
+                },
+                {
+                    "picture": {
                         "retina": true,
                         "src": "img/chefs-recette/_recette03/_recette/recette-illustration03@2x.png"
                     },
                     "top": "30.909%",
-                    "left": "48.8297%"
+                    "left": "48.8297%",
+                    "entrance": "fadeIn",
+                    "queue": true
                 },
                 {
                     "picture": {
@@ -956,7 +1063,9 @@
                         "src": "img/chefs-recette/_recette03/_recette/text_R3_01@2x.png"
                     },
                     "top": "20.909%",
-                    "left": "27.234%"
+                    "left": "27.234%",
+                    "entrance": "fadeIn",
+                    "queue": true
                 },
                 {
                     "picture": {
@@ -964,7 +1073,9 @@
                         "src": "img/chefs-recette/_recette03/_recette/text_R3_02@2x.png"
                     },
                     "top": "64.1818%",
-                    "left": "27.234%"
+                    "left": "27.234%",
+                    "entrance": "fadeIn",
+                    "queue": true
                 },
                 {
                     "picture": {
@@ -972,7 +1083,9 @@
                         "src": "img/chefs-recette/_recette03/_recette/text_R3_03@2x.png"
                     },
                     "top": "63.6363%",
-                    "left": "73.5106%"
+                    "left": "73.5106%",
+                    "entrance": "fadeIn",
+                    "queue": true
                 },
                 {
                     "picture": {
@@ -980,7 +1093,9 @@
                         "src": "img/chefs-recette/_recette03/_recette/text_R3_04@2x.png"
                     },
                     "top": "23.6363%",
-                    "left": "73.4042%"
+                    "left": "73.4042%",
+                    "entrance": "fadeIn",
+                    "queue": true
                 },
                 {
                     "picture": {
@@ -990,6 +1105,17 @@
                     "href": "http://www.marmiton.org/",
                     "top": "90.7272%",
                     "left": "0.9574%"
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_interface/02-btn-ingredient@2x.png",
+                        "retina": true
+                    },
+                    "top": "4.1818%",
+                    "left": "50%",
+                    "href": "#step=5",
+                    "entrance": "fadeIn",
+                    "queue": true
                 }
             ]
         },
@@ -998,12 +1124,131 @@
             "spots": [
                 {
                     "picture": {
+                        "src": "img/chefs-recette/_interface/logo-black@2x.png",
+                        "retina": true
+                    },
+                    "top": "3.6363%",
+                    "left": "1.7021%",
+                    "entrance": "fadeIn stepRight"
+                },
+                {
+                    "picture": {
+                        "src": "/img/chefs-recette/_recette04/sidepanel-R04@2x.png",
+                        "retina": true
+                    },
+                    "top": "35.4545%",
+                    "left": "0.851%",
+                    "entrance": "fadeIn stepRight"
+                },
+                {
+                    "picture": {
+                        "src": "/img/chefs-recette/_recette-all/_ingredient/title-ingredient-2P@2x.png",
+                        "retina": true
+                    },
+                    "top": "18.909%",
+                    "left": "42.7659%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "src": "/img/chefs-recette/_recette04/title-R04@2x.png",
+                        "retina": true
+                    },
+                    "top": "18.909%",
+                    "left": "3.2978%",
+                    "entrance": "fadeIn stepRight"
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette04/_ingredients/ingredient_R4_01@2x.png"
+                    },
+                    "top": "38%",
+                    "left": "30%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette04/_ingredients/ingredient_R4_02@2x.png"
+                    },
+                    "top": "33.6363%",
+                    "left": "47.5531%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette04/_ingredients/ingredient_R4_03@2x.png"
+                    },
+                    "top": "40.7272%",
+                    "left": "64.7872%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette04/_ingredients/ingredient_R4_04@2x.png"
+                    },
+                    "top": "31.8181%",
+                    "left": "77.0212%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette04/_ingredients/ingredient_R4_05@2x.png"
+                    },
+                    "top": "68.7272%",
+                    "left": "36.3829%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette04/_ingredients/ingredient_R4_06@2x.png"
+                    },
+                    "top": "61.6363%",
+                    "left": "50.9574%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette04/_ingredients/ingredient_R4_07@2x.png"
+                    },
+                    "top": "58.3636%",
+                    "left": "68.8297%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette-all/_leftpanel/link-idf@2x.png"
+                    },
+                    "href": "http://www.mangeonslocal-en-idf.com",
+                    "top": "90.7272%",
+                    "left": "0.9574%",
+                    "entrance": "fadeIn stepRight"
+                },
+                {
+                    "picture": {
                         "src": "img/chefs-recette/_interface/01-btn-homepage@2x.png",
                         "retina": true
                     },
                     "href": "#step=0",
                     "top": "4.3636%",
-                    "left": "47.3404%"
+                    "left": "47.3404%",
+                    "entrance": "fadeIn",
+                    "queue": 5400
                 },
                 {
                     "picture": {
@@ -1012,7 +1257,9 @@
                     },
                     "href": "#step=8",
                     "top": "85.2727%",
-                    "left": "48.5106%"
+                    "left": "48.5106%",
+                    "entrance": "fadeIn",
+                    "queue": 5400
                 },
                 {
                     "picture": {
@@ -1020,104 +1267,9 @@
                         "retina": true
                     },
                     "top": "4.3636%",
-                    "left": "87.7659%"
-                },
-                {
-                    "picture": {
-                        "src": "img/chefs-recette/_interface/logo-black@2x.png",
-                        "retina": true
-                    },
-                    "top": "3.6363%",
-                    "left": "1.7021%"
-                },
-                {
-                    "picture": {
-                        "src": "/img/chefs-recette/_recette-all/_ingredient/title-ingredient-2P@2x.png",
-                        "retina": true
-                    },
-                    "top": "18.909%",
-                    "left": "42.7659%"
-                },
-                {
-                    "picture": {
-                        "src": "/img/chefs-recette/_recette04/sidepanel-R04@2x.png",
-                        "retina": true
-                    },
-                    "top": "35.4545%",
-                    "left": "0.851%"
-                },
-                {
-                    "picture": {
-                        "src": "/img/chefs-recette/_recette04/title-R04@2x.png",
-                        "retina": true
-                    },
-                    "top": "18.909%",
-                    "left": "3.2978%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette04/_ingredients/ingredient_R4_01@2x.png"
-                    },
-                    "top": "38%",
-                    "left": "30%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette04/_ingredients/ingredient_R4_02@2x.png"
-                    },
-                    "top": "33.6363%",
-                    "left": "47.5531%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette04/_ingredients/ingredient_R4_03@2x.png"
-                    },
-                    "top": "40.7272%",
-                    "left": "64.7872%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette04/_ingredients/ingredient_R4_04@2x.png"
-                    },
-                    "top": "31.8181%",
-                    "left": "77.0212%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette04/_ingredients/ingredient_R4_05@2x.png"
-                    },
-                    "top": "68.7272%",
-                    "left": "36.3829%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette04/_ingredients/ingredient_R4_06@2x.png"
-                    },
-                    "top": "61.6363%",
-                    "left": "50.9574%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette04/_ingredients/ingredient_R4_07@2x.png"
-                    },
-                    "top": "58.3636%",
-                    "left": "68.8297%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette-all/_leftpanel/link-idf@2x.png"
-                    },
-                    "href": "http://www.mangeonslocal-en-idf.com",
-                    "top": "90.7272%",
-                    "left": "0.9574%"
+                    "left": "87.7659%",
+                    "entrance": "fadeIn",
+                    "queue": 5400
                 }
             ]
         },
@@ -1126,23 +1278,6 @@
             "spots": [
                 {
                     "picture": {
-                        "src": "img/chefs-recette/_interface/02-btn-ingredient@2x.png",
-                        "retina": true
-                    },
-                    "top": "4.1818%",
-                    "left": "50%",
-                    "href": "#step=7"
-                },
-                {
-                    "picture": {
-                        "src": "/img/chefs-recette/_recette-all/_recette/title-recette@2x.png",
-                        "retina": true
-                    },
-                    "top": "18.1818%",
-                    "left": "50.2127%"
-                },
-                {
-                    "picture": {
                         "src": "img/chefs-recette/_interface/04-btn-download@2x.png",
                         "retina": true
                     },
@@ -1175,11 +1310,22 @@
                 },
                 {
                     "picture": {
+                        "src": "/img/chefs-recette/_recette-all/_recette/title-recette@2x.png",
+                        "retina": true
+                    },
+                    "top": "18.1818%",
+                    "left": "50.2127%",
+                    "entrance": "fadeIn"
+                },
+                {
+                    "picture": {
                         "retina": true,
                         "src": "img/chefs-recette/_recette04/_recette/recette-illustration04@2x.png"
                     },
                     "top": "27.4545%",
-                    "left": "48.9361%"
+                    "left": "48.9361%",
+                    "entrance": "fadeIn",
+                    "queue": true
                 },
                 {
                     "picture": {
@@ -1187,7 +1333,9 @@
                         "src": "img/chefs-recette/_recette04/_recette/text_R4_01@2x.png"
                     },
                     "top": "22.909%",
-                    "left": "27.0212%"
+                    "left": "27.0212%",
+                    "entrance": "fadeIn",
+                    "queue": true
                 },
                 {
                     "picture": {
@@ -1195,7 +1343,9 @@
                         "src": "img/chefs-recette/_recette04/_recette/text_R4_02@2x.png"
                     },
                     "top": "59.0909%",
-                    "left": "27.0212%"
+                    "left": "27.0212%",
+                    "entrance": "fadeIn",
+                    "queue": true
                 },
                 {
                     "picture": {
@@ -1203,7 +1353,9 @@
                         "src": "img/chefs-recette/_recette04/_recette/text_R4_03@2x.png"
                     },
                     "top": "56.1818%",
-                    "left": "73.0851%"
+                    "left": "73.0851%",
+                    "entrance": "fadeIn",
+                    "queue": true
                 },
                 {
                     "picture": {
@@ -1213,6 +1365,17 @@
                     "href": "http://www.mangeonslocal-en-idf.com",
                     "top": "90.7272%",
                     "left": "0.9574%"
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_interface/02-btn-ingredient@2x.png",
+                        "retina": true
+                    },
+                    "top": "4.1818%",
+                    "left": "50%",
+                    "href": "#step=7",
+                    "entrance": "fadeIn",
+                    "queue": true
                 }
             ]
         },
@@ -1221,12 +1384,131 @@
             "spots": [
                 {
                     "picture": {
+                        "src": "img/chefs-recette/_interface/logo-black@2x.png",
+                        "retina": true
+                    },
+                    "top": "3.6363%",
+                    "left": "1.7021%",
+                    "entrance": "fadeIn stepRight"
+                },
+                {
+                    "picture": {
+                        "src": "/img/chefs-recette/_recette05/sidepanel-R05@2x.png",
+                        "retina": true
+                    },
+                    "top": "35.4545%",
+                    "left": "0.851%",
+                    "entrance": "fadeIn stepRight"
+                },
+                {
+                    "picture": {
+                        "src": "/img/chefs-recette/_recette05/title-R05@2x.png",
+                        "retina": true
+                    },
+                    "top": "18.909%",
+                    "left": "3.2978%",
+                    "entrance": "fadeIn stepRight"
+                },
+                {
+                    "picture": {
+                        "src": "/img/chefs-recette/_recette-all/_ingredient/title-ingredient-6P@2x.png",
+                        "retina": true
+                    },
+                    "top": "18.909%",
+                    "left": "42.7659%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette05/_ingredients/ingredient_R5_01@2x.png"
+                    },
+                    "top": "31.0909%",
+                    "left": "27.234%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette05/_ingredients/ingredient_R5_02@2x.png"
+                    },
+                    "top": "38.909%",
+                    "left": "44.468%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette05/_ingredients/ingredient_R5_03@2x.png"
+                    },
+                    "top": "32.1818%",
+                    "left": "55.9574%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette05/_ingredients/ingredient_R5_04@2x.png"
+                    },
+                    "top": "36.909%",
+                    "left": "67.9787%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette05/_ingredients/ingredient_R5_05@2x.png"
+                    },
+                    "top": "37.4545%",
+                    "left": "77.6595%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette05/_ingredients/ingredient_R5_06@2x.png"
+                    },
+                    "top": "63.0909%",
+                    "left": "26.8085%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette05/_ingredients/ingredient_R5_07@2x.png"
+                    },
+                    "top": "54%",
+                    "left": "44.1489%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette05/_ingredients/ingredient_R5_08@2x.png"
+                    },
+                    "top": "56%",
+                    "left": "60.3191%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
                         "src": "img/chefs-recette/_interface/01-btn-homepage@2x.png",
                         "retina": true
                     },
                     "href": "#step=0",
                     "top": "4.3636%",
-                    "left": "47.3404%"
+                    "left": "47.3404%",
+                    "entrance": "fadeIn",
+                    "queue": 6000
                 },
                 {
                     "picture": {
@@ -1235,7 +1517,9 @@
                     },
                     "href": "#step=10",
                     "top": "85.2727%",
-                    "left": "48.5106%"
+                    "left": "48.5106%",
+                    "entrance": "fadeIn",
+                    "queue": 6000
                 },
                 {
                     "picture": {
@@ -1243,103 +1527,9 @@
                         "retina": true
                     },
                     "top": "4.3636%",
-                    "left": "87.7659%"
-                },
-                {
-                    "picture": {
-                        "src": "img/chefs-recette/_interface/logo-black@2x.png",
-                        "retina": true
-                    },
-                    "top": "3.6363%",
-                    "left": "1.7021%"
-                },
-                {
-                    "picture": {
-                        "src": "/img/chefs-recette/_recette-all/_ingredient/title-ingredient-6P@2x.png",
-                        "retina": true
-                    },
-                    "top": "18.909%",
-                    "left": "42.7659%"
-                },
-                {
-                    "picture": {
-                        "src": "/img/chefs-recette/_recette05/sidepanel-R05@2x.png",
-                        "retina": true
-                    },
-                    "top": "35.4545%",
-                    "left": "0.851%"
-                },
-                {
-                    "picture": {
-                        "src": "/img/chefs-recette/_recette05/title-R05@2x.png",
-                        "retina": true
-                    },
-                    "top": "18.909%",
-                    "left": "3.2978%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette05/_ingredients/ingredient_R5_01@2x.png"
-                    },
-                    "top": "31.0909%",
-                    "left": "27.234%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette05/_ingredients/ingredient_R5_02@2x.png"
-                    },
-                    "top": "38.909%",
-                    "left": "44.468%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette05/_ingredients/ingredient_R5_03@2x.png"
-                    },
-                    "top": "32.1818%",
-                    "left": "55.9574%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette05/_ingredients/ingredient_R5_04@2x.png"
-                    },
-                    "top": "36.909%",
-                    "left": "67.9787%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette05/_ingredients/ingredient_R5_05@2x.png"
-                    },
-                    "top": "37.4545%",
-                    "left": "77.6595%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette05/_ingredients/ingredient_R5_06@2x.png"
-                    },
-                    "top": "63.0909%",
-                    "left": "26.8085%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette05/_ingredients/ingredient_R5_07@2x.png"
-                    },
-                    "top": "54%",
-                    "left": "44.1489%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette05/_ingredients/ingredient_R5_08@2x.png"
-                    },
-                    "top": "56%",
-                    "left": "60.3191%"
+                    "left": "87.7659%",
+                    "entrance": "fadeIn",
+                    "queue": 6000
                 }
             ]
         },
@@ -1348,23 +1538,6 @@
             "spots": [
                 {
                     "picture": {
-                        "src": "img/chefs-recette/_interface/02-btn-ingredient@2x.png",
-                        "retina": true
-                    },
-                    "top": "4.1818%",
-                    "left": "50%",
-                    "href": "#step=9"
-                },
-                {
-                    "picture": {
-                        "src": "/img/chefs-recette/_recette-all/_recette/title-recette@2x.png",
-                        "retina": true
-                    },
-                    "top": "18.1818%",
-                    "left": "50.2127%"
-                },
-                {
-                    "picture": {
                         "src": "img/chefs-recette/_interface/04-btn-download@2x.png",
                         "retina": true
                     },
@@ -1397,11 +1570,23 @@
                 },
                 {
                     "picture": {
+                        "src": "/img/chefs-recette/_recette-all/_recette/title-recette@2x.png",
+                        "retina": true
+                    },
+                    "top": "18.1818%",
+                    "left": "50.2127%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
                         "retina": true,
                         "src": "img/chefs-recette/_recette05/_recette/recette-illustration05@2x.png"
                     },
                     "top": "28%",
-                    "left": "41.1702%"
+                    "left": "41.1702%",
+                    "entrance": "fadeIn",
+                    "queue": true
                 },
                 {
                     "picture": {
@@ -1409,7 +1594,9 @@
                         "src": "img/chefs-recette/_recette05/_recette/text_R5_01@2x.png"
                     },
                     "top": "28.909%",
-                    "left": "27.0212%"
+                    "left": "27.0212%",
+                    "entrance": "fadeIn",
+                    "queue": true
                 },
                 {
                     "picture": {
@@ -1417,7 +1604,9 @@
                         "src": "img/chefs-recette/_recette05/_recette/text_R5_02@2x.png"
                     },
                     "top": "62%",
-                    "left": "27.0212%"
+                    "left": "27.0212%",
+                    "entrance": "fadeIn",
+                    "queue": true
                 },
                 {
                     "picture": {
@@ -1425,7 +1614,9 @@
                         "src": "img/chefs-recette/_recette05/_recette/text_R5_03@2x.png"
                     },
                     "top": "56%",
-                    "left": "73.1914%"
+                    "left": "73.1914%",
+                    "entrance": "fadeIn",
+                    "queue": true
                 },
                 {
                     "picture": {
@@ -1433,7 +1624,20 @@
                         "src": "img/chefs-recette/_recette05/_recette/text_R5_04@2x.png"
                     },
                     "top": "28.909%",
-                    "left": "73.1914%"
+                    "left": "73.1914%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_interface/02-btn-ingredient@2x.png",
+                        "retina": true
+                    },
+                    "top": "4.1818%",
+                    "left": "50%",
+                    "href": "#step=9",
+                    "entrance": "fadeIn",
+                    "queue": true
                 }
             ]
         },
@@ -1442,12 +1646,161 @@
             "spots": [
                 {
                     "picture": {
+                        "src": "img/chefs-recette/_interface/logo-black@2x.png",
+                        "retina": true
+                    },
+                    "top": "3.6363%",
+                    "left": "1.7021%",
+                    "entrance": "fadeIn stepRight"
+                },
+                {
+                    "picture": {
+                        "src": "/img/chefs-recette/_recette06/sidepanel-R06@2x.png",
+                        "retina": true
+                    },
+                    "top": "35.4545%",
+                    "left": "0.851%",
+                    "entrance": "fadeIn stepRight"
+                },
+                {
+                    "picture": {
+                        "src": "/img/chefs-recette/_recette06/title-R06@2x.png",
+                        "retina": true
+                    },
+                    "top": "18.909%",
+                    "left": "3.2978%",
+                    "entrance": "fadeIn stepRight"
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette-all/_leftpanel/link-idf@2x.png"
+                    },
+                    "href": "http://www.mangeonslocal-en-idf.com",
+                    "top": "90.7272%",
+                    "left": "0.9574%",
+                    "entrance": "fadeIn stepRight"
+                },
+                {
+                    "picture": {
+                        "src": "/img/chefs-recette/_recette-all/_ingredient/title-ingredient-6P@2x.png",
+                        "retina": true
+                    },
+                    "top": "18.909%",
+                    "left": "42.7659%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette06/_ingredients/ingredient_R6_01@2x.png"
+                    },
+                    "top": "31.8181%",
+                    "left": "28.617%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette06/_ingredients/ingredient_R6_02@2x.png"
+                    },
+                    "top": "36.909%",
+                    "left": "42.7659%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette06/_ingredients/ingredient_R6_03@2x.png"
+                    },
+                    "top": "36.1818%",
+                    "left": "53.0851%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette06/_ingredients/ingredient_R6_04@2x.png"
+                    },
+                    "top": "35.4545%",
+                    "left": "66.1702%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette06/_ingredients/ingredient_R6_05@2x.png"
+                    },
+                    "top": "61.8181%",
+                    "left": "29.1489%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette06/_ingredients/ingredient_R6_06@2x.png"
+                    },
+                    "top": "57.2727%",
+                    "left": "37.8723%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette06/_ingredients/ingredient_R6_07@2x.png"
+                    },
+                    "top": "62.5454%",
+                    "left": "47.6595%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette06/_ingredients/ingredient_R6_08@2x.png"
+                    },
+                    "top": "64.7272%",
+                    "left": "59.468%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette06/_ingredients/ingredient_R6_09@2x.png"
+                    },
+                    "top": "61.6363%",
+                    "left": "70%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette06/_ingredients/ingredient_R6_10@2x.png"
+                    },
+                    "top": "36.5454%",
+                    "left": "79.8936%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
                         "src": "img/chefs-recette/_interface/01-btn-homepage@2x.png",
                         "retina": true
                     },
                     "href": "#step=0",
                     "top": "4.3636%",
-                    "left": "47.3404%"
+                    "left": "47.3404%",
+                    "entrance": "fadeIn",
+                    "queue": 7200
                 },
                 {
                     "picture": {
@@ -1456,7 +1809,9 @@
                     },
                     "href": "#step=12",
                     "top": "85.2727%",
-                    "left": "48.5106%"
+                    "left": "48.5106%",
+                    "entrance": "fadeIn",
+                    "queue": 7200
                 },
                 {
                     "picture": {
@@ -1464,128 +1819,9 @@
                         "retina": true
                     },
                     "top": "4.3636%",
-                    "left": "87.7659%"
-                },
-                {
-                    "picture": {
-                        "src": "img/chefs-recette/_interface/logo-black@2x.png",
-                        "retina": true
-                    },
-                    "top": "3.6363%",
-                    "left": "1.7021%"
-                },
-                {
-                    "picture": {
-                        "src": "/img/chefs-recette/_recette-all/_ingredient/title-ingredient-6P@2x.png",
-                        "retina": true
-                    },
-                    "top": "18.909%",
-                    "left": "42.7659%"
-                },
-                {
-                    "picture": {
-                        "src": "/img/chefs-recette/_recette06/sidepanel-R06@2x.png",
-                        "retina": true
-                    },
-                    "top": "35.4545%",
-                    "left": "0.851%"
-                },
-                {
-                    "picture": {
-                        "src": "/img/chefs-recette/_recette06/title-R06@2x.png",
-                        "retina": true
-                    },
-                    "top": "18.909%",
-                    "left": "3.2978%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette06/_ingredients/ingredient_R6_01@2x.png"
-                    },
-                    "top": "31.8181%",
-                    "left": "28.617%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette06/_ingredients/ingredient_R6_02@2x.png"
-                    },
-                    "top": "36.909%",
-                    "left": "42.7659%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette06/_ingredients/ingredient_R6_03@2x.png"
-                    },
-                    "top": "36.1818%",
-                    "left": "53.0851%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette06/_ingredients/ingredient_R6_04@2x.png"
-                    },
-                    "top": "35.4545%",
-                    "left": "66.1702%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette06/_ingredients/ingredient_R6_05@2x.png"
-                    },
-                    "top": "61.8181%",
-                    "left": "29.1489%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette06/_ingredients/ingredient_R6_06@2x.png"
-                    },
-                    "top": "57.2727%",
-                    "left": "37.8723%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette06/_ingredients/ingredient_R6_07@2x.png"
-                    },
-                    "top": "62.5454%",
-                    "left": "47.6595%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette06/_ingredients/ingredient_R6_08@2x.png"
-                    },
-                    "top": "64.7272%",
-                    "left": "59.468%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette06/_ingredients/ingredient_R6_09@2x.png"
-                    },
-                    "top": "61.6363%",
-                    "left": "70%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette06/_ingredients/ingredient_R6_10@2x.png"
-                    },
-                    "top": "36.5454%",
-                    "left": "79.8936%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette-all/_leftpanel/link-idf@2x.png"
-                    },
-                    "href": "http://www.mangeonslocal-en-idf.com",
-                    "top": "90.7272%",
-                    "left": "0.9574%"
+                    "left": "87.7659%",
+                    "entrance": "fadeIn",
+                    "queue": 7200
                 }
             ]
         },
@@ -1594,23 +1830,6 @@
             "spots": [
                 {
                     "picture": {
-                        "src": "img/chefs-recette/_interface/02-btn-ingredient@2x.png",
-                        "retina": true
-                    },
-                    "top": "4.1818%",
-                    "left": "50%",
-                    "href": "#step=11"
-                },
-                {
-                    "picture": {
-                        "src": "/img/chefs-recette/_recette-all/_recette/title-recette@2x.png",
-                        "retina": true
-                    },
-                    "top": "18.1818%",
-                    "left": "50.2127%"
-                },
-                {
-                    "picture": {
                         "src": "img/chefs-recette/_interface/04-btn-download@2x.png",
                         "retina": true
                     },
@@ -1643,11 +1862,22 @@
                 },
                 {
                     "picture": {
+                        "src": "/img/chefs-recette/_recette-all/_recette/title-recette@2x.png",
+                        "retina": true
+                    },
+                    "top": "18.1818%",
+                    "left": "50.2127%",
+                    "entrance": "fadeIn"
+                },
+                {
+                    "picture": {
                         "retina": true,
                         "src": "img/chefs-recette/_recette06/_recette/recette-illustration06@2x.png"
                     },
                     "top": "30.5454%",
-                    "left": "44.6808%"
+                    "left": "44.6808%",
+                    "queue": true,
+                    "entrance": "fadeIn"
                 },
                 {
                     "picture": {
@@ -1655,7 +1885,9 @@
                         "src": "img/chefs-recette/_recette06/_recette/text_R6_01@2x.png"
                     },
                     "top": "26.1818%",
-                    "left": "26.3829%"
+                    "left": "26.3829%",
+                    "queue": true,
+                    "entrance": "fadeIn"
                 },
                 {
                     "picture": {
@@ -1663,7 +1895,9 @@
                         "src": "img/chefs-recette/_recette06/_recette/text_R6_02@2x.png"
                     },
                     "top": "52.1818%",
-                    "left": "26.3829%"
+                    "left": "26.3829%",
+                    "queue": true,
+                    "entrance": "fadeIn"
                 },
                 {
                     "picture": {
@@ -1671,7 +1905,9 @@
                         "src": "img/chefs-recette/_recette06/_recette/text_R6_03@2x.png"
                     },
                     "top": "56.1818%",
-                    "left": "72.4468%"
+                    "left": "72.4468%",
+                    "queue": true,
+                    "entrance": "fadeIn"
                 },
                 {
                     "picture": {
@@ -1681,6 +1917,17 @@
                     "href": "http://www.mangeonslocal-en-idf.com",
                     "top": "90.7272%",
                     "left": "0.9574%"
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_interface/02-btn-ingredient@2x.png",
+                        "retina": true
+                    },
+                    "top": "4.1818%",
+                    "left": "50%",
+                    "href": "#step=11",
+                    "queue": true,
+                    "entrance": "fadeIn"
                 }
             ]
         },
@@ -1689,12 +1936,131 @@
             "spots": [
                 {
                     "picture": {
+                        "src": "img/chefs-recette/_interface/logo-black@2x.png",
+                        "retina": true
+                    },
+                    "top": "3.6363%",
+                    "left": "1.7021%",
+                    "entrance": "fadeIn stepRight"
+                },
+                {
+                    "picture": {
+                        "src": "/img/chefs-recette/_recette07/sidepanel-R07@2x.png",
+                        "retina": true
+                    },
+                    "top": "35.4545%",
+                    "left": "0.851%",
+                    "entrance": "fadeIn stepRight"
+                },
+                {
+                    "picture": {
+                        "src": "/img/chefs-recette/_recette07/title-R07@2x.png",
+                        "retina": true
+                    },
+                    "top": "18.909%",
+                    "left": "3.2978%",
+                    "entrance": "fadeIn stepRight"
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette-all/_leftpanel/link-idf@2x.png"
+                    },
+                    "href": "http://www.mangeonslocal-en-idf.com",
+                    "top": "90.7272%",
+                    "left": "0.9574%",
+                    "entrance": "fadeIn stepRight"
+                },
+                {
+                    "picture": {
+                        "src": "/img/chefs-recette/_recette-all/_ingredient/title-ingredient@2x.png",
+                        "retina": true
+                    },
+                    "top": "18.909%",
+                    "left": "42.7659%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette07/_ingredients/ingredient_R7_01@2x.png"
+                    },
+                    "top": "30.7272%",
+                    "left": "29.7872%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette07/_ingredients/ingredient_R7_02@2x.png"
+                    },
+                    "top": "36.5454%",
+                    "left": "42.7659%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette07/_ingredients/ingredient_R7_03@2x.png"
+                    },
+                    "top": "33.8181%",
+                    "left": "58.4042%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette07/_ingredients/ingredient_R7_04@2x.png"
+                    },
+                    "top": "32.1818%",
+                    "left": "71.3829%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette07/_ingredients/ingredient_R7_05@2x.png"
+                    },
+                    "top": "57.6363%",
+                    "left": "30.2127%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette07/_ingredients/ingredient_R7_06@2x.png"
+                    },
+                    "top": "62%",
+                    "left": "44.1489%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette07/_ingredients/ingredient_R7_07@2x.png"
+                    },
+                    "top": "52.7272%",
+                    "left": "55.6382%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
                         "src": "img/chefs-recette/_interface/01-btn-homepage@2x.png",
                         "retina": true
                     },
                     "href": "#step=0",
                     "top": "4.3636%",
-                    "left": "47.3404%"
+                    "left": "47.3404%",
+                    "entrance": "fadeIn",
+                    "queue": 5400
                 },
                 {
                     "picture": {
@@ -1703,7 +2069,9 @@
                     },
                     "href": "#step=14",
                     "top": "85.2727%",
-                    "left": "48.5106%"
+                    "left": "48.5106%",
+                    "entrance": "fadeIn",
+                    "queue": 5400
                 },
                 {
                     "picture": {
@@ -1711,104 +2079,9 @@
                         "retina": true
                     },
                     "top": "4.3636%",
-                    "left": "87.7659%"
-                },
-                {
-                    "picture": {
-                        "src": "/img/chefs-recette/_recette-all/_ingredient/title-ingredient@2x.png",
-                        "retina": true
-                    },
-                    "top": "18.909%",
-                    "left": "42.7659%"
-                },
-                {
-                    "picture": {
-                        "src": "img/chefs-recette/_interface/logo-black@2x.png",
-                        "retina": true
-                    },
-                    "top": "3.6363%",
-                    "left": "1.7021%"
-                },
-                {
-                    "picture": {
-                        "src": "/img/chefs-recette/_recette07/sidepanel-R07@2x.png",
-                        "retina": true
-                    },
-                    "top": "35.4545%",
-                    "left": "0.851%"
-                },
-                {
-                    "picture": {
-                        "src": "/img/chefs-recette/_recette07/title-R07@2x.png",
-                        "retina": true
-                    },
-                    "top": "18.909%",
-                    "left": "3.2978%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette07/_ingredients/ingredient_R7_01@2x.png"
-                    },
-                    "top": "30.7272%",
-                    "left": "29.7872%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette07/_ingredients/ingredient_R7_02@2x.png"
-                    },
-                    "top": "36.5454%",
-                    "left": "42.7659%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette07/_ingredients/ingredient_R7_03@2x.png"
-                    },
-                    "top": "33.8181%",
-                    "left": "58.4042%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette07/_ingredients/ingredient_R7_04@2x.png"
-                    },
-                    "top": "32.1818%",
-                    "left": "71.3829%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette07/_ingredients/ingredient_R7_05@2x.png"
-                    },
-                    "top": "57.6363%",
-                    "left": "30.2127%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette07/_ingredients/ingredient_R7_06@2x.png"
-                    },
-                    "top": "62%",
-                    "left": "44.1489%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette07/_ingredients/ingredient_R7_07@2x.png"
-                    },
-                    "top": "52.7272%",
-                    "left": "55.6382%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette-all/_leftpanel/link-idf@2x.png"
-                    },
-                    "href": "http://www.mangeonslocal-en-idf.com",
-                    "top": "90.7272%",
-                    "left": "0.9574%"
+                    "left": "87.7659%",
+                    "entrance": "fadeIn",
+                    "queue": 5400
                 }
             ]
         },
@@ -1817,23 +2090,6 @@
             "spots": [
                 {
                     "picture": {
-                        "src": "img/chefs-recette/_interface/02-btn-ingredient@2x.png",
-                        "retina": true
-                    },
-                    "top": "4.1818%",
-                    "left": "50%",
-                    "href": "#step=13"
-                },
-                {
-                    "picture": {
-                        "src": "/img/chefs-recette/_recette-all/_recette/title-recette@2x.png",
-                        "retina": true
-                    },
-                    "top": "18.1818%",
-                    "left": "50.2127%"
-                },
-                {
-                    "picture": {
                         "src": "img/chefs-recette/_interface/04-btn-download@2x.png",
                         "retina": true
                     },
@@ -1866,11 +2122,22 @@
                 },
                 {
                     "picture": {
+                        "src": "/img/chefs-recette/_recette-all/_recette/title-recette@2x.png",
+                        "retina": true
+                    },
+                    "top": "18.1818%",
+                    "left": "50.2127%",
+                    "entrance": "fadeIn"
+                },
+                {
+                    "picture": {
                         "retina": true,
                         "src": "img/chefs-recette/_recette07/_recette/recette-illustration07@2x.png"
                     },
                     "top": "32.909%",
-                    "left": "38.8297%"
+                    "left": "38.8297%",
+                    "entrance": "fadeIn",
+                    "queue": true
                 },
                 {
                     "picture": {
@@ -1878,7 +2145,9 @@
                         "src": "img/chefs-recette/_recette07/_recette/text_R7_01@2x.png"
                     },
                     "top": "21.4545%",
-                    "left": "28.4042%"
+                    "left": "28.4042%",
+                    "entrance": "fadeIn",
+                    "queue": true
                 },
                 {
                     "picture": {
@@ -1886,7 +2155,9 @@
                         "src": "img/chefs-recette/_recette07/_recette/text_R7_02@2x.png"
                     },
                     "top": "59.4545%",
-                    "left": "28.4042%"
+                    "left": "28.4042%",
+                    "entrance": "fadeIn",
+                    "queue": true
                 },
                 {
                     "picture": {
@@ -1894,7 +2165,9 @@
                         "src": "img/chefs-recette/_recette07/_recette/text_R7_03@2x.png"
                     },
                     "top": "44%",
-                    "left": "75%"
+                    "left": "75%",
+                    "entrance": "fadeIn",
+                    "queue": true
                 },
                 {
                     "picture": {
@@ -1904,6 +2177,17 @@
                     "href": "http://www.mangeonslocal-en-idf.com",
                     "top": "90.7272%",
                     "left": "0.9574%"
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_interface/02-btn-ingredient@2x.png",
+                        "retina": true
+                    },
+                    "top": "4.1818%",
+                    "left": "50%",
+                    "href": "#step=13",
+                    "entrance": "fadeIn",
+                    "queue": true
                 }
             ]
         },
@@ -1912,45 +2196,12 @@
             "spots": [
                 {
                     "picture": {
-                        "src": "img/chefs-recette/_interface/01-btn-homepage@2x.png",
-                        "retina": true
-                    },
-                    "href": "#step=0",
-                    "top": "4.3636%",
-                    "left": "47.3404%"
-                },
-                {
-                    "picture": {
-                        "src": "img/chefs-recette/_interface/03-btn-recette@2x.png",
-                        "retina": true
-                    },
-                    "href": "#step=15",
-                    "top": "85.2727%",
-                    "left": "48.5106%"
-                },
-                {
-                    "picture": {
-                        "src": "img/chefs-recette/_interface/04-btn-download@2x.png",
-                        "retina": true
-                    },
-                    "top": "4.3636%",
-                    "left": "87.7659%"
-                },
-                {
-                    "picture": {
                         "src": "img/chefs-recette/_interface/logo-black@2x.png",
                         "retina": true
                     },
                     "top": "3.6363%",
-                    "left": "1.7021%"
-                },
-                {
-                    "picture": {
-                        "src": "/img/chefs-recette/_recette-all/_ingredient/title-ingredient-4P@2x.png",
-                        "retina": true
-                    },
-                    "top": "18.909%",
-                    "left": "42.7659%"
+                    "left": "1.7021%",
+                    "entrance": "fadeIn stepRight"
                 },
                 {
                     "picture": {
@@ -1958,7 +2209,8 @@
                         "retina": true
                     },
                     "top": "35.4545%",
-                    "left": "0.851%"
+                    "left": "0.851%",
+                    "entrance": "fadeIn stepRight"
                 },
                 {
                     "picture": {
@@ -1966,71 +2218,8 @@
                         "retina": true
                     },
                     "top": "18.909%",
-                    "left": "3.2978%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette08/_ingredients/ingredient_R8_01@2x.png"
-                    },
-                    "top": "35.2727%",
-                    "left": "29.1489%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette08/_ingredients/ingredient_R8_02@2x.png"
-                    },
-                    "top": "37.2727%",
-                    "left": "48.617%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette08/_ingredients/ingredient_R8_03@2x.png"
-                    },
-                    "top": "39.4545%",
-                    "left": "59.8936%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette08/_ingredients/ingredient_R8_04@2x.png"
-                    },
-                    "top": "59.6363%",
-                    "left": "28.2978%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette08/_ingredients/ingredient_R8_05@2x.png"
-                    },
-                    "top": "57.4545%",
-                    "left": "41.0638%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette08/_ingredients/ingredient_R8_06@2x.png"
-                    },
-                    "top": "57.4545%",
-                    "left": "52.7659%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette08/_ingredients/ingredient_R8_07@2x.png"
-                    },
-                    "top": "55.0909%",
-                    "left": "64.1489%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette08/_ingredients/ingredient_R8_08@2x.png"
-                    },
-                    "top": "40.3636%",
-                    "left": "76.5957%"
+                    "left": "3.2978%",
+                    "entrance": "fadeIn stepRight"
                 },
                 {
                     "picture": {
@@ -2039,7 +2228,130 @@
                     },
                     "href": "http://www.marmiton.org/",
                     "top": "90.7272%",
-                    "left": "0.9574%"
+                    "left": "0.9574%",
+                    "entrance": "fadeIn stepRight"
+                },
+                {
+                    "picture": {
+                        "src": "/img/chefs-recette/_recette-all/_ingredient/title-ingredient-4P@2x.png",
+                        "retina": true
+                    },
+                    "top": "18.909%",
+                    "left": "42.7659%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette08/_ingredients/ingredient_R8_01@2x.png"
+                    },
+                    "top": "35.2727%",
+                    "left": "29.1489%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette08/_ingredients/ingredient_R8_02@2x.png"
+                    },
+                    "top": "37.2727%",
+                    "left": "48.617%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette08/_ingredients/ingredient_R8_03@2x.png"
+                    },
+                    "top": "39.4545%",
+                    "left": "59.8936%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette08/_ingredients/ingredient_R8_04@2x.png"
+                    },
+                    "top": "59.6363%",
+                    "left": "28.2978%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette08/_ingredients/ingredient_R8_05@2x.png"
+                    },
+                    "top": "57.4545%",
+                    "left": "41.0638%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette08/_ingredients/ingredient_R8_06@2x.png"
+                    },
+                    "top": "57.4545%",
+                    "left": "52.7659%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette08/_ingredients/ingredient_R8_07@2x.png"
+                    },
+                    "top": "55.0909%",
+                    "left": "64.1489%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette08/_ingredients/ingredient_R8_08@2x.png"
+                    },
+                    "top": "40.3636%",
+                    "left": "76.5957%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_interface/01-btn-homepage@2x.png",
+                        "retina": true
+                    },
+                    "href": "#step=0",
+                    "top": "4.3636%",
+                    "left": "47.3404%",
+                    "entrance": "fadeIn",
+                    "queue": 6000
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_interface/03-btn-recette@2x.png",
+                        "retina": true
+                    },
+                    "href": "#step=16",
+                    "top": "85.2727%",
+                    "left": "48.5106%",
+                    "entrance": "fadeIn",
+                    "queue": 6000
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_interface/04-btn-download@2x.png",
+                        "retina": true
+                    },
+                    "top": "4.3636%",
+                    "left": "87.7659%",
+                    "entrance": "fadeIn",
+                    "queue": 6000
                 }
             ]
         },
@@ -2048,23 +2360,6 @@
             "spots": [
                 {
                     "picture": {
-                        "src": "img/chefs-recette/_interface/02-btn-ingredient@2x.png",
-                        "retina": true
-                    },
-                    "top": "4.1818%",
-                    "left": "50%",
-                    "href": "#step=14"
-                },
-                {
-                    "picture": {
-                        "src": "/img/chefs-recette/_recette-all/_recette/title-recette@2x.png",
-                        "retina": true
-                    },
-                    "top": "18.1818%",
-                    "left": "50.2127%"
-                },
-                {
-                    "picture": {
                         "src": "img/chefs-recette/_interface/04-btn-download@2x.png",
                         "retina": true
                     },
@@ -2097,11 +2392,22 @@
                 },
                 {
                     "picture": {
+                        "src": "/img/chefs-recette/_recette-all/_recette/title-recette@2x.png",
+                        "retina": true
+                    },
+                    "top": "18.1818%",
+                    "left": "50.2127%",
+                    "entrance": "fadeIn"
+                },
+                {
+                    "picture": {
                         "retina": true,
                         "src": "img/chefs-recette/_recette08/_recette/recette-illustration08@2x.png"
                     },
                     "top": "29.6363%",
-                    "left": "46.2765%"
+                    "left": "46.2765%",
+                    "entrance": "fadeIn",
+                    "queue": true
                 },
                 {
                     "picture": {
@@ -2109,7 +2415,9 @@
                         "src": "img/chefs-recette/_recette08/_recette/text_R8_01@2x.png"
                     },
                     "top": "27.6363%",
-                    "left": "26.9148%"
+                    "left": "26.9148%",
+                    "entrance": "fadeIn",
+                    "queue": true
                 },
                 {
                     "picture": {
@@ -2117,7 +2425,9 @@
                         "src": "img/chefs-recette/_recette08/_recette/text_R8_02@2x.png"
                     },
                     "top": "58.909%",
-                    "left": "26.9148%"
+                    "left": "26.9148%",
+                    "entrance": "fadeIn",
+                    "queue": true
                 },
                 {
                     "picture": {
@@ -2125,7 +2435,9 @@
                         "src": "img/chefs-recette/_recette08/_recette/text_R8_03@2x.png"
                     },
                     "top": "69.0909%",
-                    "left": "73.0851%"
+                    "left": "73.0851%",
+                    "entrance": "fadeIn",
+                    "queue": true
                 },
                 {
                     "picture": {
@@ -2133,7 +2445,9 @@
                         "src": "img/chefs-recette/_recette08/_recette/text_R8_04@2x.png"
                     },
                     "top": "34%",
-                    "left": "73.1914%"
+                    "left": "73.1914%",
+                    "entrance": "fadeIn",
+                    "queue": true
                 },
                 {
                     "picture": {
@@ -2143,6 +2457,17 @@
                     "href": "http://www.marmiton.org/",
                     "top": "90.7272%",
                     "left": "0.9574%"
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_interface/02-btn-ingredient@2x.png",
+                        "retina": true
+                    },
+                    "top": "4.1818%",
+                    "left": "50%",
+                    "href": "#step=14",
+                    "entrance": "fadeIn",
+                    "queue": true
                 }
             ]
         },
@@ -2151,12 +2476,131 @@
             "spots": [
                 {
                     "picture": {
+                        "src": "img/chefs-recette/_interface/logo-black@2x.png",
+                        "retina": true
+                    },
+                    "top": "3.6363%",
+                    "left": "1.7021%",
+                    "entrance": "fadeIn stepRight"
+                },
+                {
+                    "picture": {
+                        "src": "/img/chefs-recette/_recette09/sidepanel-R09@2x.png",
+                        "retina": true
+                    },
+                    "top": "35.4545%",
+                    "left": "0.851%",
+                    "entrance": "fadeIn stepRight"
+                },
+                {
+                    "picture": {
+                        "src": "/img/chefs-recette/_recette09/title-R09@2x.png",
+                        "retina": true
+                    },
+                    "top": "18.909%",
+                    "left": "3.2978%",
+                    "entrance": "fadeIn stepRight"
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette-all/_leftpanel/link-laruche@2x.png"
+                    },
+                    "href": "http://www.laruchequiditoui.fr/",
+                    "top": "90.7272%",
+                    "left": "0.9574%",
+                    "entrance": "fadeIn stepRight"
+                },
+                {
+                    "picture": {
+                        "src": "/img/chefs-recette/_recette-all/_ingredient/title-ingredient@2x.png",
+                        "retina": true
+                    },
+                    "top": "18.909%",
+                    "left": "42.7659%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette09/_ingredients/ingredient_R9_01@2x.png"
+                    },
+                    "top": "40.1818%",
+                    "left": "28.2978%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette09/_ingredients/ingredient_R9_02@2x.png"
+                    },
+                    "top": "36.5454%",
+                    "left": "52.234%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette09/_ingredients/ingredient_R9_03@2x.png"
+                    },
+                    "top": "34.7272%",
+                    "left": "62.6595%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette09/_ingredients/ingredient_R9_04@2x.png"
+                    },
+                    "top": "28.909%",
+                    "left": "73.9361%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette09/_ingredients/ingredient_R9_05@2x.png"
+                    },
+                    "top": "61.8181%",
+                    "left": "29.0425%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette09/_ingredients/ingredient_R9_06@2x.png"
+                    },
+                    "top": "58.7272%",
+                    "left": "47.7659%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette09/_ingredients/ingredient_R9_07@2x.png"
+                    },
+                    "top": "50.1818%",
+                    "left": "76.2765%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
                         "src": "img/chefs-recette/_interface/01-btn-homepage@2x.png",
                         "retina": true
                     },
                     "href": "#step=0",
                     "top": "4.3636%",
-                    "left": "47.3404%"
+                    "left": "47.3404%",
+                    "entrance": "fadeIn",
+                    "queue": 5400
                 },
                 {
                     "picture": {
@@ -2165,7 +2609,9 @@
                     },
                     "href": "#step=18",
                     "top": "85.2727%",
-                    "left": "48.5106%"
+                    "left": "48.5106%",
+                    "entrance": "fadeIn",
+                    "queue": 5400
                 },
                 {
                     "picture": {
@@ -2173,104 +2619,9 @@
                         "retina": true
                     },
                     "top": "4.3636%",
-                    "left": "87.7659%"
-                },
-                {
-                    "picture": {
-                        "src": "/img/chefs-recette/_recette-all/_ingredient/title-ingredient@2x.png",
-                        "retina": true
-                    },
-                    "top": "18.909%",
-                    "left": "42.7659%"
-                },
-                {
-                    "picture": {
-                        "src": "img/chefs-recette/_interface/logo-black@2x.png",
-                        "retina": true
-                    },
-                    "top": "3.6363%",
-                    "left": "1.7021%"
-                },
-                {
-                    "picture": {
-                        "src": "/img/chefs-recette/_recette09/sidepanel-R09@2x.png",
-                        "retina": true
-                    },
-                    "top": "35.4545%",
-                    "left": "0.851%"
-                },
-                {
-                    "picture": {
-                        "src": "/img/chefs-recette/_recette09/title-R09@2x.png",
-                        "retina": true
-                    },
-                    "top": "18.909%",
-                    "left": "3.2978%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette09/_ingredients/ingredient_R9_01@2x.png"
-                    },
-                    "top": "40.1818%",
-                    "left": "28.2978%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette09/_ingredients/ingredient_R9_02@2x.png"
-                    },
-                    "top": "36.5454%",
-                    "left": "52.234%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette09/_ingredients/ingredient_R9_03@2x.png"
-                    },
-                    "top": "34.7272%",
-                    "left": "62.6595%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette09/_ingredients/ingredient_R9_04@2x.png"
-                    },
-                    "top": "28.909%",
-                    "left": "73.9361%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette09/_ingredients/ingredient_R9_05@2x.png"
-                    },
-                    "top": "61.8181%",
-                    "left": "29.0425%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette09/_ingredients/ingredient_R9_06@2x.png"
-                    },
-                    "top": "58.7272%",
-                    "left": "47.7659%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette09/_ingredients/ingredient_R9_07@2x.png"
-                    },
-                    "top": "50.1818%",
-                    "left": "76.2765%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette-all/_leftpanel/link-laruche@2x.png"
-                    },
-                    "href": "http://www.laruchequiditoui.fr/",
-                    "top": "90.7272%",
-                    "left": "0.9574%"
+                    "left": "87.7659%",
+                    "entrance": "fadeIn",
+                    "queue": 5400
                 }
             ]
         },
@@ -2279,23 +2630,6 @@
             "spots": [
                 {
                     "picture": {
-                        "src": "img/chefs-recette/_interface/02-btn-ingredient@2x.png",
-                        "retina": true
-                    },
-                    "top": "4.1818%",
-                    "left": "50%",
-                    "href": "#step=17"
-                },
-                {
-                    "picture": {
-                        "src": "/img/chefs-recette/_recette-all/_recette/title-recette@2x.png",
-                        "retina": true
-                    },
-                    "top": "18.1818%",
-                    "left": "50.2127%"
-                },
-                {
-                    "picture": {
                         "src": "img/chefs-recette/_interface/04-btn-download@2x.png",
                         "retina": true
                     },
@@ -2328,11 +2662,22 @@
                 },
                 {
                     "picture": {
+                        "src": "/img/chefs-recette/_recette-all/_recette/title-recette@2x.png",
+                        "retina": true
+                    },
+                    "top": "18.1818%",
+                    "left": "50.2127%",
+                    "entrance": "fadeIn"
+                },
+                {
+                    "picture": {
                         "retina": true,
                         "src": "img/chefs-recette/_recette09/_recette/recette-illustration09@2x.png"
                     },
                     "top": "27.4545%",
-                    "left": "48.8297%"
+                    "left": "48.8297%",
+                    "entrance": "fadeIn",
+                    "queue": true
                 },
                 {
                     "picture": {
@@ -2340,7 +2685,9 @@
                         "src": "img/chefs-recette/_recette09/_recette/text_R9_01@2x.png"
                     },
                     "top": "33.0909%",
-                    "left": "27.234%"
+                    "left": "27.234%",
+                    "entrance": "fadeIn",
+                    "queue": true
                 },
                 {
                     "picture": {
@@ -2348,7 +2695,9 @@
                         "src": "img/chefs-recette/_recette09/_recette/text_R9_02@2x.png"
                     },
                     "top": "32.909%",
-                    "left": "73.5106%"
+                    "left": "73.5106%",
+                    "entrance": "fadeIn",
+                    "queue": true
                 },
                 {
                     "picture": {
@@ -2356,7 +2705,9 @@
                         "src": "img/chefs-recette/_recette09/_recette/text_R9_03@2x.png"
                     },
                     "top": "59.2727%",
-                    "left": "73.4042%"
+                    "left": "73.4042%",
+                    "entrance": "fadeIn",
+                    "queue": true
                 },
                 {
                     "picture": {
@@ -2366,6 +2717,17 @@
                     "href": "http://www.laruchequiditoui.fr/",
                     "top": "90.7272%",
                     "left": "0.9574%"
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_interface/02-btn-ingredient@2x.png",
+                        "retina": true
+                    },
+                    "top": "4.1818%",
+                    "left": "50%",
+                    "href": "#step=17",
+                    "entrance": "fadeIn",
+                    "queue": true
                 }
             ]
         },
@@ -2374,12 +2736,111 @@
             "spots": [
                 {
                     "picture": {
+                        "src": "img/chefs-recette/_interface/logo-black@2x.png",
+                        "retina": true
+                    },
+                    "top": "3.6363%",
+                    "left": "1.7021%",
+                    "entrance": "fadeIn stepRight"
+                },
+                {
+                    "picture": {
+                        "src": "/img/chefs-recette/_recette10/sidepanel-R10@2x.png",
+                        "retina": true
+                    },
+                    "top": "35.4545%",
+                    "left": "0.851%",
+                    "entrance": "fadeIn stepRight"
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette-all/_leftpanel/link-marmiton@2x.png"
+                    },
+                    "href": "http://www.marmiton.org/",
+                    "top": "90.7272%",
+                    "left": "0.9574%",
+                    "entrance": "fadeIn stepRight"
+                },
+                {
+                    "picture": {
+                        "src": "/img/chefs-recette/_recette10/title-R10@2x.png",
+                        "retina": true
+                    },
+                    "top": "18.909%",
+                    "left": "3.2978%",
+                    "entrance": "fadeIn stepRight"
+                },
+                {
+                    "picture": {
+                        "src": "/img/chefs-recette/_recette-all/_ingredient/title-ingredient-1P@2x.png",
+                        "retina": true
+                    },
+                    "top": "18.909%",
+                    "left": "42.7659%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette10/_ingredients/ingredient_R10_01@2x.png"
+                    },
+                    "top": "35.8181%",
+                    "left": "30.2127%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette10/_ingredients/ingredient_R10_02@2x.png"
+                    },
+                    "top": "62.5454%",
+                    "left": "27.4468%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette10/_ingredients/ingredient_R10_03@2x.png"
+                    },
+                    "top": "63.6363%",
+                    "left": "38.8297%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette10/_ingredients/ingredient_R10_04@2x.png"
+                    },
+                    "top": "62%",
+                    "left": "51.3829%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette10/_ingredients/ingredient_R10_05@2x.png"
+                    },
+                    "top": "36.5454%",
+                    "left": "60.851%",
+                    "entrance": "fadeIn",
+                    "queue": true
+                },
+                {
+                    "picture": {
                         "src": "img/chefs-recette/_interface/01-btn-homepage@2x.png",
                         "retina": true
                     },
                     "href": "#step=0",
                     "top": "4.3636%",
-                    "left": "47.3404%"
+                    "left": "47.3404%",
+                    "entrance": "fadeIn",
+                    "queue": 4200
                 },
                 {
                     "picture": {
@@ -2388,7 +2849,9 @@
                     },
                     "href": "#step=20",
                     "top": "85.2727%",
-                    "left": "48.5106%"
+                    "left": "48.5106%",
+                    "entrance": "fadeIn",
+                    "queue": 4200
                 },
                 {
                     "picture": {
@@ -2396,88 +2859,9 @@
                         "retina": true
                     },
                     "top": "4.3636%",
-                    "left": "87.7659%"
-                },
-                {
-                    "picture": {
-                        "src": "img/chefs-recette/_interface/logo-black@2x.png",
-                        "retina": true
-                    },
-                    "top": "3.6363%",
-                    "left": "1.7021%"
-                },
-                {
-                    "picture": {
-                        "src": "/img/chefs-recette/_recette-all/_ingredient/title-ingredient-1P@2x.png",
-                        "retina": true
-                    },
-                    "top": "18.909%",
-                    "left": "42.7659%"
-                },
-                {
-                    "picture": {
-                        "src": "/img/chefs-recette/_recette10/sidepanel-R10@2x.png",
-                        "retina": true
-                    },
-                    "top": "35.4545%",
-                    "left": "0.851%"
-                },
-                {
-                    "picture": {
-                        "src": "/img/chefs-recette/_recette10/title-R10@2x.png",
-                        "retina": true
-                    },
-                    "top": "18.909%",
-                    "left": "3.2978%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette10/_ingredients/ingredient_R10_01@2x.png"
-                    },
-                    "top": "35.8181%",
-                    "left": "30.2127%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette10/_ingredients/ingredient_R10_02@2x.png"
-                    },
-                    "top": "62.5454%",
-                    "left": "27.4468%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette10/_ingredients/ingredient_R10_03@2x.png"
-                    },
-                    "top": "63.6363%",
-                    "left": "38.8297%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette10/_ingredients/ingredient_R10_04@2x.png"
-                    },
-                    "top": "62%",
-                    "left": "51.3829%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette10/_ingredients/ingredient_R10_05@2x.png"
-                    },
-                    "top": "36.5454%",
-                    "left": "60.851%"
-                },
-                {
-                    "picture": {
-                        "retina": true,
-                        "src": "img/chefs-recette/_recette-all/_leftpanel/link-marmiton@2x.png"
-                    },
-                    "href": "http://www.marmiton.org/",
-                    "top": "90.7272%",
-                    "left": "0.9574%"
+                    "left": "87.7659%",
+                    "entrance": "fadeIn",
+                    "queue": 4200
                 }
             ]
         },
@@ -2486,23 +2870,6 @@
             "spots": [
                 {
                     "picture": {
-                        "src": "img/chefs-recette/_interface/02-btn-ingredient@2x.png",
-                        "retina": true
-                    },
-                    "top": "4.1818%",
-                    "left": "50%",
-                    "href": "#step=19"
-                },
-                {
-                    "picture": {
-                        "src": "/img/chefs-recette/_recette-all/_recette/title-recette@2x.png",
-                        "retina": true
-                    },
-                    "top": "18.1818%",
-                    "left": "50.2127%"
-                },
-                {
-                    "picture": {
                         "src": "img/chefs-recette/_interface/04-btn-download@2x.png",
                         "retina": true
                     },
@@ -2535,11 +2902,22 @@
                 },
                 {
                     "picture": {
+                        "src": "/img/chefs-recette/_recette-all/_recette/title-recette@2x.png",
+                        "retina": true
+                    },
+                    "top": "18.1818%",
+                    "left": "50.2127%",
+                    "entrance": "fadeIn"
+                },
+                {
+                    "picture": {
                         "retina": true,
                         "src": "img/chefs-recette/_recette10/_recette/recette-illustration10@2x.png"
                     },
                     "top": "26.3636%",
-                    "left": "42.3404%"
+                    "left": "42.3404%",
+                    "entrance": "fadeIn",
+                    "queue": true
                 },
                 {
                     "picture": {
@@ -2547,7 +2925,9 @@
                         "src": "img/chefs-recette/_recette10/_recette/text_R10_01@2x.png"
                     },
                     "top": "32.3636%",
-                    "left": "27.4468%"
+                    "left": "27.4468%",
+                    "entrance": "fadeIn",
+                    "queue": true
                 },
                 {
                     "picture": {
@@ -2555,7 +2935,9 @@
                         "src": "img/chefs-recette/_recette10/_recette/text_R10_02@2x.png"
                     },
                     "top": "31.8181%",
-                    "left": "73.7234%"
+                    "left": "73.7234%",
+                    "entrance": "fadeIn",
+                    "queue": true
                 },
                 {
                     "picture": {
@@ -2565,6 +2947,17 @@
                     "href": "http://www.marmiton.org/",
                     "top": "90.7272%",
                     "left": "0.9574%"
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_interface/02-btn-ingredient@2x.png",
+                        "retina": true
+                    },
+                    "top": "4.1818%",
+                    "left": "50%",
+                    "href": "#step=19",
+                    "entrance": "fadeIn",
+                    "queue": true
                 }
             ]
         }
