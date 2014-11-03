@@ -464,31 +464,25 @@
     $spots.each (i, spot) ->
       $spot = $(spot)
       $wrapper = $spot.find(".js-animation-wrapper")
-      # Does this element was resolved before?
-      previouslyResolved = $spot.data("previously-resolved")? and $spot.data("previously-resolved")
-      # Stop if the given element isnt resolved
+      ## Hide the element
       unless isResolved $spot
-        # First entrance doesn't animate hidden element
-        unless previouslyResolved
+        # Element has been resolved before and is already visible
+        if not $wrapper.hasClass("hidden") and not $wrapper.is(":animated")
+          # Animate the spot without delay
+          # Note: the third option plays the entrabce animation in the other direction
+          animateSpot $spot, 0, no
+        # Element has not been resolve before and must be hidden quietly
+        else
           # Hide every unresolved elements
           $wrapper.addClass("hidden")
           $spot.addClass("js-behind")
-        else
-          $spot.removeClass("js-behind")
-          # Animate the spot without delay
-          # Note: the third option plays the animation in the other direction
-          animateSpot $spot, 0, no
-        # Can't be animated next time
-        $spot.data("previously-resolved", no)
+      ## Show the element
       else
-        if not previouslyResolved or stepEntrance
-          # Can't be animated next time
-          $spot.data("previously-resolved", yes)
-          # Animate the spot after the queued delay and update it
-          queueDelay = animateSpot $spot, queueDelay
-        else
-          # Prevent from element to not being display
-          $wrapper.removeClass("hidden")
+        # Animate the spot after the queued delay and update it
+        queueDelay = animateSpot $spot, queueDelay
+        # Prevent from element to not being display
+        $wrapper.removeClass("hidden")
+        $spot.removeClass("js-behind")
     return queueDelay
 
 
@@ -505,7 +499,8 @@
     [from, to] = getAnimationFrames animationKeys, show
     # Stop every current animations and show the element
     # Also, set the original style if needed
-    $wrapper.stop().css(from).removeClass "hidden"
+    $wrapper.stop().css(from) unless $wrapper.is(":animated")
+    $wrapper.removeClass "hidden"
     $spot.removeClass("js-behind")
     # Hidden the element after the animation when not showing
     callback = if show then (->) else (($wrapper)->->
