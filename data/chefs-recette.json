@@ -310,7 +310,7 @@
                     "left": "15%",
                     "href": "#step=1",
                     "half-height": true,
-                    "class": "leg-link leg-link-overlay",
+                    "class": "leg-link leg-link-overlay fg",
                     "activable": true,
                     "trigger": "hover"
                 },
@@ -323,7 +323,7 @@
                     "left": "45.5319%",
                     "href": "#step=3",
                     "half-height": true,
-                    "class": "leg-link leg-link-overlay",
+                    "class": "leg-link leg-link-overlay fg",
                     "activable": true,
                     "trigger": "hover"
                 },
@@ -336,7 +336,7 @@
                     "left": "71.3829%",
                     "href": "#step=5",
                     "half-height": true,
-                    "class": "leg-link leg-link-overlay",
+                    "class": "leg-link leg-link-overlay fg",
                     "activable": true,
                     "trigger": "hover"
                 },
@@ -349,7 +349,7 @@
                     "left": "7.9787%",
                     "href": "#step=7",
                     "half-height": true,
-                    "class": "leg-link leg-link-overlay",
+                    "class": "leg-link leg-link-overlay fg",
                     "activable": true,
                     "trigger": "hover"
                 },
@@ -362,7 +362,7 @@
                     "left": "30.7446%",
                     "href": "#step=9",
                     "half-height": true,
-                    "class": "leg-link leg-link-overlay",
+                    "class": "leg-link leg-link-overlay fg",
                     "activable": true,
                     "trigger": "hover"
                 },
@@ -375,7 +375,7 @@
                     "left": "58.4042%",
                     "href": "#step=11",
                     "half-height": true,
-                    "class": "leg-link leg-link-overlay",
+                    "class": "leg-link leg-link-overlay fg",
                     "activable": true,
                     "trigger": "hover"
                 },
@@ -388,7 +388,7 @@
                     "left": "74.0425%",
                     "href": "#step=13",
                     "half-height": true,
-                    "class": "leg-link leg-link-overlay",
+                    "class": "leg-link leg-link-overlay fg",
                     "activable": true,
                     "trigger": "hover"
                 },
@@ -401,7 +401,7 @@
                     "left": "16.4893%",
                     "href": "#step=15",
                     "half-height": true,
-                    "class": "leg-link leg-link-overlay",
+                    "class": "leg-link leg-link-overlay fg",
                     "activable": true,
                     "trigger": "hover"
                 },
@@ -414,7 +414,7 @@
                     "left": "42.6595%",
                     "href": "#step=17",
                     "half-height": true,
-                    "class": "leg-link leg-link-overlay",
+                    "class": "leg-link leg-link-overlay fg",
                     "activable": true,
                     "trigger": "hover"
                 },
@@ -427,7 +427,7 @@
                     "left": "65%",
                     "href": "#step=19",
                     "half-height": true,
-                    "class": "leg-link leg-link-overlay",
+                    "class": "leg-link leg-link-overlay fg",
                     "activable": true,
                     "trigger": "hover"
                 },

@@ -394,7 +394,6 @@
           # Hides element with entrance
           # Remove every previous animations
           $spot.find(".js-animation-wrapper").addClass("hidden")
-
       # Clear existing timeout
       window.clearTimeout(entranceTimeout)
       window.clearTimeout(animationTimeout)
@@ -468,8 +467,10 @@
       skipEntrance = !! $spot.data("skip-entrance")
       ## Hide the element
       unless isResolved $spot
+        # Already hidding in progress
+        return if $wrapper.data("state") is "hidding"
         # Element has been resolved before and is already visible
-        if not $wrapper.hasClass("hidden") and not $wrapper.is(":animated")
+        if not $wrapper.hasClass("hidden") and not stepEntrance
           # Animate the spot without delay
           # Note: the third option plays the entrabce animation in the other direction
           animateSpot $spot, 0, no
@@ -480,7 +481,9 @@
           $spot.addClass("js-behind")
       ## Show the element
       else
-        if $wrapper.hasClass("hidden") and not $wrapper.is(":animated") and not (stepEntrance and skipEntrance)
+        # Already showing in progress
+        return if $wrapper.data("state") is "showing"
+        if $wrapper.hasClass("hidden") and not (stepEntrance and skipEntrance)
           # Animate the spot after the queued delay and update it
           queueDelay = animateSpot $spot, queueDelay
         # Element has been resolved before and is already visible
@@ -504,13 +507,16 @@
     [from, to] = getAnimationFrames animationKeys, show
     # Stop every current animations and show the element
     # Also, set the original style if needed
-    $wrapper.stop().css(from) unless $wrapper.is(":animated")
-    $wrapper.removeClass "hidden"
+    $wrapper.stop().css(from).removeClass "hidden"
+    $wrapper.data("state", if show then "showing" else "hidding")
     $spot.removeClass("js-behind")
     # Hidden the element after the animation when not showing
-    callback = if show then (->) else (($wrapper)->->
+    callback = if show then (->
+      $wrapper.data("state", null)
+    ) else (($wrapper)->->
       $wrapper.addClass("hidden")
       $spot.addClass("js-behind")
+      $wrapper.data("state", null)
     )($wrapper)
     # Only if a "to" layout exists
     if to?
