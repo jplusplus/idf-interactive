@@ -375,9 +375,6 @@
       $uis.body.addClass "js-animating"
       # Update the menu
       $uis.navitem.removeClass("js-active").filter("[data-step=#{currentStep}]").addClass("js-active")
-      # Hides element with entrance
-      # Remove every previous animations
-      $uis.steps.eq(currentStep).find(".spot[data-entrance] .js-animation-wrapper").addClass("hidden").data("previously-resolved", no)
       # Clear all spot animations
       clearSpotAnimations()
       # Prevent scroll queuing
@@ -393,9 +390,11 @@
       # Pre-hide unresolved spots
       $uis.steps.eq(currentStep).find(".spot").each ->
         $spot = $(@)
-        $spot.attr "class", $spot.data("initial-class")
-        # Hide the wrapper
-        $spot.find(".js-animation-wrapper").addClass("hidden") unless isResolved($spot)
+        if not isResolved($spot) or ( $spot.is("[data-entrance]") and not $spot.is("[data-skip-entrance]") )
+          # Hides element with entrance
+          # Remove every previous animations
+          $spot.find(".js-animation-wrapper").addClass("hidden")
+
       # Clear existing timeout
       window.clearTimeout(entranceTimeout)
       window.clearTimeout(animationTimeout)
@@ -417,7 +416,7 @@
    * Function to check if the given element is resolved
   ###
   isResolved = ($spot)->
-    resolved = yes
+    resolved = not isRejected($spot)
     if resolve = $spot.data("resolve")
       $resolve = $(resolve)
       # This spot might have a "resolve" option.
@@ -429,8 +428,26 @@
         resolved &= $r.hasClass($r.data("active-class") or 'js-active')
     # Also check parents
     $spot.parents(".spot").each -> resolved &= isResolved $(@)
-    # Continue to the next spot if $resolve is not activated
     resolved
+
+  ###*
+   * Function to check if the given element isn't resolved
+  ###
+  isRejected = ($spot)->
+    rejected = no
+    if reject = $spot.data("reject")
+      $reject = $(reject)
+      # This spot might have a "reject" option.
+      # This means that the element with the name inside the reject
+      # option must not be activated
+      $reject.each ->
+        $r = $(@)
+        # Every element to reject must be activated
+        rejected |= $r.hasClass($r.data("active-class") or 'js-active')
+    # Also check parents
+    $spot.parents(".spot").each -> rejected |= isRejected $(@)
+    rejected
+
 
   ###*
    * Set step animations
@@ -444,26 +461,11 @@
     $spots = $step.find(".spot")
     # Delay added
     queueDelay = 0
-    # Function to check if the given element is resolved
-    isResolved = ($spot)->
-      resolved = yes
-      if resolve = $spot.data("resolve")
-        $resolve = $(resolve)
-        # This spot might have a "resolve" option.
-        # This means that the element with the name inside the resolve
-        # option must be activated
-        $resolve.each ->
-          $r = $(@)
-          # Every element to resolve must be activated
-          resolved &= $r.hasClass($r.data("active-class") or 'js-active')
-      # Also check parents
-      $spot.parents(".spot").each -> resolved &= isResolved $(@)
-      # Continue to the next spot if $resolve is not activated
-      resolved
     # Find spots with animated entrance
     $spots.each (i, spot) ->
       $spot = $(spot)
       $wrapper = $spot.find(".js-animation-wrapper")
+      skipEntrance = !! $spot.data("skip-entrance")
       ## Hide the element
       unless isResolved $spot
         # Element has been resolved before and is already visible
@@ -478,11 +480,14 @@
           $spot.addClass("js-behind")
       ## Show the element
       else
-        # Animate the spot after the queued delay and update it
-        queueDelay = animateSpot $spot, queueDelay
-        # Prevent from element to not being display
-        $wrapper.removeClass("hidden")
-        $spot.removeClass("js-behind")
+        if $wrapper.hasClass("hidden") and not $wrapper.is(":animated") and not (stepEntrance and skipEntrance)
+          # Animate the spot after the queued delay and update it
+          queueDelay = animateSpot $spot, queueDelay
+        # Element has been resolved before and is already visible
+        else
+          # Prevent from element to not being display
+          $wrapper.removeClass("hidden")
+          $spot.removeClass("js-behind")
     return queueDelay
 
 

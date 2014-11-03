@@ -25,6 +25,414 @@
                 },
                 {
                     "picture": {
+                        "src": "img/chefs-recette/_homepage/logo-homepage@2x.png",
+                        "retina": true
+                    },
+                    "top": "5.2727%",
+                    "left": "30.3191%"
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg01@2x.png",
+                        "retina": true
+                    },
+                    "top": "43.2727%",
+                    "left": "15%",
+                    "href": "#step=1",
+                    "half-height": true,
+                    "class": "leg-link leg-link-off",
+                    "reject": ".leg-link-overlay:eq(0)",
+                    "entrance": "fadeIn",
+                    "skip-entrance": true
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg02@2x.png",
+                        "retina": true
+                    },
+                    "top": "44.3636%",
+                    "left": "45.5319%",
+                    "href": "#step=3",
+                    "half-height": true,
+                    "class": "leg-link leg-link-off",
+                    "reject": ".leg-link-overlay:eq(1)",
+                    "entrance": "fadeIn",
+                    "skip-entrance": true
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg03@2x.png",
+                        "retina": true
+                    },
+                    "top": "45.8181%",
+                    "left": "71.3829%",
+                    "href": "#step=5",
+                    "half-height": true,
+                    "class": "leg-link leg-link-off",
+                    "reject": ".leg-link-overlay:eq(2)",
+                    "entrance": "fadeIn",
+                    "skip-entrance": true
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg04@2x.png",
+                        "retina": true
+                    },
+                    "top": "60%",
+                    "left": "7.9787%",
+                    "href": "#step=7",
+                    "half-height": true,
+                    "class": "leg-link leg-link-off",
+                    "reject": ".leg-link-overlay:eq(3)",
+                    "entrance": "fadeIn",
+                    "skip-entrance": true
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg05@2x.png",
+                        "retina": true
+                    },
+                    "top": "56.909%",
+                    "left": "30.7446%",
+                    "href": "#step=9",
+                    "half-height": true,
+                    "class": "leg-link leg-link-off",
+                    "reject": ".leg-link-overlay:eq(4)",
+                    "entrance": "fadeIn",
+                    "skip-entrance": true
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg06@2x.png",
+                        "retina": true
+                    },
+                    "top": "58.3636%",
+                    "left": "58.4042%",
+                    "href": "#step=11",
+                    "half-height": true,
+                    "class": "leg-link leg-link-off",
+                    "reject": ".leg-link-overlay:eq(5)",
+                    "entrance": "fadeIn",
+                    "skip-entrance": true
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg07@2x.png",
+                        "retina": true
+                    },
+                    "top": "56.3636%",
+                    "left": "74.0425%",
+                    "href": "#step=13",
+                    "half-height": true,
+                    "class": "leg-link leg-link-off",
+                    "reject": ".leg-link-overlay:eq(6)",
+                    "entrance": "fadeIn",
+                    "skip-entrance": true
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg08@2x.png",
+                        "retina": true
+                    },
+                    "top": "67.8181%",
+                    "left": "16.4893%",
+                    "href": "#step=15",
+                    "half-height": true,
+                    "class": "leg-link leg-link-off",
+                    "reject": ".leg-link-overlay:eq(7)",
+                    "entrance": "fadeIn",
+                    "skip-entrance": true
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg09@2x.png",
+                        "retina": true
+                    },
+                    "top": "69.2727%",
+                    "left": "42.6595%",
+                    "href": "#step=17",
+                    "half-height": true,
+                    "class": "leg-link leg-link-off",
+                    "reject": ".leg-link-overlay:eq(8)",
+                    "entrance": "fadeIn",
+                    "skip-entrance": true
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg10@2x.png",
+                        "retina": true
+                    },
+                    "top": "73.4545%",
+                    "left": "65%",
+                    "href": "#step=19",
+                    "half-height": true,
+                    "class": "leg-link leg-link-off",
+                    "reject": ".leg-link-overlay:eq(9)",
+                    "entrance": "fadeIn",
+                    "skip-entrance": true
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg01@2x.png",
+                        "retina": true
+                    },
+                    "top": "43.2727%",
+                    "left": "15%",
+                    "href": "#step=1",
+                    "half-height": true,
+                    "class": "leg-link leg-link-on",
+                    "resolve": ".leg-link-overlay:eq(0)",
+                    "entrance": "fadeIn"
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg02@2x.png",
+                        "retina": true
+                    },
+                    "top": "44.3636%",
+                    "left": "45.5319%",
+                    "href": "#step=3",
+                    "half-height": true,
+                    "class": "leg-link leg-link-on",
+                    "resolve": ".leg-link-overlay:eq(1)",
+                    "entrance": "fadeIn"
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg03@2x.png",
+                        "retina": true
+                    },
+                    "top": "45.8181%",
+                    "left": "71.3829%",
+                    "href": "#step=5",
+                    "half-height": true,
+                    "class": "leg-link leg-link-on",
+                    "resolve": ".leg-link-overlay:eq(2)",
+                    "entrance": "fadeIn"
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg04@2x.png",
+                        "retina": true
+                    },
+                    "top": "60%",
+                    "left": "7.9787%",
+                    "href": "#step=7",
+                    "half-height": true,
+                    "class": "leg-link leg-link-on",
+                    "resolve": ".leg-link-overlay:eq(3)",
+                    "entrance": "fadeIn"
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg05@2x.png",
+                        "retina": true
+                    },
+                    "top": "56.909%",
+                    "left": "30.7446%",
+                    "href": "#step=9",
+                    "half-height": true,
+                    "class": "leg-link leg-link-on",
+                    "resolve": ".leg-link-overlay:eq(4)",
+                    "entrance": "fadeIn"
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg06@2x.png",
+                        "retina": true
+                    },
+                    "top": "58.3636%",
+                    "left": "58.4042%",
+                    "href": "#step=11",
+                    "half-height": true,
+                    "class": "leg-link leg-link-on",
+                    "resolve": ".leg-link-overlay:eq(5)",
+                    "entrance": "fadeIn"
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg07@2x.png",
+                        "retina": true
+                    },
+                    "top": "56.3636%",
+                    "left": "74.0425%",
+                    "href": "#step=13",
+                    "half-height": true,
+                    "class": "leg-link leg-link-on",
+                    "resolve": ".leg-link-overlay:eq(6)",
+                    "entrance": "fadeIn"
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg08@2x.png",
+                        "retina": true
+                    },
+                    "top": "67.8181%",
+                    "left": "16.4893%",
+                    "href": "#step=15",
+                    "half-height": true,
+                    "class": "leg-link leg-link-on",
+                    "resolve": ".leg-link-overlay:eq(7)",
+                    "entrance": "fadeIn"
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg09@2x.png",
+                        "retina": true
+                    },
+                    "top": "69.2727%",
+                    "left": "42.6595%",
+                    "href": "#step=17",
+                    "half-height": true,
+                    "class": "leg-link leg-link-on",
+                    "resolve": ".leg-link-overlay:eq(8)",
+                    "entrance": "fadeIn"
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg10@2x.png",
+                        "retina": true
+                    },
+                    "top": "73.4545%",
+                    "left": "65%",
+                    "href": "#step=19",
+                    "half-height": true,
+                    "class": "leg-link leg-link-on",
+                    "resolve": ".leg-link-overlay:eq(9)",
+                    "entrance": "fadeIn"
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg01@2x.png",
+                        "retina": true
+                    },
+                    "top": "43.2727%",
+                    "left": "15%",
+                    "href": "#step=1",
+                    "half-height": true,
+                    "class": "leg-link leg-link-overlay",
+                    "activable": true,
+                    "trigger": "hover"
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg02@2x.png",
+                        "retina": true
+                    },
+                    "top": "44.3636%",
+                    "left": "45.5319%",
+                    "href": "#step=3",
+                    "half-height": true,
+                    "class": "leg-link leg-link-overlay",
+                    "activable": true,
+                    "trigger": "hover"
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg03@2x.png",
+                        "retina": true
+                    },
+                    "top": "45.8181%",
+                    "left": "71.3829%",
+                    "href": "#step=5",
+                    "half-height": true,
+                    "class": "leg-link leg-link-overlay",
+                    "activable": true,
+                    "trigger": "hover"
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg04@2x.png",
+                        "retina": true
+                    },
+                    "top": "60%",
+                    "left": "7.9787%",
+                    "href": "#step=7",
+                    "half-height": true,
+                    "class": "leg-link leg-link-overlay",
+                    "activable": true,
+                    "trigger": "hover"
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg05@2x.png",
+                        "retina": true
+                    },
+                    "top": "56.909%",
+                    "left": "30.7446%",
+                    "href": "#step=9",
+                    "half-height": true,
+                    "class": "leg-link leg-link-overlay",
+                    "activable": true,
+                    "trigger": "hover"
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg06@2x.png",
+                        "retina": true
+                    },
+                    "top": "58.3636%",
+                    "left": "58.4042%",
+                    "href": "#step=11",
+                    "half-height": true,
+                    "class": "leg-link leg-link-overlay",
+                    "activable": true,
+                    "trigger": "hover"
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg07@2x.png",
+                        "retina": true
+                    },
+                    "top": "56.3636%",
+                    "left": "74.0425%",
+                    "href": "#step=13",
+                    "half-height": true,
+                    "class": "leg-link leg-link-overlay",
+                    "activable": true,
+                    "trigger": "hover"
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg08@2x.png",
+                        "retina": true
+                    },
+                    "top": "67.8181%",
+                    "left": "16.4893%",
+                    "href": "#step=15",
+                    "half-height": true,
+                    "class": "leg-link leg-link-overlay",
+                    "activable": true,
+                    "trigger": "hover"
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg09@2x.png",
+                        "retina": true
+                    },
+                    "top": "69.2727%",
+                    "left": "42.6595%",
+                    "href": "#step=17",
+                    "half-height": true,
+                    "class": "leg-link leg-link-overlay",
+                    "activable": true,
+                    "trigger": "hover"
+                },
+                {
+                    "picture": {
+                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg10@2x.png",
+                        "retina": true
+                    },
+                    "top": "73.4545%",
+                    "left": "65%",
+                    "href": "#step=19",
+                    "half-height": true,
+                    "class": "leg-link leg-link-overlay",
+                    "activable": true,
+                    "trigger": "hover"
+                },
+                {
+                    "picture": {
                         "src": "img/chefs-recette/_homepage/baseline-homepage@2x.png",
                         "retina": true
                     },
@@ -49,149 +457,11 @@
                 },
                 {
                     "picture": {
-                        "src": "img/chefs-recette/_homepage/logo-homepage@2x.png",
-                        "retina": true
-                    },
-                    "top": "5.2727%",
-                    "left": "30.3191%"
-                },
-                {
-                    "picture": {
-                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg01@2x.png",
-                        "retina": true
-                    },
-                    "top": "43.2727%",
-                    "left": "15%",
-                    "href": "#step=1",
-                    "activable": true,
-                    "trigger": "hover",
-                    "half-height": true,
-                    "class": "leg-link"
-                },
-                {
-                    "picture": {
-                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg02@2x.png",
-                        "retina": true
-                    },
-                    "top": "44.3636%",
-                    "left": "45.5319%",
-                    "href": "#step=3",
-                    "activable": true,
-                    "trigger": "hover",
-                    "half-height": true,
-                    "class": "leg-link"
-                },
-                {
-                    "picture": {
-                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg03@2x.png",
-                        "retina": true
-                    },
-                    "top": "45.8181%",
-                    "left": "71.3829%",
-                    "href": "#step=5",
-                    "activable": true,
-                    "trigger": "hover",
-                    "half-height": true,
-                    "class": "leg-link"
-                },
-                {
-                    "picture": {
-                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg04@2x.png",
-                        "retina": true
-                    },
-                    "top": "60%",
-                    "left": "7.9787%",
-                    "href": "#step=7",
-                    "activable": true,
-                    "trigger": "hover",
-                    "half-height": true,
-                    "class": "leg-link"
-                },
-                {
-                    "picture": {
-                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg05@2x.png",
-                        "retina": true
-                    },
-                    "top": "56.909%",
-                    "left": "30.7446%",
-                    "href": "#step=9",
-                    "activable": true,
-                    "trigger": "hover",
-                    "half-height": true,
-                    "class": "leg-link"
-                },
-                {
-                    "picture": {
-                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg06@2x.png",
-                        "retina": true
-                    },
-                    "top": "58.3636%",
-                    "left": "58.4042%",
-                    "href": "#step=11",
-                    "activable": true,
-                    "trigger": "hover",
-                    "half-height": true,
-                    "class": "leg-link"
-                },
-                {
-                    "picture": {
-                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg07@2x.png",
-                        "retina": true
-                    },
-                    "top": "56.3636%",
-                    "left": "74.0425%",
-                    "href": "#step=13",
-                    "activable": true,
-                    "trigger": "hover",
-                    "half-height": true,
-                    "class": "leg-link"
-                },
-                {
-                    "picture": {
-                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg08@2x.png",
-                        "retina": true
-                    },
-                    "top": "67.8181%",
-                    "left": "16.4893%",
-                    "href": "#step=15",
-                    "activable": true,
-                    "trigger": "hover",
-                    "half-height": true,
-                    "class": "leg-link"
-                },
-                {
-                    "picture": {
-                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg09@2x.png",
-                        "retina": true
-                    },
-                    "top": "69.2727%",
-                    "left": "42.6595%",
-                    "href": "#step=17",
-                    "activable": true,
-                    "trigger": "hover",
-                    "half-height": true,
-                    "class": "leg-link"
-                },
-                {
-                    "picture": {
-                        "src": "img/chefs-recette/_homepage/_legumes_dechets/leg10@2x.png",
-                        "retina": true
-                    },
-                    "top": "73.4545%",
-                    "left": "65%",
-                    "activable": true,
-                    "href": "#step=19",
-                    "trigger": "hover",
-                    "half-height": true,
-                    "class": "leg-link"
-                },
-                {
-                    "picture": {
                         "src": "img/chefs-recette/_homepage/_tooltip/tooltip-R1@2x.png",
                         "retina": true
                     },
                     "entrance": "fadeIn stepDown",
-                    "resolve": ".leg-link:eq(0)",
+                    "resolve": ".leg-link-overlay:eq(0)",
                     "top": "8%",
                     "left": "13.5106%"
                 },
@@ -201,7 +471,7 @@
                         "retina": true
                     },
                     "entrance": "fadeIn stepDown",
-                    "resolve": ".leg-link:eq(1)",
+                    "resolve": ".leg-link-overlay:eq(1)",
                     "top": "10.7272%",
                     "left": "41.7021%"
                 },
@@ -211,7 +481,7 @@
                         "retina": true
                     },
                     "entrance": "fadeIn stepDown",
-                    "resolve": ".leg-link:eq(2)",
+                    "resolve": ".leg-link-overlay:eq(2)",
                     "top": "8.1818%",
                     "left": "70.851%"
                 },
@@ -221,7 +491,7 @@
                         "retina": true
                     },
                     "entrance": "fadeIn stepDown",
-                    "resolve": ".leg-link:eq(3)",
+                    "resolve": ".leg-link-overlay:eq(3)",
                     "top": "23.0909%",
                     "left": "6.2765%"
                 },
@@ -231,7 +501,7 @@
                         "retina": true
                     },
                     "entrance": "fadeIn stepDown",
-                    "resolve": ".leg-link:eq(4)",
+                    "resolve": ".leg-link-overlay:eq(4)",
                     "top": "21.2727%",
                     "left": "27.5531%"
                 },
@@ -241,7 +511,7 @@
                         "retina": true
                     },
                     "entrance": "fadeIn stepDown",
-                    "resolve": ".leg-link:eq(5)",
+                    "resolve": ".leg-link-overlay:eq(5)",
                     "top": "21.4545%",
                     "left": "54.2553%"
                 },
@@ -251,7 +521,7 @@
                         "retina": true
                     },
                     "entrance": "fadeIn stepDown",
-                    "resolve": ".leg-link:eq(6)",
+                    "resolve": ".leg-link-overlay:eq(6)",
                     "top": "22.909%",
                     "left": "77.6595%"
                 },
@@ -261,7 +531,7 @@
                         "retina": true
                     },
                     "entrance": "fadeIn stepDown",
-                    "resolve": ".leg-link:eq(7)",
+                    "resolve": ".leg-link-overlay:eq(7)",
                     "top": "37.0909%",
                     "left": "14.8936%"
                 },
@@ -271,7 +541,7 @@
                         "retina": true
                     },
                     "entrance": "fadeIn stepDown",
-                    "resolve": ".leg-link:eq(8)",
+                    "resolve": ".leg-link-overlay:eq(8)",
                     "top": "37.8181%",
                     "left": "41.8085%"
                 },
@@ -281,7 +551,7 @@
                         "retina": true
                     },
                     "entrance": "fadeIn stepDown",
-                    "resolve": ".leg-link:eq(9)",
+                    "resolve": ".leg-link-overlay:eq(9)",
                     "top": "37.0909%",
                     "left": "62.9787%"
                 }
