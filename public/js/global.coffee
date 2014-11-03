@@ -58,6 +58,8 @@
     # Allow resizable iframe
     window.ri = responsiveIframe()
     ri.allowResponsiveEmbedding() ; ri.messageParent(false)
+    # Disable some CSS optimisations
+    $uis.body.addClass "no-painting-optimisation" if $uis.body.data("disable-painting-optimisation")
     # Remove loading overlay
     $uis.body.removeClass "js-loading"
     # Read the step from the hash
@@ -66,8 +68,6 @@
     new FastClick(document.body)
     # Activate tooltips
     $('.js-tooltip').tooltipster contentAsHTML: yes, theme: 'tooltipster-light'
-    # Disable some CSS optimisations
-    $uis.body.addClass "no-painting-optimisation" if $uis.body.data("disable-painting-optimisation")
 
   ###*
    * Gets every jquery shortcuts
