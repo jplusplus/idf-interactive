@@ -3,6 +3,7 @@
     "navigation": "vertical",
     "disable-keyboard": true,
     "disable-painting-optimisation": true,
+    "entrance-duration": 600,
     "steps": [
         {
             "spots": [

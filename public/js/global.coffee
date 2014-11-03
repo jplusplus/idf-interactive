@@ -36,7 +36,7 @@
   $ui = $uis = null
   currentStep = 0
   scrollDuration = 600
-  defaultEntranceDuration = 600
+  defaultEntranceDuration = $("body").data("entrance-duration") or 800
   maxWidth  = maxHeight = null
   entranceTimeout = animationTimeout = null
 
