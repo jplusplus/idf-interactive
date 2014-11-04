@@ -2719,20 +2719,20 @@
                 {
                     "picture": {
                         "retina": true,
-                        "src": "img/chefs-recette/_recette08/_recette/text_R8_03@2x.png"
+                        "src": "img/chefs-recette/_recette08/_recette/text_R8_04@2x.png"
                     },
-                    "top": "69.0909%",
-                    "left": "73.0851%",
+                    "top": "34%",
+                    "left": "73.1914%",
                     "entrance": "fadeIn",
                     "queue": true
                 },
                 {
                     "picture": {
                         "retina": true,
-                        "src": "img/chefs-recette/_recette08/_recette/text_R8_04@2x.png"
+                        "src": "img/chefs-recette/_recette08/_recette/text_R8_03@2x.png"
                     },
-                    "top": "34%",
-                    "left": "73.1914%",
+                    "top": "69.0909%",
+                    "left": "73.0851%",
                     "entrance": "fadeIn",
                     "queue": true
                 },
