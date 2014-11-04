@@ -721,6 +721,7 @@
                     "queue": 6600
                 },
                 {
+                    "href": "./file/01-recetteAntiGaspi-cannellonis.pdf",
                     "picture": {
                         "src": "img/chefs-recette/_interface/04-btn-download@2x.png",
                         "retina": true
@@ -841,6 +842,7 @@
                     "queue": true
                 },
                 {
+                    "href": "./file/01-recetteAntiGaspi-cannellonis.pdf",
                     "picture": {
                         "src": "img/chefs-recette/_interface/04-btn-download@2x.png",
                         "retina": true
@@ -994,6 +996,7 @@
                     "entrance": "fadeIn"
                 },
                 {
+                    "href": "./file/02-recetteAntiGaspi-guimauveBlancs.pdf",
                     "picture": {
                         "src": "img/chefs-recette/_interface/04-btn-download@2x.png",
                         "retina": true
@@ -1009,6 +1012,7 @@
             "_picture": "img/chefs-recette/slide_02C.jpg",
             "spots": [
                 {
+                    "href": "./file/02-recetteAntiGaspi-guimauveBlancs.pdf",
                     "picture": {
                         "src": "img/chefs-recette/_interface/04-btn-download@2x.png",
                         "retina": true
@@ -1268,6 +1272,7 @@
                     "queue": 6600
                 },
                 {
+                    "href": "./file/03-recetteAntiGaspi-boucheesPDT.pdf",
                     "picture": {
                         "src": "img/chefs-recette/_interface/04-btn-download@2x.png",
                         "retina": true
@@ -1283,6 +1288,7 @@
             "_picture": "img/chefs-recette/slide_03C.jpg",
             "spots": [
                 {
+                    "href": "./file/03-recetteAntiGaspi-boucheesPDT.pdf",
                     "picture": {
                         "src": "img/chefs-recette/_interface/04-btn-download@2x.png",
                         "retina": true
@@ -1540,6 +1546,7 @@
                     "queue": 5400
                 },
                 {
+                    "href": "./file/04-recetteAntiGaspi-croquettesPain.pdf",
                     "picture": {
                         "src": "img/chefs-recette/_interface/04-btn-download@2x.png",
                         "retina": true
@@ -1555,6 +1562,7 @@
             "_picture": "img/chefs-recette/slide_04C.jpg",
             "spots": [
                 {
+                    "href": "./file/04-recetteAntiGaspi-croquettesPain.pdf",
                     "picture": {
                         "src": "img/chefs-recette/_interface/04-btn-download@2x.png",
                         "retina": true
@@ -1802,6 +1810,7 @@
                     "queue": 6000
                 },
                 {
+                    "href": "./file/05-recetteAntiGaspi-consommeCarcasse.pdf",
                     "picture": {
                         "src": "img/chefs-recette/_interface/04-btn-download@2x.png",
                         "retina": true
@@ -1817,6 +1826,7 @@
             "_picture": "img/chefs-recette/slide_05C.jpg",
             "spots": [
                 {
+                    "href": "./file/05-recetteAntiGaspi-consommeCarcasse.pdf",
                     "picture": {
                         "src": "img/chefs-recette/_interface/04-btn-download@2x.png",
                         "retina": true
@@ -2096,6 +2106,7 @@
                     "queue": 7200
                 },
                 {
+                    "href": "./file/06-recetteAntiGaspi-soupeBananes.pdf",
                     "picture": {
                         "src": "img/chefs-recette/_interface/04-btn-download@2x.png",
                         "retina": true
@@ -2111,6 +2122,7 @@
             "_picture": "img/chefs-recette/slide_06C.jpg",
             "spots": [
                 {
+                    "href": "./file/06-recetteAntiGaspi-soupeBananes.pdf",
                     "picture": {
                         "src": "img/chefs-recette/_interface/04-btn-download@2x.png",
                         "retina": true
@@ -2358,6 +2370,7 @@
                     "queue": 5400
                 },
                 {
+                    "href": "./file/07-recetteAntiGaspi-fanesCarottes.pdf",
                     "picture": {
                         "src": "img/chefs-recette/_interface/04-btn-download@2x.png",
                         "retina": true
@@ -2373,6 +2386,7 @@
             "_picture": "img/chefs-recette/slide_07C.jpg",
             "spots": [
                 {
+                    "href": "./file/07-recetteAntiGaspi-fanesCarottes.pdf",
                     "picture": {
                         "src": "img/chefs-recette/_interface/04-btn-download@2x.png",
                         "retina": true
@@ -2630,6 +2644,7 @@
                     "queue": 6000
                 },
                 {
+                    "href": "./file/08-recetteAntiGaspi-soupeFanes.pdf",
                     "picture": {
                         "src": "img/chefs-recette/_interface/04-btn-download@2x.png",
                         "retina": true
@@ -2645,6 +2660,7 @@
             "_picture": "img/chefs-recette/slide_08C.jpg",
             "spots": [
                 {
+                    "href": "./file/08-recetteAntiGaspi-soupeFanes.pdf",
                     "picture": {
                         "src": "img/chefs-recette/_interface/04-btn-download@2x.png",
                         "retina": true
@@ -2902,6 +2918,7 @@
                     "queue": 5400
                 },
                 {
+                    "href": "./file/09-recetteAntiGaspi-fagotsChoux.pdf",
                     "picture": {
                         "src": "img/chefs-recette/_interface/04-btn-download@2x.png",
                         "retina": true
@@ -2917,6 +2934,7 @@
             "_picture": "img/chefs-recette/slide_09C.jpg",
             "spots": [
                 {
+                    "href": "./file/09-recetteAntiGaspi-fagotsChoux.pdf",
                     "picture": {
                         "src": "img/chefs-recette/_interface/04-btn-download@2x.png",
                         "retina": true
@@ -3144,6 +3162,7 @@
                     "queue": 4200
                 },
                 {
+                    "href": "./file/10-recetteAntiGaspi-boissonPommes.pdf",
                     "picture": {
                         "src": "img/chefs-recette/_interface/04-btn-download@2x.png",
                         "retina": true
@@ -3159,6 +3178,7 @@
             "_picture": "img/chefs-recette/slide_10C.jpg",
             "spots": [
                 {
+                    "href": "./file/10-recetteAntiGaspi-boissonPommes.pdf",
                     "picture": {
                         "src": "img/chefs-recette/_interface/04-btn-download@2x.png",
                         "retina": true
