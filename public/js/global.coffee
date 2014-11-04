@@ -393,7 +393,7 @@
         if not isResolved($spot) or ( $spot.is("[data-entrance]") and not $spot.is("[data-skip-entrance]") )
           # Hides element with entrance
           # Remove every previous animations
-          $spot.find(".js-animation-wrapper").addClass("hidden")
+          hideSpot $spot
       # Clear existing timeout
       window.clearTimeout(entranceTimeout)
       window.clearTimeout(animationTimeout)
@@ -410,6 +410,19 @@
       # Update the tiny scroll
       updateTinyScroll()
     return currentStep
+
+  hideSpot = ($spot)->
+    $spot.addClass("js-behind")
+    $wrapper = $spot.find(".js-animation-wrapper")
+    $wrapper.addClass("hidden").stop(yes, yes).data("state", null)
+    # Get the animation keys of the given element
+    animationKeys = ($spot.data().entrance or "").split(" ")
+    # Clear existing timeout
+    clearTimeout $wrapper.t if $wrapper.t
+    # Initial layout
+    [from, to] = getAnimationFrames animationKeys
+    $wrapper.css(to) if to?
+
 
   ###*
    * Function to check if the given element is resolved
@@ -462,39 +475,39 @@
     queueDelay = 0
     # Find spots with animated entrance
     $spots.each (i, spot) ->
-      $spot = $(spot)
-      $wrapper = $spot.find(".js-animation-wrapper")
+      $spot        = $(spot)
+      $wrapper     = $spot.find(".js-animation-wrapper")
+      state        = $wrapper.data("state")
       skipEntrance = !! $spot.data("skip-entrance")
       ## Hide the element
       unless isResolved $spot
-        # Already hidding in progress
-        return if $wrapper.data("state") is "hidding"
+        return queueDelay if state is "hiding"
         # Element has been resolved before and is already visible
-        if not $wrapper.hasClass("hidden") and not stepEntrance
+        if state? or ( not $wrapper.hasClass("hidden") and not stepEntrance )
           # Animate the spot without delay
           # Note: the third option plays the entrabce animation in the other direction
           animateSpot $spot, 0, no
         # Element has not been resolve before and must be hidden quietly
         else
-          # Hide every unresolved elements
-          $wrapper.addClass("hidden")
-          $spot.addClass("js-behind")
+          # Hide the spot by cleaning every animation data
+          hideSpot $spot
       ## Show the element
       else
         # Already showing in progress
-        return if $wrapper.data("state") is "showing"
-        if $wrapper.hasClass("hidden") and not (stepEntrance and skipEntrance)
+        return queueDelay if state is "showing"
+        if state? or ( $wrapper.hasClass("hidden") and not (stepEntrance and skipEntrance) )
           # Animate the spot after the queued delay and update it
-          queueDelay = animateSpot $spot, queueDelay
+          queueDelay = animateSpot $spot, queueDelay, yes
         # Element has been resolved before and is already visible
         else
           # Prevent from element to not being display
-          $wrapper.removeClass("hidden")
+          $wrapper.stop(yes, yes).removeClass("hidden").data("state", null)
           $spot.removeClass("js-behind")
     return queueDelay
 
 
   animateSpot = ($spot, queueDelay, show=yes)->
+    state = if show then "showing" else "hiding"
     # Get tge data from the element
     data = $spot.data()
     # Works on an animation wrapper
@@ -505,19 +518,6 @@
     clearTimeout $wrapper.t if $wrapper.t
     # Initial layout
     [from, to] = getAnimationFrames animationKeys, show
-    # Stop every current animations and show the element
-    # Also, set the original style if needed
-    $wrapper.stop().css(from).removeClass "hidden"
-    $wrapper.data("state", if show then "showing" else "hidding")
-    $spot.removeClass("js-behind")
-    # Hidden the element after the animation when not showing
-    callback = if show then (->
-      $wrapper.data("state", null)
-    ) else (($wrapper)->->
-      $wrapper.addClass("hidden")
-      $spot.addClass("js-behind")
-      $wrapper.data("state", null)
-    )($wrapper)
     # Only if a "to" layout exists
     if to?
       # Take the element entrance duration
@@ -536,17 +536,28 @@
       else
         # Add the entrance delay for the next element
         queueDelay = Math.max queueDelay, duration
+    # No animation, just call the callback
+    else return do callback
+    # Queue the animation
+    $wrapper.queue ->
+      # Show the element
+      # Also, set the original style if needed
+      $wrapper.removeClass("hidden").css(from).data "state", state
+      $spot.removeClass("js-behind")
+      # Hidden the element after the animation when not showing
+      callback = if show then (->
+        $wrapper.data("state", null)
+      ) else (($spot)->->
+        hideSpot $spot
+      )($spot)
       # Wait a duration...
       # Closure function to transmit "to"
       $wrapper.t = setTimeout ((to)->->
           # ...before animate the wrapper
-          $wrapper.animate to, duration, callback
+          $wrapper.animate(to, duration, callback).dequeue()
         )(to)
       # ...and increase the queue
       , entranceDelay or 0
-    # No animation, just callb the callback
-    else do callback
-
     return queueDelay
 
   ###*

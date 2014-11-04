@@ -40,7 +40,7 @@
                     "left": "15%",
                     "href": "#step=1",
                     "half-height": true,
-                    "class": "leg-link leg-link-off",
+                    "class": "leg-link leg-link-off harricots",
                     "reject": ".leg-link-overlay:eq(0)",
                     "entrance": "fadeIn",
                     "skip-entrance": true
