@@ -256,12 +256,13 @@
   ###
   clickSpot = (event) ->
     $this = $(@)
+    href  = $this.data("href")
     # Open a link if need
-    if $this.data("href")?
-      if $this.attr("target") is "_blank"
-        window.open $this.data("href"), '_blank'
+    if href?
+      if $this.attr("target") is "_blank" or href.indexOf('.pdf', 'href'.length - 4) != -1
+        window.open href, '_blank'
       else
-        window.location = $this.data("href")
+        window.location = href
     enterSpot.call(@, event) if $(@).data("trigger") is "hover"
 
   ###*
