@@ -593,7 +593,7 @@
                         "retina": true,
                         "src": "img/chefs-recette/_recette-all/_leftpanel/link-idf@2x.png"
                     },
-                    "href": "http://www.mangeonslocal-en-idf.com",
+                    "href": "http://www.mangeonslocal-en-idf.com/restaurants/6260-L%27Epi%20Dupin",
                     "top": "90.7272%",
                     "left": "0.9574%",
                     "entrance": "stepRight fadeIn"
@@ -826,7 +826,7 @@
                         "retina": true,
                         "src": "img/chefs-recette/_recette-all/_leftpanel/link-idf@2x.png"
                     },
-                    "href": "http://www.mangeonslocal-en-idf.com",
+                    "href": "http://www.mangeonslocal-en-idf.com/restaurants/6260-L%27Epi%20Dupin",
                     "top": "90.7272%",
                     "left": "0.9574%"
                 },
@@ -1005,6 +1005,16 @@
                     "left": "87.7659%",
                     "queue": 6000,
                     "entrance": "fadeIn"
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette-all/_leftpanel/link-idf@2x.png"
+                    },
+                    "href": "http://www.mangeonslocal-en-idf.com/restaurants/8650-Tempero",
+                    "top": "90.7272%",
+                    "left": "0.9574%",
+                    "entrance": "fadeIn stepRight"
                 }
             ]
         },
@@ -1105,6 +1115,15 @@
                     "href": "#step=3",
                     "entrance": "fadeIn",
                     "queue": true
+                },
+                {
+                    "picture": {
+                        "retina": true,
+                        "src": "img/chefs-recette/_recette-all/_leftpanel/link-idf@2x.png"
+                    },
+                    "href": "http://www.mangeonslocal-en-idf.com/restaurants/8650-Tempero",
+                    "top": "90.7272%",
+                    "left": "0.9574%"
                 }
             ]
         },
@@ -1518,7 +1537,7 @@
                         "retina": true,
                         "src": "img/chefs-recette/_recette-all/_leftpanel/link-idf@2x.png"
                     },
-                    "href": "http://www.mangeonslocal-en-idf.com",
+                    "href": "http://www.mangeonslocal-en-idf.com/restaurants/8897-L%27Assiette",
                     "top": "90.7272%",
                     "left": "0.9574%",
                     "entrance": "fadeIn stepRight"
@@ -1649,7 +1668,7 @@
                         "retina": true,
                         "src": "img/chefs-recette/_recette-all/_leftpanel/link-idf@2x.png"
                     },
-                    "href": "http://www.mangeonslocal-en-idf.com",
+                    "href": "http://www.mangeonslocal-en-idf.com/restaurants/8897-L%27Assiette",
                     "top": "90.7272%",
                     "left": "0.9574%"
                 },
@@ -1968,7 +1987,7 @@
                         "retina": true,
                         "src": "img/chefs-recette/_recette-all/_leftpanel/link-idf@2x.png"
                     },
-                    "href": "http://www.mangeonslocal-en-idf.com",
+                    "href": "http://www.mangeonslocal-en-idf.com/restaurants/8686-Play%20Time",
                     "top": "90.7272%",
                     "left": "0.9574%",
                     "entrance": "fadeIn stepRight"
@@ -2209,7 +2228,7 @@
                         "retina": true,
                         "src": "img/chefs-recette/_recette-all/_leftpanel/link-idf@2x.png"
                     },
-                    "href": "http://www.mangeonslocal-en-idf.com",
+                    "href": "http://www.mangeonslocal-en-idf.com/restaurants/8686-Play%20Time",
                     "top": "90.7272%",
                     "left": "0.9574%"
                 },
